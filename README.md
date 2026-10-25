@@ -116,9 +116,11 @@ acceptance criteria.
 ## Limits and related work
 
 The dataset is tiny, English-only, and deliberately patterned. The scenarios and
-rubric were developed together and have not been independently reviewed.
-Eight scenes are eight dependent units, not 192 independent observations. Public gold labels invite contamination;
-fluency, label accuracy, and calibrated probabilities do not establish real-world
+scoring criteria were designed together; neither has yet been independently
+reviewed. Eight scenes are eight dependent units, not 192 independent observations.
+Because the answer key is public, future models may have encountered it before
+testing, making their scores less reliable as evidence of reasoning ability.
+Fluency, label accuracy, and calibrated probabilities do not establish real-world
 empathy, relationship outcomes, clinical usefulness, or safety.
 
 This builds on work on [sycophancy](https://arxiv.org/abs/2310.13548v4),
