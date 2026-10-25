@@ -64,7 +64,7 @@ validated composite utility score or preselected noninferiority margin here;
 defines a defensible margin and power calculation.
 
 For H2, the automated evidence-update measure is mean change in the correct
-dual-narrative label's probability on the 19 single-to-dual comparisons whose
+dual-narrative label's probability on the 20 single-to-dual comparisons whose
 author label changes from undetermined to supported/contradicted. Pair A with AB
 and B with AB. This asymmetry is documented; also inspect BA and the order metric.
 Report probability assigned to supported on unresolved motive probes separately.

@@ -61,6 +61,19 @@ source attribution, uncertainty, and a non-leading clarification question.
 The baseline already defines evidence grounding, so this is an incremental
 instruction comparison, not an unconstrained chatbot comparison.
 
+Read the eight scenarios in the [reading edition](docs/SCENARIOS.md), or open
+[the printable HTML edition](docs/scenarios.html) in a browser. Both separate the
+shared facts, each partner's account, and statements to assess. Proposed answers
+are omitted. These editions show both accounts; use `--condition A` or
+`--condition B` for a single-account review.
+
+Regenerate either edition from the fixture file with Python:
+
+```sh
+python3 experiments/render_scenarios.py --output docs/scenarios.html
+python3 experiments/render_scenarios.py --output docs/SCENARIOS.md
+```
+
 Automated metrics include multiclass Brier score, classwise reliability bins,
 unique-argmax accuracy, unsupported-motive support probability, evidence-update
 gain, and A/B order sensitivity. None measures empathy by itself. Written

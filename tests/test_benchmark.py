@@ -64,7 +64,7 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(result["overall"]["accuracy_unique_argmax"], 0)
         self.assertEqual(result["order_total_variation_mean"], 0)
         self.assertEqual(result["new_evidence_probability_gain"], 0)
-        self.assertEqual(result["n_new_evidence_comparisons"], 19)
+        self.assertEqual(result["n_new_evidence_comparisons"], 20)
 
     def test_classwise_reliability_includes_zero_and_one(self):
         result = score(self.cases, self.requests, self.oracle())
@@ -181,7 +181,20 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(set(causal["gold"].values()), {"supported"})
         boundary = self.cases[-1]
         self.assertEqual(boundary["claims"][3]["gold"]["AB"], "supported")
-        self.assertEqual(boundary["claims"][-1]["gold"]["AB"], "undetermined")
+        self.assertEqual(boundary["claims"][-1]["gold"]["AB"], "contradicted")
+
+    def test_text_absence_is_distinct_from_unavailable_evidence_and_actual_events(self):
+        claims = {claim["id"]: claim for case in self.cases for claim in case["claims"]}
+        for claim_id, speaker in (("29989694", "A"), ("3a7c047d", "A"), ("4b62ccc6", "B")):
+            with self.subTest(claim=claim_id):
+                for condition in ("A", "B", "AB", "BA"):
+                    self.assertEqual(claims[claim_id]["gold"][condition],
+                                     "contradicted" if speaker in condition else "undetermined")
+        # The source-text rule must not turn unknown actual events or motives
+        # into contradictions merely because the text omits them.
+        self.assertEqual(set(claims["9791a140"]["gold"].values()), {"undetermined"})
+        self.assertEqual(set(claims["57457681"]["gold"].values()), {"undetermined"})
+        self.assertEqual(set(claims["47634250"]["gold"].values()), {"contradicted"})
 
 
 if __name__ == "__main__":

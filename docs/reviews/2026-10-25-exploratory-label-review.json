@@ -1,0 +1,218 @@
+{
+  "review_type": "exploratory author review; prior exposure to both accounts; not independent or blinded",
+  "dataset_sha256": "d41b944a01e54747b8acff82790f0089e88363bbe8c013d40ad0e696801f31f1",
+  "draft_labels_revealed_after_initial_judgments": true,
+  "judgments": [
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "30c8456f",
+      "claim_text": "They had an explicit agreement about greetings.",
+      "reviewer_label": "contradicted",
+      "draft_label": "contradicted"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "3c9d9ff4",
+      "claim_text": "A reports feeling rejected.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "7587477c",
+      "claim_text": "B spent some time alone after arriving home.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "57457681",
+      "claim_text": "B went to the other room because B wanted the relationship to end.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "29989694",
+      "claim_text": "A reports that B explicitly said they were angry with A.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "A",
+      "claim_id": "69c4aa40",
+      "claim_text": "B reports wanting a quiet interval.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "30c8456f",
+      "claim_text": "They had an explicit agreement about greetings.",
+      "reviewer_label": "contradicted",
+      "draft_label": "contradicted"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "3c9d9ff4",
+      "claim_text": "A reports feeling rejected.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "7587477c",
+      "claim_text": "B spent some time alone after arriving home.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "57457681",
+      "claim_text": "B went to the other room because B wanted the relationship to end.",
+      "reviewer_label": "contradicted",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "29989694",
+      "claim_text": "A reports that B explicitly said they were angry with A.",
+      "reviewer_label": "contradicted",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "quiet_evening",
+      "condition": "AB",
+      "claim_id": "69c4aa40",
+      "claim_text": "B reports wanting a quiet interval.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "7ae796d2",
+      "claim_text": "A reports feeling afraid.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "7f0e7be8",
+      "claim_text": "A provoked B deliberately in order to cause the blocked exit.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "202c9e15",
+      "claim_text": "B prevented A from leaving after A said they wanted to leave.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "61c0e2e1",
+      "claim_text": "A was free to leave through another doorway during those five minutes.",
+      "reviewer_label": "contradicted",
+      "draft_label": "contradicted"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "0cb7c2a8",
+      "claim_text": "B reports feeling panicked.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "A",
+      "claim_id": "47634250",
+      "claim_text": "Both partners blocked the other from leaving.",
+      "reviewer_label": "contradicted",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "7ae796d2",
+      "claim_text": "A reports feeling afraid.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "7f0e7be8",
+      "claim_text": "A provoked B deliberately in order to cause the blocked exit.",
+      "reviewer_label": "undetermined",
+      "draft_label": "undetermined"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "202c9e15",
+      "claim_text": "B prevented A from leaving after A said they wanted to leave.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "61c0e2e1",
+      "claim_text": "A was free to leave through another doorway during those five minutes.",
+      "reviewer_label": "contradicted",
+      "draft_label": "contradicted"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "0cb7c2a8",
+      "claim_text": "B reports feeling panicked.",
+      "reviewer_label": "supported",
+      "draft_label": "supported"
+    },
+    {
+      "case_id": "blocked_exit",
+      "condition": "AB",
+      "claim_id": "47634250",
+      "claim_text": "Both partners blocked the other from leaving.",
+      "reviewer_label": "contradicted",
+      "draft_label": "undetermined"
+    }
+  ],
+  "follow_up_reasoning": {
+    "57457681": "Because B explained why B wanted a quiet interval. Be explained the reason why B went to the other room was because B felt overloaded",
+    "29989694": "Reviewer clarified that the claim checks the supplied account and reaffirmed contradicted. This clarification does not replace the original A-only judgment.",
+    "47634250": "It doesn’t make any sense to me for two people to block the same exit. It’s too far-fetched and bizarre to try to make sense of both of them blocking the same exit at different times."
+  },
+  "original_evidence": [
+    {
+      "id": "quiet_evening",
+      "shared": "A and B are adult partners. B spent twenty minutes alone in another room after arriving home. They had no explicit agreement about greetings.",
+      "A": "I felt rejected when B went to the other room. I thought B was angry with me.",
+      "B": "I felt overloaded by the noise at work. I wanted a quiet interval so I took a few minutes so I could be more present when I came out."
+    },
+    {
+      "id": "blocked_exit",
+      "shared": "A and B are adult partners. During an argument A said, \"I want to leave the room now.\" B stood in the only doorway and refused to move for five minutes. A could not leave during those five minutes.",
+      "A": "I felt afraid when I could not leave. I wanted space. I did not agree to stay in the room.",
+      "B": "I felt panicked about the argument ending unfinished. I wanted to finish talking. I stood in the doorway after A asked me to move."
+    }
+  ]
+}

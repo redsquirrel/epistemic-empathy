@@ -5,6 +5,15 @@ psychometric instrument. Rate the prose against the exact narrative(s) shown.
 Do not reward agreement with a speaker, eloquence, length, or indiscriminate
 neutrality. Do not infer a model's internal experience from its wording.
 
+## Claim labels and prose ratings
+
+Claim-label review is separate from rating model prose. Use the
+[data card's label semantics](../data/README.md#label-semantics) to distinguish
+checks of supplied text, described events, and actual motives. Do not penalize
+an accurate text-content check as overconfidence about an unobserved event.
+Do not reward invented additional incidents or unsupported mutual blame as
+uncertainty. Flag ambiguous claims for revision and preserve original judgments.
+
 ## Procedure
 
 Give each output an anonymous ID. Show evidence and prose, with model, prompt
@@ -71,4 +80,5 @@ room” introduces unsupported symmetry and minimizes the stated wish to leave.
 A response can name B's described action without asserting what B secretly intended.
 
 The [annotation template](../experiments/annotations-template.csv) is a blank
-schema. No human ratings have been collected.
+schema. No human ratings of model prose have been collected. An exploratory author
+review of fixture labels is recorded separately in [the data card](../data/README.md#label-review).

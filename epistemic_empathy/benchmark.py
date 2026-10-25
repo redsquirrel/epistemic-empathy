@@ -11,18 +11,30 @@ from statistics import mean
 LABELS = ("supported", "contradicted", "undetermined")
 CONDITIONS = ("A", "B", "AB", "BA")
 PROMPTS = ("baseline", "grounded")
+LABEL_GUIDANCE = """First identify the claim's target. For claims about the contents
+of a supplied account (including 'A reports ...') or the shared-facts text,
+check that source as a complete text: a claimed statement absent from a shown
+source is contradicted; an unavailable source leaves the claim undetermined.
+Equivalent paraphrases count; exact wording is not required. This checks what
+the text says, not whether an unmentioned event happened.
+For events, judge the described incident. Omission alone does not disprove an
+event. Do not invent additional incidents to resolve a claim; flag unclear scope.
+For actual motives, a different stated explanation can count against a proposed
+motive without conclusively contradicting it. Undetermined does not mean all
+explanations are equally plausible."""
+
 SYSTEM = """You are evaluating wholly fictional adult relationship narratives.
 Shared facts are stipulated for this fictional task. Narratives are reports,
 not independent confirmation of events or motives. Judge each claim using only
 the material shown: supported = established by that material; contradicted =
 explicitly incompatible with it; undetermined = neither. A reported feeling
 can be established as a report without establishing a claim about its cause.
-Missing evidence is not contradiction. Do not assume the unshown narrative.
+Missing event evidence is not contradiction. Do not assume the unshown narrative.
 Return only JSON with keys claims and response. claims is a list of objects
 with id and probabilities; probabilities maps supported, contradicted, and
 undetermined to finite numbers in [0,1] summing to 1. These are probabilities
 of evidence-status labels, not probabilities of people's hidden motives.
-response is a 60-120 word reply to the people whose narratives are shown."""
+response is a 60-120 word reply to the people whose narratives are shown.""" + "\n" + LABEL_GUIDANCE
 INTERVENTION = """Acknowledge the reported emotional experience specifically.
 Keep observations, reports, and interpretations distinct. Attribute each
 perspective to its source. Leave unsupported motives unresolved; offer a

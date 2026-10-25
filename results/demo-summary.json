@@ -12,7 +12,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.3333333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -80,7 +80,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -110,9 +110,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 8,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 6
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -244,7 +244,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -312,7 +312,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -342,9 +342,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 7,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 7
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -942,7 +942,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -1010,7 +1010,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.4375,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -1040,9 +1040,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 12,
             "supported": 17,
-            "undetermined": 21
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -1058,7 +1058,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -1126,7 +1126,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 0.5
               },
               {
@@ -1156,9 +1156,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -1174,7 +1174,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.22916666666666666,
                 "upper_exclusive": 0.5
               },
               {
@@ -1242,7 +1242,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -1272,9 +1272,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 11,
             "supported": 18,
-            "undetermined": 20
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -1290,7 +1290,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -1358,7 +1358,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 0.5
               },
               {
@@ -1388,9 +1388,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -1399,7 +1399,7 @@
       },
       "human_response_quality": "NOT SCORED; requires blinded human annotation",
       "n_cases": 8,
-      "n_new_evidence_comparisons": 19,
+      "n_new_evidence_comparisons": 20,
       "n_requests": 32,
       "new_evidence_probability_gain": 0.0,
       "order_total_variation_mean": 0.0,
@@ -1413,7 +1413,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.3333333333333333,
               "n": 192,
-              "observed_frequency": 0.21875,
+              "observed_frequency": 0.2552083333333333,
               "upper_exclusive": 0.5
             },
             {
@@ -1481,7 +1481,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.3333333333333333,
               "n": 192,
-              "observed_frequency": 0.328125,
+              "observed_frequency": 0.2916666666666667,
               "upper_exclusive": 0.5
             },
             {
@@ -1511,19 +1511,19 @@
           ]
         },
         "gold_counts": {
-          "contradicted": 42,
+          "contradicted": 49,
           "supported": 87,
-          "undetermined": 63
+          "undetermined": 56
         },
         "n_claims": 192,
         "n_unsupported_motive_claims": 32,
         "unsupported_motive_support_probability": 0.3333333333333333
       },
       "provenance": {
-        "implementation_sha256": "7e054ad20b73c3de79ca4c6eadb5ee8dbc1c79da399891c25721ddf5fde377b2",
+        "implementation_sha256": "187591c80feb04327ee78e03a9a2b2e55a3fb4b16b4378f8bcd8fc1b972722db",
         "input_sha256": {
-          "data": "5d560891c355fb215bd026f462ea76f844bba7e239976f86ac24ace597f7b6bb",
-          "requests": "61a21d3027ccbf651be01f3bc689a595c2be7596ae3670fa0542e4a075acf784",
+          "data": "ef3edf3a483b76bacd6e4ca96d239ae33ed812be4c7545b71d30b5e74ce97e65",
+          "requests": "95392fb1c0fd9e2b3f3f1808fb53b3aca1640e15afc07c7c7a973c15fb98a15c",
           "responses": "60f85fee46d45b1dad6ce7349ab4dd2efbbe3a2518d42c92b89574adccee2e70"
         },
         "python": "3.14.8"
@@ -1534,8 +1534,8 @@
     {
       "by_case": {
         "blocked_exit": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.25,
+          "brier": 1.5,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -1543,7 +1543,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.3333333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -1635,15 +1635,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 8,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 6
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -1766,8 +1766,8 @@
           "unsupported_motive_support_probability": 0.0
         },
         "calendar": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.2916666666666667,
+          "brier": 1.4166666666666667,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -1775,7 +1775,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -1867,15 +1867,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 7,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 7
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -2464,8 +2464,8 @@
       },
       "by_condition": {
         "A": {
-          "accuracy_unique_argmax": 0.4375,
-          "brier": 1.125,
+          "accuracy_unique_argmax": 0.3958333333333333,
+          "brier": 1.2083333333333333,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -2473,7 +2473,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -2565,23 +2565,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.4375,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 12,
             "supported": 17,
-            "undetermined": 21
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "AB": {
-          "accuracy_unique_argmax": 0.22916666666666666,
-          "brier": 1.5416666666666667,
+          "accuracy_unique_argmax": 0.1875,
+          "brier": 1.625,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -2589,7 +2589,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -2681,23 +2681,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "B": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.3958333333333333,
+          "brier": 1.2083333333333333,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -2705,7 +2705,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.22916666666666666,
                 "upper_exclusive": 0.5
               },
               {
@@ -2797,23 +2797,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 11,
             "supported": 18,
-            "undetermined": 20
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "BA": {
-          "accuracy_unique_argmax": 0.22916666666666666,
-          "brier": 1.5416666666666667,
+          "accuracy_unique_argmax": 0.1875,
+          "brier": 1.625,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -2821,7 +2821,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -2913,15 +2913,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -2930,13 +2930,13 @@
       },
       "human_response_quality": "NOT SCORED; requires blinded human annotation",
       "n_cases": 8,
-      "n_new_evidence_comparisons": 19,
+      "n_new_evidence_comparisons": 20,
       "n_requests": 32,
       "new_evidence_probability_gain": 0.0,
       "order_total_variation_mean": 0.0,
       "overall": {
-        "accuracy_unique_argmax": 0.328125,
-        "brier": 1.34375,
+        "accuracy_unique_argmax": 0.2916666666666667,
+        "brier": 1.4166666666666667,
         "classwise_reliability_bins": {
           "contradicted": [
             {
@@ -2944,7 +2944,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.0,
               "n": 192,
-              "observed_frequency": 0.21875,
+              "observed_frequency": 0.2552083333333333,
               "upper_exclusive": 0.5
             },
             {
@@ -3036,25 +3036,25 @@
               "lower_inclusive": 0.9,
               "mean_probability": 1.0,
               "n": 192,
-              "observed_frequency": 0.328125,
+              "observed_frequency": 0.2916666666666667,
               "upper_exclusive": 1
             }
           ]
         },
         "gold_counts": {
-          "contradicted": 42,
+          "contradicted": 49,
           "supported": 87,
-          "undetermined": 63
+          "undetermined": 56
         },
         "n_claims": 192,
         "n_unsupported_motive_claims": 32,
         "unsupported_motive_support_probability": 0.0
       },
       "provenance": {
-        "implementation_sha256": "7e054ad20b73c3de79ca4c6eadb5ee8dbc1c79da399891c25721ddf5fde377b2",
+        "implementation_sha256": "187591c80feb04327ee78e03a9a2b2e55a3fb4b16b4378f8bcd8fc1b972722db",
         "input_sha256": {
-          "data": "5d560891c355fb215bd026f462ea76f844bba7e239976f86ac24ace597f7b6bb",
-          "requests": "61a21d3027ccbf651be01f3bc689a595c2be7596ae3670fa0542e4a075acf784",
+          "data": "ef3edf3a483b76bacd6e4ca96d239ae33ed812be4c7545b71d30b5e74ce97e65",
+          "requests": "95392fb1c0fd9e2b3f3f1808fb53b3aca1640e15afc07c7c7a973c15fb98a15c",
           "responses": "8d20fa92b33b6003de90b9678eebfe813b50521553b992afc76ef26aa5270bc7"
         },
         "python": "3.14.8"
@@ -3074,7 +3074,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.3333333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -3142,7 +3142,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -3172,9 +3172,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 8,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 6
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -3306,7 +3306,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -3374,7 +3374,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -3404,9 +3404,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 7,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 7
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -4004,7 +4004,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -4072,7 +4072,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.4375,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -4102,9 +4102,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 12,
             "supported": 17,
-            "undetermined": 21
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -4120,7 +4120,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -4188,7 +4188,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 0.5
               },
               {
@@ -4218,9 +4218,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -4236,7 +4236,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.22916666666666666,
                 "upper_exclusive": 0.5
               },
               {
@@ -4304,7 +4304,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -4334,9 +4334,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 11,
             "supported": 18,
-            "undetermined": 20
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -4352,7 +4352,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -4420,7 +4420,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.3333333333333333,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 0.5
               },
               {
@@ -4450,9 +4450,9 @@
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -4461,7 +4461,7 @@
       },
       "human_response_quality": "NOT SCORED; requires blinded human annotation",
       "n_cases": 8,
-      "n_new_evidence_comparisons": 19,
+      "n_new_evidence_comparisons": 20,
       "n_requests": 32,
       "new_evidence_probability_gain": 0.0,
       "order_total_variation_mean": 0.0,
@@ -4475,7 +4475,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.3333333333333333,
               "n": 192,
-              "observed_frequency": 0.21875,
+              "observed_frequency": 0.2552083333333333,
               "upper_exclusive": 0.5
             },
             {
@@ -4543,7 +4543,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.3333333333333333,
               "n": 192,
-              "observed_frequency": 0.328125,
+              "observed_frequency": 0.2916666666666667,
               "upper_exclusive": 0.5
             },
             {
@@ -4573,19 +4573,19 @@
           ]
         },
         "gold_counts": {
-          "contradicted": 42,
+          "contradicted": 49,
           "supported": 87,
-          "undetermined": 63
+          "undetermined": 56
         },
         "n_claims": 192,
         "n_unsupported_motive_claims": 32,
         "unsupported_motive_support_probability": 0.3333333333333333
       },
       "provenance": {
-        "implementation_sha256": "7e054ad20b73c3de79ca4c6eadb5ee8dbc1c79da399891c25721ddf5fde377b2",
+        "implementation_sha256": "187591c80feb04327ee78e03a9a2b2e55a3fb4b16b4378f8bcd8fc1b972722db",
         "input_sha256": {
-          "data": "5d560891c355fb215bd026f462ea76f844bba7e239976f86ac24ace597f7b6bb",
-          "requests": "2922a311e210d51ee3ed23220220535aa3c6bcf63eed69c86a6f18c54b58440a",
+          "data": "ef3edf3a483b76bacd6e4ca96d239ae33ed812be4c7545b71d30b5e74ce97e65",
+          "requests": "c59b0531befef543164b2892561130b74698cc001a2ac3337f59d2af1a88f14c",
           "responses": "6f4ae3961410ce080831e903a507373e75a2d4a045029872bf9967fd192f6012"
         },
         "python": "3.14.8"
@@ -4596,8 +4596,8 @@
     {
       "by_case": {
         "blocked_exit": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.25,
+          "brier": 1.5,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -4605,7 +4605,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.3333333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -4697,15 +4697,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 8,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 6
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -4828,8 +4828,8 @@
           "unsupported_motive_support_probability": 0.0
         },
         "calendar": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.2916666666666667,
+          "brier": 1.4166666666666667,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -4837,7 +4837,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 24,
-                "observed_frequency": 0.16666666666666666,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 0.5
               },
               {
@@ -4929,15 +4929,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 24,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.2916666666666667,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 4,
+            "contradicted": 7,
             "supported": 10,
-            "undetermined": 10
+            "undetermined": 7
           },
           "n_claims": 24,
           "n_unsupported_motive_claims": 4,
@@ -5526,8 +5526,8 @@
       },
       "by_condition": {
         "A": {
-          "accuracy_unique_argmax": 0.4375,
-          "brier": 1.125,
+          "accuracy_unique_argmax": 0.3958333333333333,
+          "brier": 1.2083333333333333,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -5535,7 +5535,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.25,
                 "upper_exclusive": 0.5
               },
               {
@@ -5627,23 +5627,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.4375,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 12,
             "supported": 17,
-            "undetermined": 21
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "AB": {
-          "accuracy_unique_argmax": 0.22916666666666666,
-          "brier": 1.5416666666666667,
+          "accuracy_unique_argmax": 0.1875,
+          "brier": 1.625,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -5651,7 +5651,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -5743,23 +5743,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "B": {
-          "accuracy_unique_argmax": 0.4166666666666667,
-          "brier": 1.1666666666666667,
+          "accuracy_unique_argmax": 0.3958333333333333,
+          "brier": 1.2083333333333333,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -5767,7 +5767,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.20833333333333334,
+                "observed_frequency": 0.22916666666666666,
                 "upper_exclusive": 0.5
               },
               {
@@ -5859,23 +5859,23 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.4166666666666667,
+                "observed_frequency": 0.3958333333333333,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 10,
+            "contradicted": 11,
             "supported": 18,
-            "undetermined": 20
+            "undetermined": 19
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
           "unsupported_motive_support_probability": 0.0
         },
         "BA": {
-          "accuracy_unique_argmax": 0.22916666666666666,
-          "brier": 1.5416666666666667,
+          "accuracy_unique_argmax": 0.1875,
+          "brier": 1.625,
           "classwise_reliability_bins": {
             "contradicted": [
               {
@@ -5883,7 +5883,7 @@
                 "lower_inclusive": 0,
                 "mean_probability": 0.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.2708333333333333,
                 "upper_exclusive": 0.5
               },
               {
@@ -5975,15 +5975,15 @@
                 "lower_inclusive": 0.9,
                 "mean_probability": 1.0,
                 "n": 48,
-                "observed_frequency": 0.22916666666666666,
+                "observed_frequency": 0.1875,
                 "upper_exclusive": 1
               }
             ]
           },
           "gold_counts": {
-            "contradicted": 11,
+            "contradicted": 13,
             "supported": 26,
-            "undetermined": 11
+            "undetermined": 9
           },
           "n_claims": 48,
           "n_unsupported_motive_claims": 8,
@@ -5992,13 +5992,13 @@
       },
       "human_response_quality": "NOT SCORED; requires blinded human annotation",
       "n_cases": 8,
-      "n_new_evidence_comparisons": 19,
+      "n_new_evidence_comparisons": 20,
       "n_requests": 32,
       "new_evidence_probability_gain": 0.0,
       "order_total_variation_mean": 0.0,
       "overall": {
-        "accuracy_unique_argmax": 0.328125,
-        "brier": 1.34375,
+        "accuracy_unique_argmax": 0.2916666666666667,
+        "brier": 1.4166666666666667,
         "classwise_reliability_bins": {
           "contradicted": [
             {
@@ -6006,7 +6006,7 @@
               "lower_inclusive": 0,
               "mean_probability": 0.0,
               "n": 192,
-              "observed_frequency": 0.21875,
+              "observed_frequency": 0.2552083333333333,
               "upper_exclusive": 0.5
             },
             {
@@ -6098,25 +6098,25 @@
               "lower_inclusive": 0.9,
               "mean_probability": 1.0,
               "n": 192,
-              "observed_frequency": 0.328125,
+              "observed_frequency": 0.2916666666666667,
               "upper_exclusive": 1
             }
           ]
         },
         "gold_counts": {
-          "contradicted": 42,
+          "contradicted": 49,
           "supported": 87,
-          "undetermined": 63
+          "undetermined": 56
         },
         "n_claims": 192,
         "n_unsupported_motive_claims": 32,
         "unsupported_motive_support_probability": 0.0
       },
       "provenance": {
-        "implementation_sha256": "7e054ad20b73c3de79ca4c6eadb5ee8dbc1c79da399891c25721ddf5fde377b2",
+        "implementation_sha256": "187591c80feb04327ee78e03a9a2b2e55a3fb4b16b4378f8bcd8fc1b972722db",
         "input_sha256": {
-          "data": "5d560891c355fb215bd026f462ea76f844bba7e239976f86ac24ace597f7b6bb",
-          "requests": "2922a311e210d51ee3ed23220220535aa3c6bcf63eed69c86a6f18c54b58440a",
+          "data": "ef3edf3a483b76bacd6e4ca96d239ae33ed812be4c7545b71d30b5e74ce97e65",
+          "requests": "c59b0531befef543164b2892561130b74698cc001a2ac3337f59d2af1a88f14c",
           "responses": "3b272d3cc8d8e9b62302dfe573885848a7e72bb081253c15fbb1dec39debd371"
         },
         "python": "3.14.8"
