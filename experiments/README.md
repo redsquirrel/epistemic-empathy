@@ -19,7 +19,7 @@ For each request, store one response record of this shape (shown with a dummy ID
 
 ```json
 {
-  "request_id": "CASE:CONDITION:VARIANT",
+  "request_id": "CASE:CONDITION",
   "claims": [
     {
       "id": "CLAIM_ID",
@@ -35,11 +35,11 @@ For each request, store one response record of this shape (shown with a dummy ID
 ```
 
 Include all six claims exactly once and every request exactly once. A run is one
-model, one prompt variant, and one repetition: 32 responses. Do not concatenate
-repetitions or prompt variants into one scoring file. Preserve transport records
+model and one repetition: 32 responses. Do not concatenate repetitions into one
+scoring file. Preserve transport records
 and raw output separately. Record a refusal/format failure as a failed attempt;
 do not invent probabilities to get the scorer to run. The scorer binds requests
-to the canonical dataset and prompt variant and rejects missing/extra IDs,
+to the canonical dataset and prompt and rejects missing/extra IDs,
 duplicates, malformed probabilities, empty prose, and altered prompts.
 
 ## Run metadata

@@ -8,7 +8,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from epistemic_empathy.benchmark import CONDITIONS, LABEL_GUIDANCE, build_requests, load_cases
+from epistemic_empathy.benchmark import CONDITIONS, SYSTEM, build_requests, load_cases
 
 
 INTRO = (
@@ -16,14 +16,10 @@ INTRO = (
     "material is used. Shared facts are stipulated for each situation; the partners' "
     "accounts describe what they report, not independent proof of events or motives."
 )
-GUIDANCE = (
-    "The statements to assess are questions for review, not additional facts. "
-    "Decide whether each is supported, contradicted, or undetermined using only "
-    "the material shown. Supported means established by that material; contradicted "
-    "means explicitly incompatible with it; undetermined means neither. Missing "
-    "event evidence is not contradiction. Proposed answers and author rationales are "
-    "omitted from this document. " + " ".join(LABEL_GUIDANCE.split())
-)
+# Reviewers see the same bare instructions the models get, so an independent panel
+# is not coached; the label rules live in data/README.md.
+GUIDANCE = ("Proposed answers and author rationales are omitted from this document. "
+            "The instructions given to models, shown verbatim:")
 VIEWS = {
     "A": "Partner A only",
     "B": "Partner B only",
@@ -44,6 +40,8 @@ a { color:#255943; text-underline-offset:3px; }
 .note { border-left:4px solid #8aab98; padding:12px 18px; background:#e9f0e9; }
 .contents { margin:24px 0 40px; }
 .scenario { background:white; padding:28px; margin:24px 0; border:1px solid var(--line); border-radius:12px; }
+.note p { margin:0 0 10px; } .note p:last-child { margin:0; }
+.system { white-space:pre-wrap; }
 .facts { padding:16px 20px; background:#f4f7f3; border-radius:6px; }
 .facts p { margin:0; }
 blockquote { margin:0; padding:0 0 0 18px; border-left:3px solid var(--line); }
@@ -82,7 +80,8 @@ def render(cases, condition="AB", output_format="html"):
     warning = "Content note: the final scenario describes a partner blocking the other's exit."
     if output_format == "md":
         lines = ["# Fictional couples scenarios", "", intro, "", f"**View: {view}.** {view_note}",
-                 "", GUIDANCE, "", warning, "", "## Contents", ""]
+                 "", GUIDANCE, "", "\n".join("> " + line for line in SYSTEM.splitlines()),
+                 "", warning, "", "## Contents", ""]
         for i, case in enumerate(cases, 1):
             lines.append(f"{i}. {title(case)}")
         for i, (case, claims) in enumerate(visible_cases(cases, condition), 1):
@@ -101,7 +100,8 @@ def render(cases, condition="AB", output_format="html"):
              "<main id='top'><header><div class='eyebrow'>Epistemic empathy · Reading edition</div>",
              "<h1>Fictional couples scenarios</h1>", f"<p>{escape(intro)}</p>",
              f"<p><strong>View: {escape(view)}.</strong> {escape(view_note)}</p>",
-             f"<p class='note'>{escape(GUIDANCE)}</p><p>{escape(warning)}</p></header>",
+             f"<div class='note'><p>{escape(GUIDANCE)}</p><p class='system'>{escape(SYSTEM)}</p></div>",
+             f"<p>{escape(warning)}</p></header>",
              "<nav class='contents' aria-label='Scenario contents'><h2>Contents</h2><ol>"]
     for i, case in enumerate(cases, 1):
         parts.append(f"<li><a href='#scenario-{i}'>{escape(title(case))}</a></li>")

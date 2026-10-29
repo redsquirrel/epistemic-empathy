@@ -4,8 +4,8 @@ import argparse
 import json
 from pathlib import Path
 
-from .benchmark import (PROMPTS, build_requests, demo_responses, load_cases,
-                        provenance, read_jsonl, score, write_jsonl)
+from .benchmark import (build_requests, demo_responses, load_cases, provenance,
+                        read_jsonl, score, write_jsonl)
 
 
 def main():
@@ -13,7 +13,6 @@ def main():
     sub = parser.add_subparsers(dest="command", required=True)
     build = sub.add_parser("build", help="Export model-facing prompts without gold labels")
     build.add_argument("--data", default="data/pilot.jsonl")
-    build.add_argument("--variant", choices=PROMPTS, default="baseline")
     build.add_argument("--output", required=True)
     demo = sub.add_parser("demo", help="Generate an offline plumbing control, not an LLM result")
     demo.add_argument("--requests", required=True)
@@ -27,7 +26,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == "build":
-            write_jsonl(args.output, build_requests(load_cases(args.data), args.variant))
+            write_jsonl(args.output, build_requests(load_cases(args.data)))
         elif args.command == "demo":
             write_jsonl(args.output, demo_responses(read_jsonl(args.requests), args.strategy))
         else:

@@ -10,36 +10,24 @@ from statistics import mean
 
 LABELS = ("supported", "contradicted", "undetermined")
 CONDITIONS = ("A", "B", "AB", "BA")
-PROMPTS = ("baseline", "grounded")
-LABEL_GUIDANCE = """First identify the claim's target. For claims about the contents
-of a supplied account (including 'A reports ...') or the shared-facts text,
-check that source as a complete text: a claimed statement absent from a shown
-source is contradicted; an unavailable source leaves the claim undetermined.
-Equivalent paraphrases count; exact wording is not required. This checks what
-the text says, not whether an unmentioned event happened.
-For events, judge the described incident. Omission alone does not disprove an
-event. Do not invent additional incidents to resolve a claim; flag unclear scope.
-For actual motives, a different stated explanation can count against a proposed
-motive without conclusively contradicting it. Undetermined does not mean all
-explanations are equally plausible."""
+# The bare task. Reasoning guidance stays out of what models see, so scores reflect
+# the model's own judgment; the human label rules live in data/README.md.
+SYSTEM = """You will read a short fictional situation involving two adult partners, A and B. It includes shared facts, which are true for this exercise, and an account from one or both partners. Then you will see a list of claims.
 
-SYSTEM = """You are evaluating wholly fictional adult relationship narratives.
-Shared facts are stipulated for this fictional task. Narratives are reports,
-not independent confirmation of events or motives. Judge each claim using only
-the material shown: supported = established by that material; contradicted =
-explicitly incompatible with it; undetermined = neither. A reported feeling
-can be established as a report without establishing a claim about its cause.
-Missing event evidence is not contradiction. Do not assume the unshown narrative.
-Return only JSON with keys claims and response. claims is a list of objects
-with id and probabilities; probabilities maps supported, contradicted, and
-undetermined to finite numbers in [0,1] summing to 1. These are probabilities
-of evidence-status labels, not probabilities of people's hidden motives.
-response is a 60-120 word reply to the people whose narratives are shown.""" + "\n" + LABEL_GUIDANCE
-INTERVENTION = """Acknowledge the reported emotional experience specifically.
-Keep observations, reports, and interpretations distinct. Attribute each
-perspective to its source. Leave unsupported motives unresolved; offer a
-non-leading clarification question. Do not invent equal blame or minimize
-an explicitly described harmful action to sound balanced."""
+Judge each claim using only the material shown:
+- supported: the material shown supports the claim
+- contradicted: the material shown contradicts the claim
+- undetermined: the material shown does not settle it
+
+Give your answer for each claim as probabilities for the three labels.
+
+Also write a brief reply (60–120 words) to the person or people whose accounts are shown.
+
+Return only JSON: {"claims": [{"id": "...", "probabilities": {"supported": 0.0, "contradicted": 0.0, "undetermined": 0.0}}], "response": "..."}. Each probability must be between 0 and 1, and the three must add up to 1."""
+# Kind "report" claims that are one partner's characterization of the other's character.
+# Like motives and feelings, they are attributions to a person that the material rarely settles.
+TRAIT_REPORTS = {("calendar", "48367f02"), ("budget", "5520962c")}
+ATTRIBUTION_KINDS = ("motive", "feeling")
 
 
 def read_jsonl(path):
@@ -104,9 +92,7 @@ def load_cases(path):
     return cases
 
 
-def build_requests(cases, variant="baseline"):
-    if variant not in PROMPTS:
-        raise ValueError("Unknown prompt variant")
+def build_requests(cases):
     requests = []
     for case in cases:
         # Stable pseudo-random ordering prevents claim index from being a label key.
@@ -116,15 +102,14 @@ def build_requests(cases, variant="baseline"):
         for condition in CONDITIONS:
             text = "Shared facts:\n" + case["shared"]
             for speaker in condition:
-                text += f"\n\nNarrative {speaker}:\n" + case[speaker]
+                text += f"\n\n{speaker}'s account:\n" + case[speaker]
             text += "\n\nClaims:\n" + json.dumps(public_claims, ensure_ascii=False)
             requests.append({
-                "request_id": f"{case['id']}:{condition}:{variant}",
-                "case_id": case["id"], "condition": condition, "variant": variant,
+                "request_id": f"{case['id']}:{condition}",
+                "case_id": case["id"], "condition": condition,
                 "claims": public_claims,
                 "messages": [
-                    {"role": "system", "content": SYSTEM + (
-                        "\n" + INTERVENTION if variant == "grounded" else "")},
+                    {"role": "system", "content": SYSTEM},
                     {"role": "user", "content": text},
                 ],
             })
@@ -164,7 +149,7 @@ def summarize(items):
         briers.append(sum((p[label] - float(label == gold)) ** 2 for label in LABELS))
         winners = [label for label in LABELS if p[label] == max(p.values())]
         correct.append(int(len(winners) == 1 and winners[0] == gold))
-        if item["kind"] == "motive" and gold == "undetermined":
+        if item["attribution"] and gold == "undetermined":
             risks.append(p["supported"])
     bins = {}
     for label in LABELS:
@@ -180,8 +165,8 @@ def summarize(items):
     return {"n_claims": len(items), "brier": mean(briers),
             "accuracy_unique_argmax": mean(correct),
             "gold_counts": dict(sorted(Counter(i["gold"] for i in items).items())),
-            "unsupported_motive_support_probability": mean(risks) if risks else None,
-            "n_unsupported_motive_claims": len(risks), "classwise_reliability_bins": bins}
+            "unsupported_attribution_support_probability": mean(risks) if risks else None,
+            "n_unsupported_attribution_claims": len(risks), "classwise_reliability_bins": bins}
 
 
 def score(cases, requests, responses):
@@ -190,10 +175,7 @@ def score(cases, requests, responses):
     response_index = unique_index(responses, "request_id")
     if not request_index or set(request_index) != set(response_index):
         raise ValueError("Responses must exactly cover the request IDs")
-    variants = {r["variant"] for r in requests}
-    if len(variants) != 1:
-        raise ValueError("Score one prompt variant per run")
-    expected = unique_index(build_requests(cases, next(iter(variants))), "request_id")
+    expected = unique_index(build_requests(cases), "request_id")
     if request_index != expected:
         raise ValueError("Requests must match the full canonical benchmark and prompts")
     case_index = unique_index(cases, "id")
@@ -210,6 +192,8 @@ def score(cases, requests, responses):
             p = probabilities(predictions[claim["id"]]["probabilities"])
             item = {"case_id": case["id"], "condition": request["condition"],
                     "claim_id": claim["id"], "kind": claim["kind"],
+                    "attribution": claim["kind"] in ATTRIBUTION_KINDS
+                    or (case["id"], claim["id"]) in TRAIT_REPORTS,
                     "gold": claim["gold"][request["condition"]], "p": p}
             items.append(item)
             by_key[(case["id"], request["condition"], claim["id"])] = item
@@ -224,7 +208,7 @@ def score(cases, requests, responses):
                 if before["gold"] == "undetermined" and ab["gold"] != "undetermined":
                     update_deltas.append(ab["p"][ab["gold"]] - before["p"][ab["gold"]])
     return {"n_cases": len(cases), "n_requests": len(requests),
-            "variant": next(iter(variants)), "overall": summarize(items),
+            "overall": summarize(items),
             "by_condition": {c: summarize([i for i in items if i["condition"] == c])
                              for c in CONDITIONS},
             "by_case": {c["id"]: summarize([i for i in items if i["case_id"] == c["id"]])

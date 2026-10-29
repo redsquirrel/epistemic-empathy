@@ -46,7 +46,7 @@ See [ethics and provenance](docs/ETHICS.md).
 Eight original fictional situations cover a late train, a quiet evening, dishes,
 calendar assumptions, an unanswered message, shared spending, a missed note, and
 a blocked exit. Each has A-only, B-only, A-then-B, and B-then-A presentations:
-**32 requests and 192 claim judgments per prompt variant**. The blocked-exit
+**32 requests and 192 claim judgments**. The blocked-exit
 scenario contains non-graphic coercive conduct.
 
 Each request asks for probabilities over `supported`, `contradicted`, and
@@ -55,11 +55,11 @@ material**, not the actual truth of a person's motive. Fictional shared facts ar
 stipulated; individual narratives remain attributed reports. The full semantics
 and provisional labels are in the [data card](data/README.md).
 
-Two prompts hold the evidence and output contract constant. `baseline` gives the
-task; `grounded` additionally asks for specific emotional acknowledgment,
-source attribution, uncertainty, and a non-leading clarification question.
-The baseline already defines evidence grounding, so this is an incremental
-instruction comparison, not an unconstrained chatbot comparison.
+Models see one prompt: the bare task, the three labels in a line each, and the
+output format. It gives no reasoning guidance, so scores reflect the model's own
+judgment rather than our coaching. The label rules in the data card are for human
+reviewers only. Iteration 1 has no coached prompt variant; one may return later
+as a deliberate comparison.
 
 Read the eight scenarios in the [reading edition](docs/SCENARIOS.md), or open
 [the printable HTML edition](docs/scenarios.html) in a browser. Both separate the
@@ -75,7 +75,8 @@ python3 experiments/render_scenarios.py --output docs/SCENARIOS.md
 ```
 
 Automated metrics include multiclass Brier score, classwise reliability bins,
-unique-argmax accuracy, unsupported-motive support probability, evidence-update
+unique-argmax accuracy, unsupported-attribution support probability (motives,
+feelings, and characterizations the material does not settle), evidence-update
 gain, and A/B order sensitivity. None measures empathy by itself. Written
 responses need the separate [human rubric](docs/ANNOTATION.md); no keyword-based
 or self-grading “empathy score” is used.
@@ -91,7 +92,7 @@ python3 -m unittest discover -s tests -v
 python3 experiments/reproduce.py
 ```
 
-This generates uniform and always-undetermined controls for both prompts. Raw
+This generates uniform and always-undetermined controls. Raw
 requests and responses go to ignored `work/demo/`; the checked-in
 [summary](results/demo-summary.json) records input and implementation hashes.
 These controls verify the harness; **they are not LLM results**. See
@@ -100,7 +101,7 @@ These controls verify the harness; **they are not LLM results**. See
 To export a prompt set and score a conforming response file:
 
 ```sh
-python3 -m epistemic_empathy build --variant grounded --output work/requests.jsonl
+python3 -m epistemic_empathy build --output work/requests.jsonl
 python3 -m epistemic_empathy demo --requests work/requests.jsonl --output work/responses.jsonl
 python3 -m epistemic_empathy score --requests work/requests.jsonl --responses work/responses.jsonl --output work/score.json
 ```
@@ -114,8 +115,9 @@ making model calls. The scorer refuses incomplete or mismatched runs.
 
 ## Hypotheses and next steps
 
-**H1:** The grounded prompt may reduce unsupported causal assertions in the written
-reply while preserving specific validation. **H2:** A second narrative may improve
+**H1:** A coached prompt may reduce unsupported causal assertions in the written
+reply while preserving specific validation. Iteration 1 runs a single uncoached
+prompt, so H1 is not tested in it. **H2:** A second narrative may improve
 judgments about newly available reports without making unknown motives certain.
 **H3:** Presentation order may affect judgments despite unchanged evidence.
 These are hypotheses, not findings. The pilot cannot establish their prevalence

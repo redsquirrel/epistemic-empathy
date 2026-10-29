@@ -6,7 +6,7 @@ been marked completed by this scaffold.
 
 ## 1. Independently review fictional provenance and all pilot evidence labels
 
-The pilot has eight newly authored fictional scenes, 32 evidence presentations, and 192 claim judgments per prompt variant. Labels are provisional and await independent review.
+The pilot has eight newly authored fictional scenes, 32 evidence presentations, and 192 claim judgments. Labels are provisional and await independent review.
 
 Acceptance criteria:
 - Two independent reviewers inspect provenance and label each shown condition before seeing author gold.

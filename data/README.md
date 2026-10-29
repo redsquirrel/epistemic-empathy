@@ -9,6 +9,10 @@ stipulated `shared` facts, two first-person narratives (`A`, `B`), and six claim
 Every claim has an opaque ID, text, analysis category, per-condition `gold`, and
 an author rationale. The categories and labels never enter exported model prompts.
 
+Analysis categories (`kind`) are `report`, `feeling`, `event`, `motive`, and
+`causal_control`. **feeling:** a claim about what someone actually felt, as
+distinct from `report`, what they say they felt.
+
 For a readable version without the proposed answers, see the
 [scenario reading edition](../docs/SCENARIOS.md). The renderer at
 `experiments/render_scenarios.py` also produces printable HTML and supports
@@ -50,6 +54,19 @@ First identify what the claim asks:
   proposed motive without conclusively contradicting it. "Undetermined" does
   not mean all explanations are equally plausible.
 
+- **Feelings, traits, and justifications.** A person's own statement of how
+  they felt supports a claim about that feeling. Another person's description
+  of it, however confident ("B was angry with me, as usual"), is that person's
+  interpretation; on its own it neither establishes nor rules out the feeling.
+  Likewise, one partner's generalization about the other ("A is always so
+  sensitive") is a characterization, not evidence of a trait. A person's
+  justification for what they did ("because we needed to come to a
+  resolution") shows how they saw it, not whether the situation actually
+  required it.
+
+These are human review rules. Models receive only the bare task, with no
+reasoning guidance, so that scores reflect their own judgment.
+
 These are different targets of judgment, not interchangeable tests. Analysis
 categories describe claim topics; read the claim wording to identify its target.
 
@@ -60,10 +77,14 @@ This is a cross-condition comparison, not a sequential conversational update.
 
 ## Coverage and shortcuts
 
-Every case contains two attributed-report claims, an unsupported hidden-motive
-claim, a supported event claim, a contradicted event claim, and an additional
-control. Controls include a stipulated physical cause, a contradicted compound
-claim, checks of supplied text and unresolved events. The base unsupported-motive claim
+Every case contains two attributed-report claims and a supported event claim.
+Most also contain an unsupported hidden-motive claim and a contradicted event
+claim. The 2026-10-28 revision replaced several of those probes with claims about
+actual feelings, characterizations of a partner, and a justification, so the
+remaining slots now vary by case. Across the 48 claims: 21 report, 14 event,
+8 motive, 4 feeling, and 1 causal control. Controls include a stipulated
+physical cause, a contradicted compound claim, checks of supplied text and
+unresolved events. The base unsupported-motive claim
 in `missed_signal` concerns B's desire, not whether B saw the note; the latter is
 explicitly ruled out by shared facts.
 

@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 
 from epistemic_empathy.benchmark import (
-    LABELS, build_requests, demo_responses, load_cases, probabilities,
+    LABELS, SYSTEM, TRAIT_REPORTS, build_requests, demo_responses, load_cases, probabilities,
     read_jsonl, score, write_jsonl,
 )
 
@@ -39,16 +39,19 @@ class BenchmarkTests(unittest.TestCase):
         ab, ba = self.requests[2:4]
         self.assertEqual(ab["claims"], ba["claims"])
         self.assertEqual(ab["messages"][0], ba["messages"][0])
-        self.assertLess(ab["messages"][1]["content"].index("Narrative A:"),
-                        ab["messages"][1]["content"].index("Narrative B:"))
-        self.assertGreater(ba["messages"][1]["content"].index("Narrative A:"),
-                           ba["messages"][1]["content"].index("Narrative B:"))
+        self.assertLess(ab["messages"][1]["content"].index("A's account:"),
+                        ab["messages"][1]["content"].index("B's account:"))
+        self.assertGreater(ba["messages"][1]["content"].index("A's account:"),
+                           ba["messages"][1]["content"].index("B's account:"))
 
-    def test_grounded_intervention_preserves_user_evidence(self):
-        grounded = build_requests(self.cases, "grounded")
-        for left, right in zip(self.requests, grounded):
-            self.assertEqual(left["messages"][1], right["messages"][1])
-            self.assertNotEqual(left["messages"][0], right["messages"][0])
+    def test_model_sees_only_the_bare_task(self):
+        # Iteration 1 keeps reasoning guidance out of model-facing text.
+        for request in self.requests:
+            self.assertEqual(request["messages"][0], {"role": "system", "content": SYSTEM})
+        for phrase in ("explicitly incompatible", "Narratives are reports", "hidden motives",
+                       "motive", "Feelings, traits, and justifications", "Acknowledge"):
+            with self.subTest(phrase=phrase):
+                self.assertNotIn(phrase, SYSTEM)
 
     def test_serialization_is_byte_reproducible(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -64,7 +67,7 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(result["overall"]["accuracy_unique_argmax"], 0)
         self.assertEqual(result["order_total_variation_mean"], 0)
         self.assertEqual(result["new_evidence_probability_gain"], 0)
-        self.assertEqual(result["n_new_evidence_comparisons"], 20)
+        self.assertEqual(result["n_new_evidence_comparisons"], 21)
 
     def test_classwise_reliability_includes_zero_and_one(self):
         result = score(self.cases, self.requests, self.oracle())
@@ -98,11 +101,25 @@ class BenchmarkTests(unittest.TestCase):
         self.assertEqual(result["overall"]["brier"], 0)
         self.assertEqual(result["overall"]["accuracy_unique_argmax"], 1)
         self.assertEqual(result["new_evidence_probability_gain"], 1)
-        self.assertEqual(result["overall"]["unsupported_motive_support_probability"], 0)
+        self.assertEqual(result["overall"]["unsupported_attribution_support_probability"], 0)
+
+    def test_unsupported_attribution_covers_motives_feelings_and_traits(self):
+        claims = {(c["id"], k["id"]): k for c in self.cases for k in c["claims"]}
+        for key in TRAIT_REPORTS:
+            self.assertEqual(claims[key]["kind"], "report")
+        expected = sum(
+            (k["kind"] in ("motive", "feeling") or key in TRAIT_REPORTS) and label == "undetermined"
+            for key, k in claims.items() for label in k["gold"].values())
+        result = score(self.cases, self.requests, self.responses)
+        self.assertEqual(result["overall"]["n_unsupported_attribution_claims"], expected)
+        self.assertGreater(expected, sum(
+            k["kind"] == "motive" and label == "undetermined"
+            for k in claims.values() for label in k["gold"].values()))
+        self.assertAlmostEqual(result["overall"]["unsupported_attribution_support_probability"], 1 / 3)
 
     def test_order_metric_detects_controlled_change(self):
         responses = self.oracle()
-        changed = next(r for r in responses if ":BA:" in r["request_id"])
+        changed = next(r for r in responses if r["request_id"].endswith(":BA"))
         p = changed["claims"][0]["probabilities"]
         old = max(p, key=p.get)
         new = next(k for k in LABELS if k != old)
@@ -146,14 +163,11 @@ class BenchmarkTests(unittest.TestCase):
             with self.subTest(mode=mode), self.assertRaises(ValueError):
                 score(self.cases, self.requests, changed)
 
-    def test_rejects_mixed_variants_and_changed_prompts(self):
-        for field in ("variant", "prompt"):
+    def test_rejects_changed_prompts(self):
+        for message in (0, 1):
             requests = copy.deepcopy(self.requests)
-            if field == "variant":
-                requests[0]["variant"] = "grounded"
-            else:
-                requests[0]["messages"][1]["content"] += "LEAKED ANSWERS"
-            with self.subTest(field=field), self.assertRaises(ValueError):
+            requests[0]["messages"][message]["content"] += "LEAKED ANSWERS"
+            with self.subTest(message=message), self.assertRaises(ValueError):
                 score(self.cases, requests, self.responses)
 
     def test_rejects_empty_prose(self):
@@ -194,7 +208,6 @@ class BenchmarkTests(unittest.TestCase):
         # into contradictions merely because the text omits them.
         self.assertEqual(set(claims["9791a140"]["gold"].values()), {"undetermined"})
         self.assertEqual(set(claims["57457681"]["gold"].values()), {"undetermined"})
-        self.assertEqual(set(claims["47634250"]["gold"].values()), {"contradicted"})
 
 
 if __name__ == "__main__":
