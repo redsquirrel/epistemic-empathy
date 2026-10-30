@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:53+00:00",
+ "finished_at_utc": "2026-10-29T11:16:00+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS5BUWbeUrvMYQYMvBC",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS5gcKEAgTGAI4AUIIdGhpbmtpbmcSDHnE+AaDzPtfGQpk0xoMwO51LnvWpfP+Si6KIjAIPNpt9SpyORmprfKlvkVWVojJz+rfUgL78I4LA5Fvknz16OjlHzsiAi8JPedJb0AqgwdCW0Jv5kJG/uWN0hnK2rWileEoEAGlShW0lwQiTSNXx2mKHd6OeaqPRvcw1bCFn74ontN2/n5DYg1MwKaZNMR9p0FcXChcoHDLv1M+8f4V7asi/T94s0qc8VpL/SZUcCblr7E21JTnsOIrjQ7V3Ugw506bKkzHuWQCE5SNwU4tfUNSyTL+rjOq58e4GlGE0Crx1aG9Z2dRD8x9BtRl6ZEnbO1ZYP8DyB7Zgo1UHBPojMSEhBBkSjGvJFwFYSPB/SEG5/eW8Qe3YheBeCGLPN3Vg9GO/dIYogCEO9D0RqDSfnRpR+NMZOUk1OUieZx0YR3aHAiC73acLeKvpJ9WNxuQgkNxN0uyUyHrHebhvfkFdu1ohZgmMZBZB3XOdu6xzhJmLlFkivhN6UscAOK3u7j5Zb5f0T4EL/5NyQHPVH0mr22A06BVYFjA03Z864+TEuL4IbfsZLuBX/c4k2Ffkj3A5FRCqAreyLAF5K5VKVjW86U7vJxrKOWgDzbYtL4c63uVPRbR2gPhFO433VdyJa6KGe7G5irO7eNeYbiJseVWQPREthBaWU8KrFPWjHdKGP/zh2hh0DiXsnJfHImbm/sBlIP2PjWpxtEdg8JQbddeaZRwcYgc4PPNrJYkY4u4a+PShHJcyS0nSmm3HKqYeTXZ0IQEhccZmEmDFhSJFurwFxB3ZHQY4HYKKc2QtTwvB54+0obTABwor9qEZutzbse5d+VLMAGunMMBWRVOuOtsYI0/Diny6COcRen8OlMlReqsh+aujEvyVNw2ssKLrIpxwiceIHJXyfGECpEbxvKHyI3Boo0CQ+RJcpS+YW1ikIz0SujHk/7TNCSi/453GkPrEGCD939oMIpKepXp09RNdprvWUT2ORN5uusVH+9FiFORCGmktSfW9bnb50oXgllQias+bnhv9txQBP8FSWMOZ68SAzH6Kg/DA2hX6zRh3ifWWkiF1tpwtx2ZWfDwUxtLWhRnifWc3UfBXcsUcOCqYEczbYmhcnrkIYeNiWaxotOSK6H1JUAfeiksH7VP1oD5vvqVbXBVsLZq7iqF2VRyTDZvHyKeA+M609Sz/oXV0Pr4rnODEaitwrO9T5bTiuA8S2qzk3Vohi+3ENrd0FX9cad9e87X+8nWvQ+gCSTMCCWPAjWRjJ+mMWXkURuFJCrauPAXs+t9epfjJSFxroTalNj2RBgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.9,\"undetermined\":0.08}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.07,\"undetermined\":0.88}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}}],\"response\":\"It makes sense that you felt disappointed. You'd been picturing Saturday as time together, and that turned out not to be the plan. It's also true that the two of you hadn't actually agreed on it, so B may not have known you were expecting it. Whether B made plans to avoid you is something only B can say. Asking directly, without accusing, might help. You could also tell B that shared weekend time matters to you and suggest setting some aside ahead of time. That way your expectations are spoken out loud, and you're less likely to end up disappointed by plans neither of you made.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 570,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 621,
+   "output_tokens_details": {
+    "thinking_tokens": 152
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

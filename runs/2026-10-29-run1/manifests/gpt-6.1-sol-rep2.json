@@ -1,0 +1,366 @@
+{
+  "status": "COMPLETE",
+  "run_id": "gpt-6.1-sol-rep2",
+  "protocol_commit": "c6f477d950d5e646d0d6d38ec42bf8fc138e55ea",
+  "dataset_sha256": "12fef036c827cab88cf535ac45fe46845d70d279aa7955b56829f3dcdbca7f43",
+  "requests_sha256": "d37cf9bf959e9dd224066957d0a28623c165bd503482461961b0fa8e64fe72e0",
+  "responses_sha256": "6c34adf672fc6dc10a0ebb4a039f2c7b0bdd548a6a8a976c3cadb3c37cfb270c",
+  "provider": "openai",
+  "model_requested": "gpt-6.1-sol",
+  "model_version_returned": [
+    "gpt-6.1-sol"
+  ],
+  "provider_version_limitations": "Provider-reported model string only; the provider may change weights or serving behind it.",
+  "repetition": 2,
+  "temperature": null,
+  "top_p": null,
+  "max_output_tokens": null,
+  "provider_seed": null,
+  "unsupported_settings": [],
+  "settings_sent": {
+    "store": false
+  },
+  "settings_note": "Provider defaults: temperature, top_p, seed, reasoning/thinking and effort were not sent. Anthropic requires max_tokens. OpenAI store=false only stops server-side retention. Nulls mean provider default, not zero.",
+  "request_order_seed": 1735,
+  "started_at_utc": "2026-10-29T12:30:58+00:00",
+  "finished_at_utc": "2026-10-29T12:32:02+00:00",
+  "python_version": "3.15.0",
+  "adapter_version": "run1-collect-1",
+  "adapter_sha256": "9e62d4659767984e914b00d1ad28934d055a52aaeb57c355b5179a16e2281044",
+  "budget_cap_usd": 25.0,
+  "actual_cost_usd": 0.1708,
+  "cost_note": "Estimated from returned token usage and public list prices; not an invoice.",
+  "attempts_log": {
+    "blocked_exit:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005008,
+        "raw": "blocked_exit__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "missed_signal:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004888,
+        "raw": "missed_signal__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005328,
+        "raw": "blocked_exit__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.006078,
+        "raw": "quiet_evening__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "calendar:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004872,
+        "raw": "calendar__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "dishes:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005578,
+        "raw": "dishes__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "late_train:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00531,
+        "raw": "late_train__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "dishes:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004896,
+        "raw": "dishes__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005518,
+        "raw": "blocked_exit__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004808,
+        "raw": "unanswered_message__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00508,
+        "raw": "unanswered_message__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005686,
+        "raw": "quiet_evening__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "missed_signal:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.003992,
+        "raw": "missed_signal__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005886,
+        "raw": "quiet_evening__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "late_train:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005598,
+        "raw": "late_train__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00572,
+        "raw": "unanswered_message__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00525,
+        "raw": "unanswered_message__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "dishes:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004926,
+        "raw": "dishes__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "budget:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00591,
+        "raw": "budget__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.007144,
+        "raw": "quiet_evening__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "budget:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00493,
+        "raw": "budget__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "calendar:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005222,
+        "raw": "calendar__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "budget:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00503,
+        "raw": "budget__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "calendar:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005224,
+        "raw": "calendar__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "missed_signal:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005284,
+        "raw": "missed_signal__AB.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "dishes:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00485,
+        "raw": "dishes__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "late_train:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00486,
+        "raw": "late_train__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "late_train:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.00601,
+        "raw": "late_train__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005514,
+        "raw": "blocked_exit__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "calendar:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.006192,
+        "raw": "calendar__A.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "budget:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.005318,
+        "raw": "budget__B.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ],
+    "missed_signal:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.004874,
+        "raw": "missed_signal__BA.attempt1.json",
+        "model_returned": "gpt-6.1-sol",
+        "fenced": false
+      }
+    ]
+  },
+  "attempt_count": 32,
+  "failure_count": 0,
+  "failed_attempt_count": 0,
+  "fenced_json_count": 0,
+  "raw_output_path": "/Users/dave/Projects/anthropic-fellow/run1/raw/gpt-6.1-sol-rep2",
+  "contributors": [
+    "Dave Hoover (approval, keys)",
+    "Fellow research (protocol, analysis plan)"
+  ],
+  "deviations": [],
+  "publication_review": null
+}

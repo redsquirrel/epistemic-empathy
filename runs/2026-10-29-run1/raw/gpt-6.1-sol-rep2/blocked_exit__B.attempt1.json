@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:46+00:00",
+ "finished_at_utc": "2026-10-29T12:31:54+00:00",
+ "body": {
+  "id": "resp_0a8377f174b1e3dd016ae33cb2884487d1af620290a46c5627",
+  "object": "response",
+  "created_at": 1793277106,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277114,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0a8377f174b1e3dd016ae33cb42b7887d18d46c64b74efd545",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zy6BxOov56OKfTys-3zD3a6dXlm9s4OBVPxtdZ6qKcZpkQfd5rQqb1hRPKorxAkNiEkcMWAZUvRP7QeE19-I3R_-EUXwVfp1gxWxyXpR_BDKUCwVIDsQTiugDz7N7OF4C4PoXvdtkurJILbPumrK3d5RyMI_koADs1hf-Oz93SUcM0P6a7U0y1KDV-IrXCGQeDjYQITgTku31tZgsePnM2Bp48Tbh5RA9SfZUcW3_YX8RYPKOaQy7p_Wt_Jz45ukR1uce_1BFwJ4QP_eSWTxbCr_fXdQ9sP4W5ZgoDp8Ey5a32tg6npeInUnMDdPq9bL1nNPDfrg8FrXo3ArbTvtz2I0ElkRvuuIom3Gi69LLf5ep2k-Kk3jp9Zf7UOKVB8-KWol0xVWGAyoDBbJZYVQt0BE_U8e7CDqHpdMZSWM4ahU20GQWsRZ8sqTw46sRHhKo8xPoyw6Ie-n748ycc-J0M-eRnC1XESEzJjnlcG8QR1PeVbnh4xmwMaj0fGdNPj_sjHAdbg-58YY-qlfWnUHX9mge9NUgVQ2L0iaxlyetwWOf-AtZDHu7EZkGcHHxoFCYweWig96ByNBanDiaG5K9O-6AwO_aYubWbthgjg2ZFhBGnxqhh29qzjJMjmOb4gt_GGHlS1ZOUW4sRS1_98jfoEiYQQIX54jibcIoWClWu0jp-HHLOX7fW5G3LSXPiHP8d8EjLN9pmUGpkLl9r8UUlgsz2VIr8-rMbFsizN0dPMcN-tuoGD0Ebc3F6UCVTJPs6A7hx-SoWnnt_0zUkQL8cae8Cv6RY_cxfe_vpdnrp30SiQEmK4mEWv-1bdre8gzBeGYfAR7flRzUJACiIPeJg5ZQODOwP8ctiDRPSWUGMxyVL3VuQXoaHG1ql8YvihWfDzxKZNx4IVb7GQMde3pr61utWa5LKmOUAyoSgkRZ1VoMhKYrMBmOWTVXDCfbCrV-05nqhwWUJiet4d7zfpXraXNCKCcO283uzSNnnLai5wFlfH6A2j09oUQqSrM4rkqNAcM72rU0eeBxW3A5nWtVl3Yl2Nx2wK3ILH3nAkMGguanenjmMSGHXjJ95A4ejrEIyzvNlaaoLhqlOeakfkuIymIZZyXXzDrq7wlmuzzheb8iJJrh5AAr3Au2kNDh5-4xmaaTQFqeQKn8fjUvP48-53KqCjHUy7AaPJmwpEL8Pv52bTiL2ixzv9ZgUqXz5VN_BySF0szdzV8u0I4NMV4ScLWDIH-fRFMyWJG1JiJBJ2Okg8X4ZGnHP3bcSHX5oOE2BXofMu8MgCKr0gA1W2VabuKr2aWQruIb2O_J7pi3WZxLXsv0ZE_p7tNwulg5tNlw5wOCQ_hgm2SN-iR6Cvwjv-MJyns-JJJDGjetCKtYpw5Ybgl8aubDDW1pfZYL_W8nJ9mZ9UWfYalX6I79h3hZ3h77AlxFQexM5FS5V7kegzA0_krAeRzJkK3RuwZ0Oc7nB-BoTnjWIWUh4Rpbq638G4XhMO86mBjt4WGdc9dw8O4xhBKr8F_757yUzdqI28obj9VsDdEzknP4MiDDlpykb1b6CYCSGPjr4HpptdHVNqKaEdItk7yh4cQslqd5RSbXBuNKvcEtD4t5DwU3xAVlZ62JiTJLW-tNcAmZxcd_zFEm8dyPhUCaX0wKx3PlC84ywCNEwkbdPZZmsigqUTbFsXgC6Uhl9sAkoJeVFR8uyMV2njoQDTqTGaonJOTyZ7Y0Q25FSs7my7CKWfH3y0nrgstvNgHGgbLwtZt-WKxgu_UkF0B4NCSXU-p-78S3SiCX7oTPKlZV8rIaUmlHk7plja5tDx_fQf3It9eQ_c8u1Hd-lvCplgS1bZ2uL4wNSzDuK6Wcb9ftt3lWJtOsz0YB99n76Fxi5Bl1JgVG08FRmaEjc86yoe-WaWoOs_7vVbcHDGTVxamwJvNqVbuXagpCNWaBYnBTiaJx1zSGAqhh17-aWALso4iFnTvwKXT_TOi2Sj6GWmp5wFQg3zyR9LLCYcjAFhtCLSjwE4pLuKLbnHUUMWr5Pl9gkZtCWr6ZBrjGw-9ttrJtgJLOKoaWWZPzQZoY5SvLeNTYUiw3XYAWmcMz0=",
+    "summary": []
+   },
+   {
+    "id": "msg_0a8377f174b1e3dd016ae33cb6576887d1b50b5487853f6f91",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"B, feeling panicked about an unfinished argument can be distressing, but it does not justify preventing A from leaving. You blocked the only doorway after A asked you to move, taking away their ability to end or pause the conversation for five minutes. Wanting resolution does not establish that the discussion had to continue then. A safer approach is to keep the exit clear, respect requests for space, and ask about returning to the conversation later. Acknowledge the blocking directly and commit not to repeat it.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 447,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 462,
+   "output_tokens_details": {
+    "reasoning_tokens": 55
+   },
+   "total_tokens": 909
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

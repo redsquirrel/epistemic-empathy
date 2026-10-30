@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:37+00:00",
+ "finished_at_utc": "2026-10-29T11:23:56+00:00",
+ "body": {
+  "id": "b6c14f74-fc02-95bc-9643-267197d5de0f",
+  "object": "chat.completion",
+  "created": 1793273017,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.18, \"undetermined\": 0.70}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.10, \"contradicted\": 0.08, \"undetermined\": 0.82}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}], \"response\": \"It sounds like you both walked into Saturday with different assumptions, and that mismatch left each of you hurt. A, feeling disappointed makes sense if you had pictured the afternoon as shared time, even though you had not actually agreed on that. B, feeling surprised also fits if you believed separate plans were understood. What is established is that you each made plans and had not agreed to spend the afternoon together. Motive and character are not settled by what is shown. It may help to name the assumption out loud next time, before plans are set, so neither of you has to guess what the other expects.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts. The first claim is that both partners made separate plans for Saturday afternoon.\n\nClaim 1 is strongly supported by the shared facts. I am now evaluating claim 2, which states that A explicitly asked B to reserve Saturday.\n\nClaim 2 is contradicted. The full account does not contain the statement that A asked B to reserve Saturday. I am now evaluating claim 3, which concerns B's reported feeling of surprise.\n\nClaim 3 is strongly supported. Claim 4 is undetermined. The shared facts do not establish B's motive for making plans.\n\nClaim 5 is undetermined. Claim 6 is strongly supported by A's account. I am now drafting the brief reply to both partners.\n\nThe reply will be empathetic and balanced. It will acknowledge both partners' feelings and note that they had not agreed to spend Saturday together.\n\nThe reply is drafted. It names the mismatched assumption and suggests clarifying expectations before making plans.\n\nI am finalizing the probability scores so they sum to exactly one. Claim 4 is undetermined because the material does not establish B's motive.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 364,
+   "total_tokens": 3724,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1699,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 139720000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

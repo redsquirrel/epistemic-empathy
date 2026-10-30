@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:13+00:00",
+ "finished_at_utc": "2026-10-29T11:15:19+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS2AhJon4p855NqmUQb",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSnAkKEAgTGAI4AUIIdGhpbmtpbmcSDJ6FB6rlRvkAIG8TsRoMwWxh3z4JYhG0UGbaIjAAi1aUBhBm4Mx5f7Cf/4ut0a6LIDrtitpp/jn0RaHZeuMBCj1t+qNztpy4IjccKpIquQicqknBzxZBrd/sUvzYMmaryH/r3rmkcXmHUhZeWZfhnKzSWNl0QlQgVH35y4/rkgunA7ysfQOlxjzh0/5N95w0cgE7P1bMlRpOMV0/BRY7Fnb6YY9GHf8Da7q+b82SDFArKaKY8I9hLP31Z6f6iSm01Ek3mFtXJXODJDUHFtONaXNDwm7VMgz4eC35uQJrrZnyFVJeYuz/F3GQxaiwxYJFCGUSGJrLsDgeu0ZniU/DN2XtDiGwmpOQMTCoDtppeA6DpbSxOJI2KRQNQv2CaiTRDEMnQq9N8SIQzIV/jaoELMnNMBxu3G7NVOxj62RKF3jXd9f5OsNYvGswfLNxEgIwWKHLKvyjJTGL2VPGJfOArS7srOZicsUJh8mMMonu0g/8/UP498pLDp3H1KBtOIO24OWyoIRRvEfx6VlPyTLIQNXChQGEX7HPFkLL4XFoDxJsUBiU3w35Vr2cga4GnNse7VQ+5H/PUsUvISns66F35zazVVo1Oemt1sJ3sN/Fz9kgh918QvkFGhh4kZ5LyC52O02rjWR3yKNQ4Tm01LtuSyHCEGvUzxflAKywtL6pG/fc+tOx2xfbYEguPmz4tpeeLLYDIK9WyYpdpxeKw/Fo4sCHo+wQ15VPu5AQLFCj7clU35+xS/6Af4+jv7MPKsgVe2isc4rfEKxNxAbnoRzM8+GK8LJ5Mt4k/F189bnbi0ioh+I3tF6lwI3TmlxXgCEQrRbdQnegahoUNHyQB1F5uLfcgUtDrLWGFYzAYJ6OUTfy2tjxKpB9aIy2E3Yi0PvgOtN7WQi9Yg7rNkt/4YNwV1xVq2IsyRnO2JM8ZL86hllDEdK6uQCVBF1lo2Im8hbsGaZh97t4wceNHUWIf+XQe4La6z9MkqY0krLOrpaWg5CjlRHzjL4tXB2PQWucHAr3m9WWWYqUG4rMriVNGlJISLAF7DWdtLCquBj7hQiXk1COud+GSnVX4H7+24XXuSRY/1kq+OEPjcgZ//3qTj3OQuJ1klPAzuwMtZWAzjG65qVWGyU0t7wh02gD3Fy8k1xYsKt40EzmSeF5jJMi+1EB7sBbZZvVOusT/Egc74i2rJp6wAv52i31KbAQOBJjN6uhPiMjcC7jkdHqSG1MYi9L3WzZYc0suIpxteIQlvvJjzz9Dcw80pWQIs4DDLm5RsLu3QgoO9tIGeqoIVIxogDskd7dKiSV8uJP1XQYwuxhcfsD/5Y4s/NB4vs8X0BvSIvblL6iMzSUbbCUwya6P4A6mMoahYG9wTJYsWm5bx6qi9TZJvdFZeMzy9L3vZSMm8hkq6Wl17cMxLI7jTIgJkJL+fzQ+p+yq2WJHRY9Qmk0Ul1debEC5YqoM0AahkBARQvaz258ZV7YS+Fux7Zo1lV52etdhEWXKvc7tMRH8LNZCTCMvxijfK9JCIfTNE2Mh3TE982EHzrafEhJGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.02,\"undetermined\":0.02}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.88,\"undetermined\":0.1}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.02,\"undetermined\":0.02}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.1,\"undetermined\":0.85}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.05,\"undetermined\":0.9}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.02,\"undetermined\":0.02}}],\"response\":\"It sounds like you two had different expectations about Saturday, and you never talked them through. A, your disappointment makes sense if you were counting on time together. Still, nothing here shows that B was trying to avoid you. B, your surprise is understandable, since nothing had been agreed. Calling A 'always so sensitive' will likely shut the conversation down rather than help it. You might try saying out loud what you each expect from weekends and agreeing on how you'll plan shared time. That way, assumptions don't have to do the work that a quick conversation could.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 609,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 660,
+   "output_tokens_details": {
+    "thinking_tokens": 195
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

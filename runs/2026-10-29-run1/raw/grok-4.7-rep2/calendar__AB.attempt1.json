@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:44+00:00",
+ "finished_at_utc": "2026-10-29T11:21:06+00:00",
+ "body": {
+  "id": "848bdfbe-ae4e-981b-941d-ca8af90734a3",
+  "object": "chat.completion",
+  "created": 1793272844,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.07, \"undetermined\": 0.85}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.05, \"undetermined\": 0.85}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}], \"response\": \"It makes sense that this felt painful on both sides. A, your disappointment is real if you had pictured Saturday as time together, even though that expectation was not mutually agreed. B, surprise is understandable if you believed separate plans were fine, and calling A always sensitive may land as a dismissal rather than a description of this moment. The shared facts show you each made plans and had not committed the afternoon. What remains unclear is motive: avoidance is an interpretation, not something established here. A direct check-in about assumptions before the next free afternoon would likely reduce this kind of mismatch.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return only JSON.\n\nChecking each claim against the shared facts. The first claim is being evaluated.\n\nClaim 1 is supported by the shared facts. Claim 2 is contradicted, as A's account never states that A asked B to reserve Saturday.\n\nClaim 3 is supported by B's account. Claim 4 is undetermined, as the shared facts do not establish B's motive for making separate plans.\n\nClaim 4 is undetermined. A's account asserts B avoided spending time together, but the shared facts do not establish that motive.\n\nClaim 5 is undetermined. B's characterization of A as consistently sensitive is an opinion, not an established fact.\n\nClaim 6 is now being evaluated.\n\nClaim 6 is supported by A's account. I am now drafting a brief empathetic reply to both partners.\n\nB's surprise is reasonable if separate plans were expected. Calling A \"always sensitive\" may dismiss the issue rather than describe it. The shared facts show no commitment to that afternoon, so avoidance remains an interpretation. A direct check-in about expectations before the next free afternoon would likely prevent such mismatches.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 361,
+   "total_tokens": 4275,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2253,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 167020000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:49+00:00",
+ "finished_at_utc": "2026-10-29T12:31:58+00:00",
+ "body": {
+  "id": "resp_0397ecaaf0ad0452016ae33cb5c2b087d1b4aae86249317b99",
+  "object": "response",
+  "created_at": 1793277109,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277118,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0397ecaaf0ad0452016ae33cb6d23487d19f4148978f6f63e4",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zy-MoWaSWr9FMmSu2sxKvgopVRJpBPzJlDz4e_bJrvtiKxQzg47y4I3PjanxZGmwwvsc6XEGzBkZGS2zFNxssomHVeh8GaDaZJNPmuRzCw7Uq_19LGA4us74yBM3LSoUdgD-678gwcsGNpP1Va5jU40zv_0nY9RUDqlZuUxyWRY2_1I0fF203kybiwzENP3kZ7UVXIWZFfxJClWoGtHyLMv7Xktru7IE2h8MCKw0er-tqnP5eCO5Y_V1mx5pKSrR5TnhMAsE9PahRJvD8rFB4wXkpfZpBCcq8sfwIy2QoeVX5gHFqkTNa82nPi4cUEaPV364uTieLoTNl7yVwrxJqPSTd7wVwrXgwUJC56xU1MyvKLLiUiP6OyWZ0Xwn-a6txldXB1-0n6_m-AoEdCPaTXcWCHrEys-9CX-xWQY-XdkKjsKxkKqaUe7GdywlWdnhvTCU5Zv82mdBOsnicDpGcqeW9vGxpWu3TTqiue689vkUKDlvZf4SCi7iYvr_2beMuzjXBsqd2YD7YSFAIfD2EFl86NN9s6G6DG6xIc_jSuyWjcOQyBkkOBpSAvEp7W_CCQIPEe4P9a9CmWsbbPPvGw_02wd-nYl2unaxTD3ek26K8L24vLXbf6f8po7GCac_iT1SDaHldjya0x178hFuy7lkyO3G1evrCMwjjWGCDQBqpMm98xbI9si2_-sMn0t99PSQB-GvGgHT7FG6L4INwc2W19319YZGfaSldOySQrcPySotTCmcRsKsJNfPKpWEfN__fo6X5G6mvri8cJ-R2vtUPjAwsln-b15xfY8XLPPJFxOFe1aBXEMBS0hkD7bpBiWmhoMitvwphCCMjK55xSk_YScQsUFZbuSyuXjd3R1w5baJ43Xbfv6mGoyRcSOP3pploMhPJHidPSOet8N1YbreZmsJzLCqQsPfM2IaAoNJHXQBNAzhzmongUB5W2lgtoxF5TZWdyzZSe4u5iCi65Q36gzOwBW-z-y6GZ_sIqv6dc5PRgaE2FuDExVQJImletJa0m_cqO3g2MoBo7h5GoMKSOJ_7I1FGuP0IbYVAaOQKO82Af7u0Yt7oMt-gVOe5hzA9jKXreYYoG3yeJu-IH89lOP9WmCKR67TWpSHRzMTvPeGS9O9tO2daPLm5U4Uq3ZlPcQG1fQgamvxLGd42KLnMEVf-DD83iUfz8jOr-JJ11Taso0aDZQqpgmxMxk2WaTWhp7XjyASE07LTUnOPVB5vOz8FOzuvlDCZyAz9I9vzmwdeSrf_BmObgFF47clCzyMlOx5QFUe4kqq_jTvAYYS4WLGV8w_F4mL31CAQrh6U5FJROdDw_9n3n3HbeFfeXf5zC-_R89KBRc2U8Ze73Vzbx37buz0jXcfDFAkIq3YF8IWnt7VMCbajXwGwiAV5AqWFANJAtB2IuBS7xM6agpQMbdteHOfCsDK1WBm5CG4F-ApmT_s8BMBPD3p5HuZszmh07C-F2A2pbZmfhDZQAbx7idPB0FhebOUPMnu1C3zUx3IGF5Ai-kmJvR6lMIDsDuR75JLzexzhU5EuFEvzDSLqqIexee4U6WmJE6Y6AQ4f1NC9KVokhzrdxO4coUbF0PcnBqoPCrgxxTbNeg-JanHnB7gxL7ull6g4C65UpTbZKV-ziqewkig4VI568I1Pc2aiBU8t9qyQA61uXFUpyOCdUsLzWXNhfUjjkVoaJYmL29lfGBVvPdyrqpvRq2jAsjAaXrhyUl0vXCtatpCUy7m86hbxpQiTYwqvWOM_DCfoJ-TqNVVVx5egMcz1jJxmD1wcd6r7XMkvhduXZgjh7mggk8XhtT2n0hGxu-B3zbK9inaBNuSvh5PpvellxplvGK_11vXEkRlZdxcQyvWAUc6AhGrvMKyMs8NMbopuNNDRpD-V_kIKCYZnRYRzsg5X_3b9KY8qox_74vzSvbIU5e8CyyeJbhtU9_x7pN981LZ-BhOdcz0Lvp1oRToTglD9IiWL-KuzjqSRHH9XHiPy_SKEuiBg9xh-oexUssFoeSb2rI0bVfEkIWspt0LE4WHmPqU4WaRwjSd1R3dB2gCIeaI-R5VaVzjjzY_mmdsrS-IXWKV_u9FYqN3q4IITWKScp3vod6CZWLVf1MGghkLww5KL-MsiPL5xH9cfXBezc26BhGcFqbtOpAP-0DhZZ7HnQRjzOyxpt2x-jfrZKeofZzvxEFbg5DsXj0imOThzvPkUT9e77Fbsp8IKz0FUG2t3KrO96LSxKWcLGexGUetrKycDT-XOzi5Op-96oJ1sDaQID_A3N_tC9uCo0k7hy1IiYBH0Uy2WeLWqpd94XiP31jJcBoIS7IyNaaUPS2Gaqc1dx2tk37yAw0G6T2eVDIsZuVuW9tmPaJx-CwsGjtLC1l7fnop0QRoVP55uZGrx18KFEnSRAIiF6JObD-ue_-CVwqmC8HBaVRyv6AODiETCOoMiqBAHI4KTl23cpzSE91gLmLaTNZ_jxOM2ZdKwO_WCTIWPYRarNW-XPovI69h1Pmzs9CJLykOoXTJbqdeCru-5iylHV6O-16pwh8T0G4BvrbsdPaC_vhjx-EyIZO28gRTLhYX4J4YPaSfGS31nDrsHGf0pEQR2L0ssbLr3uOgVSkNwPAUCVzktVNsdUiVzFV4tdn959yMTZmAcUcNiWne6LjaWqglokJkNW-bM3LZm_nHEa_25wRtfyTyeNrJoNHl5mIGEU_wJyx0iDCH_W4DcdceN7XzDHugVGrVQXbUVuu",
+    "summary": []
+   },
+   {
+    "id": "msg_0397ecaaf0ad0452016ae33cb9ac7c87d1a76ffb501460b967",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"5a3a2c4b\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"3a7c047d\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"67c569bb\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"5b773f3f\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"48367f02\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"3d022458\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    }\n  ],\n  \"response\": \"A, feeling disappointed makes sense when you expected time together. However, you and B had not agreed to reserve Saturday afternoon, and both of you made separate plans. Your disappointment is clear; B\u2019s reason for making plans is not established by the information here. You might say, \u201cI realized I\u2019d assumed we would spend Saturday together, and I felt disappointed. Could we plan some time together explicitly?\u201d Asking B about their plans without assuming avoidance could help clarify what happened and prevent similar misunderstandings.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 406,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 538,
+   "output_tokens_details": {
+    "reasoning_tokens": 98
+   },
+   "total_tokens": 944
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

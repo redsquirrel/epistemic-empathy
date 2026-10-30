@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:04+00:00",
+ "finished_at_utc": "2026-10-29T11:22:30+00:00",
+ "body": {
+  "id": "ab840de1-7f89-95e4-938c-5431166b593f",
+  "object": "chat.completion",
+  "created": 1793272925,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.9}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}], \"response\": \"A, wanting space and feeling afraid when you could not leave is a clear account, and you did not agree to stay. B, panic about an unfinished argument is a real feeling, but it does not change what happened: you stood in the only doorway and A could not leave. Wanting a resolution is not a reason to block an exit. Either of you can pause and return later. Agreeing that a request to leave means stepping aside would protect both of you. If blocking happens again, consider outside help.\"}",
+     "reasoning_content": "I will judge the six claims against the fictional scenario and return a JSON response with probabilities and a brief reply.\n\nI am now evaluating each claim against the shared facts and both partners' accounts.\n\nClaim 7ae796d2 is fully supported by A's account. Claim 7f0e7be8 is undetermined, as the material contains no evidence of deliberate provocation.\n\nClaim 202c9e15 is fully supported by the shared facts. Claim 61c0e2e1 appears contradicted, since the only doorway was blocked.\n\nClaim 0cb7c2a8 is fully supported by B's account. Claim 47634250 is undetermined, since the material does not establish whether the argument truly needed resolution.\n\nClaim 47634250 is undetermined with a slight tilt toward supported and contradicted. I am now drafting a brief reply to A and B, acknowledging both accounts while supporting the person who could not leave.\n\nThe reply will acknowledge both partners' emotions without excusing the blocked exit. It will note that preventing someone from leaving is controlling behavior.\n\nThe reply is finalized at roughly ninety words. It suggests pausing conversations and agreeing to step aside when either partner wants to leave, with outside support as a fallback if the pattern continues.\n\nClaim 7ae796d2 is refined to supported: 0.98, contradicted: 0.0, undetermined: 0.02.\n\nClaim 7ae796d2 is finalized as fully supported. Claim 7f0e7be8 is now scored as undetermined: supported 0.02, contradicted 0.08, undetermined 0.90.\n\nClaim 47634250 is finalized as undetermined: supported 0.05, contradicted 0.05, undetermined 0.90.\n\nThe reply is revised to a shorter, more direct message. It acknowledges both partners' emotions without excusing the blocked exit. It states that panic about an unfinished argument does not justify standing in the doorway, and that either partner can pause and return later.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 350,
+   "total_tokens": 4272,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2221,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 171000000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

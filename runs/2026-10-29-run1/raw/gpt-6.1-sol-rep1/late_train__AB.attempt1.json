@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:10+00:00",
+ "finished_at_utc": "2026-10-29T12:30:18+00:00",
+ "body": {
+  "id": "resp_046de81b8585d1fb016ae33c527d2887d1a378dae3f8f9aa6a",
+  "object": "response",
+  "created_at": 1793277010,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277018,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_046de81b8585d1fb016ae33c53a9b887d19f033c977c475f3e",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxaPaDGtwSyQ4FVkF34_6Qk3u4E7HbeM_-BUWgfYzXl6fjobrLmbve71GbEmyJd4IvCxXSARnvJ1TrYXgR4rJ0p-GbLFjD-RBqfZ9Sb0jo2wfeFjjXXedO2Z6gjKTpJ0-VMcmry7_seFG6Q2RnHs4OpR9GdfH4l52zAFONldwnVoxxp18BFqoT3gVvo-EtQOzSluAfZTnSLaKpZrRa5xCVjy9yhGwLGLnwfqIANbKGrwGlWmUNl_xETWJyhp-t7CAZ0vjIeQQQ5ZLiCzfEUTWZzTMCZnERZu9MMi1eOrIznZC-tnDiIOhQmN9XTmH6Bc7V389NXVBGFZ8StkchbBy5VYgKWfTeBToJ6Baoe58TRlZxHq56iENEmPL5MoVNqL9lZqWOppAvclvzL_PisJgbtEazQMQg1P5pbpVsZAzGWCFrTKI0swgiFiN3DVEpAphnBcWBgy6Nuc0iHsBE5esW3VoRs2KhxQxLqMIJaHOqLadpo-vN95VA7-QWQPGvFPDzLzVW5as5aFg0Bwgu0VPMc-IMgfzaAbHPQae0_W9DLqRUptbKBKTN4M7w4SOemh0RzIQB0O09e2iWbPxDy8mbckI_nVAUCWWAebFTJ_X4dmw_VGcze0aUdz-TpcVamur0Z9Pl_O31yjhQyNTnzp3B9_mBJm5uek-TVvXLtmW3YiLoQqXhB8bXvL4O8hXepwUaRUDYmAZ6KE69CwCvswPAsxEbXn_UqqubFKALm10G6HJewTcbWNhXCxYYhRE_2uMXGtUUg9V0ziZbPI3jz_2PYqofJfK4e8jjtKvA6mHyGnAzr8A8Dq7nlnDRSE1q1CAOcDgS7Vm4AovmWXCMKSpXipw5cOBOFK87qsHlyUKn067QZrbCdeosMrQMDSxbCRFAkDaQogljbi42_xx09IwqK5NnW1siXXWrokztkH4atArsOW10Vo9cippXMnhO1zwM0VG-ZPoyfc1t6YEll2GHFA0-TVTQXIA2v1Js02--OpBGJbldIhuR3end19w7s6Hu8-8u0TJEHY0sVKmtzWFryN1JdylFKWjeJdG-95ICW_ip8g7umMM4G61yx6uPbdXI9XPioY9akaSISYYGJ3JbHAYGzDikN5C11AQqLKsYVdCPqEagvVySDE-TLyq-Z9I3A7BdF1pGeFff2qZWzn-sWlVhuhskk2NwnoLo2jOkuTDO4QFBlTlzGShoaVAqSBQJ90eKooD8MNufVGcvIya4ZxbRAbFAXa7Ky6JnnPohg_DH4OppdfwjZEENrPy81duwWB02Uxg0eHs_ctvHjGZj5c5tXnfecBm9czjBfEpJ7oYukPK6DotVk65axvBE8d9rGp1yIoqihB9S_d3mpaEBjpa4HjsfwWD-GtAYE7hb8buhUAZDyhfVSIHep-RKAvamIULw9OIO0xPclZ5A0WRCqQjqQ2pSvyaj_9wgyRbAEVJsXNXcXYVk8LkAyGQDiwLSSx9CD4RjEwbiaLBn2FX1DIRti4zHCwxMGmSUw0Rw1TPa88WZBCIfiPAoKoAFyttVcDY7VaGcY7YjdZTzW6vdGHmUVrVMfb0sdMa3bLfDDwLMOZANb47aKckvThYbBPfbmwX1XW85NJddhbyrvVqB7v-pqMPGMD1SFxyzikZ6A1W_ol3IWrnTFWSXf7w92CfhyNsSVIOCqsJQKoGPtyOUx6X34zluIKhemiwGeFuc6Mfs0coM-pymIo16OvVJ469LjR3ILijGy-kY3afzPSz_BGSHCqZMeXP-7wNa_dqAyrjM3Efv64PM2Ubot4a0THu7Aq8S7gcr8yrdd1Q0CHZy9ZSNwOgdWVfISCjUmMrWknJtDWOl0iBl52-yayc_9l04LX6ROp1bfR2NQ8VVz8vna7zAhpcQnth2oXsxemeP7kBT7FVPo5lhPVTXDaKgXcUd_aPqa9HQxzrIQsmfX924fyjz8aqxJb-pFvwAyTlho-BVkEWrWua9X8V8OwI6pD9Iu5xvicuQBnlaTSiSSdkndH3UQCmmO82qOP1WvA_9qKlPjwb2D-l6Us0rUS94mWsbFeO4mNkDWfIZEXcOAbExAmBdjkKfx-_Axvq_H5IILve_-G2v6GO1AObxsVyAfR-NdmZi7x2uVUrQNPeb2VYyL4sa7JROyXNcdlJO-thdIUX_mg_mHfBx0x1FLS-KBgIvR7FWdhs1aaC8dV9PSqqQM6ppNFzXgIZO8WuSBxfIeFQ7KCIxvwfQ7yqpSTGfq_wPyr153UYSXo22pX8UBsWM5rTnq7gNYbBSJI9QpN5lZOlI0_GlBSA7Tbnx6bzBh7UYUn5xuLyMUz6RmI7EXmwZD90F9eluK6kefZ8pH3jshP26zVTVTcUOq4pKNVp3lzKyI",
+    "summary": []
+   },
+   {
+    "id": "msg_046de81b8585d1fb016ae33c564e5c87d18564127bc23aed82",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.0, \"undetermined\": 0.9}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.1, \"undetermined\": 0.9}\n    }\n  ],\n  \"response\": \"A, waiting without knowing about the cancellation left you feeling unimportant. B, you describe feeling anxious, wanting to arrive, and trying to send a message whose delivery is uncertain. These experiences can both be real without establishing that either person intended to hurt the other. A\u2019s impression that B was annoyed does not settle what B felt. It may help to compare what each of you knew at the time, clarify what happened upon arrival, and agree on a backup way to communicate travel disruptions.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 470,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 477,
+   "output_tokens_details": {
+    "reasoning_tokens": 78
+   },
+   "total_tokens": 947
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

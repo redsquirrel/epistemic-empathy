@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:07+00:00",
+ "finished_at_utc": "2026-10-29T11:24:31+00:00",
+ "body": {
+  "id": "11521705-09e4-9c9f-aa55-e3e4aa9f44c1",
+  "object": "chat.completion",
+  "created": 1793273047,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.80}}], \"response\": \"It makes sense that you felt left out when a purchase over the agreed limit happened without a conversation. That agreement existed so both of you would have a say, and skipping it can feel like your input does not matter. At the same time, saying this always happens and that A is always impulsive may make it harder to talk about this specific choice. You could name what you needed here, being asked first, and ask A to explain why it was not discussed. Then you can agree together on how the next purchase over one hundred will be handled.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and B's account, then provide a brief JSON reply.\n\nClaim d2d34941 is undetermined because A's account is not provided. Claim c4674476 is being evaluated against the shared facts.\n\nClaim c4674476 is supported by the shared facts. Claims 9ecb7755 and 4b62ccc6 are contradicted. Claim fd583e6f is being evaluated.\n\nClaim fd583e6f is supported by B's account. Claim 5520962c is undetermined because B's opinion about A's consistency is not established as fact.\n\nI will now assign probabilities to each claim and draft a brief reply to B.\n\nThe reply will acknowledge B's feeling of exclusion while cautioning against framing this as a recurring pattern or labeling A as always impulsive.\n\nThe reply is drafted at roughly ninety words. It suggests asking A for their perspective and agreeing on a process for future purchases over one hundred. Probabilities are being assigned to each claim.\n\nClaim d2d34941 is contradicted. A's account is absent, so there is no report of feeling upset.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1642,
+   "completion_tokens": 350,
+   "total_tokens": 3961,
+   "prompt_tokens_details": {
+    "text_tokens": 1642,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1969,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 148940000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

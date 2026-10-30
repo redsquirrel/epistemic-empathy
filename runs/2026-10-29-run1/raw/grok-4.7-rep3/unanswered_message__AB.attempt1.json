@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:35+00:00",
+ "finished_at_utc": "2026-10-29T11:22:58+00:00",
+ "body": {
+  "id": "cd54e6ed-9dff-9abc-b45e-25d648b602ba",
+  "object": "chat.completion",
+  "created": 1793272956,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.8}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.78, \"undetermined\": 0.18}}], \"response\": \"A, your worry is understandable: you sent a message at noon, saw no answer, and could not tell whether it had been read. B, your account says your phone was in your bag and that you needed to focus, and that you did not want A to feel ignored. Those two experiences can both be real. A delayed reply is not the same as an intention to cause insecurity, but silence can still feel unsettling. When you next talk, it may help to agree on a simple way to signal that you are busy and will reply later.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return only JSON.\n\nClaim 9791a140 is being evaluated. The shared facts only state that A received no reply before 4 pm, so B may have seen the message earlier.\n\nClaim 9791a140 is undetermined. B's account does not explicitly confirm whether they saw the message before 4 pm.\n\nClaims 8bb3a671 and 246bf232 are supported by the accounts.\n\nClaim 68e7666e is now being evaluated.\n\nClaim 68e7666e is supported by the shared facts.\n\nClaim f4c38271 contradicts the shared facts. The shared facts state A received no reply before 4 pm, which conflicts with receiving one at 1 pm.\n\nClaim 6faf4343 is contradicted. B explicitly stated they did not want A to feel ignored and needed to focus.\n\nClaim 9791a140 is undetermined. The phone-in-bag detail does not prove B saw the message before or after putting it away, so probabilities are supported 0.05, contradicted 0.1, and undetermined 0.85.\n\nClaim 9791a140 is now scored as supported 0.95, contradicted 0.02, and undetermined 0.03.\n\nClaim 68e7666e is scored as supported 0.98, contradicted 0.01, and undetermined 0.01.\n\nClaim f4c38271 is scored as contradicted 0.97, supported 0.01, and undetermined 0.02.\n\nClaim 6faf4343 is scored as contradicted 0.75, undetermined 0.2, and supported 0.05.\n\nA brief neutral reply is being drafted. It acknowledges A's worry and B's focus, then suggests a short message to reduce uncertainty.\n\nThe reply is being finalized. It notes that neither partner needs to assume the worst. It suggests checking in about what each of you needs when messages go unanswered.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 350,
+   "total_tokens": 4051,
+   "prompt_tokens_details": {
+    "text_tokens": 1666,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2035,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 151460000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

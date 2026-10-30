@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:04+00:00",
+ "finished_at_utc": "2026-10-29T11:22:30+00:00",
+ "body": {
+  "id": "8ded2811-cb8d-907f-ae78-efa842a7d0dc",
+  "object": "chat.completion",
+  "created": 1793272925,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.14, \"contradicted\": 0.06, \"undetermined\": 0.80}}], \"response\": \"You both described real reactions to the same purchase. The shared facts show A spent 120 units of household money without the prior discussion you had agreed to for amounts over 100. B, feeling excluded fits that skipped step, though always and impulsive are your reading, not something these facts alone prove. A, knowing the rule and still feeling upset when questioned can both be true; thinking the item was useful does not undo the missed conversation. Naming the breach, hearing each reaction, and resetting the spending check-in would address what actually happened.\"}",
+     "reasoning_content": "I will judge the claims against the provided accounts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts and both accounts. The first claim is \"A reports feeling upset.\"\n\nClaim 1 is strongly supported at 0.97. Claim 2 is also strongly supported at 0.98. I am now evaluating claim 3.\n\nClaim 3 is contradicted by the shared facts. Claim 4 is also contradicted because B's account does not explicitly state that A intended to humiliate them.\n\nClaim 5 is strongly supported at 0.97. Claim 6 is undetermined because A's account does not confirm consistent impulsiveness.\n\nI am drafting a brief reply to both partners. It will acknowledge the shared facts and note that B's claim of consistent exclusion is not fully established.\n\nThe draft reply suggests A apologize for skipping the discussion and check in before similar spending. It warns against turning one purchase into a verdict on either person's character.\n\nI am finalizing the probability scores so they sum to 1. Claim 4 is now set to contradicted at 0.94, since B's account does not explicitly state that A intended to humiliate them.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 349,
+   "total_tokens": 4075,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2048,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 160100000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:00+00:00",
+ "finished_at_utc": "2026-10-29T12:30:06+00:00",
+ "body": {
+  "id": "resp_0adbefdbe32bce63016ae33c488ff887d1847dad8c604e5aa2",
+  "object": "response",
+  "created_at": 1793277000,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277006,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_0adbefdbe32bce63016ae33c49a10887d1a386741bbc453cdb",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, you said you wanted space and did not agree to remain in the room. B blocked the only exit, preventing you from leaving for five minutes. Feeling afraid in that situation is understandable. An argument does not justify preventing a partner from leaving, regardless of whether the disagreement remains unresolved. You are entitled to take space and move freely. If you feel unsafe now, consider reaching out to someone you trust or a local support service. Any future discussion should happen only when you feel safe and can leave freely.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 434,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 406,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 840
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

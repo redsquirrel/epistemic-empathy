@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:36+00:00",
+ "finished_at_utc": "2026-10-29T11:16:43+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS8J7CkAvkQFUyDJhVQ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSyggKEAgTGAI4AUIIdGhpbmtpbmcSDBVk47JG5IdnyBewhhoMhvY1WkGBzS2YvEpMIjC6Dy4s6R3h0ZwP34dP3AslB4y90qdfCgxFBnmRxAiLuI5YVC2GD/IA1NoceE/W09Eq5wd1STo/6+6uLVTRMw/8sms5lnk77aZlXutaycyVheChGmmd3T+EgfyLedqx0xTRbhd1iZyr3ZFS1GikWQ/0WlEruu3PfB7qmaujM85FC+iZjzCW9+Y3VCPopHI8svaRF7ulKg6oxNQfRGtI3i5HHTjRmhVPWFdv6QWrhkKiYTgRXzNKq/0883ObH4vJN8JL5Vjtjkg77eP6pDUGeycVfXzoWYrCUjHfDABEqhfHHNZJrgy/Ds+508fSwrU1A5spT4bPf8hq9aIXANFSuRiL8oDGIbvUIu7u5v6MXL1K8Wk6cOoyzz8x8eVzmXdr6MH+AM44a/Ol5r/E895KvAB4PQ42TAmOzmpZtz1Uwg63zsvutf1yC24RWIXomQTDIG/pyb84zpMbzuO72/LM0fv0ghZ3hMrsSqwtjpVS9M8qRJe9M8hUlPFiAxMb59LEuFsGrPkTdTCmj91OeTa02Uqn3N6KvMlf2YB3MmIs2Ur/AAcG4FBiyriZm3VY69c2tRcrR1z0mI/mB9AIIux3lgB/K2Z/Gi8s5B4MR5QmUhDuIqQW3O+q7U3Rp08vjubodGgirHWdOpniRJ2e2W3HpqB4hwkGZGNNxRa0Zyxh6fStGjfMLvb4s2mSCZGyL8ciu5/ATvMP7UH6mkNErD0d7qg7hX9lwOx7/kVwf2yJB+mFRKFkVogQDuwpkLZnttsiMWi+9BSMhFy2biBk8QDPgxDBcwo9rE6eqMQ4GhFmcwIiSYiJkd8cy3EDHq4RmtMyr7Z2wWq6xecNce4zlUnRKZjke073pcgTqNx0PV0sNj66cV544XXqVhpDEKDvJJB43obirgB4rteYamdwabBAX3AzU55nzuuylBTSo2YGYsIWDmVqE5WXOfxSYVn8/l9FmKbgVD8YV5RB/IthdRW0M3ul3OCy48pLOwbcpoIHkjHCrf4L050Ai83gT1oKt47E6pbTHrlLMX02197l5qT0MBkt8ADUSoHb+fjWpofozwXRyPbtIIal5Fp3xjNT9TyI6S2+3SYiqIPv/MNv34Xlz6CDBZY55TgVPe8Ab4tzECkhbGbD1C8WKUb1SqKzMB00+TDI6crILozVpU7QcUFMGU/TzxmigcXSuEV/FHi5RW6B5Rjn1cCxPJ8uFsjqfm71/zJoWU9Uox4XO9s3hziUZpgv8eBjcnqUBXjMhAqgeiQmuPETvWdW4naYBpfLOhXg61DKplHdH/PSZHNFoJRPAXZJnkALeE8wuJp+WVXrzK28dujKiNFA6Z47ZoenKvTIONAayGLgih91hgsvCJIeC3V/0IJeORYgmeMwLtZIM0vXBl0FZcHMT5m/AB0YAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"d2d34941\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"c4674476\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"9ecb7755\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"4b62ccc6\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.68,\"undetermined\":0.3}},{\"id\":\"fd583e6f\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}},{\"id\":\"5520962c\",\"probabilities\":{\"supported\":0.04,\"contradicted\":0.06,\"undetermined\":0.9}}],\"response\":\"Feeling upset when your partner questioned something you meant as helpful for you both makes sense. You've also been honest that you knew the 120-unit purchase fell under your agreement to discuss anything over 100 first, and that's a good place to start. When you talk with B, you could acknowledge that you skipped the agreed step, then explain why you thought the item would help you both. You might also ask how it felt for B to find out afterward. Keeping the hurt and the agreement as two separate topics can make it easier to rebuild trust and stop the conversation from turning into blame.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 588,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 643,
+   "output_tokens_details": {
+    "thinking_tokens": 173
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

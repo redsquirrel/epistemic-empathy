@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:13:47+00:00",
+ "finished_at_utc": "2026-10-29T11:13:55+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWRutPrKEGZPFTMuRn1Q",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS2wkKEAgTGAI4AUIIdGhpbmtpbmcSDH866B9mVXu/0AJ+7RoMRP91qlsNvp/5oQs3IjDHu6Pjp8pLLL9HH5BgDr/3kACOh5HFjUfphqcj2N5CEQkbfjogomezIYPoU+LXXQwq+Aj1CjlcsfR9zZdStR2RAf0rdbfyPMACS7Xbka9YsSs3sIIaQQot+hduJehgsMxETUM05qM17pC9EZW47Zi2F45bKkvVa+k1FrBKhBnYcIurXntBieOsXpPfMuwZORbJ7ZQOb8SmGz0frLmxD+gZySrZKatLe2P72L2owJkAl3g5WL0jfPd2e1TpFseeK+r782t/hI+tnpSc3GSrA2G9Y9IPS1IiHEsgxVDQ4sAjfd+rOl6rL39wRwrBVlNnZmjF2J+l76GRQDtz0gXewELwPLYHHklnZwydy94eCaMd/2/cuqQQsn3X/aZSVSh1PeQJbby7p9X8tu5efZI/YVCA6wsjZxmb2ZxAPPcW3ca9UzK18weZFYi4gvt65P/tWfeBHctqAWtPq1YHBrwdIUtuQdmEWeYIla2bxGQ57ZC16MXz38eLOMt9uteE3/MzcSi8iz1ZoQTrYGPX8skKidJLScELCpL9OWNrNW/fJrtAkXwg9XPwaDoVhAo19r83rrrcBzwifg9napHuld1p6waMLilrj7u+7L6uRH9oWr0NogAMay7kJeDUxMROyx2vj+fQb5wkdDm4KXgsxc7Cke62pYCaA4P9Sk+5ooV1SKaMjyREfd0+DsbkdhLK5v4n1XxfSURWD3rMA3M+IjgChZLdiBP6QeurjbDQfHrGaxJCNIXou+3H7lBhfq9BqE8gB9L0cqA8nKlgb7tkT1zGEcYnBdmBCjxPZ6nQTgEKTt49hHBgswzo99vUwC4ga7N+StLfFm6H5fseKN2gVDeQbwNA/7xZOslWJ0S2XRs0zYKxH/G5uO+2EteUYHVVHT6MMRWYmyEWftui8F/Vx29sDb2ZzzKTvYipBhy0JTGwSBImiMqPFYYOhLMbG1j6Hg8ROraEtOGulPumc7m03PWNiUrxZzgFY9k1lyeZpvu+Mm5/RCSnhnk8uIjQtYz4TiIQHGdGAn7DcjLIP+yKdQI6f939unaJs2eWQR+CC+lZPIbsQy9Jn1tAZ+hLpMYdvku5SVxSxgmrrB9RYBJDZbUyDaM6BAK150ojc3rJaZS2hmFdS0+CUL0Nc67Y+1FsTt9V+WUaV7MqIzIJNCp0VkeozeioRp1VDnU7iLQLmboDVer5GJVLgLd9kGKQkDLKvtTT5lzWspDpZGaJ/nSP5P7vl47dlZ46nc2eVIxJCfv9jNqam7c+3LiB7HhJ3puLAuagZNNqoD/miV8gNiJ2YmBqaEDWU2uo70fcwL8QZcDlb3+2Ue4BXz2OkJJWvdDeuNOmfXHW4DWIY+WODxFoCcd5hazjTL8J5fnv0CWrq4yKQl7fHNDXOTdRHGziQy/piSvgUDb3vIVFTNQRXcaPbJTy8eUZnDVkDekYlGr5Ye4qmPoDyI0WnorziwV4IvrpX/VxCI5c1+VvP5lLGsBtWFpBHV3yl0kmCM9flTbUxy+W7c9ito1R0O/oI5J//smzTdrhyyrLsFHXIzC98Z3S7B76Z4a1Ua0X80A5871hUHAqRymLcXnUCLNAbXAYmJe7GAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"7ae796d2\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"7f0e7be8\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.08,\"undetermined\":0.9}},{\"id\":\"202c9e15\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"61c0e2e1\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"0cb7c2a8\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"47634250\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.05,\"undetermined\":0.9}}],\"response\":\"A, your fear makes sense. You asked to leave, and you were kept from the only exit for five minutes. Being blocked from leaving is a serious safety concern, and it's okay to name it that way. B, your panic about leaving things unresolved is real. But a conversation can't be resolved by keeping someone in a room. Physically preventing a partner from leaving isn't okay, even when the intent is to keep talking. One option is to agree ahead of time on a time-out rule: either person can leave, and you set a time to return to the topic. A, if you feel unsafe again, please reach out to someone you trust or a support line.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 643,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 695,
+   "output_tokens_details": {
+    "thinking_tokens": 204
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

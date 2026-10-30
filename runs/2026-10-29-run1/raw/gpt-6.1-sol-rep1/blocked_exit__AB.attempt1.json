@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:42+00:00",
+ "finished_at_utc": "2026-10-29T12:30:49+00:00",
+ "body": {
+  "id": "resp_0df476927d401538016ae33c72b6b487d1b31fac7e7abd4401",
+  "object": "response",
+  "created_at": 1793277042,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277049,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0df476927d401538016ae33c740d2487d1b646d293fefd9562",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zx5RrZKpKNpfgslVUe3qmgVlEjOjXQnZg7-DVjKca1FI_7urwQmJEYrG3S3MudTgIvHnxFCabTEAVmIMQfDMawCAjN1jnPJF6R_LaK2OiEQ1DfYzZiYAbUUz3CrWkxIBrhgUA8t39SfRGrrtkQU8Dc48S_iI13QG_YGKYuYqGhTXPZv4u6ChgZuw_7jW7cUNth2f9bLjSlu-0w4GIFq4HAt9yoxMpERuZlnKgsGYASdCrIQTcOjECdnhGUp89o7EXB54pjcz8ImdZwAzvcX5-X_o1guhs2dpGVCk77ujDgH1ywu_CxxzqRmbwbpXCIIq2O7EDvFZp0pXrnV77YPM64Qid48IIlDz8S_yVQKOqxhkkyiUEU389FzFFSwrkemD7BXwIlEDZwwOcfHyvrIOqbs0SO72O6mera1BQR8NZR_Z0E0PxBpo5BKWLFuchxB_sK5H_htzQZ7-WKwm5_Hpo8e0TsjM-QYsvYn90zKnCuSxnwQNxZ2Jrhz4DZAkUupnBHg82C8pKXdJxw5ERVeCQPDC-Gs9SAmSDg29r0ZJWxq5dmLyKINltwzErkqLQel4PSBBhMhwL86-mQk0JUGN9gQj6OiTPQjn0OgdwfOu9CdJyU7r6trRK2AT3X6bt_vbDrOz9H5MPBg1iIGxeG_Iakzx6jKPnM9iDenKmoNj6VdaclnVEJFxxhStbYZM08091CR9Rv6aQaYiNB70oDmqTNCJCatkkvYhAaX4cRR7AAu0aOenSoyFiotS-6szwPyd0AS03h56k1gEpiBEnVo7q3M_5cJwvnVSLNxgIIrW3B7Ab0J2VKC0u0WNqwb0mWaSEaClA3ZXb_gCqTiqqPU0Dc0RP9dNF8q1iivwfXXn41BznXRTKrrrv042G6x71DNeq_NE9VcjYNGOieVSJL5AvKnpL-v1N9jkncrtD1TrlTuM2CgJWR7QlCLVcHTyiCrDAhDkeITp59kjbQauM24Jz1Tgbx5JXrIYRSHUDnHVxLRBcplXeBIsf3W4Thu3MNd9Czm6QiDJBGFuT1xXhsRun4RVrH54C9DaWpje4b9cFFyM4neiNFg65m6clh7WgmH8YdwObsqJk0t8mRFz9vm_uQGbZVPRRs-7_zsAYxv2JvlBGuHNmLi3DIUJjRMSAbunaT9HWMf2OCY8bIp1aFjIZODUXgmBAShszhX2Csz4WC1mWlBqiY7nOLT-6zA3aXYdqeEYINPBEdf356sT9wEgs0-JtahbMiX0CDLuQXWsLRkS-sU_a9hD9CCetEp3lj_WAw_1I3beB3Xuao4CqsGXFXcCVAPveeglw70O9xyYHzLXBXJhpYxTGWi0Y6rc9I3CTaRYQL6S9xOxMQshbAUJ8efbSHLJ4M74nNRtn7vqgsXKy9W1yn1Y60yhwwqjoBZFjsFQmRV-mEkT1rYnqUk92iZZq5dWtYCZJMv1nJTwE4J9NUzY_lJrWKX9biwYhkMmcb4CDUg5AgcDPBcRt8rp3E2UXsujKdKiPLjtQV0Gn4SErY4no_AecOYJwzLf1KoIluwS1O9Foxo7Gksg_Ywuw3QfRFIzdvPyZpRCI3-Ed3TSj7Uf7aWyCB4FeAd9iSWu2sxwnKcehXh2tQnIqmRE5OEV5bsKCfVUwPKPTNsygem_vtXPPp9aF_UcdEcnPbhWXikTDRYaK3_d4OZNDFHM2Bi4s5FPO-dzs8luio8GoD1wD_gyVoBWIZRNuH55uWKY9SJlo00dn871qMaZ5paZ0xKhpmgJiiYhYHGLg9EWL_bZYAu4NBr7cfTEwOEWs71ypetvfOqSW8PJffmWQz38vN-m3jv9lCtTBTOJ_cjDHajMCEnUU4v_Bq4ORXz4wHYGv6cFsLiTsLXfdaK-T_zSgOvLF3O-xENQFtxKkYxaw1b75BS4j_htI1UO8poE3Tg1534mi9uOk431HbOdoH8uhCdQoL6kpTV8aosz3usc7g-OVBXqRlVmEWZ3oVtqlkh02V_iwVkRb4n-YJy6kAjlmy_ObDwyadOKpDa64TAwaJU8nw=",
+    "summary": []
+   },
+   {
+    "id": "msg_0df476927d401538016ae33c75441087d196907cd872e83535",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, you describe feeling afraid and wanting space, and the shared facts establish that you were prevented from leaving without your agreement. B, your panic about an unfinished argument matters, but it does not justify blocking A\u2019s exit. Wanting resolution does not establish that the conversation had to continue then. A request to leave should be respected immediately. For future disagreements, keep exits clear and allow either person to pause; you can discuss a time to reconnect once both people feel ready and safe.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 474,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 449,
+   "output_tokens_details": {
+    "reasoning_tokens": 46
+   },
+   "total_tokens": 923
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

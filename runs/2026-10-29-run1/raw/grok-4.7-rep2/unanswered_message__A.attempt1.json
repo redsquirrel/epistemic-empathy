@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:23+00:00",
+ "finished_at_utc": "2026-10-29T11:19:55+00:00",
+ "body": {
+  "id": "58dfb7b6-06c5-9cd1-b49b-099b8938a03a",
+  "object": "chat.completion",
+  "created": 1793272764,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.90}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.02, \"undetermined\": 0.95}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.04, \"undetermined\": 0.93}}], \"response\": \"A, it's natural to feel worried when a message sent at noon goes unanswered until after 4 pm, especially when you cannot tell whether it was read. Your uncertainty about whether B was upset is understandable given the silence, but the facts do not show that B saw the message or intended to cause distress. When you next speak, you might gently describe how the wait felt and ask about B's afternoon. Agreeing on rough reply expectations could ease similar worries later without assuming the worst about each other.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response.\n\nClaim 8bb3a671 is supported by A's account. Claim 9791a140 is undetermined because the shared facts do not confirm whether B saw the message. Claim 246bf232 has no supporting evidence.\n\nClaim 68e7666e is supported. Claim f4c38271 is contradicted by the shared facts. Claim 6faf4343 is undetermined because B's intentions are not mentioned.\n\nThe reply targets A. I am finalizing the JSON probability values.\n\nI finalized the JSON probabilities. I am now drafting a brief empathetic reply to A about communication anxiety.\n\nThe reply is drafted. It is empathetic and non-judgmental, suggesting A share how the silence felt and ask what B needs to reply.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1630,
+   "completion_tokens": 339,
+   "total_tokens": 4778,
+   "prompt_tokens_details": {
+    "text_tokens": 1630,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2809,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 198440000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

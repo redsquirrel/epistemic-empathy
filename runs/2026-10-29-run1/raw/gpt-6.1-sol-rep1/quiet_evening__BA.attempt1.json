@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:49+00:00",
+ "finished_at_utc": "2026-10-29T12:30:57+00:00",
+ "body": {
+  "id": "resp_0f0efa889d81d63a016ae33c79eb9487d1ace6b5c55e3cc9ef",
+  "object": "response",
+  "created_at": 1793277049,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277057,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0f0efa889d81d63a016ae33c7ae3d887d1a3616cad04dd28f2",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyBAfpvcsT7slqOlUu8htB2IsjHjBkxr9Kq68VgN47SuS8aWkiIqVf2ySnNsv4yEKVpxmPQX9OtN7FX0_bPctIEiTshqAOs_QpLE0GiYbrKageiiqvvXLdNNV78WgGxLDZFM_BSvgSg0qqTM-OPrPSfD4zo9jTTWwNlsUt98SUzH6amBYZUEz49xUm7vIuuC4bsc2Dn_mBdAKeU-xDsNnbZmWzB17Td4RbhcyjbYFqaY-AODJixXPUd_OPeMvp6aLBGDkTXCCsk3ohikuZYk15rpKSUh12tSevMbtINyHH1zNTqniE28b_cFfe4grXs-K-EjR2PR0e3a9Q3V9hUKhLVsCcPOP7rTAyRtQ3-6FyLSga0lPake4zqoUrZV2nhbCDyMITn_cFq7ch4Rauv_L92fLemHEPLYTfjTeei7IO_emUh7jesPb4-yLMlLY30v84Ubl40XzhD1RalS0eGrFhr3KMcfbmA01v0LhPlvsOCN7GB8ypf4apWisV7cSEYzl_oRBNodsk8xcN93XgXO67SoWazzh90dHKZGMBVcUdD0lisAiwxVP9B80yDEs0fmHzl9usKOMTfKEFKUvhq6RW7ljOy-rP5qacq_-gw_kzwhJgk7RxdTWXlJ1mS9phAzUo4PI1SSuy4KDYh2UBHdd00ZINBXtC5SVZfSw_zB4ktKOAT2clgcWRI6zF6gZy7uQBoXfDwmny0pK5u10c7kGJ_LCuge_XXNfNc2pQYFwi6aSsl0GgcRGt_3vaiI-LLL_QJnSc5XYgiIPTTqgAAwmmclBL6uxze9EJEWWFqcYvcvaPODQHZ24IIiAf6ISOsD0bpLO2clZzaudjqDBbwRhG8HfcRbc6lb2wjpZFT6m4ntFzCU1QrejBZiCLbC3iiGLI7oQOfLRNAF8Qnid7LyEzgM71NVHBdcvWb-4f052mRn8SM_w4dV9pty9Fida7ML4BKK1xviGx2wHIjtcyThmjWhrYvOD5HL7j4xo88x8wyjWL302l6Ddtd5IILxAZqnraKvVqE4GudvTCJ9uv7cy5YDDZTzPCMbN_Tmme4KYDJQnzkZeU2Gu-Jwqv8yS79rL8iOb-6Xnu_9cmMpJjsDWvMdw2OBjCa_oNcpMajN1UzOGuQEwpQkHsDPvXSt6aZesFuxZHrxp3vLUSbx78b0i-iZro3LMFLPyiqtgsbt4kaYo-5c3ASNZOAHnwx4TU9Np68sj8W2hsbXjnpJqR-rl70vAPkmWESuh4SunVbalCM3YG1TNBFaPQEcsh1dZPhFS9DuCckEZTXbY-uZSXoKAIzp_kurcGzIyhDMsydNkcVsPO74EF3l1cf3Lr0MMxoi8pHbfSz9qkh1JeDU0rtzJUcfFXe9oSmNveXeCOGsj5VksbPR9ohpul_3buawGhidvYMCtj82MnWdyGdgpsZ4OrzTxv3djoVxFitcCjw6cyC1eMRD3TNfy4JPkgrplG0o92C3m5ZmNpoY2iW3IDqbQNQaTILjsdHaEmki57JBd8r-TbA5SDtkU3Ic7mPzne-4op9tr55ZI2d_Vw7P4pg6OOiNKBpWF_2fhbmAk7_EqSl5vxGEqhgyaawyc7Q-Fo_xWembLktSe_rHae62uifDV8Z_n9N80GJoMLmb0fiFjd_oLrMxvT4dgYVz9n4OEfH2H7J6f1ZgSlT1QXfw_mElh4wwldf4De7HCBvKyDW53lxKsLWhOfhZ0DAkyVSSwqWSmsMO68HqmbpRSR_UrlOCTVqR4n8qGqji1BFCECw4WWRJ8x44yr-ZruUXKLnDoif-g9S3Xam24PF8RxMy1KjXxrzYxybCfft23rt0qApeJfM59TFGVmq_EY810arzeu-kP6ii7KvLt7N0NPL-BBgvf8jmLkP6qXPGew2xUKj9rV1nnQQXua0UL5uBVAdknx0kFUyZlOIjR8vL3Rb4WxSQcdBJ572JXkDEqR9Hc4ohtXd1X6g2CPpka9U-QhoktJza50BHWNk8hKhgqPvmkH1ohhCZ5NkzzuhJi-4yrTnHBk3mfUkvo5kZaX7AIWWhduUHlfiEN0ifoVVQnX-MErojqZMTo2q0741-qebe_WtPF1BiAosqCcXS4H8DrX1zekBy_7sKgjTBJEJvnfG5MUOJbucfkGYnBQfsJhUEoEbtmsmD86V4zijLGObRvJceYUtw4PY0OQg8S8lUwvDLJgc_8mw58d_z4CYQN4Nt7n_L8g_pJbYRRjlPTCTu0gx7TEN2UrmXVveaDdG0zAidi0nxoIfR10KAo_H0Lf3DZgUglHAICoO8IF-lvYh17SlKly-HX6x",
+    "summary": []
+   },
+   {
+    "id": "msg_0f0efa889d81d63a016ae33c7d0b9487d1a2a801c8a4d37fe6",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\n        \"supported\": 0.08,\n        \"contradicted\": 0.07,\n        \"undetermined\": 0.85\n      }\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\n        \"supported\": 0.99,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.01\n      }\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.09,\n        \"undetermined\": 0.9\n      }\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.99,\n        \"undetermined\": 0.01\n      }\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\n        \"supported\": 0.99,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.01\n      }\n    }\n  ],\n  \"response\": \"A, feeling rejected is important to acknowledge, but it does not establish that B was angry. B, you describe needing quiet after feeling overloaded at work; that need can coexist with A wanting connection. Since you had no explicit greeting agreement, it may help to discuss one rather than assume you shared expectations. A brief greeting followed by a clearly communicated quiet interval could address both needs. A could also ask what B is feeling instead of treating anger as established.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 438,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 490,
+   "output_tokens_details": {
+    "reasoning_tokens": 64
+   },
+   "total_tokens": 928
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

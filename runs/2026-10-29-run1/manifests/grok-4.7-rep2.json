@@ -1,0 +1,366 @@
+{
+  "status": "COMPLETE",
+  "run_id": "grok-4.7-rep2",
+  "protocol_commit": "c6f477d950d5e646d0d6d38ec42bf8fc138e55ea",
+  "dataset_sha256": "12fef036c827cab88cf535ac45fe46845d70d279aa7955b56829f3dcdbca7f43",
+  "requests_sha256": "d37cf9bf959e9dd224066957d0a28623c165bd503482461961b0fa8e64fe72e0",
+  "responses_sha256": "a5a4959ce2d410adbc0d68e66b48b0e7a0b99da41b25688b6ee59b47c49d1637",
+  "provider": "xai",
+  "model_requested": "grok-4.7",
+  "model_version_returned": [
+    "grok-4.7"
+  ],
+  "provider_version_limitations": "Provider-reported model string only; the provider may change weights or serving behind it.",
+  "repetition": 2,
+  "temperature": null,
+  "top_p": null,
+  "max_output_tokens": null,
+  "provider_seed": null,
+  "unsupported_settings": [],
+  "settings_sent": {},
+  "settings_note": "Provider defaults: temperature, top_p, seed, reasoning/thinking and effort were not sent. Anthropic requires max_tokens. OpenAI store=false only stops server-side retention. Nulls mean provider default, not zero.",
+  "request_order_seed": 1735,
+  "started_at_utc": "2026-10-29T11:18:29+00:00",
+  "finished_at_utc": "2026-10-29T11:22:04+00:00",
+  "python_version": "3.15.0",
+  "adapter_version": "run1-collect-1",
+  "adapter_sha256": "e006c9ca2c906160b38fe8b9834ef012613d235d152f54af8c1718574a1fb039",
+  "budget_cap_usd": 25.0,
+  "actual_cost_usd": 0.5568,
+  "cost_note": "Estimated from returned token usage and public list prices; not an invoice.",
+  "attempts_log": {
+    "missed_signal:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.017152,
+        "raw": "missed_signal__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.020874,
+        "raw": "blocked_exit__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.017958,
+        "raw": "quiet_evening__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.022284,
+        "raw": "blocked_exit__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "calendar:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016858,
+        "raw": "calendar__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "dishes:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.015352,
+        "raw": "dishes__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "dishes:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.015776,
+        "raw": "dishes__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "late_train:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.019716,
+        "raw": "late_train__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016902,
+        "raw": "blocked_exit__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.015246,
+        "raw": "quiet_evening__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.019844,
+        "raw": "unanswered_message__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "missed_signal:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.012292,
+        "raw": "missed_signal__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.019658,
+        "raw": "unanswered_message__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.013284,
+        "raw": "quiet_evening__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.01298,
+        "raw": "unanswered_message__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "late_train:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016252,
+        "raw": "late_train__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "unanswered_message:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016394,
+        "raw": "unanswered_message__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "dishes:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.013702,
+        "raw": "dishes__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "budget:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.015308,
+        "raw": "budget__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "budget:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.017798,
+        "raw": "budget__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "calendar:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016702,
+        "raw": "calendar__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "budget:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.014168,
+        "raw": "budget__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "missed_signal:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.012258,
+        "raw": "missed_signal__AB.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "calendar:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.022572,
+        "raw": "calendar__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "dishes:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.014976,
+        "raw": "dishes__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "quiet_evening:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.052136,
+        "raw": "quiet_evening__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "late_train:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.012402,
+        "raw": "late_train__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "late_train:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.018878,
+        "raw": "late_train__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "budget:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.01097,
+        "raw": "budget__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "missed_signal:BA": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.011508,
+        "raw": "missed_signal__BA.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "calendar:A": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.017246,
+        "raw": "calendar__A.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ],
+    "blocked_exit:B": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.017328,
+        "raw": "blocked_exit__B.attempt1.json",
+        "model_returned": "grok-4.7",
+        "fenced": false
+      }
+    ]
+  },
+  "attempt_count": 32,
+  "failure_count": 0,
+  "failed_attempt_count": 0,
+  "fenced_json_count": 0,
+  "raw_output_path": "/Users/dave/Projects/anthropic-fellow/run1/raw/grok-4.7-rep2",
+  "contributors": [
+    "Dave Hoover (approval, keys)",
+    "Fellow research (protocol, analysis plan)"
+  ],
+  "deviations": [
+    "actual_cost_usd recomputed after collection from ledger.jsonl entries for this model and repetition; adapter run1-collect-1 summed concurrent spending from the other model's run."
+  ],
+  "publication_review": null
+}

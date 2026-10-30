@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:10+00:00",
+ "finished_at_utc": "2026-10-29T11:16:18+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS6SfMLxfi82RXBVN9g",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSwgkKEAgTGAI4AUIIdGhpbmtpbmcSDCfxEYx8XXTFvlLzBBoMudUXAoGE/awomrYHIjDNuxzGM49vgOKZQdShG2BePyJzKrMUA0U+M8kaazCRfZVMquiGgQ8l4GcQrOxHtucq3wg2Qc7lVMTLmFN5ie+i5Xan55EmuowboKCJL2nNJwwWIwkztc6sRxvVouegqCTEKaFquB7a/lQNmMHeg42Q9PSVLIJy6cZJ6vE+bgpjOKr8u2nJpBcYv6vBKQgtDnl+ai2de4kV135elRUU5L0ZW6SgQEn5ZCAxpGUdq4Ym3J7E6E33BK9W9p8OJZeFrQgucu0ui8NNZPNvCyO8RHnYPpPH7dho2MZhHtM/lHkxxbA1Zf6fK4Tg6xTM7oxOt9yFUPOiLp8Ar5djlypnE212W5zNozlzZYUpgMBFdGrP1sWYGRWHDX671R4ikOR6OSuPRgUHzTffplIx+3OmwpxXxv8SMKsaGEzj4lujfTQ08J4TdwHd881V7l5cVQxxkdg+w5+3zfxXnQ6kBa9BD3LoQLo5De2bkFB1x7FwdU6fHTwcFW4KfMOwNR6ywfkv/0QIaxGwNS3D9oIDesmha+8dMMaBnkPcTzv7+g9uG8l2KRlAB6/wmcI61wPqUJzrmOwDd7jMlpYXB+JGE6V69zUJXTyyhtNO86Vf8In5V0EeEy/XVJThLJ8OA8bvW5y1RG5D8lqfxtu0752+pz5N0LmxMDLS63k3tWUWl2C5xyNuWLLabF8Uho/USDWk34oxoAOkDxBY97doxAUvy/G+961nXvcXyAU5Ecmg78PKHm/GbRs+LEeimr30XABV/j5ZtMOgbNeq+7pNWCgxrf9n7Apuoh4tCaVV4PpiSipF0OPMtT6sK5t6H3J0Vkya0orLRTTmDdKx+k+Ge9ZR16KIhHXewIpPTK4rYdmJQxOKMzfn+wWUz2/BDF6Mu2ZYaYOlSLTm2RCP0b2BcFVi1iIDvKG4e50rVNG21FxWYEyvSJLZnvuZj/zoKK/V6gSfucoF3lDqxQE2ngAaQX9n9ZLusMumWs+oHeQ/6kzFKjCh0deKqU7mpXwMPUf/F3a76OLT9PreDAyXMUMR4kzB4CZgj9ll5FL8gMI+rvoOrcpCb63MkHVOovwItgAz4Ub03fEZL5DP8uc7JDTMzA46NbKR34hAEvMYYljQvLXwZ6FT41wbgq/JOUGDXqRB9hItjKFRZM8aM5yqkf/QEsCo9LgJtHAo8Z1fwVcKBuiavTzus2kmJHlOVnTloKGvnk/wDU5MCPhOXlU4K8FPoxmg5Z6KryhjPNA09K5XeYUNrYNJI5Dj4MNvrhNber7usHIbQfawqJztC7i1oLPM7e9fd3eZwKMmes7tb7Wbtmm5Ns/n0auHz5CZCn/lsm3gG2tlsm9kPHpiNvzMTRkS4iIehbArc2sEFBCtWpoyQ5lgKhw/Y3kic+uYiWiEOge/ECqSEPbqlETh4uDSSWs8NVj78+qSwFsptHbukLDU8c4ERI4wjbDAAhkxWSiBKd6dVA1zkxJnylHBcYjvLWtyCYMpTWXUGbJ1JKAdCSkGhaj6SHoM7oAFlyqAkDUgRVyDuhKCguLWY19IXjbZxthGKsbJW2Qv5BQZCL4YAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.9, \"contradicted\": 0.02, \"undetermined\": 0.08}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.2, \"undetermined\": 0.78}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.96, \"undetermined\": 0.03}}], \"response\": \"It makes sense that a long, important call pushed the dishes out of your mind. That happens. It's also clear you'd agreed to do them that evening, and they sat in the sink overnight. Both of those are true. You may feel annoyed that A doesn't see why you were distracted, but A may simply have noticed the agreement wasn't kept. It could help to say, 'I forgot, and I'm sorry. The call took over.' Then wash them, or agree on a time to do it. Owning the slip usually makes it easier for A to understand the reason behind it.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 558,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 715,
+   "output_tokens_details": {
+    "thinking_tokens": 221
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

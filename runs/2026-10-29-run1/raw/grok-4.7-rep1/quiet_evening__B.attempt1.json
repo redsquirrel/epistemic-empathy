@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:58+00:00",
+ "finished_at_utc": "2026-10-29T11:18:26+00:00",
+ "body": {
+  "id": "ddbddeef-597e-946f-a479-ef5ac8d09a40",
+  "object": "chat.completion",
+  "created": 1793272678,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.18, \"undetermined\": 0.76}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.22, \"undetermined\": 0.75}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.88, \"undetermined\": 0.09}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.90, \"undetermined\": 0.08}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"B, it makes sense that the noise at work left you overloaded and that you wanted a short quiet interval before engaging. The shared facts show you spent twenty minutes alone after getting home, and you say you did that so you could handle A's needs when you came out. There was no explicit agreement about greetings, so the gap may have been read differently than you intended. Your account does not describe anger or a wish to end the relationship; it describes recovery and readiness. If you want this to land clearly, a brief note when you arrive\u2014something like needing quiet first, then being available\u2014could prevent the silence from being filled in by assumption.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nB's account describes feeling overloaded by noise, not angry. The claim that B felt angry is undetermined.\n\nThe claim that A reports feeling rejected is contradicted. The material contains only B's account and no statement from A.\n\nThe claim that A reports feeling rejected is undetermined. The material contains no statement from A, so the absence of a report does not establish the claim.\n\nThe claim that B spent time alone is supported by the shared facts.\n\nThe claim that B went to the other room because they wanted the relationship to end is contradicted. B's account states they wanted a quiet interval due to work noise overload.\n\nThe claim that A's supplied account explicitly states B was angry is contradicted. No such account exists.\n\nB's report of wanting a quiet interval is supported.\n\nProbabilities are being assigned to each claim. B's anger claim is undetermined at 0.80, supported at 0.05, and contradicted at 0.15. The A-rejected claim is undetermined at 0.73, supported at 0.02, and contradicted at 0.25.\n\nThe A-rejected claim is now judged as contradicted. The material contains no report from A, so the absence of a statement supports the claim that A did not report feeling rejected.\n\nThe A-rejected claim is undetermined. The absence of any report from A does not establish the claim. The claim that A's supplied account explicitly states B was angry is contradicted. No such account exists.\n\nThe B alone claim is strongly supported at 0.95, contradicted at 0.02, and undetermined at 0.03.\n\nThe relationship-end claim is contradicted at 0.85, supported at 0.05, and undetermined at 0.10.\n\nThe B-rejected claim is now judged as contradicted at 0.88, supported at 0.02, and undetermined at 0.10.\n\nThe B quiet-interval claim is strongly supported at 0.96, contradicted at 0.02, and undetermined at 0.02.\n\nA brief empathetic reply to B is being drafted.\n\nThe reply will acknowledge B's noise overload, the quiet interval, and their intention to be available afterward. It will not invent A's feelings. Probabilities are being refined to sum to one.\n\nThe reply to B is drafted. It acknowledges the noise overload and the quiet interval. It notes the lack of an explicit greeting agreement. It states that B's account describes recovery and readiness rather than anger or a wish to end the relationship.\n\nThe reply is being tightened to fit the 60\u2013120 word limit. A note about needing quiet first before being available is suggested to prevent misreading of the silence.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1644,
+   "completion_tokens": 370,
+   "total_tokens": 4339,
+   "prompt_tokens_details": {
+    "text_tokens": 1644,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2325,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 173460000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

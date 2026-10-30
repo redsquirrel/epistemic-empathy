@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:02+00:00",
+ "finished_at_utc": "2026-10-29T12:32:08+00:00",
+ "body": {
+  "id": "resp_00544d5875fcda93016ae33cc281e087d198ced7d16d735375",
+  "object": "response",
+  "created_at": 1793277122,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277127,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_00544d5875fcda93016ae33cc3ee8887d1887ee7bc3b93ea33",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.15,\"contradicted\":0.05,\"undetermined\":0.8}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.89,\"undetermined\":0.1}}],\"response\":\"A, feeling unimportant while waiting is understandable, especially without knowing about the cancellation. B, feeling anxious while trying to reach dinner also makes sense. The cancellation explains why you couldn't take the planned train; it doesn't establish a lack of care. Likewise, seeming annoyed isn't the same as being annoyed. It may help to compare what each of you knew: whether the message arrived, what happened on arrival, and how each interpreted the other's behavior. You could then agree on a backup way to communicate when travel plans change.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 470,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 312,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 782
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

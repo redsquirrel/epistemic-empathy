@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:19+00:00",
+ "finished_at_utc": "2026-10-29T11:21:38+00:00",
+ "body": {
+  "id": "8b7aa7e3-07ff-9de5-b750-a7fede4cd4b9",
+  "object": "chat.completion",
+  "created": 1793272879,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.90}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.90}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"A, it makes sense that seeing the dishes still there in the morning left you feeling taken for granted, especially after you and B had agreed B would wash them that evening. Your account also says you did not ask B what happened, so B's reason is still unknown. It could be forgetfulness, a delay, or something else, and that part is not settled by what you saw. If you want to clear the air, a calm question about what got in the way may be more useful than assuming B expected you to take over.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nThe first two claims are undetermined. No information exists about B's feelings or whether B reported forgetting the dishes.\n\nClaim 635f0b8c is supported by A's account. Claim 674cce8a is supported by the shared facts. Claim a88ffb19 is undetermined because B's intent is not shown.\n\nClaim 9811759d is contradicted by the shared facts. The dishes remained in the sink overnight, so they were not washed that evening.\n\nI will draft a brief reply to A. It will acknowledge their feeling of being taken for granted, note the agreement and the dishes remaining in the sink, and suggest asking B what happened.\n\nThe reply to A is drafted. It acknowledges the feeling of being taken for granted, notes that B's reason for not washing the dishes is still unknown, and suggests asking B directly rather than assuming.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1635,
+   "completion_tokens": 350,
+   "total_tokens": 3970,
+   "prompt_tokens_details": {
+    "text_tokens": 1635,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1985,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 149760000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

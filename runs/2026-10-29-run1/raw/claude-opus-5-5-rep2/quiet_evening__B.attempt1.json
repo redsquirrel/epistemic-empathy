@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:03+00:00",
+ "finished_at_utc": "2026-10-29T11:16:11+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS5tv8umcyQK2StkPaa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "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"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.22, \"undetermined\": 0.75}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.08, \"undetermined\": 0.9}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.68, \"undetermined\": 0.3}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.7, \"undetermined\": 0.28}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"It sounds like the noise at work left you overloaded, and the twenty minutes alone gave you a quiet interval so you could be present for A afterward. That's a caring reason, even if it may not have looked that way from the outside. We only have your side here, so we don't know how A felt about it. Since you two never set an explicit agreement about greetings, it could help to name the habit together. A quick 'I'm home, I need a few quiet minutes, then I'm all yours' can keep your recovery time from being misread.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 566,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 796,
+   "output_tokens_details": {
+    "thinking_tokens": 319
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

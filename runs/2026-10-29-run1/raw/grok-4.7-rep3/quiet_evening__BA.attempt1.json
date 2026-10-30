@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:16+00:00",
+ "finished_at_utc": "2026-10-29T11:23:40+00:00",
+ "body": {
+  "id": "315408a4-090c-9a88-89dc-4cbb61f59bf5",
+  "object": "chat.completion",
+  "created": 1793272996,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.18, \"undetermined\": 0.70}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.78, \"undetermined\": 0.19}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.92, \"undetermined\": 0.05}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"A and B, the same twenty minutes can land very differently for each of you. A, feeling rejected when a partner steps away is a real reaction, especially with no shared greeting plan. B, wanting quiet after a noisy day so you could meet A's needs is also understandable, and that account does not establish anger or a wish to end the relationship. Because you never agreed what coming home should look like, guesses filled the gap. A brief, blame-free check-in about what each of you needed, and what a short hello could look like next time, may help.\"}",
+     "reasoning_content": "I will judge the claims about the couple's interaction and return a JSON response with probabilities and a brief reply.\n\nClaim 30c8456f is inconsistent with B's account. B described feeling overloaded by work noise and wanted a quiet interval, not anger.\n\nThe shared facts do not establish whether B felt angry. A's claim is unverified by the provided information.\n\nB's account does not explicitly contradict anger. The claim is undetermined.\n\nClaim 3c9d9ff4 is strongly supported by A's direct report of feeling rejected. Claim 7587477c is clearly supported by the shared facts. The analysis is now proceeding to claim 57457681.\n\nClaim 57457681 is contradicted. B's account states the reason for going to another room was a quiet interval to handle A's needs, which is inconsistent with wanting the relationship to end.\n\nClaim 29989694 is contradicted. A's account asserts B was angry but does not explicitly state that B said so.\n\nClaim 69c4aa40 is strongly supported by B's direct report of wanting a quiet interval. The final step is drafting a brief reply to both A and B.\n\nThe reply will acknowledge both perspectives without taking sides. It will note that the same twenty minutes felt different to each partner, and that the lack of an explicit greeting agreement likely shaped A's reaction. The draft also clarifies that B's need for quiet time does not prove anger or a desire to end the relationship.\n\nThe draft will suggest a brief check-in next time to clarify each partner's needs in that moment. Word count is being checked against the 60-120 limit.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1668,
+   "completion_tokens": 356,
+   "total_tokens": 3873,
+   "prompt_tokens_details": {
+    "text_tokens": 1668,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1849,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 140700000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

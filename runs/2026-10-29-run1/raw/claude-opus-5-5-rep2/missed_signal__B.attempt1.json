@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:03+00:00",
+ "finished_at_utc": "2026-10-29T11:16:09+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS5tutWz1de1YynVaKZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSiwcKEAgTGAI4AUIIdGhpbmtpbmcSDPn07mpAWFv5Pa3z2BoMSZ7FMGzmtl5Bk9V7IjANLy4R/UYiFv7foC1zmzYvBnBKJUIXozaB3Y1wxHv3vztKsjd+M1Yqjwfy/DQM03sqqAZF6llckga7GZMQUNelwc1J8BWsWUZPWZoyJUmN6nIl+t+/CoXuEPEwbJVliVzeA4xAdGDYv+0ovD/AjlVbe7oTvJaTTKTX5xO0zR4ejcYMzlQv310XBu+F1ixAOLlZNBxRNlsVsTd/5GxhpiEd8bCA+O8EosWj1Dinw/xqWNTd0EdHZ4GZxAHrdcPMcVS1ySvj/IMWK3dEqcZ0RJ+IdvuNMYnYNedHks7I3c2qACRgrIj7vxqMK/+4mtUxc47v0S9Gw2JOsd6G61B/nbL+JTwO8soG9G4R+NwN0V7CVUixOw9+8j5QWZFx72Q1iq1vdTG1XOdpMNAqDJYi7kvCtKciwZKBodZg52qTkTrNau1SY/+FozMtorUJSOMQZJhQDomRWOFAKfJ8uuL6RtXyhS6WV5d+PE+my6utikRxvfwLrMtGPD4DXpmCyj39rg3A3791F7z6zgDQaEpDjgdL1UI4u+8FtqMUJ5Ko6twdVwjOQMYXUwYz8JOJv4BVph8ZJSdSZogPO/pVQE9vJMk45v2ZoA2SaS5QDf8TIPcweytBLxOpK5T+g9ApGUAbkHSHfe+y6NYPEASu1w+dw2UoVSVBC1F/54IUDqN67seP7f7Wq5NCvIyQGetHILwYtz/H+AqP1O2QznZ4vYLkcEsaNY+V28U1lMQ7Q67DKmSIPF+8Xm7oE7yU9gVpdzRsQowx4s230Yc/m3sleR8XezZDmvPscQZl2P4S3cuaShIjPQ5GYv0hflE9quCFyqe+8MuS3dv3aVDKYR56GvciZ2brRPsn/KYHTyxHyfq5R2Aa+Ra4ecSmvHgv1ip4lQwekB6h5a58J8txhGLTx8qE6MqaS2D0b2WOl3mcsnuJeXhifRl8cgpxheftlR7kCy0s+l/oPTFPpCsXrGY/oAz01pi3bSRNvXfpIduzDLsqHnd9OK04MdDfx/3oczs1BscsAbQsMCUGMrDwWQtJB7UtMIIanP+UBiMUUj1iVKi5AnQpj2rc02DdiDHK8eBvG093GhRn18DrLNWTrLBN1e7slPFulx/a5BofKVoScFjCnRUd1Zb9EB0hPdOeVhgtGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5d297f78\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.93,\"undetermined\":0.05}},{\"id\":\"947357e4\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.03,\"undetermined\":0.92}},{\"id\":\"bec86d48\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.96,\"undetermined\":0.02}},{\"id\":\"48682ac2\",\"probabilities\":{\"supported\":0.95,\"contradicted\":0.02,\"undetermined\":0.03}},{\"id\":\"8007c49f\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.02,\"undetermined\":0.02}},{\"id\":\"5e4d2f76\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.12,\"undetermined\":0.85}}],\"response\":\"Your confusion makes sense. The note blew behind a cabinet before you came in, so you had no way to see it or respond to it. That doesn't mean A's frustration came from nowhere. From A's side, it may have felt like a message was ignored. It could help to calmly share what actually happened, maybe even look behind the cabinet together. Then ask A what the note said and what they were hoping for. That way you can both talk about the real need rather than the misunderstanding.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 562,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 558,
+   "output_tokens_details": {
+    "thinking_tokens": 122
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

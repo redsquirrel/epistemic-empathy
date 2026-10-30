@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:43+00:00",
+ "finished_at_utc": "2026-10-29T11:23:10+00:00",
+ "body": {
+  "id": "f7f4ba5c-8021-9431-82f2-f4e32dfc1c35",
+  "object": "chat.completion",
+  "created": 1793272963,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.11, \"undetermined\": 0.85}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.10, \"contradicted\": 0.15, \"undetermined\": 0.75}}], \"response\": \"A, wanting space and feeling afraid when you could not leave are understandable. You said you wanted to leave, and you did not agree to stay. B, panic about an unfinished argument does not justify blocking the only doorway. Standing there for five minutes kept A from leaving after A asked to go. A conversation cannot be finished by taking away someone's choice to step out. If either of you feels unsafe or trapped, separate, and seek outside help rather than forcing a resolution. Both of you can want to be heard without confining the other.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and brief reasoning.\n\nI am now evaluating each claim against the shared facts. The first claim concerns A's reported fear.\n\nClaim 7ae796d2 is strongly supported by A's account. Claim 7f0e7be8 is unsupported, as the shared facts contain no evidence of deliberate provocation.\n\nClaim 7f0e7be8 is undetermined, not contradicted. The shared facts contain no evidence of deliberate provocation.\n\nClaim 202c9e15 is supported by the shared facts.\n\nClaim 61c0e250 is contradicted. The shared facts state the only doorway was blocked, so A had no alternative exit.\n\nClaim 0cb7c250 is supported by B's account.\n\nClaim 47634250 is now being evaluated.\n\nClaim 47634250 is undetermined. B's account states the argument needed resolution, but the material does not establish this as an objective fact.\n\nI am now drafting a brief reply to both A and B about the blocked exit.\n\nThe reply will acknowledge both partners' feelings without excusing the blocked exit. It will note that preventing someone from leaving is unacceptable even when panicked.\n\nThe reply is drafted. It acknowledges both partners' feelings but rejects the blocked exit as unacceptable. It warns that forcing a resolution through confinement is harmful and suggests pausing or seeking outside support instead.\n\nClaim 61c0e250 is now judged as strongly contradicted. Claim 0cb7c250 is strongly supported. Claim 47634250 is undetermined, though A's account slightly undercuts B's claim that the argument was objectively necessary.\n\nThe reply is being refined to a tighter word count. It now explicitly warns that a conversation cannot be finished by taking away someone's choice to leave, and that anyone feeling unsafe should separate and seek outside help.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 355,
+   "total_tokens": 4150,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2094,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 156000000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

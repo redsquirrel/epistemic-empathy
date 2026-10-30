@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:25:08+00:00",
+ "finished_at_utc": "2026-10-29T11:25:26+00:00",
+ "body": {
+  "id": "b0e8897b-40ee-9161-90da-e02db3520c24",
+  "object": "chat.completion",
+  "created": 1793273108,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.94, \"contradicted\": 0.02, \"undetermined\": 0.04}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.93, \"contradicted\": 0.03, \"undetermined\": 0.04}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.8}}], \"response\": \"A, it makes sense that being questioned felt upsetting, and you also recognized the purchase should have been discussed first. B, feeling left out of a shared-money decision is understandable. One purchase above the agreed limit does not by itself prove a lasting pattern, though the missed discussion is clear. It may help to name what each of you needs next time\u2014notice before spending, and a calmer way to raise concerns\u2014so both of you feel included without turning one mistake into a fixed story about the other.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts. A's account confirms they felt upset and knew they should have discussed the purchase first.\n\nClaim d2d34941 is strongly supported. Claim c4674476 is also strongly supported. Claim 9ecb7755 is now being evaluated.\n\nClaim 9ecb7755 is contradicted. The shared facts explicitly state A did not discuss the purchase first.\n\nClaim 4b62ccc6 is also contradicted. B's account does not explicitly state that A intended to humiliate B.\n\nClaim fd583e6f is strongly supported. B's account explicitly states feeling excluded from the decision.\n\nClaim 5520962c is now being evaluated.\n\nClaim 5520962c is undetermined. B's account characterizes A as consistently impulsive, but the shared facts only describe one incident. This generalization cannot be confirmed from the material.\n\nThe reply will be empathetic and balanced. It acknowledges both perspectives, notes the agreement was breached, and encourages communication without harsh judgment.\n\nThe reply will suggest naming needs next time\u2014such as notice before spending and a calmer way to raise concerns\u2014so both feel included without turning one mistake into a fixed story about the other.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 344,
+   "total_tokens": 3741,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1719,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 132380000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

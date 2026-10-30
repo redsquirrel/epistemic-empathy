@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:53+00:00",
+ "finished_at_utc": "2026-10-29T11:16:00+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS59L3C6JudfNBmVYqw",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS6gcKEAgTGAI4AUIIdGhpbmtpbmcSDAGCwH9kIq/hTikb+hoM7auQvIJ6pO6s0CRcIjCCHGoSPa9L7bw/PZvVpA1ra+tpDaqjhqAxKuw+7YVHbKvJHMKSOFZ170eFpu11KjQqhwc3HSMVnO9cC1j3x4MBC5X5xAwvkCgmtC/mJnKInPLBfAdZFAL/p1UGJAOowHcAi+qUb/wGjqw17JmvjdF8+Jl2WR0b8GDETA4p0VVb8+YLkT8wO13ofvflRbcRHOU+iDTi3jEfuQctIfrx26JtFLQKHPUZJCqP4RhqUpjaXmY7LeF7bX8s+HRD2TAlLnwYzqQNXkLPI4DXhxxhAmoh0D7EpNas/WAxhp31FTdop0SuYu8AcS+7mjWLspxFOKQxYDFNBU5ulmZgNHOrAljoITGUn12Q7mS4iRGTbvPJDcSXw9BLfrtkMPG6xwkDvFtnx/mLTAUamUriT5DiI27yyNja0U62dekXzztmt3T1P03FmTuqtH7z7QkgXtsWI5QZOuHUuv34MleYeeFw0ndyIFuDeVhq7kk3zaxQhlo+FB7mT8CM6KRHA1l2gB8NNrV2nFwTDQrj/rnJUqxYg+XpTkVvGb9z09uZEHbcwOum7+DdUxRhxsgW8kKapJEnFkHm7lpPER49xnvda0aiS6PHWo0P3WH2bPGGSbwjae828y48B4dRKM2zcToFAVpvZSC/9UkOmRM3yseMne0R765zokt2OlOiBrRNPTGe5g0hg8ECr22jNbJUORWMsz1UnOs4w5iPZslXDWiuOd+Q5LH9/1CsdbvbGA4JLmId5E9q6MFJS4QhQKJ/i7FQvRQyJYLchfu0xZCGxgqOxUL8tYHooxUQgkjdNvMthaDVK2x1SnnqonGOEF3RSeRfdXEyTBQZZyWIjqVmt23naIDK4wmQEBxUn8k2+MTxJ30Y6jRgDCsJPArclCcLHYDzErRPRRPrNXcWIj7cLOvBUrc9w+sQ15n6uZlVyL+le374eoVJqjQgDBbqIeJCYQLmqtE+WAflGe71sUhmRCXg0CVXl715nD0Wuv9w//dvKzuK11xhdMI9Cn04gAtiUH6mRCPD8RZi8TABJnhbeo0RiIOvrpLEGbFhdG8E+IfyVQqiDPc7mtCpYsws4wJGx4QhU8pTZsx4OwIecOU5y2lgyh3O1Ei4zKLqQBiKScnLIFXYI3xfFhG/ezSLy0xrzw3AVaNDMufwFyN2WAmVFy6PwRX2yOOQlIc9gfsYEw+0lEhWhrlxzSvmcPiOv8RH8rUdiffQdBaxBJwAExQfV0ApeJfS9SiNsYmQ05psfqmN4XZXTvRK8h4HEtHd1dcqzzsYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.85, \"contradicted\": 0.03, \"undetermined\": 0.12}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.22, \"undetermined\": 0.75}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"It sounds like a small miss turned into two different stories. A, it makes sense that you felt taken for granted, but you've said you didn't ask what happened. B, you say you forgot after an important call. That explains the miss, but it doesn't erase the agreement. You might start with a simple acknowledgment: \\\"I said I'd do them and didn't, sorry.\\\" Then you could explain the call. A could also try asking before reaching a conclusion. It may help for both of you to agree on what to do when plans slip, like sending a quick heads-up or doing the task first thing the next morning.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 650,
+   "output_tokens_details": {
+    "thinking_tokens": 148
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

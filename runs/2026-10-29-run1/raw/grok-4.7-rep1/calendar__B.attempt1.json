@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:01+00:00",
+ "finished_at_utc": "2026-10-29T11:17:37+00:00",
+ "body": {
+  "id": "836537a2-96bf-9eb2-8285-297525a50b53",
+  "object": "chat.completion",
+  "created": 1793272621,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.92, \"contradicted\": 0.03, \"undetermined\": 0.05}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.90, \"undetermined\": 0.08}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.12, \"undetermined\": 0.84}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.25, \"contradicted\": 0.05, \"undetermined\": 0.70}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.82, \"undetermined\": 0.15}}], \"response\": \"It makes sense that you felt surprised if you believed you were each making separate plans, and the shared facts do line up with that: you had not agreed to spend Saturday afternoon together, and you both made other plans. Still, calling A always sensitive may widen the disagreement rather than explain it. Surprise on both sides can happen when expectations were never spelled out. It may help to say what you understood, ask what A expected, and agree on how to handle overlapping free time next time, without treating either of you as the problem.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and B's account. Then I will provide probabilities and a brief reply in JSON format.\n\nClaim 5a3a2c4b is strongly supported by the shared facts. I am now evaluating claim 3a7c047d.\n\nClaim 3a7c047d is contradicted. No account from A was supplied, so there is no evidence that A asked B to reserve Saturday.\n\nClaim 67c569bb is supported. Claim 5b773f3f is now being evaluated.\n\nClaim 5b773f3f is undetermined. The material does not state that B made plans to avoid A.\n\nClaim 48367f02 is also undetermined. B's account reports this opinion, but the shared facts do not establish it as a fact.\n\nClaim 3d022458 is contradicted. No account from A was supplied, so there is no evidence that A reported assuming Saturday was shared time.\n\nI am now drafting a brief, neutral reply to B.\n\nThe reply to B will be empathetic and fair. It will note the shared facts about separate plans and lack of agreement. It will encourage communication without diagnosing A. The probability for claim 5a3a2c4b is refined to 0.92 supported, 0.03 contradicted, and 0.05 undetermined.\n\nClaim 3a7c047d is now scored as 0.02 supported, 0.90 contradicted, and 0.08 undetermined. Claim 67c569bb is refined to 0.96 supported, 0.02 contradicted, and 0.02 undetermined. Claim 5b773f3f is now 0.04 supported, 0.12 contradicted, and 0.84 undetermined.\n\nClaim 48367f02 is now scored as 0.25 supported, 0.05 contradicted, and 0.70 undetermined. The earlier undetermined weight was too high.\n\nThe reply to B is drafted. It validates the surprise given the lack of agreement on Saturday afternoon. It warns that calling A always sensitive may widen the disagreement rather than explain it. The draft suggests clarifying expectations and planning for future overlapping free time without treating either partner as the problem.\n\nThe reply is 96 words, fitting the 60-120 limit. All six probability sums check out to exactly 1.00. I am now reconsidering whether claim 48367f02 should score higher as supported, since B's account directly states \"always so sensitive.\"\n\nClaim 48367f02 remains undetermined. B's complaint does not establish A's sensitivity as a consistent trait.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1632,
+   "completion_tokens": 351,
+   "total_tokens": 4900,
+   "prompt_tokens_details": {
+    "text_tokens": 1632,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2917,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 211440000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

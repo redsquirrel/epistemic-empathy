@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:50+00:00",
+ "finished_at_utc": "2026-10-29T11:19:16+00:00",
+ "body": {
+  "id": "43fb2464-4e10-9d9e-b2a6-ab81f0d50bc8",
+  "object": "chat.completion",
+  "created": 1793272730,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.10, \"undetermined\": 0.82}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.06, \"undetermined\": 0.82}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"You each arrived at Saturday with a different picture of the afternoon, and both reactions make sense from where you stood. You had not agreed to spend that time together, and you each made separate plans, so disappointment and surprise can coexist without proving a broken promise. What remains unsettled is the motive behind those plans; one account reads avoidance, the other reads an ordinary separate arrangement. Before the next open afternoon, say the assumption out loud and ask whether you want it to be shared time or free time. That conversation will tell you more than assigning sensitivity or intent after the fact.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and both accounts, then provide probabilities and a brief reply.\n\nClaim 5a3a2c4b is fully supported by the shared facts. Both partners made separate plans for Saturday afternoon.\n\nClaim 3a7c047d is contradicted. A's account never states that A asked B to reserve Saturday.\n\nClaim 67c569bb is supported. B explicitly reports feeling surprised.\n\nClaim 5b773f3f is undetermined. The shared facts do not explain why B made plans, and B does not admit to avoiding A.\n\nClaim 48367f02 is undetermined. B's remark about A being sensitive is his own opinion, not an established fact.\n\nClaim 3d022458 is supported. A explicitly reports assuming Saturday was shared time.\n\nProbabilities are being assigned to each claim. Supported claims will be rated around 0.95, contradicted around 0.90, and undetermined around 0.03.\n\nClaim 3a7c047d is contradicted with probability 0.96. Claim 5b773f3f is undetermined at 0.85. Claim 48367f02 is undetermined at 0.78.\n\nClaim 48367f02 is undetermined at 0.82, supported at 0.10, and contradicted at 0.08. Claim 3d022458 is supported at 0.96.\n\nThe reply will address both A and B about their Saturday afternoon disagreement.\n\nThe reply will be neutral. It will note that both partners felt hurt by the mismatch, that they had not agreed to spend Saturday together, and that the reason for the separate plans remains unsettled.\n\nThe reply will suggest that naming assumptions out loud before booking would prevent reading each other's motives after the fact.\n\nThe reply is finalized. It will be delivered as JSON only. The draft is 60\u2013120 words.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 360,
+   "total_tokens": 4301,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2280,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 168580000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

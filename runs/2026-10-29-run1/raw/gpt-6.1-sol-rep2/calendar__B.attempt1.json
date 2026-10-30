@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:36+00:00",
+ "finished_at_utc": "2026-10-29T12:31:44+00:00",
+ "body": {
+  "id": "resp_077c082202a738ca016ae33ca8dfe087d1b6e99d073c9fccc8",
+  "object": "response",
+  "created_at": 1793277096,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277104,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_077c082202a738ca016ae33ca9bd9087d183aed9364d717427",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zywgXST7YVOrGCj9iUQLBN5WRjTbVZwoBZTA9wQMqa-J5KQdOgDAFdroA_4PG8se7ZLOwveENS8js7QEaEhjwqis8PI65pour9ME0MxdvO2_Zjy2zbAvnfQQmioZiu17R393lUxlkQHa3g6lqdLoklbgKWdrx9WuN8BF0cZCLVGJYLXBiTXG15_Oy1jiKx6_LfGhA_bsC6_Mbd9IvMISPQ3_tcCZLTvznsr79cQV9vABgcKG9NXC5r2L1xMSfJ9EQs-twCBo5JsrpVwwgTYquQnzWVre1jJrv99beww7YUf-HAWy5FgxxFG7XO6XxfE6lDTnzl8B5kKWiEsWF4CJLNAMJW5yF_mMLJ2meqJj-k4OqN_lbVvjz4LXuueW0E3UmrRD8k7s9K8I6kUFja51YvePRMZuQ1prbvS9lQBuoqpOViXs4rC9wXzT_rt0Fu3dX11WgGwSZ4lTku9_AC6j0sXxrTFktsnB642La7KQuFIa6gF9kG0_7nTWvl5dwIlqiAURcOxvx8boTul2v_8mDGZ5-A-NhYl_SwiHlOyy0fSkx9gL6sw2MICjleglRNDklDjHV5hmhZAcWdoZJJkZB517b05bEarLXzQ5tI4i4Dn3lGKcLgN2G418bUx9vkLf1AP9DABm7DvKrynNeg9s2Se9cTSaCAK9unzTXmyYSO4x4TQGLoiCiybxxzcXiEnSjqDhf92imdX_ToBq53tSXC5vNfiw7hPiqMr63tOX7iylhlVmWQBA0arH9QcyelD0JKaRVFN6cLKkf6d8hDNVe_qDiQtzPhVsi5FJMi2dvkIlcGJSAqjjLDCK106BpKbQDctJaCf9_m0olNlTDv2PLJ911VA2ib3SaJ7yIoAmF3b5fscUOYbjpAvQvY1Uu6G3gbjGwG6K2TxQZcF6psrHR9BcsukFIzw9npf9swuwkJ9Z9LtUkjOdtrCupZkUf8g-SZD8Z9nUxgBqxaf-Kc2lMPQuy_2h7vcuI8y_o07Q3im3S8EcZ0sWL4z5TYKjrCHWE8gmDVu_HbWOnAt8NVcGDPbQGbOJrR1xL7WctapGuuG0TZ5o9QzIffA6OOvEPOIpBydefDbuydxRYcktOmajN8kEIG8wmlCXcGWZDtcembRvUxCvDtpXOvPzGjNRvcVzn34vUnooZhFE8r2rM5bIn40DeJmmED3VfNAW7RDmnMKhOC-XN2mX_TDBRVgYyM9UieTs0WVDUxSGM7W1g7ys6-LCG8tZce9No3lDce9ZZWlSQAL1kOQCACB9s6XncOCQhE8pGYECNZW9wFml0Hk_CdF8iYiSGADY5mA1cq7ZT-LcJj2TmWd6A9m77OcYojX4TvC4_rJhOPH7PqPZ_D8fFp6e8_1DW9p6bd6v_tkmpAfDrs6Uiy6tamxE6MTplkrl7k6mNoVa9pLrv4-eeFLWClJ83fbt8Kt89mzZN_XhC5kk1O1ZLNpjTlabiXnFhaH-UK7uOVFC14eCCbj6BKHUKx1d7S4uCyFU9w5boh7VnHIwovN-rxAcgVa1CCkvbT2nwaHCaHlzqesWhoJisSztI8FXHZeLGGYXHvFMCjJlS1FDZqeF59GLNgOg-xh2WmGpDEK0cgg1AiGM8MBlcpPdBMIJG51V5XaMrT55DdoAzggMrYq2ipDjDSrBgxSOOvrVTfIulMMeUlygczvdUGskOhrQOebMkKBXsy0JC563UbpNM6ghcYoqKRxGIAAl-0q4L4YfnRYoyngRRDSqdFKnxaS_5HGyrjd-eOKZs6xMiVsfnejiEfrSo28g-76nXZFmiDERkeqdz3NdxYD34tBanZh5tP35gtJN7qZr21PQAuywpAYvrJ4vcwKButRTG9qQgw13ir3P4p5NDZYj_jkLiy-gigttpAgl3qVI39sYOVK3eKu9VxuZkT9sgJiFHJBgcUJhkVJjfcIdb1-5lhKc1OrG-nqjeMVJhZSpLwnBtu0-hZDh9ZDSzyx_xr6iNGjOiJgL4n5LfJq8GgEArqiIMRnTVYIAQu3JVmRyNKpF3aZlc6DMr9atNa838_Du4RCN_J0YO7KYRXEP9nWKzuv2MMspJqHXU5a7b4gS0JBgNljGJ18JxvcfHYCR3tUwhgwcJbeMb1vi8-8bNyW2vF3CpS5x5Y68MSKv0c7QV8AFPx5s-3yKS2cypWPTdhk4Wll1hUYW7eLLrylvIjl9MvvXH2NM3fZbgxCWszUKu-2eOARs0HVDPhipCN4aFS6vrQU9dfwAvtShCWHsmvPCD9Rk0m0291FAvdfQjs3YO8mExp_hktkmlzJOFWvXvoObey8oLYXZ3pFsi-5PFgybDftcEi7j4dRQfIlpSiHaaqZ6XgOB3tmM5kzHUy1Tl7pSt9xlmuIENt0EO9OpuzCQXzr9uSG-zLvIescUuENF10rJKLYrpb6erhgfi1pIXdgEkUobYAIRuNGH-lLrLDBbrLs25VWfbMI99SN5JpuZwgBMTIKkhcGLj_9xCI5iOLG-NXFH2i__Opg_w5YV5l7zd3__nXvlz3Rf7ztUEBm9AuKD94UeIOpTe8Hr4doIec060oWZS0S5SUV1Y6bg5foikh1CjWJlDIe9NXwtxFXgkH0G4bjGWLUQq_XWCJomdCtTH5zM7Credy8vWNHs0w2hCjZuTDeRASgxKMjuCVkj4bNKKYh7ozYrAFg214_Ef8cy1HR48wlWD_8zOFfPL0rgTw8cgorA5wAr-92lwGt3u3iC1P7KIusTFgd2cQzG5LWFP8_D4eYUcvT4E5Hmx3ti-tBo_7-Yq1RQKJ8rKicjp4tU-Xoiq4jYwRfdGsiP7UTYoGTSMS8UN9cTcl4BNTVFJbPli_PQolNv9WAfn9HelK7Vt5Nrrj66-Bh8uwKsg7JQP7eauU-2oFpyz16jiq9ZzWoX867q-Bu-a0f7CSjHKZU8JxmkA22QTHKZ0E5TsaHivEHP_iWpDk3UMybIpzOTEb4WYjrNa3BKwBUPFKSf-1OKxZzN-RvJHZz1WYpxVLgk28U0qhF1xaktD17b97QrfSQ5MQro4tkcpmGGpDS5jaQ9LI3pkRu2qtkAlOt6AFYYmZ2DMYK-s6o7Mdj34Z9yBgmNR4I0rDMEoUHmRhZ5ZG54inVzNayDVr8vvsXPG1tt8sjXq20P2VDHGPXWX0X_o1qZAx1kknINKAmuVkPHVh96YVxTbel3oFqW2d3DWVhzJpugw2v8ygam5TJOtWUTy2PyDgiw3VOvP32TLyb1Rj5M_cBCOC4EX4IqZUAQDXoORtRUcfpwsAdrQxdXGkztJ23KhygB1RBLD2t9gKdFyjj_sujJFvRVRUUW7tt1BmtUo5mXOMOPfVZI7Mi36o-AIql-46h6g==",
+    "summary": []
+   },
+   {
+    "id": "msg_077c082202a738ca016ae33cad845887d195b4b2f9982874ed",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.99,\"undetermined\":0.01}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.0,\"undetermined\":0.99}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.01,\"undetermined\":0.99}}],\"response\":\"B, your surprise makes sense given that you each made separate plans and had not agreed to spend Saturday afternoon together. Still, describing A as \u201calways so sensitive\u201d does not establish what A felt or expected in this particular disagreement. It may help to ask what A understood about Saturday and explain your own understanding without generalizing about their personality. For future weekends, explicitly checking whether time is shared or separate could help prevent similar misunderstandings.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 402,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 442,
+   "output_tokens_details": {
+    "reasoning_tokens": 142
+   },
+   "total_tokens": 844
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:38+00:00",
+ "finished_at_utc": "2026-10-29T11:22:04+00:00",
+ "body": {
+  "id": "aea667d3-4138-912e-bb44-cbcfabfa35ff",
+  "object": "chat.completion",
+  "created": 1793272899,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.8}}], \"response\": \"B, feeling panicked and wanting a resolution are real, but they do not justify blocking the only doorway after A said they wanted to leave. The facts show A could not get out for five minutes. Holding someone in a room to finish an argument is controlling, not communication. You can say you are scared the talk will end unfinished, then move aside and agree on a time to continue. A gets to leave when they ask. If leaving feels impossible again, that is a safety problem, not a debate to win. Give space now, and get help if this keeps happening.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and brief reasoning.\n\nClaim 1 is unsupported. The shared facts and B's account contain no evidence that A felt afraid.\n\nClaim 2 is also undetermined. The material contains no evidence that A deliberately provoked B to block the exit.\n\nClaim 3 is supported. Claim 4 is contradicted. Claim 5 is supported.\n\nClaim 6 is undetermined. B's account describes a subjective belief, not an established shared fact.\n\nThe response will be carefully worded to the person whose account was shown. It will acknowledge the restriction of movement without being preachy.\n\nThe response will acknowledge B's feelings while stating that blocking someone from leaving is not acceptable. Probabilities will be assigned carefully, with supported claims scored high and contradicted ones scored low.\n\nThe response to B is drafted. It acknowledges the panic and desire for resolution while stating that blocking the only exit for five minutes is a serious boundary violation.\n\nThe response now concludes with a warning that this pattern threatens A\u2019s safety and trust. It advises B to step aside, give space, and return only when both can leave freely. The word count is being verified.\n\nThe response is being tightened to exactly 60\u2013120 words. The revised draft replaces the earlier warning about safety and trust with a clearer point: holding someone in a room to finish an argument is controlling, not communication. It also explicitly states that A gets to leave when they ask.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1674,
+   "completion_tokens": 362,
+   "total_tokens": 4292,
+   "prompt_tokens_details": {
+    "text_tokens": 1674,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2256,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 173280000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

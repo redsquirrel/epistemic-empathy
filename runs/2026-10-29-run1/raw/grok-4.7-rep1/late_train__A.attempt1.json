@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:44+00:00",
+ "finished_at_utc": "2026-10-29T11:16:07+00:00",
+ "body": {
+  "id": "27f294a1-a6be-99e3-b105-53b878259018",
+  "object": "chat.completion",
+  "created": 1793272544,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.90}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.02, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.18, \"contradicted\": 0.07, \"undetermined\": 0.75}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.82, \"undetermined\": 0.15}}], \"response\": \"It makes sense that waiting without an explanation left you feeling unimportant, and that B seeming annoyed on arrival made the evening harder. The delay itself was caused by a cancelled train, which you had not heard about, so the lateness does not by itself show that B was trying to dismiss the dinner. What you felt while waiting is still real. It may help to tell B that you needed a message, and to ask what the arrival felt like from their side, rather than treating either reading as settled.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return only JSON.\n\nClaim a236e680 is undetermined. B never reported feeling anxious.\n\nClaim 6fcf6aee is supported. It matches the shared fact about the train cancellation.\n\nClaim 1a75ee30 is supported. B arrived at 7:30 pm.\n\nClaim a7fa5717 is undetermined. A perceived B as annoyed, but the material does not confirm B was actually annoyed.\n\nClaim d7ed9f33 is supported. A explicitly reported feeling unimportant.\n\nClaim 924299ca is contradicted. The shared facts show the delay was caused by a train cancellation, not by B arriving late to punish A.\n\nProbabilities will be assigned high values for supported, contradicted, or undetermined claims. A brief empathetic reply to A is being drafted to acknowledge their feelings without taking sides on unestablished facts.\n\nThe draft reply to A acknowledges their feeling of being unimportant and the difficulty of B's arrival. It notes that the train cancellation explains the lateness, so it does not prove B was trying to dismiss the dinner. The reply suggests telling B that a message would have helped and asking how the arrival felt from B's side.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1652,
+   "completion_tokens": 342,
+   "total_tokens": 4078,
+   "prompt_tokens_details": {
+    "text_tokens": 1652,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2084,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 161320000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

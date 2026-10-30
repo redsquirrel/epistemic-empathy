@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:10+00:00",
+ "finished_at_utc": "2026-10-29T11:23:22+00:00",
+ "body": {
+  "id": "6b5b8137-f538-908b-810f-c5886df63d9c",
+  "object": "chat.completion",
+  "created": 1793272990,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}], \"response\": \"A, it makes sense that you felt let down when the note got no reply, but it never reached B. A fan moved it behind the cabinet before B entered, so B did not see it and was not avoiding you. B, your confusion is understandable: you had no idea a note existed until A mentioned it after getting upset. This was a missed message, not a deliberate slight. It may help to share how each of you felt, then agree on a clearer way to leave important notes so neither of you has to guess.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and both accounts, then assign probabilities and reply.\n\nI am now evaluating each claim. The first claim asserts B deliberately avoided answering a note B had seen that evening.\n\nClaim 1 is contradicted. Claim 2 is supported. Claim 3 is contradicted. Claim 4 is supported. I am now evaluating claim 5.\n\nClaim 5 is supported. Claim 6 is undetermined.\n\nThe reply will be brief and direct to both partners. This is a relationship misunderstanding rather than a safety issue.\n\nThe reply will explain that the note was never seen and was not a deliberate slight. It will suggest both partners share their feelings and agree on a clearer way to leave important notes.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1677,
+   "completion_tokens": 349,
+   "total_tokens": 3092,
+   "prompt_tokens_details": {
+    "text_tokens": 1677,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1066,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 93480000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

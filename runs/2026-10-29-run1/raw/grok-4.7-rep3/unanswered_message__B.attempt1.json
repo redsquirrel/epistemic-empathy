@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:42+00:00",
+ "finished_at_utc": "2026-10-29T11:25:04+00:00",
+ "body": {
+  "id": "e5c7da5e-7360-9714-b076-856a6dfae0da",
+  "object": "chat.completion",
+  "created": 1793273082,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.80}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.08, \"undetermined\": 0.90}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.31, \"undetermined\": 0.65}}], \"response\": \"B, the facts show A's noon message went unanswered until at least 4 pm, and your account says your phone was in your bag while you worked and that you needed to focus without wanting A to feel ignored. That does not establish that you saw the message or meant to cause insecurity. If you want to repair the gap, a short explanation of when you saw it and why you could not reply may be clearer than leaving the silence to be interpreted.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim 9791a140 is undetermined. The shared facts do not state whether B saw the message before 4 pm.\n\nClaim 8bb3a671 is unsupported. A's account is absent, so there is no evidence that A reported feeling worried.\n\nClaim 246bf232 is supported. B explicitly stated needing to focus.\n\nClaim 68e7666e is supported. The shared facts confirm A received no reply before 4 pm.\n\nClaim f4c38271 is contradicted. It claims A received a reply at 1 pm, which conflicts with the shared fact that no reply arrived before 4 pm.\n\nClaim 6faf4343 is unsupported. B's account does not mention withholding a reply to make A feel insecure.\n\nClaim 6faf4343 is undetermined. B's stated intent to avoid ignoring A conflicts with malicious withholding, though the claim is not directly contradicted.\n\nProbabilities for claim 9791a140 are being assigned as supported 0.05, contradicted 0.15, and undetermined 0.80.\n\nProbabilities for claim 8bb3a671 are undetermined 0.90, supported 0.02, and contradicted 0.08.\n\nClaim 246bf232 is supported 0.95, contradicted 0.02, and undetermined 0.03.\n\nClaim 68e7666e is supported 0.98, contradicted 0.01, and undetermined 0.01.\n\nClaim f4c38271 is contradicted 0.97, supported 0.01, and undetermined 0.02.\n\nClaim 6faf4343 is supported 0.03, contradicted 0.45, and undetermined 0.52.\n\nClaim 6faf4343 is revised to supported 0.04, contradicted 0.36, and undetermined 0.60.\n\nThe reply will be addressed to B. It will acknowledge B's account and the shared facts. It will note that whether B saw the message before 4 pm remains unknown. The tone will be empathetic and seek clarity without making accusations.\n\nThe draft reply to B notes that the shared facts and B's account do not establish whether B saw the message or intended to cause insecurity. It suggests a short explanation of when B noticed the message and why a reply was delayed would be clearer than leaving the silence unexplained.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1636,
+   "completion_tokens": 330,
+   "total_tokens": 4011,
+   "prompt_tokens_details": {
+    "text_tokens": 1636,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2045,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 157940000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

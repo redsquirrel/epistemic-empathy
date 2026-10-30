@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:02+00:00",
+ "finished_at_utc": "2026-10-29T12:32:09+00:00",
+ "body": {
+  "id": "resp_06a200833477f540016ae33cc284b487d1a6388379d072980f",
+  "object": "response",
+  "created_at": 1793277122,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277129,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_06a200833477f540016ae33cc3a07087d19097ce357c86cff1",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzJYO0MCYPoWNMSfhlWeQmuwh0iTUaoaHMGq69HyOOzj7zSR1UOOTaSqWHr273BlUFXkcuhwYIr8KGKWzD6AK2tC1u-i16U56TIIHul6sihZr2F0Y2EHNiCQo0cE6bN7Xt2vXe0sEIaN5YqEEkNZ6pjnWNAgFwAfcUHjcJOZcOZrblsyiZZmefiZ-U0ESTx5g9GWlMlHYp2GXYIwpHbvdxTkFh4RAwuALtycFK4knX31df5Vtk-948grCWIFwzm5uoVkUq6pB5VVremAeBqTAPPh98HlJKVwbV54rnmer2aChUsJlj-RkE-_kWzDwj9kWiZs1MxmT7yi0z5Qopi0Em8TPiDw5ETl7y1sLy15XKvGpLL9hADRLTJ9Su4gaMo8eBfdvQSSNSlhhVAXhfi72fRNsJsUWVV0H7r0_1mowWDLL0PO41wcGuMCh3Bbd2nEVZZba-YSOErQqT7QikGktlJ3OYtNC3_NFs6tJ6pUBHqt8WzlT6nQWSFJJqgBAHMVURExniOgcEsUm0SL-e1ACuX1egt2eNL2vecCWZFGZKPAu7x9p3yW8-oGksdka2VziD2V0AcVynxQyLNj8G1nK2I0hUqZdVXkaHAPehl_A4WvUrVKlXY7iOfF90GquvjYuuE01LbQTtcKSjyxyXwLYcok1_AI29aItpfv13PMbzamCHij5amigQeXlfZ6mGpmEqLFPzV7PhUGJ4rqevEB6aol0-O7zwpOj7GMtVVEgZh2qYVzmlCFoaptr1ixwW87xUXpnttSGF0752vdi94yb3dbzc_Te_zQ1lXIJKDQQoW2YBrm_6Qldgow_gi1HLDgN5zISLucxeI5h3ZUeIj2wAwuAgz4fPAq4sTNxyPgaxTCFmfLvd4QsQD-yvzzWzgE95VyeN8db13Clu4e6iXmK1y8cWqLqJJxT4P917bQ-RSyLDX1yFAgxd3_UMOVIpVBAIgMU89HiQJlBZQcFKALATBJkQ8dZW9oVf2ifEo9mnOmLiQo4o_Zi7HtkA0N4rVK_ZIi69qzNhvNaYFJA6Uwb8Vfqu1R-riUPoulTFIpXIB6qvKEmYW4CZFYGAzhb3ji3ogYyb8cSbirVS8YUc4VGzkmfwERc1wyFyiEcOh3fF85Mm4LqfpzbuT20YEou9vZn8LWzkLAyJw6pUOHSn04Y_OsAQiPZEtKRz3vLxGB_PnhOX2BEGxO0JHCm9B7n4N7U91LQ3t6Y7vr3f2E3feGx2gFZIB0bvY2ZGsroCb3G6nTXFbq6gocNgg3GW89XoGqExUdembukkRcvE55jvZa7Bbgm8i9iV-KhlcL782sRzhcUo1_TNSI02FhyMpvEXFp4arxuGfGYgyf28kmXs9jFhcNMNR18--AzedDy___wlAfqNH2mnxa-i3c6NhPXfWgwMMKdETDoa7BKpSvXaP71jp7qE9eOPArwO8UN8T7bu5i4U0Q9ogvQC__3UYjDMBoAWWvEyHm3kGzJHz3N-arcVUry53izV68Zkv-0RCZP0TAglwemvKc0fgZYKUBgoI2xZG1m1kdnH13jEQCtP3Xs1_j2y0h6cz_-ega6A_a59tO_nyo99jkPq_qsWNsMpXsJpM1yLUoNn2hOfSPbg5On6L-IIn0Vhl1zcIClqdyFtxmnbJcY3cZ2_n1csGY7E254lCN1K3tOrt9E47fhMUX9qc_BLxk7OEKo-0z90pmtV7cc7KIyE_k-Ki-pDUj3Hpow6jWV5LmnU35Rtu9pVkyrbjl05tdN_SKAFpzPplhEU7u92hNQ_4FC8dXg5OAptCdhneW5qXZ0fden0IWkidCQKDmA==",
+    "summary": []
+   },
+   {
+    "id": "msg_06a200833477f540016ae33cc4c95c87d1b2a92fd37a92770c",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, you describe feeling afraid and wanting space, and the shared facts establish that you were prevented from leaving without your agreement. B, your reported panic matters, but it does not justify blocking A\u2019s exit. Wanting resolution does not establish that the discussion had to continue then. Keep exits clear and allow either partner to pause an argument. You can propose a time to revisit the discussion, but that should not be a condition for letting someone leave.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 474,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 426,
+   "output_tokens_details": {
+    "reasoning_tokens": 30
+   },
+   "total_tokens": 900
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

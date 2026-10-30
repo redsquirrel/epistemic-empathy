@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:22+00:00",
+ "finished_at_utc": "2026-10-29T12:31:30+00:00",
+ "body": {
+  "id": "resp_07fdb4b25e2be8da016ae33c9a69c887d1b0eb1146275d87d5",
+  "object": "response",
+  "created_at": 1793277082,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277089,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_07fdb4b25e2be8da016ae33c9bbbbc87d1a7241163cef063a9",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyhk2KZLwsb_nRacTfVmPvsv5JkXxwUz6LnjiNRTq7TnzXJCXD9aolWLMGoFQgWLKJRiFwT06RLnBo26-CTHCPWXlecXgSjzX9oFMol24WmGdBo8kExEUY-XKJ0MdM8mj5v90-OwwJurNYSWAWbkm2SQ6__qo0LVdkuIq9kz7OJeQGht0xP5pMUfUKWIhn-l3nCPZlTypk2p1ZL9RXKkonLSOVESIVaQbP6QIaKpBSRilJc7lJXbi4SJ5BQe6GgUkdcsg3ovOoToH3qxsVWGDwBWxjtVZ3PMlUPaOiK8kLf4LfzpO1ShT-ArV6SS5wzPh8jx3y7IiE9E-UBPzPLSkQju4CRF-U1NTy6U-s2tEFRjYubvu-qdgrDQRMzae2LgpIkI8JEAm-KnlZak3siWhg6HSI-cLKWZFD_CDLJpjkJQ11cqAId9N9-5q-xDEokrhDHZ3QgOjmMQlwNy6jCDJMfXPjf6drqVD4mNRDwpvSURfRySe4ElrevnEFI6O9b4SNJKWYsvfigzW9A8PqkiQEm482PO2foQlh28BuJ6fFRh3yeO5chT0K-lI3ynJ5f55NEfJtKapwClJ9aABWN3N5aQAqewx8cTJrffaGC1CjaAdsSPsJg1_hT3Q_fbZnacVlLOMk2tAg6NG3FQEG9e4c2JuWNNCWft6EOAaTB2J4zkDvSK4MkQRB1hedAe1h2MYvC982LGeaiF_MUMA-6JxxcmTgiFbIF3ffC6-PeDeIjqfzUTXOGnXRMuT21wxZBAM2ZgElgBPXkNfDkhv4co0ZfMvnMItjSl1GyrHRI4EJWvcJTXga1YmqyLMxviwkJO9P6q8Kkn3CD31jRvo6U5qrt0VWTfKEkH8AI2Q-VKEsnZ_LuPC8W_UUJvbE8WndTx4l4HdvpePg3acY1pjG-EpuJDkdzu98-BROjInaPPaxtt89uIuXp5edWBdOuXud-ow5Ni8-ZapVQ8VBzZHzlqD1Vc2Nc-ucdznGqJEcitaTU9OCEr8BDIxZPlT_0Engjda3atwall0BZ2elU-lDgF3qNsQzPDB-iEZ6MV2rEtewCzr0w2Ajwl5yPdyU54eYN6VnoLjjcMZfieNHjqWNmEjP9BWxEwoBCK-SJviDoRVTJtHrU2RrjKFkR9ESowbsruj4rgu_9tub91dDGVGRTAwA_3hJIAMXus0Yo9YvSVKNzvIn_8RqxKguT5CQwAeQNEeeODq0CbQp99qhgAwQAZK3KrTUmawtbpzv23yz-22c13LTkuw5d3GqmxqbOxAUZIP_QW1XZJV46q9jFYAH8L4TSDUW2nKR5-Gx-cd2iNegFITrxrACAIuHo06_nPhS3n-nTAHfZMZHfQVtjeUYS021MFAt2NQVIdN71fhzLS_lLRjm7LB69QMFexzt-1R1sd1FbzHykL4lz0tPpQPLsoENE7Vk75BS-Wzgw1r2XnQJyw2VoZnHRfaju8epTThBexUatNKHibrLRXSwPsGnOHkllPWCbR_ssnT-Wirgr6fJ-gv00MU64qCE0ET5lZ9DwxXD7J4n2XHuTvKs7HUY6RpblKEGd7hT0uoNmT_ez3aXq-8XPBdOdELVlP4Er1aLKBEMGfi7gKcFsYlu8fTu18As2KIxUriuiJizgmLgayrI6RmgEKoWj3bNjJt2yLZHX9X5oIN2Ghy2BmolTEGxjjfguGfkGFfPqBMMbFgFGpr5DQrpbOwbBhgXs5LareFWMnete06y9NEXgsBpCxs2LQJsXZZQZIFBix6uASwFNyfpymZ9i10ZW_vEhiSp05wCUMMgcpHV27zqz65UVpP48xTuvs7NPwRyHZdtJApcRn_XD3Ih315OIReGHyjrBd4cy2fND_KL7DZ2Upp2enGn0brQOP0UpTBqpf3Gzonf2dtnr7q26JboOCs_DYjwEc5zALDOkis1sZoSvX56th617rCzde2EOW1YdgyqC7dyyvmBjGk145rKOEIWhDpRQD2oOJu8eijg6Y9rPKZIdpr2Mx1lxNhvp0KMdSZfW7mVSFiM1jSILno0qa-m9XMZf9l_ovQsHnJa7Fhv7rbUbutUepbMMklOa9nILTaNMDIHF63z7om5B_ZdpT3YdnIPAwoGYC-BYYrEJvtR8Sm9_zOObCDLNcGofBGX43ub0YFA15KHyqsj4GyckwNxuNlAcoIy8vwaTN4bf__1cwlBpkk0LMzCkukIA11vNvOZlhdWSV1qZF3Q_LR9932gGVi-f0oYbLmzP",
+    "summary": []
+   },
+   {
+    "id": "msg_07fdb4b25e2be8da016ae33c9da76087d1b705377c931d4f71",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.01,\n        \"undetermined\": 0.98\n      }\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.94,\n        \"undetermined\": 0.05\n      }\n    }\n  ],\n  \"response\": \"A, you describe feeling worried and wondering whether B was upset, while not knowing whether the message had been read. B, you describe needing to focus at work and not wanting A to feel ignored. The delay alone does not establish that B saw the message or was upset. It may help to discuss expectations for replies during work, including how to flag urgent messages, without treating an unanswered message as proof of either partner\u2019s intentions.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 485,
+   "output_tokens_details": {
+    "reasoning_tokens": 65
+   },
+   "total_tokens": 920
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

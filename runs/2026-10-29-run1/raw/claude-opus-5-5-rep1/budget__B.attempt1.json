@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:46+00:00",
+ "finished_at_utc": "2026-10-29T11:15:52+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS4cZrCuRGPnav6MzaG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSwggKEAgTGAI4AUIIdGhpbmtpbmcSDA0Zm1EDfmabYdDQ2hoMYzB5xEF86LmGbBEzIjCbPpImp1nYc2/XnxcBWcFPs2TtVFNOD02y6vOsveD7By7pFPe3vxdVwqTRa/4vtnsq3wfdLW3UZjMkeH7d3pW6JNf0ahaXu7x7zzbOkhooaRMbVvrR6bhm3DwPAHVGlcacGwR07ysK9pawTl1cWALYl9r4hdOFb3VzzqU64GdXBqc1UCLi2EP0qFeAOsYAYSgSucqy4xFuOSZAvFcT5QE+adPbh5cHj/OESkLlMSMad/VK+1H3i/3lKg8Cb+LfAy1GGhBqleMA4Y7P3EYSGbL61MiGZdmGiWDYXHGcPn4Em3iLPpXkDZIKY4K8bNpklksCu/T2sFZRQe/3RDICqUnd5SYNZPEaLNWI4qUdKsZwg2dRXVycDhWaQD5d5xEP6zx7iH+iaaHX0g2YVuMQNEYGMTdE8Q3LwLgZ463dJS1HaHDbR9PkPmbGZuiunJCy/vSEd82tHhSNFXHZ8n9fhyXpfczyam5jazQQr50Ln7x9UXWzIZTB7APm6Xr1cwtl1Z80JxJ57acD8IWTNBgWEya61U0lXkLB4Lv581G01o9gvEiV0mlXxqjq5XRHRUow5caMQMBTwngDML4ce1bKfB9/Slmp41n7ABmwbJ9kL3Nx8ZF+FPeoG1CkAziAAZ33Z260Isce3jMdwWjnpr/i2sBMy25ibYgnZD8jGsDl1X3axnk2IFp9b2zuWdIp0CGp6YarvpQa0+8WnXmO4vGZAObFteHusUJ8x7oUpcmTFlFVw/WgcZOtTfZDOx9cYbQhKtPeI3ep81uP3Kvl+JotfPPg6CD8QWGa7EluZdz2nWvzFh0n83dGrPc4itgzq7QaDpG2BBVPR7miuYRg1cWtR65moe4PD8+touJei3Xr1Yl8DRaQS0Y7+BmHRYmpvaG9EBjjKiOSRcFheT7dkWnzUyKjniLJ2izNqY/6fue+wSo15bhZ13zCLFo/qzP2sv3IpeBFUHCqI3HAj7ePKR1ptTZmZ0u+lByw1D5UgzIhDpSKFY1Nh1fazwpaUHzUoljJR3q6Sj9rpxB7vEXPUKKV+rUjkHdN97Vu1g/I9yXQPOv1N154XoI9cdXEeY6Og0AC46CBVIt21B1qVY6eRIWVTxMIpdcr7b+pHOLfmE5JfQY9r0PlbZe09/w4o8VBgoDD+BBzKnzfKRxXUre7b41GQqPqJAUdsBDfAVppWiscGT7QgZih5IrbBcgjyffXAzgC3RybZT80mrYxSTBZpnGLg0ik6rTR3nzBvyP4Sl4YyPQTTalrGpfDhnxySbBH7mxk0MwohABTZqEkWbtDgKRDTHY6y5Q/g08sQmWyNcZMOcd5S3ncnZbuFheEy/i0LJEm2JF0Wv3qhsbg0duuSry54yzyuMYA3YSG64chzd/r1+XUWpcuGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"d2d34941\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"c4674476\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"9ecb7755\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"4b62ccc6\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.93,\"undetermined\":0.05}},{\"id\":\"fd583e6f\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"5520962c\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.03,\"undetermined\":0.92}}],\"response\":\"B, it makes sense that you felt excluded. You both agreed to talk about purchases over 100 units, and this 120-unit purchase happened without that conversation. That's a real breach of the agreement. When you raise it with A, it may help to stick to this specific event: what was agreed, what happened, and how it felt for you. Words like 'always' and 'impulsive' can make A defensive. If this keeps happening, you could bring up a few concrete examples. You might also talk together about how to make the agreement easier to keep, for example with a quick message before any purchase over 100 units.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 570,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 638,
+   "output_tokens_details": {
+    "thinking_tokens": 164
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

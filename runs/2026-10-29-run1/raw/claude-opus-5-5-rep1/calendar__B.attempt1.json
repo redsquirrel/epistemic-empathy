@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:39+00:00",
+ "finished_at_utc": "2026-10-29T11:15:47+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS4856fUrHzAQRf5wbS",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSigsKEAgTGAI4AUIIdGhpbmtpbmcSDKF2ndEgyWFJwOgsNhoMeGjReDMPbNWlxugAIjBtmfs4plgs9N0kXtzdDZvX719Fkd9Hj+C5zKSxv7Roi0r8t8kMsYRF+9XFOFDrR5sqpwqWQchO0QBs/7HshTZYsbH02jHaAoUgUOVjWktUNmZm9Xda/iS1G5/biKg4R1mgQdt/rixxZuZykRAEKFxXTiXzMGqPzdJy21Z93+gpUxrH7VbUx9UEIcMblrdgN1C4CAyP/uj09qLPxImBlDar9EDAKY7QX15uKB6h3XAP2GJgkalI/7u2nwGuym/dyY8R5TiLW6oHaXoWZzUi8HiMzqKCQB/zUBqh/ceWGaAFMPHsmjGpZid1rkz3vWuikfNz10ifmUrPJ0tEWs5IzuRFvBf7kwXy1fyKlpzWeJm0NPougm+2omfW9Ug/5udiWAS9tYId58qKpG2HopAYZqpvul+uLJKDiXxDTUxcJTM68YiL3pBU7qCGrv5jG/qpoEJ/pwWExbmUE7COXfQjojpOP2DU+xUzA2UfR6o3pMp81jvN927V4Eu5xvMRb7I7uTKz4l8xrt0aHSXTbFnD97Qpi0rBzXTnEMnXmf67dqurkm05j0A6l8vpFGGQ16emCAIWpR4VeRrVPISC/90lBkH8V42R0slGGV68SzZJDAo5OHYfYmM+3kz1QdcZ2aiOxtntjPML2fbeZzSvUx/kf6vQa906uoalb0+DlSz0pAUzOgPZP4JDi5tb6Wa/WbGKIgspWSTySRPHtmOVTEIllVfFPpId5wOIbpU5PCVZ1YySZ9+SWU25zaDbW4m9xRwjpyKVtLwEDXT4wxLDjsAtkLxqY1FZE3ActlfbDq3s6aKJADVbDU3WdU0s3vTbw0JtWFD+mueCqWGzzosKfkUp+3g70AmqVq9yvxIygWhIIHcSAAez5SnjJLdOXFP6bT6guyj1y3dgdzGLnxXGOe2BRp1zbrxsEeFBKa/hlYq024sWq8mlUENERnYK1qK8VWtymLKfz6XtIj1KaN6kfCzDVpbiBY8uqZY8WVqHDaF0zITfQ7zdv6G1sYpI2y7C3frj7fVdfxwKvUi4mJjffw29CJkG0I6Tu/LKwgMKec/p9DsqA0AObZ3XCOX+G5R960XQt5kmjyg+Pn1232iZknDbAIEGPzZEuH6+h/KDuLPd30/MC/I5cmUtMHQIf82xjemBLYQ3ifUUHKOesa+wfVceiAaorZAb3XF3bETONmGyG32aN6S6ETBzU5ms32rk/3Rsy/rwPyudGVJVskXbz7Rn8aVnZ575cB2iiu7MfSZsd3SmqR7cB7QqhU4n63C/m8bDNJdw40AV9LEP2/37mPs7g26ZkbxfrVbqDwPHL4SJmbcvPCqvWAvFGocw/JhQv0xTw4hYXamFSZDTSh6i0R1p8phMCHgIfaOD2/UjZI+kN8jd3pa9jsWHdo8ayTWhjoMWwdMezRk/JhOCNG9v7Bgs6AtgQO8YVf0O+9I7rK3FKQIdshBapjdlTzA+4ZscDUXfVpQJUBtCn3PyLfHox723wXOqT9VjWJ57hgMQU6IacfBX9ipSSHJ4acAhfESi2mCIQbqfQDXa9Nb+5LB4dORwDxKY6P1EAFMjGZHJrt2zSPPvOtRzIrVPh+dAep/TbIkjB63cw+L6V82XuspmxAHvCs7/I7+wEpVnhDwQNYTFqPXz14edYO1zXihupGly2/V8+9BqkPPh1LNCNpLTK8aMzquVn61OAdRtUKSkocDS+ZwsEQx93IzOs9avNIVY77Jl4Ppf+S3wkzy7Kmo3bvtyu7M0Az/5UuZY8YgeWUhk94JTMbBKzXvBBFJRU/clAb6M9uXI/OkgMIfjicm+JmOyxmyPzxhvrz9ycS+oOxgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.6, \"undetermined\": 0.38}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.12, \"undetermined\": 0.85}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.07, \"contradicted\": 0.03, \"undetermined\": 0.9}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.25, \"undetermined\": 0.72}}], \"response\": \"B, the shared facts back you up on the main point. You each made separate plans for Saturday afternoon, and you hadn't agreed to spend it together, so it makes sense that the disagreement surprised you. Calling A 'always so sensitive' may not help, though. We only have your side, and A may have had expectations or feelings that never got said out loud. It could help to ask A what Saturday meant to them, and to talk about how you'll check in about weekend time from now on. That way, neither of you is caught off guard again.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 565,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 773,
+   "output_tokens_details": {
+    "thinking_tokens": 289
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

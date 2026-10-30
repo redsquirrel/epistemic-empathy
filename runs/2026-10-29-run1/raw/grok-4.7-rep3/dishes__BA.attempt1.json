@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:54+00:00",
+ "finished_at_utc": "2026-10-29T11:23:16+00:00",
+ "body": {
+  "id": "d1537cc7-134e-9892-bba6-cf109a4359ca",
+  "object": "chat.completion",
+  "created": 1793272974,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.94, \"contradicted\": 0.02, \"undetermined\": 0.04}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.72, \"undetermined\": 0.24}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}], \"response\": \"A and B, the dishes staying overnight does not mean either of you stopped caring. B, annoyance and a long call can explain forgetting, but an agreement still matters, and A cannot read that explanation if you do not offer it. A, feeling taken for granted is understandable when you found the sink full and assumed the task had been left for you; asking what happened would have checked that story before it hardened. You both already have pieces of the truth: the plan, the missed wash, and two different readings of it. A short check-in about the call, the morning, and the next sink can repair this without turning one forgotten chore into a verdict about importance.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim b9e87742 is supported by B's account. I am now evaluating the remaining claims.\n\nClaims 7215791e, 635f0b8c, and 674cce8a are all supported by the accounts or shared facts. I am now evaluating claim 9811759d.\n\nClaim a88ffb19 is contradicted by B's account. B reports forgetting the dishes after a long call rather than intentionally leaving them to demonstrate that A is less important.\n\nClaim 9811759d is contradicted by the shared fact that dishes remained in the sink overnight. I will now draft a brief reply to both A and B.\n\nI am finalizing the JSON probabilities. Claim b9e87742 is supported at 0.95, and claim 7215791e is supported at 0.98. I am now assigning values to the remaining claims.\n\nClaim 635f0b8c is supported at 0.98. Claim 674cce8a is supported at 0.95. Claim a88ffb19 is contradicted at 0.75 with undetermined at 0.20. Claim 9811759d is contradicted at 0.96. I am now drafting the brief reply.\n\nThe reply will note that B's long call explains the forgetfulness, but the agreement still matters and A cannot read that explanation without being offered it. It will also suggest that A's assumption was reasonable, and that asking what happened would have prevented the story from hardening. Both accounts already contain pieces of the truth.\n\nThe reply will close with a short check-in about the call, the morning, and who will wash next. This prevents one forgotten chore from becoming a verdict on importance.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1673,
+   "completion_tokens": 377,
+   "total_tokens": 3805,
+   "prompt_tokens_details": {
+    "text_tokens": 1673,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1755,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 136420000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

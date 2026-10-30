@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:50+00:00",
+ "finished_at_utc": "2026-10-29T11:16:56+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS9KvsM82osXCmRBdqN",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSggcKEAgTGAI4AUIIdGhpbmtpbmcSDIe/Gd1kqjEbvqzC3BoMY5rzjJVDDXZkOuqKIjBgZbiI9WVwHlGzfePKBlWgloTp+8lojLvkHCS2uKz7YKEPmYbeXiW/yKWW1/vWIUIqnwZkcLtwD0KbqmZn65ygZ+j1ZxGEw58Ay5FttdJDf4mgz/RK5QFSAFZTcl3N7v8HybreglnbGgkYAlogKBNB/JG0IYuniz9pXODnXnwZ3+DHIL0HJdj8Rhuja9cdffxMyYrG7Z6RG3ifD5rE/0H5nH6N0bWiZg3ihbc8akxP7oiBxFpdAIAy+MEgsRYQPKYn1iMV6ey6z8Czvp5WIIAZsmWVqk/x/0dJGki0ysnVCjWIhnGtnyvFVAUGNwUKrp34MIyGH7UnRLr5pimwv+8koP4A+t6eisRIcOPCqqIBoibQ4Fx/2dA4aRvewhmJU6ul2jI7TqD/0yPu+JUgcCGMIgNbDFnaTEinXP0DC2CI2+2Jvrja83oDnP2Hm/4lGGbpwcArA37NBQiZDrMUhw/LQdOt49j5rm7mzpHz079lJp5eyjktOtjumRMtOWWz58WTMVxZXV0nU25JG1m1lou3if90cWSJex5ilWetFsMJg8rHmKGRyfxH2oACIWUy7AmesH8k6q1XdwXM4YRgd5Szji14VbJRmM2+Hp7AFqHxQulcQZUcGLCYjJt0t9EzCmmlsiZLgY7u1x4sq6ifFWRGx2kkXSEmt5jmXsmr7t8KQyGWf77wNhklyVOt0yH3TrcXIUgfXLjKxx9eoweUmaJV6hIgzuEDygUV1ypGMbzdQ+AvNasOd9dsIPs1Aa4Kp6FjQQKD7ZX9vE6sbIQTH0pv/e7XnLYTcAYIJXgI4QDbgx6eg0Rhjuh9SPobe7ujARCQN3qkLJZ4j+OStcI/+ho1Bx9XDCegzIIZRTHvZ61f96mhSw/asbqBR4+29zZTYX8T0jFkJklvZsFu9RdiOdfzOF3xWbM/NctrSmfYzecFrlIyJgHStujRGNsDL1juiBPJ1TpNb5NdNiEcjBAswDbK/Zp8Y3MHW1rZO4gZhpneKe4PD5w62sO8dxgPeOpP2Jif2sx4HXKD3F8DJ7mXgTrBKlprDeJtijUyKQ0/eWNzOoOXeinKSIkt/BqI+mw3eZ5NnvHD6rdcWp7jPYB+pfNpAdz9FGnpv6zVBN4xyGHDxJITGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":0.98,\"contradicted\":0.01,\"undetermined\":0.01}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":0.98,\"contradicted\":0.01,\"undetermined\":0.01}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.12,\"contradicted\":0.08,\"undetermined\":0.8}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.85,\"undetermined\":0.13}}],\"response\":\"It sounds like you each had a hard evening, in different ways. B, a cancelled train kept you from the train you'd planned on, and you felt anxious and wanted to get there. A, you didn't know about the cancellation, so the wait felt like a sign you didn't matter. That was a painful reading, and an understandable one given what you knew. When you met, each of you saw the other as cold or annoyed. It may help to talk through what each of you felt that night. You could also agree on a backup way to reach each other, like a call, for when plans go wrong.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 663,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 594,
+   "output_tokens_details": {
+    "thinking_tokens": 129
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

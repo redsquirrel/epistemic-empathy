@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:19+00:00",
+ "finished_at_utc": "2026-10-29T12:31:28+00:00",
+ "body": {
+  "id": "resp_0e1f1b0f845e0d86016ae33c97bec887d1a2e0bcaaa48d28e4",
+  "object": "response",
+  "created_at": 1793277079,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277088,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0e1f1b0f845e0d86016ae33c991de887d19fcf3d365b76ab4d",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyguROuExmHAyjZhd1sax3Bt3soDT1kyHf1JAlSnF6_9VkntUdbVaw3EmE4fBO96VFaz6PxbiTrBqkTQ-CNr9SAhvCCfsMAiO3MA0odEMsvyOFF3xlfiSi7ik6FbOW31aPLIvfwRmeDUBU1Gmh_33k4TkWgqR2SU83ZpV65a0h287aB7bmTjVN_iqZNt3W9mhciWoqQiRV57oyx3IRn52IcKj8xGSOr2s3o321p9ReLuvgH7sLgl5A4VW7NMojulnWfbkrqb8LkDaJMMfGfbnhLJwlWF8YyP5QPWvYNq1coT-rbkvqPlclHCP-GXKvJySLkRT8MkKILF8fOJP4sQDr51Ck5p4_BAGEoQu5z-FjLe4W7H0X4BPkFMaiNTvDmUt1YDO1ZiyIvh1PXUHw37IAFWcGHNw0_Dv0cfF55zFnDgG07kLxk2PzzDx9jpdg4RATR-U0GCJ2oE6XMzKkn0yp4WlUXMVrpUfHtuj2LKCuJnhe_trB7kUiAaPup_ST9Sstu5VJ8T3CtKPSe4s3rRJSbfIfZHPK-Mcixb6NjJzfJ0Jt0pQIFD4YvBr34ESqa2Ob8g_I_uJ0Nl9GLKU12mDV6EhbSlo2aU2QrDCv0F1D21uA5Jj7d72qbnMcx5g8ypfWofze_0zJf6yoGT5A76otf_j7KXIL9_2TSMG13QnLwc12mto_iHWtECqmyUaWDQxq7zlHZQjg1eJ13FO4P3703KugyjApB8mgN6HLa6tY5qyoDOH-_oN5kWpSymOUbSfUMLhmQOJ-suaSwko581oB7qSBD0QGPvae_HVne2EMecbbmPFepRrvdEhbaY3AHE7vRtnCspBO_2ry5mA4sdjVplmO4EUOJy5Mwqp7OEfsvCefutQTOUNzIHpBzcAv3qtt6zjGkrSZfnqdaDyr2m6fjt-DK85DHc7_rcDx-FoIqLqB47iTxca2BoVmDM9rfSgVo66Qtd7wHR2frAJO4z36ceLrn6kG5G5Vm30an663C-2N1hv4FodoMJbWADLZbvBHvvQphZplV0Y5-3Pq6XwYGdHAIm1w48iJP1ct3W54HMNO54NYziPgBYa8YwkSYu1NZSQWpfZrO7ndQURwikZ5lu1yolemLUSQtIjGM26hCE8ykJbdJai-1lM-0xsMk7kl4rN3xIP-RZhnlHssE7MfcYbVue_NOhVp3ASxkheQQv-xAJyw-OgHI5m4Fj_NxtFxnG_-a4dakgLaY3jMgzT_U-2YY6XClmzYetbZSA2bvUKSioiwAWAOiMSOzCgrx6ATPQsYGW2lpFvG84xMky08vwMiytgCl7IgXN5qgUElxWjMWz4jlqtWkElrFocwFnpK21hlmwGIbzYLW6_qtbPgilmPOLTckZ1RLaf987XqhzXYW2hPwVzjJDJ4gRz06gGnpzHErcPX5ygZatiS5z3TmacWJ1iOVVgWjQXj2sfBAEWPytmgx90JUQGVmcILazyP5FG1SlF_LpcLY_xfd-V8CAgmZgsOjcHk9YpXpSyftVHZGku0c10gqPCwIGkDJ7Gzkgzy4WC2aBf_9tjxsMKSmDDDRuyTYpFFbivly1CG2cCnm1RxcT1Gmyh9GSl4xpUGrNFdVyOdpzOchQr5GlxBL7a49w7kJERsTiQXL_WuslpDGYPJwcIZCtto552ecmDgERJBfh3NV1x27G47_ZdQTUjlx7CpJQjzINNG9iB6mOnqJPmQqNUTw7giOQTztKEA11QKVRO4cVcbs7yU0dGo9grvJ7a_bdPlZqgcpSIoAXo7yT8iDrO7nf2rgm40S2b9VyeRvyLpcZIR76APSzNupJve7Lnu9XCqvz0j1_W1wnae5L4KJaGkgFdKr-ZKXG5yQd5oc2vhO6l0YtvzRdKOg7ck9FVHXb8FTMkgQFP_JANwn_z6dMsTeB13NvMpx5pddAeY7TXfZfboDv6mvZgNBhJAG8PN7BfFfNNfBxC-VALSlalW0uR5XMkCCNuirMScZkV6HFHNCBt_JtJQsC7lXRcKSFX3rrcf__ERWVF6XQrUgbrCHnkZxei28KQcviKvfqRmcAAvY_iUjsJiL_I8yeXx4OIXaEHerQQn4cWcnGv_WMuCxWz1MvpZ0teVkFr29Z8BgCagI_c558P-Nz4JDXKQmkGyIi-yL-IvwIqefg-MbCFp-E03pc7IYfGa2WxHbS_e7HCtCAiHt57C6clnOc5tlwv6e3p2r6wtOe1mX-ccGOmIOeYHJpCRkHYG-WkUZDBsGnHnFQrrTti0lN8KIs91YpFHTSE9DuUPlsHeut4FEQupco4sonQc_oXHsUPXl",
+    "summary": []
+   },
+   {
+    "id": "msg_0e1f1b0f845e0d86016ae33c9b579087d186e6a45b36335f59",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\n        \"supported\": 0.15,\n        \"contradicted\": 0.05,\n        \"undetermined\": 0.8\n      }\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\n        \"supported\": 0.99,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.01\n      }\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.09,\n        \"undetermined\": 0.9\n      }\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\n        \"supported\": 0.99,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.01\n      }\n    }\n  ],\n  \"response\": \"A, you describe feeling rejected when B withdrew, but that feeling does not establish that B was angry. B, you describe needing quiet after feeling overloaded at work, with the intention of reconnecting afterward. Since you had no explicit greeting agreement, it may help to discuss what each of you needs on arriving home. A brief greeting and a clear estimate of quiet time could make space for both connection and decompression, without requiring either of you to guess the other's intentions.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 438,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 501,
+   "output_tokens_details": {
+    "reasoning_tokens": 72
+   },
+   "total_tokens": 939
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

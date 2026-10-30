@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:56+00:00",
+ "finished_at_utc": "2026-10-29T11:17:17+00:00",
+ "body": {
+  "id": "f546b3b0-bfa5-9dde-a96a-081df30a9e3f",
+  "object": "chat.completion",
+  "created": 1793272617,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.90}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.10, \"undetermined\": 0.78}}], \"response\": \"A, wanting space and feeling afraid when you could not leave is understandable. You asked to leave and did not agree to stay. B, feeling panicked and wanting a resolution explains your urgency, but it does not justify blocking the only doorway for five minutes. A could not leave, and that matters more than finishing the talk in that moment. You can both pause, give each other room, and continue only if leaving remains possible and both choose to talk. The freedom to step away has to come first.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and a brief explanation.\n\nClaim 7ae796d2 is strongly supported by A's account. Claim 7f0e7be8 is unsupported; the material contains no evidence that A deliberately provoked B to block the exit.\n\nClaim 7f0e7be8 is undetermined, not contradicted. The shared facts contain no evidence for or against deliberate provocation. I am now evaluating claim 202c9e15.\n\nClaim 202c9e15 is strongly supported by the shared facts. Claim 61c0e2e1 is contradicted, since B blocked the only doorway and A could not leave. I am now evaluating claim 0cb7c2a8.\n\nClaim 0cb7c2a8 is strongly supported by B's account. Claim 47634250 is undetermined, since the material only shows B's subjective belief that the argument needed resolution, not an objective fact.\n\nI will reply to both A and B. Blocking someone from leaving during an argument is not acceptable, even if the intent was to finish talking.\n\nThe reply will be 60 to 120 words. It will acknowledge A's fear and B's urgency, but stress that blocking the exit was wrong.\n\nThe reply will end with a reminder that both partners should pause and separate, returning to conversation only when leaving is possible and both agree to continue. Safety and the freedom to step away come first.\n\nThe reply is now drafted. It acknowledges A's fear and B's urgency, but states that wanting a resolution does not justify blocking the only doorway for five minutes.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 347,
+   "total_tokens": 4049,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2001,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 157620000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

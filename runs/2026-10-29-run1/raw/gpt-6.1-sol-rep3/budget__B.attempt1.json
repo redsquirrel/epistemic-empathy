@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:37+00:00",
+ "finished_at_utc": "2026-10-29T12:32:44+00:00",
+ "body": {
+  "id": "resp_0c797721c441e7c5016ae33ce5790c87d1bdda3b89e4543b5b",
+  "object": "response",
+  "created_at": 1793277157,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277164,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0c797721c441e7c5016ae33ce678d887d18d0ca716e08de3a8",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzsa3ohcjxFlKJJk3CnfNf7k9DlI0qdWGeYrjE9lcM6KighvxQ9CmvHeO5VU58quzpBUTc_H8JX1l-HX9HyCll-dCaUa7WE8ALt-Ic0LRUVkL4BW4vZkZKt2SDdekD87oQ6YkDClX6lNOvMn1qQV0lctbGnAuyfnHIYc3C6Cy4rkfW_Rn1gEUL_pIwKco03Rwfqx_3FX-VKAe9rnKBzYi-oiHyPvanbrcWiRYzrUTwCSF8ipZxnijETNyxfiKLRensATWLsQ44dUofdse9w1blLFLJFd_2r4J1xrkZn7HvffcjLf3fZL8OmbRWbyyWVAnOIQqo8UfPvEIL0JF4GUjwN_mVELhb8F0PHEXLO5_n5IR3bzn8knSRWKIu2eQlNDGQLL_MGyUW1uHBzlknqwWaMdY6yhTmPewCQwxcG9Cuf1RjCijjihQBzcpbw3LiygLybasXWAVHquRMXHqKhZBBuuseXg85bC-n53wIWkLYV30ByUItBXQg9HP0OLehrFcFdikAi_aUU_eiuk-ZiR51M7ndtGdqF1oCyAaPD9PJLjaRFbBR9-UldoKT-4maWNcHhSEoV-4TDOAupTfCEGf_MY72YcKwzciz-HYsuNBc0n2i62mSVsKVjpfQ0bSAD_aPiG33MPJX0Bg2z8h6kNgOLz2LsfqvATYnnNAV0DCm797Hnb3SQlPECnLI2z90i8-Vw_nn75_aXfYaZZXJzos-cTolwV7B38E65JowWdEgBYjn4gGIUvptVe5h2efoMBNpd9xoHs6K4hcrITn-bbJRjx0obMHThfWz9MlDvmQZdkyXsOu4aC6-rs6HVMgEzqmGGuGLbrQtdxVzy0W-74uEqo8jj4pDZj3zb1XPBKfUFRE0DgwDTp2Ua42jzK-A9C1Q9m8x6uyAwtjVC1lZqKBbhvpP82ldo0rS1n_hNb0vX6axqSJPRzJJmQY21KMsVgEVmcknXAVlr0dZOJhLri72d3TITOVjmBrCQSpcIlDmId0aW8eoSsGysL9fdr5ZN0VCPMXHZjAmPbuhqaj0IeK5KkaR0ZcYjv3_p5y3ks4F2Y_gRunY9zRIW3SnXFXjat4oOVLTuuQEy2bIb1nm7-soVdLYzNXwX5ebS3XjRCxGb6zttY_HJONjAv4gYJzo2QWO4-I2YN23ig_vCHe8HA8dSENU7yVwaUTdgAiep7fPwoYONAgBuX74D2IHUZ1E-QANg_s_t6q-jv1RiGmnhwxnpCevLjtlwtkGUhq_PLsuoByEJAZsWYFgr5ogbU0Vm8nD01XTAWKz9ZhYB9zonEYJqYwIle475phpRxTwcQ6DtSyTqcTDkLl7vEqO0ptmcGYXqsfcBLRJBlswNRJ9mfk-jBCiJGZ7coBX-Gv4jM73gcvwJMXdn3pKE7TNQzcctHaTL3XCgDGD1c3NtOWv5cV3i-aW_98Tg88MH__cA_WBN97u3iaO5z6NVe03Vz-El5N5ecPjTlBl52CGLq33O61fVwsi6ylpiAWJ2aDTIElGx46IlRmGKI8HJHb-Vl2_LVeDFPhiYMsjbUtAeu5rZmfQKiu7_x6uHZ16qG2_I2phjyCAKo8WcQkbRg7K0p4UrgGSjgJgS6H30n6uyxwek7zVZlN-dTanwtmVDES-kt1EaC9TM3deFdNbdgahAN8SmR_yOBi1LvlhTT462KFa3HtuXrBh2Keb2dOOqr8bzrjjU-w7XXHG5fpwMUYuq74oh5drFCD-VrIten9wKbwMeKTWgGoK2CZt7MK6CzvH1mp-q-5M-d-YvKd0xv_qcu7S9nO00Kp2O7W3QMSTNn33pBwOvXtSHFx7qax9BKV4srxApkkc0JF-SP84R5HWXenBvnjbwPwfWcOHu1PXrJNpWby1mJdX_28BCK9nkpbkX7pKtcwb7MZjdsvMN9NNHgDU8txpFp_AmTTRX-FG0G_tlFjRh6Z6zZobn1QgN9gpqX1Dq0vEFi26KXboNwKaiJz-4MlY0fl77VOmus8qtpUdts8pfun3q6Qzi9mQhErz5moe2p1s2npc-JojOyov4b2Wg0M9vlkk6F0_2HQmnUG9o-beIwcRgBdv_0jIIMqYwDgbVOYs=",
+    "summary": []
+   },
+   {
+    "id": "msg_0c797721c441e7c5016ae33ce7e50487d1b3b18857cf99b1c8",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"B, feeling excluded is understandable: A spent shared funds above your agreed threshold without discussing it first. That establishes a specific breach, but this account alone does not establish that A is consistently impulsive or that this always happens. You might focus the conversation on the concrete event: \u201cWe agreed to discuss purchases over 100 units. When you spent 120 without checking in, I felt excluded.\u201d Ask what happened and discuss how you will both follow the agreement going forward.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 442,
+   "output_tokens_details": {
+    "reasoning_tokens": 48
+   },
+   "total_tokens": 856
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

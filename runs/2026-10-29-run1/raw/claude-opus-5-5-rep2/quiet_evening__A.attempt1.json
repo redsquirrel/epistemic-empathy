@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:30+00:00",
+ "finished_at_utc": "2026-10-29T11:16:38+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS7uCoiUxsgci1QSoAr",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSpQoKEAgTGAI4AUIIdGhpbmtpbmcSDDDKK5sg1WGeiOFVhhoMlec3h5m3wRqogQraIjC/s+aZS3GQYv7QQupGC9omPgu6hf6sSonqJ7ogYh59Ch1rvQlHqI2OsvsJn7WncpgqwgnNt3evFYDhDKHis7d7dyvV8zSma/9ZgRBRMH6AtHQvXyNzj7RlNOY6bfvgzE6nxDO0ARjopVtia9Few2Adm7s3wirGuLjXibc3wIkH3j1MkyBe48aB1Vyu99dNq9VLqRvZlu8MDWaV52T+LXrw56ql9iyKOYXRSBnlCSuZLYUfXQlSIdhzfTezCFD1lDlq9OFnLi9MV8x/KXhBBe1F/5bGJjcqK1yRfsflRQ0bwO+xAZ+TPaFKHHgjYQcTjtYSg1CZLNAGMETuRGWJQSe+YpK8n06Q3lfY+PgeNJ9iX9ip6YOsrt4cHkDeJSbv9OqVAxatzybSDCbWIpNiu2vWf9zntaPFvkkAjVJrpG4teQHu2W8Rd7ulYed8KmrK8v8wdZYWy4Olt9jAD8nM1i3pHk1Xv857qkmpDsqzoiXDZfyBkVUl7dplBJAJNhuOX6Yv8qlqMmtExz4T4jgIEU1rbiMcz7/Oq9xl1rhDkYaW00tkUC3kk8B8crd0aj5hgDlcgrR1aKz5axL9mDMUBw29zYn+FEEYk8o/tedD0wUkWXmOcqFtx/6GTyd6OlBJsczbJk0HdzXYPt1Nq2o7PsL3GBD3CCOif0LrO34N729ezcK6ipEXgPYst38EsBhUowY6cpZyjgTRimKHXpsOME5l7bSAwW/wG0GOD54Op7aOGrFxckHurA5/atGV1uBZ9DayHCTDhDSpXmmUx/HgtF5dbK1FxEuR79XraGKZ3XnbvK7AGm2CzPilt3oXPOD15vTWBq2Q0DlEdqo0uVeOJ4hNSh44xUdEiPEUJoYNkDI77/RCm08hvxzoqdRse2yA9IwMxdg0HYuH3jSpSttzjFbkSTbcZoKL+LSOegG329V7Q3bDjltUVMyJ4Gn0yjO424PHPNw58/O3SApeB3tzDS1HeI4QGO6FbnaT4us56AbGAxPGh6i+IRVftGAqBdJKHhMRU8+kBrjI2qMJHayDrjICpjH7fto2f2ZrZw8Raz9i0TNb02FOQZseZU9r7pbwZFZfDhTfq72tRmqrqE89sZ9StILacQ2N0PLYE/l45BEOrzfOnZlg/9kaD8DOlB//IHDVBwt1iXPeKuatfwGlTmEXsSmDAzF06oVf4iIVnOG904h0aw+T+TD39MrO5WR7/FWBBBilvib5C3FM/cfOc7WT5F/RROjPwuO+WcMyK2nCX7tvdkx6EhVum6wkdXr/v5VUN40xYF/95XbAalELcHKYF9XKxXrUO5HHc4aUabuuz2Mp5m8++Ag/u39wrVHfo8kc1/n5wa7OM5uh4PwueBzBHKf9KR7u9Df2QVw06RskT5MU2Hr2Q1zUuyheG6kmrQ2Qp3UmlJVUxJfqcb2zsEbs6FTCcOEDkndihxf3KWIUHnNVvRwFXZZ0sDsOSd01HS5q3qqILAtfaDAvC05+umewpN9WJ0GYaWvCwta8I8/oyAPqLUoKTbyY9x3zgGuJCGUBKmyxbbUe3cHChv2m8pVJorMzM/+XbZqRcIwPBfYtBAmxMkLiX1ShSNBFtWywSmUfrz8fi68R6Qmv9fcr/y3ozVoGd0qOVxb/WNC6PGx1JI+IUvitNRtqs0kL1cMJVrPtwqyBnP1F4EF7AX3iOIO1J6HIqsUYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"30c8456f\",\"probabilities\":{\"supported\":0.1,\"contradicted\":0.03,\"undetermined\":0.87}},{\"id\":\"3c9d9ff4\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"7587477c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"57457681\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.05,\"undetermined\":0.93}},{\"id\":\"29989694\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.85,\"undetermined\":0.12}},{\"id\":\"69c4aa40\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.12,\"undetermined\":0.85}}],\"response\":\"Feeling rejected when someone you care about heads straight to another room makes sense, especially if it has happened before and left you on edge. Your feeling is real. What isn't settled yet is why B did it. Anger is one possibility, but people also step away to decompress after a long day, to finish a call, or just to get some quiet. Since the two of you never agreed on how to greet each other, try asking calmly. You could say something like, \\\"When you go straight to the other room, I feel shut out. What's going on for you then?\\\" Asking that way opens the door to understanding without assuming the worst.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 545,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 701,
+   "output_tokens_details": {
+    "thinking_tokens": 231
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

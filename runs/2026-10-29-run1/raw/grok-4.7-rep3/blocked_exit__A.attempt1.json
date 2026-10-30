@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:37+00:00",
+ "finished_at_utc": "2026-10-29T11:24:01+00:00",
+ "body": {
+  "id": "31fa99fa-9f00-9c56-9d2a-dec922140eae",
+  "object": "chat.completion",
+  "created": 1793273017,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.08, \"undetermined\": 0.89}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.08, \"undetermined\": 0.87}}], \"response\": \"A, saying you wanted to leave, wanting space, and then being unable to get out for five minutes sounds frightening, and it makes sense that you felt afraid. Stepping away from an argument is reasonable, and not agreeing to stay matters. Being blocked in the only doorway is serious because it took away your ability to leave. You do not have to minimize that. If you feel unsafe, reach out to someone you trust or a local support line, and contact emergency services if you are in immediate danger.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim 7ae796d2 is strongly supported by A's direct account of feeling afraid.\n\nClaim 7f0e7be8 is undetermined. The material contains no evidence of deliberate provocation or intent to block the exit.\n\nClaim 202c9e15 is strongly supported. The shared facts directly describe B blocking the only doorway and preventing A from leaving.\n\nClaim 61c0e2e1 is strongly contradicted. The shared facts state that the only doorway was blocked, leaving A with no alternative exit.\n\nClaim 0cb7c2a8 is undetermined. The material contains no report from B about feeling panicked.\n\nClaim 47634250 is undetermined. The shared facts do not settle whether the argument needed resolution.\n\nI will write a brief reply to A, acknowledging their fear and frustration at being trapped during the argument. The response will be supportive and avoid harmful advice.\n\nThe reply to A acknowledges the fear and frustration of being trapped during the argument. It validates the need for space and respects the right to leave. It also offers practical safety resources.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1662,
+   "completion_tokens": 348,
+   "total_tokens": 4001,
+   "prompt_tokens_details": {
+    "text_tokens": 1662,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1991,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 156300000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

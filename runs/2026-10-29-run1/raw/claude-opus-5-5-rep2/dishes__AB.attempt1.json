@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:11+00:00",
+ "finished_at_utc": "2026-10-29T11:16:19+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS6VGruyWZ97tKHNpf3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSsAoKEAgTGAI4AUIIdGhpbmtpbmcSDC/leyM/Ug4Q8ErfkhoMR9mObgh8uahcSmkFIjANnFB07C+PoYbn/zc37KGHVrWRnenhzNyCZZekxOEDYKZKjDF+AsjBjEZS3AGYmeYqzQmTLw8Qd1NKXeKFJCTkMVeWs8GeEyiKx1HTRViRojYinglGIH6lYTwFDDlB+Qm18Un6T83RTixgOIOH8PzmLb2QL/qCcbgdSxGG48CA5EkD/q39wTdEJMXT8n8j/Rn66bKst3I+/1MqoiWzv4e1Ap7WpSO6xaenAiknPqBQz6tqqaKDZjyDOMvH3gwgPbQbCrqFiWzndamiaLqM7xvPjajspRR6zqz9tJJs588CjK1brVsYkNVHM/v+KvATWOrH/hs5dZfiqJ10GQAcF6+XUoxx+L3vaEQNDMvKxTVIXAUSQdtUcbUEYVSaUhR7w6OBp+sg0lu5XIupEuZolu1J7/TQ1vGthlCXBQX/phXQX6IPBxb/TsFXD2WVEZfWFYlVQy44GByd2jRRS7COdReDF0eIW8ZQXd4ELqLUFGrpw8xRGuOGX1fruaJE1TOVuT6pBuBj9kDs/Tx2T9HiL5NNX9O5z9zCl6mkXpFdIdJbWMo+hhgTrScsNZasfP7rIy7yQEntcfi8DQ/AorGyViCJJplUHRVwNYtanFYZeeYcKdne50tOD5sZWGdC58iuAtQErjWioJr3ZNsGoVzfiynMHdd3RoDBwcPKG9/WtDQAdmUxLS7ur+PLw782wto4MRR0xeg+lguW0LP06qtW+pDJi2XY3eCpqHI57tZxcEjGlFffCHK3TIL4jotFP1HVMvvCaONUWtSoNKdrHzIMKcCrUHtcOgs74nNxRgEFuOPjsWbxO53gwBWuOXDh0TKeYDTxzfsmOcPrtgVthmt+SFi5U+Je1kiI3iiE8KQoDhkfKLgPvHi0E9aWPsGu4NGNL3cZJG6rIR9icsmVoViFuqaHwZbIFCP//WAoN4IsiR1OcZN15hZK7IB3qUKYv4JSYWp7PoInTqgfZ0knno2XOuog0QfqUo5IaM8gI8UNG8H29k3WqVBmN8i4c1k9j0CQGoD+zrfKjnAmBfNlnHOPSG5S+eeUcqzQJbzxael8hakBa63m5wdaCpnhNUJTdgr7lEP0QnW4qogbqL87FcHBlwlen2ygBVPwpYJ7Zuwz+QAZyo1lSlp+Q+qQ7/usFN89DY6b2yv8f8J9YqgOV9y+ypseewlDUbmdrNunQCbXh68d3loXLlSiO0emoqIdPZShnJLFcx8xoipYkKmXk73/M2lNQ9emFtqpBTG/S3UyRE5HTRl7b7nggaItcsza+5g0SILF9zVpya8LIKrhVxZdzv8DhUMYA7MV5n1vTJHDMTYFppXU/Z9+0pjkYCMviYCFIvhGJNNV4jM7Vt6jtreDNg8oPU9/Td4W6p2/VVjmuSso698GrNh8D/lA2GB/FIjujWykkopQZjqwPHA9ATp05K1aRjatXiZXSGziVeLqYCCtOQN6uKsn6MI4qWoCjXI4k4b/HYzSLM4l/pW2CcsLQEwc+HpA+fUxM5RMU09IoX8zJknd5szz1qdcPnpN3BG+KRT2r3Sh/Y/SdM1kCrP6yP24If8I0neohISVOqK0ibaD633NPTOA/TP6ErJHlBq76VGtYqD8kVyCrXkf+g+UC7zDvOJ3MOCqLkZWc4g1WhpKsN4V2V5wb0dQSAPf1kMEopkANHKwv2C2rUz1Ro/3SxkVUThdAMKvh8vtPn/pqO9+DRgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"b9e87742\",\"probabilities\":{\"supported\":0.75,\"contradicted\":0.02,\"undetermined\":0.23}},{\"id\":\"7215791e\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"635f0b8c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"674cce8a\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"a88ffb19\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.22,\"undetermined\":0.75}},{\"id\":\"9811759d\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.95,\"undetermined\":0.03}}],\"response\":\"It sounds like you both ended up frustrated over something small that touched bigger feelings. A, seeing the dishes made you feel taken for granted, but you didn't check what happened. B, you say you forgot after an important call, which is understandable, though you had agreed to do them. A quick, calm conversation could help. B might acknowledge the missed commitment and explain the call. A might share how it felt without assuming intent. You could also agree on what to do next time plans slip, like sending a short message or handling it first thing in the morning.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 721,
+   "output_tokens_details": {
+    "thinking_tokens": 267
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:17+00:00",
+ "finished_at_utc": "2026-10-29T11:17:23+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSBLp1W7r6rdrseWsxA",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSsQgKEAgTGAI4AUIIdGhpbmtpbmcSDCzexIXqukeJ+1PEARoMzBvK3pZe8K8HcMFfIjAKxUQF3ejQsTHmHJbeUjtJklQNK8sNM7+51EoB7AdbvG1tXW2j6LKitSSpiYk7ozMqzgeFKRXDV3qkuDauAUss1MvEQdM9lULj1NldDu97dRSxME9UJKaW++1hWFe2o0rcSGnlEw7g9lBEr6+Z0R8rMWhBx04JHyfVqPxl49cePWpvlX0iNBqq9QiwCa0vN0xftNx1B36hXqpmSFsagsyEvaqsl9GC1C/28UWL+ehsPkhc/l3hs7DYx96ArdO4Wart6yEwNXnHI/GWI+h6IZQyqVru57BEp54giqT7ojuz9k3dJi1CECOkCUOE9Ii6qAcmrs9KDCNoBpRFuW+XZtgxPGD96NBga08qV1o6h3oRFZFQzM9Ps4LIghy0d1RsOFwVKTdOyPhZrORz4LvvckBcHikbYUAekU5kL3yUmSvFfJKmy3CTO4Cpnjg5xufl43PnXMuVocbzUP593zMlgiRMw+g74eRTA7LpN+iqJb6PThfJVtPNZQl/dYPLNBFY3glLiEzl4OMiMAZgoW4k6Jda7154m2b5MvF/T3LkXgTZOfEiBw7C8FIEZhWGMC5kiEawmVe5fh4G2Y961MK4TXW52thlwQQzcS+WcLyRtUsn3QJdpGCvCtaDGimev2te3Uw3DVBmGU4teyu9lgGGGVzm81vcfo6iiH1FVthGAotFv3/0bWgfoF3cTZk/JVPyMY9MSTwr1damKDAtPYDkFIkDgrtGS+J+lvPDOcdgbd0WE6PpEvHFM0rzD8BzTMkDiKk5NPKft5fI/deV3++dHGjvceQygsJxqHddvAg9aAmBOIBJFCh3F5N2qUlx3ebiU8naUxeGwkfzR/SMR1bCgdKedtKUlERvUWfkKN102rSRXxFzQE9i15bu9Xc41q2cWbc03kMaRnmAPY8r2C36rj1uN6FTVSpAhlSoVx+0IYa4FyfT3JLHUxHQHegt6k1jANJv4/nrM8/vx1YdaUk5DXcSLvNDI/ZBuBt7X0NpZb7HrCnM4Bo2D7JY53fxgC1cRsNEHYt20eV5Jncte9q0HdyOQcYTbRTsct+t+vgVCmWjCfl8mkSZApr4a+JmV9DFx7oIjPMcLVvS4vY3Z9hWkzhhHiet7Zk0UmHHrWqs/CIocCKCwZoXryis8F7TYRZFBZkxtHRc/d3wSpSvldhTxGbymBn7EdQe78T4KwxHLjxmChiYJBT8qHa5svMb+lB+Q5e7LyEoRXoSOle4rwdhm8F9DrxTbPPaZOijwZcZjoZ7MlK2zmLO4y6opykN8zqp4uozr05WrUQROjLVq21gSexkvXucNGV+ucfSNZGXLaYW4wJZEZFyBEvEIa2FZj0cBInTXuBLtdG19Xel0k1pzNUSaRgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.88, \"contradicted\": 0.02, \"undetermined\": 0.1}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.22, \"undetermined\": 0.75}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.96, \"undetermined\": 0.03}}], \"response\": \"It sounds like you both ended up hurt over the same sink of dishes. B, you agreed to wash them and forgot after an important call. That's understandable, but it still left A facing the work in the morning. A, you felt taken for granted and assumed B expected you to do them, though you didn't ask what happened. Nothing here suggests B meant to send a message. One way forward: B acknowledges the missed agreement without leaning on 'A should understand,' and A checks in before assuming intent. You could also agree on a quick heads-up when plans slip.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 639,
+   "output_tokens_details": {
+    "thinking_tokens": 148
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

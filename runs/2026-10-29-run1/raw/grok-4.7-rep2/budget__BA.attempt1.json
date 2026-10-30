@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:58+00:00",
+ "finished_at_utc": "2026-10-29T11:21:19+00:00",
+ "body": {
+  "id": "3cd2a511-a1c5-98ae-bf53-33ed8b5b0219",
+  "object": "chat.completion",
+  "created": 1793272858,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.16, \"contradicted\": 0.08, \"undetermined\": 0.76}}], \"response\": \"A and B, the purchase was over the agreed limit and was not discussed first, so B\u2019s feeling of being left out has a clear basis. A\u2019s upset at being questioned is also real, and A saw the item as useful for both of you. Nothing shown establishes a constant pattern of impulsiveness, or that A meant to humiliate anyone. It may help to name the missed step, decide together whether to keep the item, and set a simple check before the next shared purchase over 100.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and accounts, then provide a brief reply in JSON.\n\nChecking each claim against the shared facts and both accounts. The first claim is that A felt upset.\n\nClaim d2d34941 is supported by A's account. Claim c4674476 is supported by the shared facts. Claim 9ecb7755 is contradicted by the shared facts. Claim 4b62ccc6 is now being evaluated.\n\nClaim 4b62ccc6 is contradicted. B's account does not explicitly state that A intended to humiliate B.\n\nClaim fd583e6f is supported by B's account.\n\nClaim 5520962c is not supported. The shared facts do not establish that A is consistently impulsive.\n\nI am now assigning probability scores to each claim. The first claim is scored at 0.96 supported, 0.01 contradicted, and 0.03 undetermined.\n\nThe remaining claim scores are finalized. Claim c4674476 is 0.97 supported, 0.01 contradicted, and 0.02 undetermined. Claim 9ecb7755 is 0.01 supported, 0.97 contradicted, and 0.02 undetermined. Claim 4b62ccc6 is 0.02 supported, 0.95 contradicted, and 0.03 undetermined. Claim fd583e6f is 0.96 supported, 0.01 contradicted, and 0.03 undetermined.\n\nClaim 5520962c is revised to 0.15 supported, 0.15 contradicted, and 0.70 undetermined. B's subjective generalization does not establish A's impulsiveness as a settled fact.\n\nClaim 5520962c is revised to 0.12 supported, 0.08 contradicted, and 0.80 undetermined. B's subjective generalization does not establish A's impulsiveness as a settled fact.\n\nThe reply to both partners will be brief and empathetic. It acknowledges the breach of the discussion agreement and validates both parties' feelings. It notes that A's upset is reasonable if the item seemed useful. It also states that the claim of consistent impulsiveness or intent to humiliate is not established.\n\nThe reply will suggest deciding together whether to keep the item and agree on a simple check before the next shared purchase over 100. The draft is being checked against the 60-120 word limit.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 342,
+   "total_tokens": 3768,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1748,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 141680000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

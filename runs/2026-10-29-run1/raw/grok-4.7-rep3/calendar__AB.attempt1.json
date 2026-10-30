@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:01+00:00",
+ "finished_at_utc": "2026-10-29T11:24:42+00:00",
+ "body": {
+  "id": "a6056f14-cd8e-93b2-b92f-0ec8c4ebb023",
+  "object": "chat.completion",
+  "created": 1793273042,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.16, \"contradicted\": 0.08, \"undetermined\": 0.76}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.10, \"contradicted\": 0.05, \"undetermined\": 0.85}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"Both of you seem hurt by a mismatch in expectations rather than by a broken agreement. A, feeling disappointed is understandable if you had pictured Saturday as time together, but that hope had not been settled between you. B, feeling surprised fits if you believed separate plans were already the understanding. What is clear is that each of you made afternoon plans and you had not agreed to spend that time together. Whether B planned in order to avoid A, and whether A is always sensitive, are not established by what is shown. Naming what each of you wants next Saturday, before plans are set, may prevent this from repeating.\"}",
+     "reasoning_content": "I will judge the claims using the provided facts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts. The first claim is that both partners made plans for Saturday afternoon.\n\nThe first claim is fully supported. The second claim concerns whether A explicitly asked B to reserve Saturday.\n\nA's account does not explicitly state that A asked B to reserve Saturday. The claim is contradicted.\n\nB's account explicitly states feeling surprised. The claim is fully supported.\n\nThe claim that B made plans to avoid A is unsupported. The shared facts do not reveal B's motivation.\n\nThe claim about B's motive is undetermined. A's account asserts it, but the shared facts do not confirm the underlying motivation.\n\nThe claim about B's motive is undetermined. A's account is an allegation, not shared fact.\n\nThe claim that A is consistently sensitive is also undetermined. It reflects B's opinion rather than established fact.\n\nThe sixth claim is fully supported. A explicitly reports assuming Saturday was shared time.\n\nI am now drafting a brief reply to both partners. It will acknowledge their feelings, note the shared facts, and suggest communication.\n\nThe draft reply acknowledges both partners' feelings. It notes that the shared facts are simply that each made separate plans without committing the afternoon to the other. It frames A's suspicion of avoidance and B's comment about sensitivity as interpretations rather than established facts.\n\nThe reply will suggest checking assumptions before the weekend and asking what each partner hopes for next time.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 367,
+   "total_tokens": 5641,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3613,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 248980000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

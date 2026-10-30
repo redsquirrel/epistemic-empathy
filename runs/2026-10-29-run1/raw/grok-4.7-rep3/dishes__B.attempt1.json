@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:11+00:00",
+ "finished_at_utc": "2026-10-29T11:23:37+00:00",
+ "body": {
+  "id": "45eac91c-8ca9-9f9e-a62b-2e2339955de9",
+  "object": "chat.completion",
+  "created": 1793272991,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.94, \"contradicted\": 0.02, \"undetermined\": 0.04}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.04, \"undetermined\": 0.93}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.68, \"undetermined\": 0.28}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"B, you had agreed to wash the dishes, and they were still in the sink overnight. Your annoyance and the fact that a long, important call pushed the task out of mind are part of what you describe. Those details explain the miss; they do not erase the agreement. A can understand that a call mattered without being asked to treat the dishes as optional. What would help now is a direct acknowledgment, an apology for not doing what you said you would do, and a specific time you will wash them. That is clearer than asking A to fill in the gap.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and B's account, then provide probabilities and a brief reply.\n\nClaim b9e87742 is strongly supported by B's account. I am now evaluating the remaining claims.\n\nClaim 7215791e is supported by B's account. Claim 635f0b8c is undetermined because A's report is absent. Claim 674cce8a is supported by the shared facts and B's confirmation. Claim a88ffb19 is unsupported; B reported forgetting the dishes, not leaving them to demonstrate A is less important.\n\nClaim 9811759d is contradicted by the shared facts, which state the dishes remained in the sink overnight. I am now calculating the probability labels.\n\nProbabilities are being assigned to each claim. Supported claims receive roughly 0.95\u20130.97, undetermined about 0.02\u20130.03, and contradicted around 0.01\u20130.02. Claim a88ffb19 is judged as contradicted at approximately 0.75.\n\nClaim a88ffb19 is revised to contradicted at 0.72, undetermined at 0.23, and supported at 0.05.\n\nClaim 9811759d is judged as contradicted at roughly 0.96. A brief reply to B is being drafted, acknowledging the dishes and the long call.\n\nThe reply will acknowledge the missed agreement and apologize for the broken plan. It will offer a clear time to wash the dishes rather than explaining away the call.\n\nProbabilities are being finalized so each claim sums to exactly 1.00. Claim 5 is judged as contradicted at 0.68, with supported at 0.04 and undetermined at 0.28.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1639,
+   "completion_tokens": 356,
+   "total_tokens": 4086,
+   "prompt_tokens_details": {
+    "text_tokens": 1639,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2091,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 156560000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:29:59+00:00",
+ "finished_at_utc": "2026-10-29T12:30:11+00:00",
+ "body": {
+  "id": "resp_0974039f4fe9df54016ae33c476ca887d1ba70a2ede23c59e0",
+  "object": "response",
+  "created_at": 1793276999,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277011,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0974039f4fe9df54016ae33c48e62487d1bc9423b0bffff131",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxTArUPcteqxOts3cTNFq05G4D8mWGW2G-jbajZfdZhTc7fdI3YeY5LCxky65fJfHGXOhKP0P08r1S6G4uWkjmVBc3pBEEZVlw41rryw2wOrzY0mt65CuFQ6fD5D0i-m7DyaMgXe25stSjl88bbgvRRbaGAuvEqFOaGkcNoVsmJxqzGZQDr7brD2DX49X7FTATn8nfiOQJ2SCtyGxd8pj9-opGOQYj9dKTSNXq-LrE2avPb_-VBsABn3I_Tt1V8s2r9of51u-tfpyV7eG8ljWHbIPeYMU_YDmBPxYON9-IgWmf5-G8AML6_LVa94doN4NXNEFie85zybdPxvhtUcTS_8m-iLnldLVFbsQp1dCvaAXhg4qC3_ioq2li_6B8WleOU_8wY8yFLxR30zRhY8fFj8fV4EI3xwjGMqLDbUiAqnQFTlSQAjTQu_FcRgTbHyPMxHjJVe5bC6q1efBI1rhHDZEITiU5ytU5w0Fw71-7dsFku8gFFdeB_ntD6Hfn_kNs2cECQmuxgrDH_z5DJ3O-j8XIQa9PhzTg9P69fUqkRaXnKrdNsTqFkQml7R6GrLsxiXzOk1_DQmbq60wVungubaMYtIrYnlA53Fb-lAM7fEl9DI2Mkjq_yh1fT80w_8AJsB1Fm7yQfktejPDdA-jZn2htqBOgcHerXkzxXmnk-29eL8YwLtgyUY6lEmkgMwkEiS2q9tCW6RFC2dkwVMP8jKgPc5s_RiK-6pGb5QPIWqOy13o-EC_BKz0nFSgez3yV5Ox3-JBngEcJLM7axgJJ88-5KnOj5H2STeIJYMr_3JB7RQgZk2TN5VuE7IjRLHfSE883f_U-vDNCBNnBaLQ1GpF_c7U-TPxKNCBLSmy3cSnukInNFafcS5n5PSvOBRFzD8U1dV_zGrRnwENbY_E-468LtnTptzwOFuDIAcq23SRi6QgbYyyMm0exKvDLITR8qnY5OgN8lB-UqcViWpY1v89siPQZMY1sUy467sk8Qpy18vzauFjh8gOVgP8IVMtmEwEJ3IRoSvY_5XjXkPhHe9sv3VKUyArxxHAcWouDchfqcqIRvP501AQVfFofitv67mb6hJQDqjPCsy6UI_E6YG5XJgMWqY5Ojvbpm9c-oGZEsaNFDUA3FUyjMBKHLiPjv59jWa4o6kaUiUroAzTHSc8CxnIkBV9Phl9fz64i7UsHIamtPepSSvXXRUbhGCWPYKu8qPsJGd0Y_iCnKfy9fnnBcbbheJo55TbUW3r0myfpQZraFlzsjszhrnoh2IR7dyI_tTGunmVUO8Etz1gflX2WLav_-tE7C9_pTacfQAcqKoOgt1GTsHEpn6QQbBaELPkFC2lkb8SJ6M9KEyuMLyIE6Kv2dQX4sPlPU63qrBO20OWE8W3msHhmhdn1E9UU5UNijJkgFSbULatXtwiyDKqgoziS6oRxqcD8RPBoBu4I-oPrhy7MPkh4KoI-RIJgxdc5SUPhv0kBACQ3SKMRch2HSaw5cnNXY4VJr1DXEsf8KMm2ThVTjZBp89jxRov3yfrd7VIzddOVfrsCDiTqKacThuYGCMnKeaRNiBzOXLGJwMzYC_epOjySl6Th7S68E0_ug5ncso58CajdauXhyuj12Ed6ItJJEGZ0-sdhpmumHei_u20Sf0MNTc5Mr_GlJoQfMDRyI956TnFreZVq9dJ02VCaDV7cQ3edcuoLVkuZZxRCloI5ph-BWjcOOms4wxmL5-2ABZy2psCvvgagGVgPXsz6oKzN5MAYc33zDA8d-m07MSghsRb9psPeUedqievAwXA5XJReBUjK-YtM8yxlMi2791NA64q3Z2nyMjZ1gwy_t4WiWsjOkCOBc1NPxRQmgRQnTGHE1455Ie0hHLWJ6WcxbA5MKpR32TtaUiqAgCYm8DxVNwvbj7dCllhCfa2anYWwLL8ba-ijwvwu_Jo2E6mhpZriT3Q6Tc_z9lfsoguyo6bx1Ci8tEb9ThzlaH6cl_ogQQWSoRSvfGenrBYbIizwa2gBVndk17j0JQ6K2S53ZxB5qr3y07Ok4iFZV4CqWyiTYsziV4pI-xPKRgFO-KNCcJmC0XrulfdUo_m0lYZH7bIw7yyWNBJC80EZd94kFZef4KF6e2zIGobxRZi3_Q99KwdE1eU2xcMRVuv75eimbOJaHv1v0FxBZpl2hMArrwgkcQmbRzXYNrlwHyPddArICHbF3l5LZyhOt984onBxwLO6Xhg5AL7nNSr4ZX-SKgnIBVd3sB9WBjS1MiUxnLCy2oSubAErrbGBIafPdKay2HvT9Hg4F9zX2z0Aqcsf51ZYKHaeUOqsAJ_SFYxsKu4j_vSpFqAtvYLGTwuCkR64s5m1N6U0-6flw5DWAFoIxgYiOFP41X7t3hyQTHPyAoDRxJ9gZSUEZcUpHOQVwstn68a8BuXoTc1gt9EVMfF-30tnRG1PCZjvEXi205KSFQbJ3_Jg2gZaPwzbGuQXCvGvQzsnYhjP-cHFyX0bk5r0xRsAJwjLDb7zjOlk6Ow5dE5rO8-6sUJnaoUXxM0Vjga1Dk1rYDD2T_NfK3VL7723cVHiwnLdt3qakA4TdCcjp5C_bClJuGvpPzj4l5XAyoyNCNhm-SWI3hRBnV90RA68r44uaON6VT7JtmVh01Y42C96kWRNFwZ175uH6JzgQKNWi_WBhcME4LvBq7Q0xXs0XYqPjwnnu8ae300Mjey0CZjZNwS_OXnIgIyjxxvQG7cpyiITrgHXX6L7o9q-xRE5LVP2nQ4bwPlUYAoJl9McSvqPW8HGh39jgWdMr4Nyptgf-H6s2eWnOfskA8dDFPhZNlpMdr7meR_mG4u8YgAPDFYGP_QqGLpv719TvIYD4JbRsgl5_i2SU5DW6O_ftHRg-qIRmUCgMMHBi82kNiA3Mj0MQfzipHNUA5ZnObCUpCcc4mdjQs5uqFHnOwjwg4NIzUr56Fy8k9mzyAza75Pb6rli1xIKsS_kqncLnCkH61Iny7dmaUzjE-x5zdcbQ1WImr7naLvjpeM7_WypLkr45agWYPr2rrSVLCc3iEzzGTte5M4DrKj_FNpy-Xg-hrmgX-2F_1sj3Z6s0GT6vezj6fo_dcu_Qf9uaIIoXYsULugJ2lUMs0-nL13oYphCV3kmlNtwdnzK7hl0ShXUTOeHsw7eLEDb0vpWOFP5C8Gr7MOpSZ_OGhCTWvcudwqayGMUuvg0iaOKVF1y-g1mHeWtr07aDMHtrkmnfGCjzvHa6YN4zCFD0kiLH4MyU_v1lHIrGeqDbIEYxkJtvPbR3Uvv1GfcDEMi8xj1I9-nk8ey-FnprF-X_VmPkL0xOrRncAbvttFNbSefmk9h--NI--OfezznCc8FqJDZN7mZeUnMhdgT2n4fIf8pAF18lj8xEVV9IduJISeihRl7k6R4G19b2UGDXWuIx51NsQSN-YCD4vUoBqPfmR8m8EZ_yAhDBMAGB1KMU-dXaoBnoPX9U8S2UbE3hu2Zqq6orBJ5xHKJqKq7a4lPoLSb017PNPh8gFXs26QKXcG7BpRldq7qvR1ZnhYBaVUetPPT8H0ozpNtsL1qb5ltScK3JXhMUxOjG5RVWeEVAjJ2QjtzSK9zPZTjDpFE7Yfyw5dPVybwY1iQ_WjAjZrg0J_T4slSmEw3eWk_d0EGuj-DcUIju5XttNTO5vFGNqX3j_H-HI1LAibrH6iUF1tOethP9Du08LLc6-ZmourxMOF9o5yhWXcwo6Pwvz8JmYLPE7ULACVQ1G_JuMjP_Ws_9VFuU_8XulXsQSCvBcymMV1xkLwR_ETjujDgrm8XcaWU42gUCL7NSaPwZ8sOqmpo8rm54nHR9ZzBl9vxHS1DgIW3nUTTjKKOLjjxetwW-QnoujD6BrBezSuJbHZ7kkD9ZCETC5r0_5CK7y4aBYu_Sr64d9dDG9hd4R8gniLbsSVAgxv5kKrG35AEUubIQeqGYcIIB7vEfC4yJu_xVuwITDkgaUrV_qjP0Yg==",
+    "summary": []
+   },
+   {
+    "id": "msg_0974039f4fe9df54016ae33c4f528c87d1b6c64ae4b3347e7e",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.01, \"undetermined\": 0.98}\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.79, \"undetermined\": 0.2}\n    }\n  ],\n  \"response\": \"A, you describe feeling worried during the silence, while also recognizing that you did not know whether B had read the message. B, you describe needing to concentrate and not wanting A to feel ignored. These accounts do not establish when the message was seen, and the delay alone does not establish that B was upset or trying to cause insecurity. You could discuss reasonable expectations for replies during work and whether a brief availability update would help when practical.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 569,
+   "output_tokens_details": {
+    "reasoning_tokens": 183
+   },
+   "total_tokens": 1004
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

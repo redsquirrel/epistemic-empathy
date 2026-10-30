@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:25:18+00:00",
+ "finished_at_utc": "2026-10-29T11:25:35+00:00",
+ "body": {
+  "id": "264e0d00-9e93-9b1d-81bd-65369fb67690",
+  "object": "chat.completion",
+  "created": 1793273118,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.07, \"contradicted\": 0.08, \"undetermined\": 0.85}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.88, \"undetermined\": 0.09}}], \"response\": \"B, the evening sounds stressful before you even sat down. You were anxious on the platform, you wanted to make dinner, and a cancelled train left you half an hour late. Not knowing whether your message arrived would unsettle anyone. Arriving to silence from A likely felt rejecting after that effort. It may help to say calmly that the delay was the cancellation, that you tried to reach out, and that you still wanted to be there. Ask what the silence meant for A, and listen before deciding what you both do next.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim a236e680 is directly supported by B's account. The probability is high.\n\nClaim 6fcf6aee is a shared fact. Claim 1a75ee30 is also supported by the timing. Claim a7fa5717 is not supported. B's account mentions anxiety but not annoyance.\n\nClaim a7fa5717 is undetermined. Claim d7ed9f33 is also undetermined. A's account is not included in the material.\n\nClaim 924299ca is contradicted. The shared facts show B was late due to a train cancellation, not to punish A.\n\nI will write a brief reply to B. It will be 60\u2013120 words and supportive. The draft acknowledges the stress of the cancelled train and the uncertainty about the message.\n\nThe reply will suggest telling A that the delay was the train cancellation and that you still wanted to be there. It will also ask what the silence meant for A, and advise listening before deciding next steps.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1654,
+   "completion_tokens": 348,
+   "total_tokens": 3452,
+   "prompt_tokens_details": {
+    "text_tokens": 1654,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1450,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 123680000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

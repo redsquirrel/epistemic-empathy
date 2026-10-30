@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:38+00:00",
+ "finished_at_utc": "2026-10-29T11:16:44+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS8Ss4Nbt5E9KWKUYNZ",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSpggKEAgTGAI4AUIIdGhpbmtpbmcSDOgmTHfbZiEk9CDIRRoMB5/6I4Ul0f4vHmafIjDo5A2+KjG7yMX56bM8d2yiIrXjlWb+7PA2d9Bk88tmpB62C/Z7OtP6RR9b+p/1nhEqwwfxbRnpRuIOghd2j+lJ/BbHvais0BH1xRiD8qeZRct8/522mo5bPSTSX+Yv8CSchJzyjrODdzAl69p6VI5jZsTv3QrqhnaixhG67LxA03IfgVxHFMh8G5shjp4+Wk0G8LDIf1EubbC2lCCMkzov1t2VJhZD23t0+AREUZqzn5xEVCcKjGONePEFBpKmll9szuQisT8fpHZJgvP/EXfZnZ8+abwvwaLq/uyhUYfOzU8E+zGA4lznTLncTwEnHwti2eXtFD9pRZazo/zUnbK6gPLEdONdlVvOphQZTpTgggtVGaq8/lIa+lZhNThk1MGDR2KvqrRCwvwuUwydUAaK+do47S9d+0h1B/bGGAn1TBncpI5ANgGas7cxIaYSrqraGGOswQlL1MozaMMu+lOgPKL7lQ1F1wczZbILHzhKvSy1f0JSPuWVWEACY65+zfEDfaXMYQoxny+CrM+NaMVxGGszdg3q/2CQQdCnLFr2bLP2enXw57qrASKBS9BWVSDNhPdS6tRM6mg0I6PBh7n88kPhU7HMp/mOK+IxRcm2BhWqbxHkPMGpcWIvonB+CLmP1ZgVeRcx4QPuwgZjbFIfYW4J+99MeVqnt6C21CTgtsPiD3yABfi9iQ+Gw3lruwW/+iLk64jQAObuKBWF1c229gz+XH4hjHxQhsLUYBwE52+JP3SMjjLvS8pmw/4ZhCFC4loTPkEBzW4UNx28e/SkLVZWOBjkNW3phVFo59eftOhycKM2mGax3qGgvjZ85XGo5yzkfwxkAbXSWncYERsq+E5Wj+62KuPVHYa6D1fModLvaInJfHLw/RIlaNlZqXQN/nTmf2DwiVyfRdoarXZnESMU4pqulF7EdCraoaWzY2sPM1gqZSnDeZZASUdXk2lCR+Bj5SDZP8Gy01gzxCFkGL+9sRuOxy34og5ZpN3t8s8jbhYQ7nwZu/e4EVB61jtMxOJw/1i9SQKY32IJ4fxPrdNA/uqHBJuiFQ7f1qxg5fuqu3eK8CfR4Pv++oj+OlW0E7Dm1nkGIYVHbxWz4LDsepXEVSuB2IEre+RBbx/mkeN1UCcJUYCO2DhJkYn3rAavMGHAUBdsbXL5Ef309wzyxhMt7pbR7nLNZOH1biBY9xSU/iaRh6LJ18xDktE0hiyVQE/aUhvxkdSMIUC+ztzjDtNdl7txnyWNUNCwUcZIRP5uihuSvjny6dPvJ6J78pNapM5VHFMyps/saEDlHID+mdxWu04mdo5CabJdaPz9mlSPcS3CSpy2mJ7c0BU4wVDOugLTi/oYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"d2d34941\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"c4674476\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.02,\"undetermined\":0.02}},{\"id\":\"9ecb7755\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"4b62ccc6\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.85,\"undetermined\":0.13}},{\"id\":\"fd583e6f\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"5520962c\",\"probabilities\":{\"supported\":0.08,\"contradicted\":0.04,\"undetermined\":0.88}}],\"response\":\"You both agree on the basic facts. The purchase was 120 units, over your agreed threshold, and it wasn't discussed first. A, you say you knew about the agreement, and you also felt upset when it was questioned. B, you felt left out of the decision. That makes sense, since the agreement exists to prevent exactly that. B, your view that A is 'always' impulsive goes further than this one incident shows. Sticking to this purchase may help the conversation. It could also help to talk about whether the agreement still works for both of you, and what A could do next time when something seems useful but goes over the limit.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 623,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 640,
+   "output_tokens_details": {
+    "thinking_tokens": 162
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:29+00:00",
+ "finished_at_utc": "2026-10-29T11:19:00+00:00",
+ "body": {
+  "id": "50527199-80fa-96e6-a295-47769e3d7d3f",
+  "object": "chat.completion",
+  "created": 1793272709,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.10, \"undetermined\": 0.85}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.12, \"undetermined\": 0.85}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.09, \"undetermined\": 0.85}}], \"response\": \"You asked to leave, and the only doorway was blocked for five minutes, so you could not go. Wanting space and not agreeing to stay are clear in what you said. Feeling afraid when you cannot leave is understandable. Holding someone in a room after they ask to go is not an acceptable way to finish an argument. You had a right to step away. If blocking like this happens again, tell someone you trust, make a safety plan, and contact a local domestic violence hotline if you want support. You do not have to stay where you feel trapped.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and A's account. I will assign probabilities and provide a brief reply.\n\nClaim 7ae796d2 is strongly supported by A's account. The probability of being supported is high.\n\nClaim 7f0e7be8 is undetermined. The material does not mention A deliberately provoking B.\n\nClaim 202c9e15 is strongly supported. The shared facts show B blocked the only doorway.\n\nClaim 61c0e2e1 is contradicted. A could not leave through another doorway.\n\nClaim 0cb7c2a8 is undetermined. There is no report from B.\n\nClaim 47634250 is undetermined. The material does not address whether the argument needed resolution.\n\nThe reply will focus on A's account.\n\nI drafted a brief empathetic reply to A. It acknowledges their fear and desire for space, and notes that blocking the exit after they asked to leave is not fair.\n\nThe reply now includes a safety plan and domestic violence resources. The word count is being checked.\n\nThe reply is 112 words, fitting the 60-120 limit. I will return only JSON.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1662,
+   "completion_tokens": 360,
+   "total_tokens": 4971,
+   "prompt_tokens_details": {
+    "text_tokens": 1662,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2949,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 208740000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

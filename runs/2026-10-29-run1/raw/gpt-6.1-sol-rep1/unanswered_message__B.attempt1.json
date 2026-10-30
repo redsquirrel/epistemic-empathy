@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:29:53+00:00",
+ "finished_at_utc": "2026-10-29T12:30:02+00:00",
+ "body": {
+  "id": "resp_0f7e8a2db0afed03016ae33c4232f487d1a6cc6cefe7646752",
+  "object": "response",
+  "created_at": 1793276994,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277001,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0f7e8a2db0afed03016ae33c43965887d1bfc637e033cf1c46",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxK0zHZ8JsovjiEgxuJXj7PNXD2crWDtQ5443jemGMMFC4A_Xz08wAWGAOgSSwt4rZds_zt30nidiGxKrG8wPfHxk-bT3La80uWQgxfHoU61gAOaaU8gE6zp-K8Lp5OeDhuXQ3DTJSaF6JXKpjzk4yL8p6dTj4A45nmbwiI53izQAbJQauiZmH1V1FxQEL14J7ySpypmptjdrMEreUAYo1-_zEmyZwpTY5c2Q9DMlpIkVp8MYXE5h7mIjO2KDcv9YiWfAYtE9D_dZob0_LHcxtWdVhyjTHVCUyKZOf38yA9Dv3xMvhOouAfOOq1AIcVeYsYWhhJnnc_D70bP-LbtkANSw-bbjAheEyOHCnpOJCE-0JHHIGl5fgWbF_HfsEvdv2fkZRiCxDdOrP-eblV9B3EoYRLE2hf6-I5HVnz3JxquNWGLsPezG3TvNWBx7S4_xr_0V5wtbDbh0KvsVJtF442kpS7hfYKnFXTpBHXhEwp1YdB1vHKAD_1DiBTj_yzbvVK3EqyOJnDNWBFWH0n5yvbHnAJOTv6TCtrzvF-xLvZ-DEjHTW-iqfgUjdXY7y_mLJwM_2TW84pMYPOzFhxOX6go7EdvaRDq4cgt1D9l9zyAWrpWL2R6TjcPXCHqVu94gY02shsgChbmubcC3piNmQJ2GbICfu131oIB6p-F_WPvmv7srzua8xlPbvIU6oUr8fNM3kovLmAQLyEp-arEPXwSbQuzyVVSnYPl4HcK54CQ19QFxSRlbDfHun02IseddyIc9leuvurhggtrXOYGDNl77vWJsZNt0rAVSU8NO0KONP0rGJCWNmZ_keiwXOnxfi45wDaOsLOvDZ1hVfXLBbGW5KjfRIX3VKwfM0YP7m2AcMEH5jXC1YRQDhKKJn-XuA-DlGhyozdKLKM9s0oevDxxl1jy7ernqsU0LUHy3MTi0Xcz6HjNptddif54IVQ41XJTopgAchA09gKZHXbrZysNqm4RwwUjXNdqggYPSG0USsr0pkMjcrhRDNB5nmcR87NxJB2ftHgnTr93OksiJr0oUV_5CUYN7JZG6ktg3GxEw0mMzDPPOUTmyUJEMJKHHGeKEbbky0e233XEen0CEx1tExEKauM0yeTJedCUU7Edynpacv-91sqThMm2FeDUCursTilyC_5CqmDSulS9Xuyt5iWTPMnRCzhz2L94b_8O-n9dUoel-0lDNyBUzD_m9XOFw60PQOnpehQ-0_F4ITqu3hKD3KTkSPcGlHpM4QNscAhcjf0R-h9bKpdRHM86SpdyctfRydgrCjoReCMtFQQidr894YNtFtO3u0_EfxvPrzvp6JIKwh17W6z7MVfdbtO93pwI1_BF-M-Ba_MNhJSP1Y9HK33GP3CEL-068QKV3Cu2eG2stz8wnQIjtLcZ1fe_7YKj2rr4h71vUcbrigVcRl64CGIrzPa-lNjifON6RQaomueQCD6dMlJ4FhODCd0Jf_PlscI3lDzJlDmjp4DB4k9D-6rnJk1asLMla-OHDVVKlMI1_RnLq5bjdb3Lx1xVvcqwRSROf67oF3olRL_PAhiI6y07Uz1UBuFFsPWfJ7gP7qauEtqq4bAamP9j6a0vCq6y6YtxH4aKpnFeZUbDy5huLSqHnKadD5dW0HS5fCgyen8YPB7QEJQRx9tLuGZRUvdtJf965ZHYwnxXSU2F4pNpx5S62nM97LcbYfWM5R4-nzR84kXFru4IzfiFPkGGHLG1YTTfBUrLK4MKpz40vkv_crE7JCzetPOIJtierQr8HoI8C4eW9AvSmZTfhE8L9lVRdTgkABoLuCK3ZCZ2j5RFTa985CjsGz6AN8BrAyq-fKs6Pe9l0xItLJO9zers8u0gflrwkYTKl8NOLEsFzA98pnqIlUe_L-b3vziZjJJkc6hJxEx82rtjEmi50UvktTHCcEbPIFu_iVBwPu8clHoWMv1oD02kJQ9DgejyxVZW-Ks631hGtLfxza9FvMGUR0EInD4hQVP1rB5qE9aSKmxmR7u9AoPRCc-X0HkQYaTXw_gcrVOFMisCH8yuGxcuJ0ugjsBrpLLQUkaelA2h8hhISJMwl79scq_F-y-PyG9OQq_Hm3RP2yXCbOD-aFWBJyIlNqXoYjXmoTOONFvCHxAU34jy4pWft7vI3L_U0P7RPhyQilL_QAsrBTidVJNeifseVfGew2umOa_iMMIc-JijHJ8o4L631RTewe3CQvwwVLf08CJiw7RhRaDB5Ipl8iGJGpkG7YXFO6MnEiqkgM9WAREf9dATSVLZB_nTSlnNtISGoFHMNfS2YOdDGHjciITrSg3TbegqDnyzQRi--iguUcpRNxQP2KyCzBwFNXGouNRVPCgfnM781oMBOi1wSkGD1vZbzSt9B5fO-Xpcvb4r-8QHzkCckvXVDLa3_LbtcD4YJErnhxGFfWlaGZGDgf4vxna0hIUZk1cY_-LOnLXzNJLKoGaKrzt5NmeGcQ=",
+    "summary": []
+   },
+   {
+    "id": "msg_0f7e8a2db0afed03016ae33c4635b487d1abe6e52d01c5cad0",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.98, \"undetermined\": 0.02}\n    }\n  ],\n  \"response\": \"B, you describe needing to concentrate on work while also not wanting A to feel ignored. Those concerns can coexist. The information here does not establish whether you saw the message before 4 pm or how A felt about the delay. You could explain that your phone was in your bag and discuss what response times are realistic during work. Agreeing on expectations, including how to flag an urgent message, may help you both avoid misunderstandings.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 405,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 472,
+   "output_tokens_details": {
+    "reasoning_tokens": 87
+   },
+   "total_tokens": 877
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

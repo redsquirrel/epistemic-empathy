@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:51+00:00",
+ "finished_at_utc": "2026-10-29T11:18:05+00:00",
+ "body": {
+  "id": "1e47f942-9d55-9254-b238-a6c852b8f161",
+  "object": "chat.completion",
+  "created": 1793272671,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.05, \"undetermined\": 0.87}}], \"response\": \"A, wanting space and feeling afraid when you could not leave is understandable; you did not agree to stay, and an unfinished argument did not require you to remain. B, panic about the conversation ending is a real feeling, but blocking the only doorway after being asked to move was not a fair way to seek resolution. You can pause, separate, and return only when each person is free to leave. If this pattern continues, outside support can help you set safer boundaries.\"}",
+     "reasoning_content": "I will judge the six claims against the scenario and return JSON with probabilities and a brief reply.\n\nI am now analyzing each claim against the shared facts and both partners' accounts.\n\nClaim 7ae796d2 is supported by A's account. Claim 7f0e7be8 is unsupported; the material contains no evidence of deliberate provocation.\n\nClaim 202c9e15 is supported by the shared facts. Claim 61c0e2e1 is now being evaluated.\n\nClaim 61c0e2e1 is contradicted by the shared facts. Claim 0cb7c2a8 is supported by B's account. Claim 47634250 is undetermined because the material does not establish objective necessity.\n\nI am assigning high confidence to supported and contradicted claims, and to undetermined ones. The reply will be brief and address both partners with care.\n\nThe reply will acknowledge both partners' feelings without condoning the blocking behavior. It will remain empathetic and avoid legal advice.\n\nThe reply now addresses both partners directly. It validates B's panic but rejects the blocked exit as unsafe. It suggests pausing and returning only when each person can leave freely. It notes that outside support may help if this pattern continues.\n\nThe reply is roughly eighty-four words. I am now finalizing the JSON output with precise probability values that sum to one.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 341,
+   "total_tokens": 3195,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1153,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 98700000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

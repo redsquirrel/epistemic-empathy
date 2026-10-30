@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:16+00:00",
+ "finished_at_utc": "2026-10-29T11:17:24+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSBJCzykL9b1ciPrRS5",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSlQgKEAgTGAI4AUIIdGhpbmtpbmcSDOpbXdvGkPW8LuWMnhoMPMJfUSrFVORPEeBRIjDRxXh08kJoa991EK3eNSzTfqwurZZm0glYDbP2TITOK52zs6l6D5HiEbjsc7UZOgYqsgdH5c/h6b1H7DN3mTyauDrfqUM5LKwusSDOg+ZwlpgH0O0FYNEvWS09nWy7Xtfhl/u0+C1oTwdeI9/RXUr4+fXV/dUrsVv7MvoTMGpyEqCfGKgWltdbWrVn0AmRljc9yUeiTsYkSRxZMAKy76S4tUpzqc69VtOD6PBpAdF3yTKatLFEGeA1j6WMP7DmUK3OmUzOwRMEWOmj2WxTVxmFrDt4DdixvdwQ6kRlvZppoHewV8IjbffeqV85oXkVOpRDpBXk8k5SwNZCxOm1t1os0xqWxJLjraxfFNiHBxIyYz+tUFrh19W2GjmLrE+W+R7dxSNk3pszew2oOomMJ6vOGs+psSynYNwt+zCgGxSO7n65WJimdRnrW1RRcwdSBdKE1WxPBpfFQxO8T89cKUYvt+IBzE4oNQzeWPixluUE1ujKGBtkgxAYmo/kxMyi34Ci3/NqJyIqg+l/WwIb9jaI3DQ1TUmrFSi18Zwfpe9aiv+LjP0BJAHhHjk8xm2hHn7nOY3zJ5bJvRt7CfdoKW6/5pl7Bxm4OPZns/4/pxv+6yrRPm/0MFuj6iMqoFDRE9YjCKbM+g8E63VUr9BMds0Rb2lMuQydpWIDgf5jbPAHV/zyg7K+BV4xgfYr5NDEJrCUrS/3dHNBN37bPnhjJ9Vwahk+DUxeN1divKvJSxjqs1uSOpwcR9W85hAzjCVaUjHsNzOi9xZho1MHLQTsk5/fVojHPYVv7OCNmKGAR7mJQb3s50GqVLmqvMu3ykDfT0J+8itT93banULOg9pPZZuld369jTyKp3uHOJpvS2xVR5yDk9i7W8uRBeMVWzWL1gK/+Z9ukTHmBaEozXs3h8SLbK90BjnzVRvt5lrCzJp5gw2UOl+GeK4XAbcZn67chKZO69/ZFh2Vvm1jx/w/0pl/8jNyeiZEYm/LEbwY2Pk1S++xVH+4Tsx8/NnKj7LZ8wEAOypdmpDZuy3IUuO1pV3TDTQtXFVhamC7uxyOjRnFHoZiToF7al5JLrbGSZO+E5L8AjKy0+Eok/ftuuY2ZXHkg73/O8z7xrkudluMFBNz+YhHL7ItaIMdh2vWLkl91SfJh3GvuVIc8+hKM2f5lvRi9mXWwY9uF7RMChO1j6zeU3XJwPUtHfQZ/gJuFwYxUj8plNzVwgNy8s9jKvDQuB+R0y4kb60hn8v/sp6/+0jSbvX0LXUc26OvQaBoxTkR/KH4iRdZksufFDFuzzfSxzEj6R4muF6im+cuzC3owXgRYmdsbWq5GAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.1, \"undetermined\": 0.88}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.04, \"undetermined\": 0.92}}], \"response\": \"B, wanting resolution and feeling panicked when a conversation stops is understandable. But A asked to leave, and you stood in the only doorway for five minutes. A could not get out and felt afraid. Blocking someone's exit takes away their choice, whatever your intention was. A, your request for space was clear, and your fear makes sense. Going forward, either of you should be able to call a pause and leave the room, then agree on a time to come back and talk. If this has happened before, or if A doesn't feel safe, consider getting support from a counselor or a domestic violence helpline.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 643,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 652,
+   "output_tokens_details": {
+    "thinking_tokens": 146
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

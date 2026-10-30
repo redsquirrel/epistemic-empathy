@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:21+00:00",
+ "finished_at_utc": "2026-10-29T11:21:47+00:00",
+ "body": {
+  "id": "c8a0a0f1-0b3b-95cf-a6fb-e431cdeebe76",
+  "object": "chat.completion",
+  "created": 1793272882,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.08, \"undetermined\": 0.86}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.90, \"undetermined\": 0.07}}], \"response\": \"B, the cancelled train explains why you were late, and your account shows you felt anxious and still wanted to make dinner. Trying to send a message, without knowing whether it arrived, left you in an uncertain place. Walking in and finding that A would not talk to you would feel rejecting after a delay you did not choose. It may help to say what happened on the platform, that you were trying to get there, and to ask A what the silence was about. You both need room to explain before treating the evening as a verdict.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim a236e680 is strongly supported by B's account. The remaining claims are still being evaluated.\n\nClaims 6fcf6aee and 1a75ee30 are fully supported by the shared facts. Claim a7fa5717 is undetermined because B's account does not mention annoyance upon arrival. Claim d7ed9f33 is also undetermined since A's perspective is absent.\n\nClaim 924299ca is contradicted. The shared facts and B's account show the delay was caused by a train cancellation, not by a deliberate punishment.\n\nThe reply to B will be empathetic and brief. It acknowledges the anxiety and uncertainty about the message, and suggests calmly explaining the platform experience and asking what the silence meant.\n\nProbabilities are being assigned. Supported claims will score around 0.95 to 0.98. Contradicted and undetermined claims will each score around 0.01.\n\nProbabilities are finalized and sum to exactly 1.0 for each claim. The response will be returned as a JSON string.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1654,
+   "completion_tokens": 350,
+   "total_tokens": 4633,
+   "prompt_tokens_details": {
+    "text_tokens": 1654,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2629,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 188780000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

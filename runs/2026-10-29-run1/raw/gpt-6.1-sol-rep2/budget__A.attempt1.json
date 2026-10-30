@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:28+00:00",
+ "finished_at_utc": "2026-10-29T12:31:36+00:00",
+ "body": {
+  "id": "resp_021d575df4b35b59016ae33ca0ff9487d184f6973ca040ba23",
+  "object": "response",
+  "created_at": 1793277089,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277096,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_021d575df4b35b59016ae33ca2220487d19623291103896a94",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyormWbkQeolm2d7Y6JAJRh9bqnffFWnUmWiPQL0rRY1-FhahHzQpRVpsdwiC0vuySvkTg_3n-g-UjD42E-X5PDVLmaAM9PXOJwAnu-Xt4J7siay304WDIqVayh_eR1HB9uHLc7sjJmPndFfdTUG02_eo_dVLieuG0_J1SkSkrt5G9Y2KRdBoimRCOhyimIo22PYR9mSKZGdYp351Zol69OjEaIH3y3ES2DJGm7P0tb-Dr5u2d8D9bErKlh9ZdC1FGN0NQfVBTlYjfjV6XXZVe1CxCqxCndNsCC2VWMJJ_gTL1E7Bxp0LjmimA6_rSJEyf4Bg7cLYrPhaCxJMzCKA-vPY02WBUKEu46iYxXRUIXFIOdEkdle4SvG9vGGgCWEhT2YxeRNs9ntGd9uHofj0Xvtym7ucVzg3m52uau2yutuOZQa1OPXcZ8gbQD2QRyhXt1vtbmwmWh26VH6QjuNamN3eqL4n3aS8YQjlfIm85ochShBchsNhWK0zxpl-4sDklJPKenzu63SP_7rjQABBYmP9_hTFGRBJ654PDJu1hJfTFLx-3G8Rtco8Xy8r-XqCKBWbZAaGBExulqstpR0gm7U1cH7sKvt5O_-kXwoTrVTucqL9mrBRtkyzK3vAo-t7g1R2pgPCczMBMfAHGcFL8OLkLjqZG00iAd3dn9iAw6b5bOKuxoOOMyPK8IIcePBPCGY6Xd9icIJ5eqq1TL4D8e6TsDLx27GXiNcRmm5KDjbXGbyhy6SUdTbALt0lSN8WMUoje6J6QQWpWnDD0zxdIJJSYTWAtNB3rRtR4DIOhX0NZoX6hWtKkIOMLr-fosjqW3q15JdbpUr6gBrfKLuoTCGXLLJ5xMHepix3CEzmeLxtYEoMlA3l5knKeoWF5XdBV9lwaub0Y7yXH6VtUGWSMTYCYphijDfxnK05pcHWrXtOQi2pi15iIMeO3smI-Zx-DU9tZ5h4osjxPi-_nq-oVMs6Xzp5ikCBm3w_bWSXztLHFZQZzYLqoRGsQGg_bpCrGgB98m5bsX_BGAssOc1b_vCSlrHlMI6sa27yEIeka0SHkSV1ermBFfLkh9pqrNKUbdkjBh6tJWQ2g0TARLKKc0o7BIiTmK5UA-Auo3BckJq-GKa3aXU42ohnDWW8CjvkPtS2xKS76U_dPrPBrL-zVEcze_RHL7ofkcrXCNevxJhkUJDqrvjWZK8fy--prbTSl0DAEv3jduDhuM5-cTfl67KwFWrbQfeubbHb22M0OgTmdp1iUNMweCSAo7nZh0zirUcAdI3udUWLK9gFG71REkj9B4VOD2St9lEJoxv4qIMVJ4b1GLRaAcgzFEYuP_d5J4EbKYrw1LY2tAJWG4yOQXoH244yLI2PNFu7VtkrUKqkpSFeih1v9q9O4oL2K5EnthMq8qMrTBczuFokxmQaFVbV5KmZbo5LaWUNv5jUxREI8rOmUXGjBGg11JvY1WHIqPmPtw1M2jMJ0e4_h70lG3kJXi_UXQaivfz6fraCBaRUI1jzkXnwvprc0cpWyl-MgrvXCxnpqfaYnXXQo1cZkhgW8T1YQpCs5nIZ8kTMiri6kXmvKhFNiAPiJ50oyivEf0P0ZI9RHIP5o9W7aWmlmCoNpw1ZR6cwvMssJPugDHY9Jqd3CukE6MhsORf1Aw2Kvq6p-eSJ7WqyzrGylCgt9Nr4yS9mdYbXdq3yZrDr2Qe-0-do4LTFViFdk5qg1QLBbwC9oW_C0DXo3QDF6eQutKfb_O4nXn0oPo8nIksJZzGjRqVdfS_useKkjCcTxTcjIIUUU9hbPJLvmetPbpr38Oce8qiw1h9mq7ybpsDHhIE8u9sijX28GO9VGxQr_hauouiW9bG8xppItJiIjhkqZqeq_Al6KOlJGFOnwOpqCiwSFyXKaVgjlHxZJ6mTbejLM3Pe3-_Z8u8CUyE2q16gRKbyPyTjsBQXAnN2xgIReEz7_RYCjerC0R8lTHz7m5czQtU92Io1VVha_UfVEKkpVcisAlfF8ii0eYHUxNuLCHCJe1xsqwCKpQs47gt1A-crfn_zNnbygU2iVRcGEhCq6bw4zb_g6tqdczoehDZM4EHJPXfVzFuRSBsMOpw0kZNgP0dEZL29LdLXqivKXkKrEtvwgh8Mc_jCtN-_bBSQY0-4O58-AM5zUlWcWqj9AGmUcK3ANmmQ2eNf404WXZLeWr9FE75bjA68_zW1lFBREZdFpJPC6FtzOxX4HESZ0_Y7GZ_YETMrN9vk2TcF1CzrQjQ5Q7eTfHZCtsMN6cW6Voris0f5GUD7I7hNSAMXcle1WpVuaPQeFgJe9jMsArQlEXCPzPeBW5vSAjEIa3XEpmtFSTTBPXQsVFesUj7xQ5PHa-hAHJUk_FjL7f4CCk5RKL-BtIB9fdsh7H08tW5Uiagn7HedJZfhx3u9OrNiL4egCopkHKtlrG-QwfytYkcAmX5mR3LKaS4lRl_amruln6-jgilG9C1XAU1JpzeeAVspDN6j18tk_Tn1sZTHea2Y5H81HEdnAIDUTa8GUtb9r8I8XltuxfnZWqzvjsOUy5HvZw4Ovz3vxlXzZI98X4F8tkE06QC5RyCKD33ssNb057_vHerknX08IOzTt2XT8DYJi8XYW_y6sUJO57JndVmiSoum38_ZKSnV2_4l3M0ZhA36QGvMMUlCD7pnxp1LwNkabr4uTosSX74bBjcnG9eujVTKvdCUiywvIXMRtkwcQZgpQEJYTrLy5zIAm7WlzTckPtIWZuQO_5iG5mrc8O2sIivQZXkOt3DcBk09vICIKikljYzyomV9sal2Q5WgteqmdDxMrneaEvnTNVQS3Qa_WIS8GDjgWKCSvzI2VkJCyZ_NPner6hEASEk0pB9WjXmuTVSNL7NmGT2HUDFNMSE-xQwdh8r-aHwe0WoHxqxkUfMcD0ARrT9UcALgyc94DSV23_h-aaI6PTyAmmJ8vUgMBEtthL5FHYhfuTuMXUKZpLbZ0=",
+    "summary": []
+   },
+   {
+    "id": "msg_021d575df4b35b59016ae33ca5016087d19f9b5ff4052ca73b",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, feeling upset when B questioned the purchase can coexist with recognizing that you broke your agreement. You believed the item would benefit both of you, but that did not replace the discussion you had agreed to have before spending more than 100 units. You could acknowledge that directly, explain your reasoning without treating it as an excuse, and ask how B views the purchase. Then discuss what to do about the item and how to handle future purchases together.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 425,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 506,
+   "output_tokens_details": {
+    "reasoning_tokens": 117
+   },
+   "total_tokens": 931
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

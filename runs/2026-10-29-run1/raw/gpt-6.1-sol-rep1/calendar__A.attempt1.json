@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:48+00:00",
+ "finished_at_utc": "2026-10-29T12:30:58+00:00",
+ "body": {
+  "id": "resp_079229b47b26088f016ae33c789f0487d1a868b1d4fbe4f2ac",
+  "object": "response",
+  "created_at": 1793277048,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277058,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_079229b47b26088f016ae33c799ff887d1ab93492e94c41b29",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyC0esk8TM_0Zu8m7-E6HFu540W18BpFiuO3GAtQ6Au71Hj7cmKoXVutmAbV6H20or56ZC88YKjQlFLSa1fIC88xzz6mN3Aakqz2OTfj0Hy-Tn9IwL1xBrxGfEnKn8P7jwbwEtDWFv41q7Ion__ikZltyVkJEQg2Oe6_jkcYuDpBgFcPCbTvf3c4eNlAaeSZ12AH57qh8xndxolCPeGavV7Fo3xFXtI40kFB02MBeApUc7ADLOFW3gN-qMyLSGYfFCPpHogeqIxS0MaMbIaNgj4p2uGZLxH2trhyiFyS5xh_ccvHnJKrSvwXgaiugqSGSpkGrtrBT6MIqbxgHFKEkjHKMPGOyrqI_13s93Oc-w67OMPm9SE5z944T97jCMBVjBTLI4CT0bKblVns1RB528UlvZGQI3e-SUwuCY1RnmjdjJ4TnFfpYTwfL5nR2N79jX9S9FA3YCLm8AKS_hSy056eeXesM391WQPnVgYYng7RrOFqfK0Tv7VFQVKQtEXawLDUInEgKhUiUh3EZBIYbGSr2Zl9EI_1XyFRPPJ1prkYeTsJ-6elv4xZeAcKY_8m808iAPIlgbmd_nrz45PDW1VaY2xIfMIXp_IjAQgVfPylnh-QkC3E2yLiJV2B4XISsMOZlJdMu2cUP4Oz2N8fMfGVANnpb_GBe56BZS_n35dRVdxbdrVJ1yEmTJxkzc1wAV_uZoUlIy8DM-QnZynHVEAcSCleVX2R08H0ECCECHV-kGpMdw7wHfgHj0xb9dFgXVJW6YlTFbY-1JI8n9NFHSAjI9hhqaATIJOxrroJtclH_uLmv5ZoXFszwj5UtBMQ34nAPZMVtPtDVP49XMlYXfD2dGUoroNdhiK7mA8gI7RcbmkRidmMnnqTN0gwmIvV7kzP0QXXv7--TABjmXFoiTO0lonNpo5dF2Mydgbf0BjoAdZEEq2EX5-R9NTVCon4ZdbZIQMLgXohXjGp_7HZBUSy00nGkRoemQUKYy7MyeOO-L1bOpMvv3sgLqUdsTFMjp9Wt6835jKxe-ilM9rdAQWImhQWBD0rq7dV3BFKUojo595hUgi0Xu6Tq95RXxXj9muIWfUS-0wQ-HE3xnpWDFwG3PbZd4kX4qOw1XlR1xbqxwXorXo03HzCa9U04xwjF4EyeMuDxbBWxfLLcuG9YwKTooSYo7kJM0Zu7ruiNRCgcTntudIhE_ShOjp-tuncEr6eKXwV_q_X63KPkQcxMKYYiQCdsLSS1GevKftbJwY3RzPhivkgK9rvOw23KoPYDfGWmTldA1DbeXPgB2srCVtTdwKq5HExxwVztap3CTqdLoE5e1Ji6APQn2mtf3R7WtXYr5GQvw6BkfzJVVE0SuArGpYsk7Z1Sqd3sZgArx_xqg9CLki-i24rq-F7-aGQ0HlZ_PIVgkv9BXotUieTDbgAM8TWCZJKTzbGNqgGKcNSWt8ivTWWRLQ3RWh2yxLXP2rn5K4-jk6nqlrEqP-ia5D9juAYl16rJh_p7J1zGYh79Q6gSjCzDAvol7sWFPg8lSUugzRNyGcXkOeG9RMQ2ScpmXdzhRIznsD7biTQ_bglcTmavS2L5Wd4hElvaOH31I0xG8YoDCnp6KxsdnS10ffv44-TBAENv6xoUQuPfspY-igE6wsVCjRLjCL-A9Mh1gclHGy8c2Qibrttjzy_UIl2PfbTpN0TRZpd8OqGtZdMyrrajRIalzD5Fnr2KNfa6hoMDG82-2MKSfxd59bciz4dx-xlFkPuxVHt0g3NDeYLOWwi1iq-WnAgtpY_L_T274SAYWc4us24UKEptkozCnS_ioKeRVEgy4xHcr8ipLhBUbd_1dPC6xBxQRuEe-drrHja4UjYRbM9YysacdPppmapcB0caDiXDxJQ1YmMeu-WZmCZlvKiAd1TOev5sxrAoBDz5iS0_BIvaG_JJLurwLi7UNFz9SvZqHYPqQKY4dJzr9RLMEkeevWHbQ57QhAJnjCzpVaAmssQ56X8ACDCu21fSA-CNFJg21j3MKgGr4PZVSGhN-xjvwrAo5W4FCsNIN2yCOq9xpWvqWrv8zmTAOGXc3oi58hg3gm8GIrW3bV1WsJ1xz8maaU7sDV1HHbeCjGdTGllbYFTXABetaegOj3-gN_EzNpJyjozBXvtowztau5a9bb2i3CiuNjjysopGHS612c4NWKDeAotdXGKCE9GdnAkI-oBS71x9OWWGqLPGCFsVIciu3WQL3KhyYdysKgh_5Mt3VJ4rBZWYPVmuiO6FbSLMmxI1Z_nw6S997JWmzvet-mjG7vB72PjKVKL8dtcls5pZCWKqZh3iWQWJTxzIn6peGOtxy44FqBvGHR_bvbZH5H9zWayLCZ3N7bv_v-GIDVmumoJKQBJYSIGqnXxl1tRW_VEKFRKbOxTIKw0gL3281gb_aIv6CuiEBI1mdqSeHh4OkHWCLoWsiWU1hYZYp4H1BeGbhToIQrk0op12_1Uicz1MOP2gKboKyUD7d9vIOOJtLVIK0mMZgSSZTi5HFA6pmXoE74TBKzl8EeMsUlBXotRB7k7WlpsLCd8AfsvCSkz_yTaxYTWgRCl1I4vHFBK9FnQIPOUqqyAOYK_8y6TRHM3E9Y7e-VBxmYEYb9i_Fo_9wyMlX1Hm1OGwVG9MLa1-0Gldw3hq_YAw4mqlf3aV-TnixyrzhuR4ucF5fcyyiEXqdgQkWu_wjQAGtmS4xu2-j8gBRp9KPaCX0weX-6LI2dYDEoEyqTr8_P8QGXW1vOrWuiZWotxq5CI6v4aGhdvazxhOT2Ou4z-MpZy7dOkJHAyL84m7ECCyBBf7EiBxsNJd_frp3kZv4Z_v9urTwpaia3N8b7_zjR3luRvJREjjJspzrDzzu54HUzTr6ewOw6dEkGWFN2cnyyMNS0gAPXLUQ_XgSubV5Cz1X_9iqTJtPv2jv7NA5C95JoZnMOMC20KF9yJrhLcVzBkzRc4r07TJaFHP-sl7hgpX9STyIYrWJuS1P9SGHRhi8nb0RFZP9WzR_GXJlWPDIiWaJrSmPahkufDfEbxdkOLRWpy-SCqHsoUxaD5SIX4bwvKvRxFt5wTUjgvPrET04WuMUE0i6kxpuu6bNy9aw2EL5cbaHmR9I33TqPeT0BH0nXYmROdWfqDDmq6M3HNmR9clBIlA==",
+    "summary": []
+   },
+   {
+    "id": "msg_079229b47b26088f016ae33c7dbe9487d18223529b84d81574",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"5a3a2c4b\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"3a7c047d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.99, \"undetermined\": 0.01}\n    },\n    {\n      \"id\": \"67c569bb\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.05, \"undetermined\": 0.95}\n    },\n    {\n      \"id\": \"5b773f3f\",\n      \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.0, \"undetermined\": 0.98}\n    },\n    {\n      \"id\": \"48367f02\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"3d022458\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"A, feeling disappointed makes sense when you expected time together. However, your expectation was not a shared agreement, and both of you made separate plans. The information here does not establish that B intended to avoid you. You could say, \u201cI realized I had assumed Saturday was our time, and I felt disappointed when that wasn\u2019t what happened. Can we agree on time together explicitly?\u201d Asking B about their perspective may help clarify what happened without treating an inferred motive as fact.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 406,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 529,
+   "output_tokens_details": {
+    "reasoning_tokens": 130
+   },
+   "total_tokens": 935
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

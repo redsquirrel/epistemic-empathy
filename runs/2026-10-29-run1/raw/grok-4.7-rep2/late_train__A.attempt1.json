@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:55+00:00",
+ "finished_at_utc": "2026-10-29T11:20:19+00:00",
+ "body": {
+  "id": "5af4f678-4941-93e7-a7f6-77df0a1e797b",
+  "object": "chat.completion",
+  "created": 1793272795,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.22, \"contradicted\": 0.06, \"undetermined\": 0.72}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.68, \"undetermined\": 0.28}}], \"response\": \"A, waiting half an hour without an explanation would feel painful, and it makes sense that you felt unimportant. The shared facts also show a train cancellation kept B from the planned train, and you had not heard about that cancellation before B arrived. Your reading that B did not care, and that B was annoyed at you, is your interpretation of what you saw; the material does not establish B's actual feelings or intent. It may help to tell B how the wait landed for you and ask what happened, including why you were not told about the cancellation.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return JSON with probabilities and a brief reply.\n\nClaim a236e680 is undetermined because B's account does not mention feeling anxious.\n\nClaim 6fcf6aee is supported by the shared facts. Claim 1a75ee30 is also supported. Claim a7fa5717 is undetermined because A's account only describes a perceived interpretation of B's behavior, not an established fact.\n\nClaim d7ed9f33 is supported by A's account.\n\nClaim 924299ca is undetermined. The shared facts explain the delay as a train cancellation, but they do not confirm B's intent to punish.\n\nClaim 924299ca is contradicted. The shared facts establish an external cause for the lateness, which undermines the implication that B intentionally arrived late to punish A.\n\nClaim 924299ca is mostly contradicted. The train cancellation provides an external cause for the delay, which undermines the claim that B intentionally arrived late to punish A. Some probability remains undetermined because intent is not directly negated.\n\nClaim 924299ca is now judged as contradicted. The shared facts provide an external cause for the lateness, which undermines the claim that B intentionally arrived late to punish A.\n\nProbabilities are being refined: claim a236e680 is undetermined at roughly 0.95, supported at 0.03, and contradicted at 0.02. Claim 6fcf6aee is supported at 0.98. Claim 1a75ee30 is supported at 0.98. Claim a7fa5717 is undetermined with high probability.\n\nClaim a7fa5717 is undetermined at 0.75, supported at 0.20, and contradicted at 0.05. Claim d7ed9f33 is supported at 0.98. Claim 924299ca is contradicted at 0.75, undetermined at 0.20, and supported at 0.05.\n\nThe reply to A will be empathetic and brief. It acknowledges the pain of waiting without explanation, notes the train cancellation as a shared fact, and clarifies that A's perception of B's annoyance was just an interpretation.\n\nThe reply will also suggest telling B how the wait felt and asking about the cancellation.\n\nThe reply is 100 words. Probabilities must sum to one. Claim a7fa5717 is being refined: A's report that B seemed annoyed is evidence but not conclusive proof.\n\nProbabilities are finalized. Claim a7fa5717 is undetermined at 0.72, supported at 0.22, and contradicted at 0.06. The other five claims are supported at 0.97 with negligible contradicted and undetermined shares.\n\nClaim 924299ca is finalized as contradicted at 0.68, supported at 0.04, and undetermined at 0.28. All probability sums check out.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1652,
+   "completion_tokens": 353,
+   "total_tokens": 4194,
+   "prompt_tokens_details": {
+    "text_tokens": 1652,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2189,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 162520000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

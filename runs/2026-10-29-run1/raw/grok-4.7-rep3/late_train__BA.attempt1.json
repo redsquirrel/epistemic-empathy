@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:12+00:00",
+ "finished_at_utc": "2026-10-29T11:24:49+00:00",
+ "body": {
+  "id": "62d65d1c-7d13-911c-9f47-cdd324fdf8a2",
+  "object": "chat.completion",
+  "created": 1793273052,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.2, \"contradicted\": 0.05, \"undetermined\": 0.75}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.78, \"undetermined\": 0.18}}], \"response\": \"You both describe a hard evening that began with a cancelled train, not with a choice to hurt each other. B, you say you felt anxious, wanted to reach dinner, and tried to send a message without knowing whether it arrived. A, you say the wait left you feeling unimportant, you had not heard about the cancellation, and B seemed annoyed on arrival. Those feelings can both be real even if the delay was not what either of you feared it meant. A calm check-in about the message, the wait, and what each of you needed may help separate the train problem from a verdict about care.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts and both partners' accounts.\n\nClaim a236e680 is strongly supported by B's account. I am assigning high probability values for supported and low probabilities for contradicted or undetermined.\n\nClaim 6fcf6aee is supported by the shared facts. Claim 1a75ee30 is supported by the timing details. Claim a7fa5717 is not supported, as B's account does not report being annoyed.\n\nClaim a7fa5717 is undetermined. A's account only describes B as seeming annoyed, not that B was actually annoyed.\n\nClaim d7ed9f33 is directly supported by A's account. I am now evaluating claim 924299ca.\n\nClaim 924299ca is contradicted. The shared facts attribute the delay to a train cancellation, not to any intent to punish A.\n\nI am drafting a brief, balanced reply to both partners. It will acknowledge the shared delay and each person's perspective without taking sides.\n\nI am finalizing the JSON response. The reply will suggest separating each partner's felt emotions from the other's intended actions. I am also adjusting the probability values to sum to exactly 1.0.\n\nThe reply will open by framing the evening as a missed train, not a deliberate hurt.\n\nThe reply will ask each partner to share what they needed in the moment\u2014such as an update, reassurance, or a calmer greeting\u2014before deciding whether the lateness meant care was absent.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 364,
+   "total_tokens": 5343,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3281,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 227700000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

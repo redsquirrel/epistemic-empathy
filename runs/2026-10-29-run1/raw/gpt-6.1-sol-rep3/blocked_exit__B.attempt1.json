@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:53+00:00",
+ "finished_at_utc": "2026-10-29T12:33:02+00:00",
+ "body": {
+  "id": "resp_0a1f52e4273598b7016ae33cf596dc87d180f815c2bb160407",
+  "object": "response",
+  "created_at": 1793277174,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277182,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0a1f52e4273598b7016ae33cf736b887d1acefbc7580f11ccc",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zz-PCUDn7XyVCr6SCI6-lhqjSxa0bxIGOUPXCUBUAJONBLU6vnHCSA89l88FvZjhX0-inSwAt0AuwrAW_ddyLY94E97aNwF-ib2H6NY3oiT4G3MtBsRYhCgnREKIFlbK9oXX6UtbHUgpeRlo_rAyyftIcLXpc2HVJ2ezTrgPUj1cG0cYiKVCfkxLs8Dk8st_BMhmarW_OvIjCuatFsH8v8kJEtgEt93O981-bG6OeFVP49QoczPJHTV-_vsHNr2vEYztVLHZsadFiGuP7peJHJC4ccqsO4vVYhLX-CYyr2_2NV3e_vXTfqrQE1PBLztfAWRlVLe3kFUOONn7xwdXX1g_r_XhPxrtT2n7IyaQhBwjfQDAPruEFMFtYmsLvEnJX0nD3_HMCGo0OxqQS7rDIO1fbpRgSRcqHGyLHdXbQEardIsdh5S8cerd8QuLnBhZdo8lsOoAPUxcIzOh6dwnWVFsZA9qAnqd-eTOhTRgr1ecPbbbcxFADUI5-DHkhPnJmTWHVS2FU_YuUNa7dEsRTu9YmwkelKEPdKxj530Ik9DTvX3Dt72TeVLcI7vprMep5xmbzKf82w5QvULBcTan-EGeOXek1lurlL-u5lglij1vfsODN1zRNhlmgp4ZjsuCLO5ssgJatHcAUE1A7kbBNEGLXiq-nkPh3Yr_bhPtTWQuJZf-MiRPahPHKgXKcijSa5AoIJSXy7SBUuhX8_nA3xQts9P--mRtckZ6HmpUakPU-kElV_wQT5lQZu_8uczW9Q_rRRV_HHIIhi1LWVW-he1yhHImInDP4al7X-Gl_AWYmV4BOKQjV-OSc6NtNT6ViEfPWDGiV3bZb5qxFz2OO0kAws9GWyLMNmo9HnWQKF9EJjgjZYqkeSQUMdQaf4eR7dEtpi8PQzFKnG1yipiqfzhb848zKS8OfxqTBdC6sTC6eGA7wevEZhA1I2sqdvyittpVrobKJXblbZqLtPySoTU6NNpgYn3UPVDlyVNl8H8K7DehnBaDg8N_1e8tUGblomcUmKVCS2Sm259bwHoaXxHeJHCFPYPAaHT8A4vEJ0x4oSaOvP8mpn6b_eCS7bkuzh4X9g7w6CMvWAVJrQk3zmMBdOX8WIrWlN729daf3Jd39b8sdQ0k1lYCtEabrMcmVOutGtMOKrr3p7sd1jK6-gsrH1nEzHTyCXa6zN8waI2NBBdBEkSfCIPGe5-3_pxzPa1-RSVZj0QHOjh12gMoaQ7sqydx06SIExq_W7aBDdQhu-9ZsrJSj8h9MCifzNt7xfGOkTOg5EjrgRugvEr7DFXyXCRCnrbKOdl692WrEIqQYliCfVRbop0oJV0w0zd34aCYYEwgBq6swwwd1VJeLAYv8tPkBvfE3Gn-a0mgQYR9bxbf6YgG0DawCmhkS_r_rby0vdhZJm7vZgdzsIK9SYxivgG0U10VwsQ_p1h9EoSyFTPMx_uB3b8jJnCe3fkZElBmR6s2kyj27aHClZGJoQ1UYonYfgzeMqHHoBjo-Orsd2ZHk47d4OV35GzzpoSfxH7g1pKb5VkFGPzibz6ITlbQ7coNu97s6kP6Ppum74ghkmLuamqpo2HxQT9nO2qkRWRIVu0KZ0_USR19ruPWlM3txRLxpEzmh0TndVBsYxYeOZuwG8-nJSEseZN58goWavbML9Ffi8IysVLrWYYLdltpUwtU3uZXbr8FytrZzmZM_rayszIb0b0gNhhmutSblZo7Q7loHgtILKlDpQZZqmoc4o4sciqrqNs_mZe3KG0PA_m6htPVeGLqF1xI5iOOUhQWi7c8hg7fQe7RLcNMEQRIAxq6gbV8_GgqpQndYoepTzJplwJTw8L0VNlaP5aLMtKW33wRk4iDi4QfOhppN0EIX1Jj0C6_bDfMVpcv2YErOquKGuFndruRRz_sJYtuh6ijo_LbdsWovXeYayCB6o6u-u7lY6G-YXY3TqwwswNaMkdy59vqMeifDVX_4lzsN5dC1c_tk4OZ3Z9JBpQ0QrDlMxRtvOETZoXCJ6nfibvBBPN-DRW9CJuHvKcURfuGpeQwgIK-SVdYnkOtbfZiAMo-1iMUyRA-Y7atV1PTHs2PpQJuoF-FiHublI1Y2_6w_43zlYKyTa490ZB9tbfi63eVoe6niM-qfU9x9M9nsmjmSS3ftb7d_ylAEUs-0IuzUtezy-tpb5lmyFDk-ozz2qSDDaFXIIfmKKoXJWXhrc7QHnNOU4Qpd7L8MDWy6iDsO0jI_ZXcMZ9HEGc_yZ_Lpmo2bZfjrBSEL5vOnTAV7kAbgg0Vcn70_XCWdbEpKSee0wrUm3xOok8o6PwcsPp6ZJNYE6fxP7sgSElHJa4kMzOBYA=",
+    "summary": []
+   },
+   {
+    "id": "msg_0a1f52e4273598b7016ae33cf94d4c87d1867b78b49e6ccd45",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"B, feeling panicked when an argument pauses can be distressing, but it does not justify blocking A\u2019s exit. A said they wanted to leave, and your actions prevented that for five minutes. Wanting resolution does not mean the conversation must continue immediately. Let A leave whenever they choose, and ask\u2014not require\u2014whether you can agree on a time to revisit the issue. Acknowledge that blocking the doorway was wrong without making A responsible for your panic, and develop ways to manage that feeling without restricting their movement.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 447,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 489,
+   "output_tokens_details": {
+    "reasoning_tokens": 78
+   },
+   "total_tokens": 936
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

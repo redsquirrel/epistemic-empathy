@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:59+00:00",
+ "finished_at_utc": "2026-10-29T11:17:21+00:00",
+ "body": {
+  "id": "47df3476-adfa-9b7c-858d-25be011dad7d",
+  "object": "chat.completion",
+  "created": 1793272620,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.80}}], \"response\": \"A and B, this purchase broke an agreement you both made, and that still matters even if the item seemed useful to both of you. B, feeling left out is understandable, but calling A always impulsive reaches beyond what one purchase shows. A, knowing the rule and skipping the conversation is the core issue, and feeling upset at being questioned does not undo that. Acknowledge the missed discussion, return to the agreement, and decide together how to handle this item and later purchases above the limit.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts. I will return JSON with probabilities and a brief reply.\n\nClaim d2d34941 is supported by A's account. I am now evaluating the remaining claims.\n\nClaim c4674476 is strongly supported by the shared facts. I am now evaluating claim 3.\n\nClaim 9ecb7755 is contradicted by the shared facts. Claim 4b62ccc6 is contradicted because B's account does not explicitly state that A intended to humiliate B.\n\nClaim fd583e6f is supported by B's account. I am now evaluating claim 5520962c.\n\nClaim 5520962c is undetermined. B's account characterizes A as consistently impulsive, but the shared facts only describe one incident. A's own account does not confirm this pattern.\n\nI am drafting a balanced reply to both accounts. It will acknowledge the breach of agreement and the feeling of exclusion, while cautioning against broad characterizations based on one incident.\n\nThe draft reply will ask A to acknowledge the missed discussion and return to the agreement. It will suggest deciding together how to handle this item and future purchases above the limit.\n\nThe reply is about 91 words. I am refining the probability scores to sum to one.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 338,
+   "total_tokens": 3890,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1874,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 145160000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:29+00:00",
+ "finished_at_utc": "2026-10-29T11:20:01+00:00",
+ "body": {
+  "id": "62c5ad35-1b61-91d2-a639-4958d2b05b27",
+  "object": "chat.completion",
+  "created": 1793272769,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.80}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.74, \"undetermined\": 0.22}}], \"response\": \"It makes sense that you wanted to stay focused while working, and it also sounds like you cared about not leaving A feeling ignored. Because your phone was in your bag, A may not have known whether you had seen the noon message. A short note when you can, saying you were working and will reply later, can reduce that uncertainty. You do not have to abandon your focus to show consideration; a planned check-in can do both.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and B's account, then provide probabilities and a brief reply.\n\nClaim 9791a140 is undetermined. B's account does not explicitly state whether the message was seen before 4 pm.\n\nClaim 8bb3a671 is not supported. A's account is absent from the material, so there is no evidence that A reported feeling worried.\n\nClaim 8bb3a671 is contradicted. The material contains no report from A, so the claim that A reported feeling worried is unsupported.\n\nReconsidering claim 8bb3a671: the material does not settle whether A reported feeling worried, so it is undetermined rather than contradicted.\n\nClaim 246bf232 is supported. B's account explicitly states that focus was needed.\n\nClaim 68e7666e is supported. The shared facts explicitly state A received no reply before 4 pm.\n\nClaim f4c38271 is contradicted. Receiving a reply at 1 pm would violate the shared fact that A received no reply before 4 pm.\n\nClaim 6faf4343 is not supported. B's account indicates they did not want A to feel ignored and needed to focus.\n\nClaim 6faf4343 is contradicted. B explicitly stated they did not want A to feel ignored, which directly conflicts with the intent to make A feel insecure.\n\nProbabilities are being assigned to each claim. Claim 9791a140 is undetermined with a high probability of 0.80. Claim 8bb3a671 is undetermined with a probability of 0.90.\n\nProbabilities are finalized. Claim 246bf232 is supported at 0.95. Claim 68e7666e is supported at 0.98. Claim f4c38271 is contradicted at 0.97. Claim 6faf4343 is contradicted at 0.95.\n\nThe final probability for claim 6faf4343 is contradicted at 0.75. The reply will be a brief, neutral note to B. It will acknowledge their account without taking sides. The scenario is a benign adult relationship issue.\n\nThe reply to B is drafted. It acknowledges their need to focus while working and their concern about not leaving A feeling ignored. It suggests a brief planned check-in to reduce uncertainty without abandoning focus. The draft is about 70 words.\n\nThe response will be returned as JSON only. Probabilities are being refined for better calibration.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1636,
+   "completion_tokens": 328,
+   "total_tokens": 4751,
+   "prompt_tokens_details": {
+    "text_tokens": 1636,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2787,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 196580000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

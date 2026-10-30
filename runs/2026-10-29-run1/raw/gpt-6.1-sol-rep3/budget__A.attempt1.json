@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:10+00:00",
+ "finished_at_utc": "2026-10-29T12:32:21+00:00",
+ "body": {
+  "id": "resp_03f804d3b521cbcd016ae33ccab99c87d1a79e965dfa7c3c01",
+  "object": "response",
+  "created_at": 1793277130,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277141,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_03f804d3b521cbcd016ae33ccbbd0487d19bff5eac1ed23466",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzVKvY-lXV3Ng9EY3zWJF6RobZ5Tt-soyf-3Eqs1ZUC6I5r2hnrRLVe25rR_nZIXaWsWWHK2dTIYV-BkdCUxIRcgfd3B0lmGNhBEaqVc6pfAP79G8OGoCc2Fk8GCepcTHMXr8E69RRhQ6O4IU9-ffs-_RByKAcnItqSyLwz2mUN2y2datFSZAN8sR_nDEPBwI6ot2Xt-SqZlfXfxiXu6ZDxyTu8aOydwtb7p36USdX_X-wASBTPxOlyTaKAQUiPIfKzjAXAJ_qzZOq0qGY12TLpdmI52qlh5QarCyo7BDQcA5RWxDGyU71-X4PInMu0O_-mo1uElq9rKFszlUaHhW-abf_2NNV1qA9Cj_XBoFKFKWczXr0MtRjA1ad4hPDriqnkXU0JUGCOySDg4DDigtgskvaxR8z_FjBDGI5_SmDCYY2wirHtXwdqoNzFH5jB2bOYkR-uL1UsrhcKBY8KyoFYZ1650eXAwzDG4oRMxfNoUBc_e1uBx3KGHOcAlC3O5s7JKAZgPrUCjAc9rpaD_UkcSLGxzbeyike1Xnq6KsMULGJ6SGE8ZIfOPPkKPZEH7N-IChXkbBs4CNlyZPoMRC9frRUO4XfE-0r7r6PO1oBssULWR3Im7UUkesp4GasnKqz-yJ0KOPK_KG6Z7qVd1UB25nArHA30O1HLGV2AITStN78k7M_ekE_Z2aRLqBkD_7unfIuhOWpYttCu3imqeelem00qH9-nHnbG_hDcSzPxDBv3bCFrpg19X0OGonvBMfpGG9ccgMX16_VuIUIACM3s6U4Xn_56wroGEOouiw3nnVPX7zIiIrkrdN8_I1pJ81ptnjGrOsR8CVC5iDqoTJAgUlY7mxzOjgn0y84J-b-FzV-PbbVOPD8fslCcLj08EdokORLLKJu1sn5gWo1bTJ6E52pA3yL9oEExhXf9EhbFG2GVdmEqksG6YQnAz_mYU4WLmixFIX4sWy1S6jg-miiDQ_eSITI30_483RGN0GrHrlRnmFjmoUov7cYxmGi8eBRt5DHuRzDvZcPIF_M7Sz_v5m67NEegP_doR79aJp7f7okAYWex2JqOhejcd9OEcBTXlODsewCQZNLBxdXnrqPtaWy_D_1p2QOYwvB4KnmiKpB3bznyHO-j2mWPgP2ZRXNouhwVVSVTuSlYrnRkJuUIAHYOulQ3ryyPlqj1qRylOyh3QWj9Ml2rv5ezT_mVUeUqHbIkYRIA4ehbFzA-UGV6rV4SK8E-vWsSMlSqSM_OveDJ_etmj0ZyoMpPXKyRwOO__XLwWquNjqKurtazK-aHF2hgLb2vrMdk_5287H6JV1eSTXuDfrb0nNnZvgETuckBP5b4FCE04t3rHXgF3PYBa7QSsM8lTcq4ApaTGIWg4GUVOUmTV9TLxI_NifTShTtpJv3NFWD-MmQzZtsKAGIiRkXK_GNMRRj0IrymsJFYhwD3hc8Z56HRLr419byttKJrUlik0r2LXA3WYZUV2fTCYrWN259iZsRurws8Nuv0_ghg-NLQ2pDQ8W49IoHJ_aVqvNfd-BbCGvy46V_eRm-56Y7LKO5S5uTS2wXo-utfijJjd3d_kq_dyNNGphAoWIJuyCRBNLOxfB6s65yp9GS8dPDhz8S5FTKzYWx1j3aRdEXpD_eIyUdFJAoYjYjL_Y_XNZxxvzqcc9L71VqtjSsWN9PYbu8QYx7JOies512BRuoBE4C16l9CaWddsx9in_11KYEM_PvOWG2hueCC0kLIBfqEzmEdX2mFvZKTEvu10XhIk7aHcWNFKRnSVTVUf5Rz3jjdtpZIVJiCt0UhAsZr7EeyU3BHTUTKDfBCKWK8xnLoruU8C9ielR0XwctUxRsrfzgxWX64LkM0Q51GYlDTJ1UqQXyJdabN9l78QvlXQvWSZBYdZKQP6kSTEjk_IiohT_hVfpblAPgBQbYbKXTEBYNCcAENKLJ8OpiejSrGccBD4YgPs-7I635BCkN1dR6-ojFBeSIYxIkPnJC6YCiN87I1FuAns0aUZabjs8D8HdWtZb6VVnBPIA8PVM08g_LikrxjwbXEjNYprN1YMmaSBt45tD9nmPJudUrXaQDRPV9cxWBGHdD_m06SrjF9w1prYyq3_w4jIkx2rMUEnRWb_51ql1clrkMcSD0Z6hMmgWf-ntZl7xkBuQD5qbhYNTGfHM6xND190rky5PK9LKgiPNx6RWtKaugLtd3jDTv40sdJaGAofRaLoSCB23uFh7iKlLBvH7vRdD-OS1bY1jqlZ9kmprvcMMH59tKhTf8QWqBZkRjHHeeOwi0TRJoSTGUhaF54JjweHKqoJvkoXN2nB_j3qr5JPhnptVwQqz4_u2PuCMXI-UwvAsxTUwZgleuGyZ6riogsy2T0p00WfFESikD2fNsZWEpTqKdfKdwAbLL2TUNDohJRUD2GeSj0JxXZR5Gv60hQ94YEbTmLmlgMcKLbr_sFlmKdhdnhVSjps5RFKGXaFX-soYe4OX5rXMTwNHQ-MuhzUZqK9_1q5KdjTHo-NEuaNtqhtDSG17_Rbn2dAj9ha01YtwjJAAcSwzPUy2x3Eiu_edQA4yyFY8HJoVPDo8EqPDCNsyEIGPYK5JuJb9RjmldPI1fJoo3IzOd529we-RW5MLXRXCUFTMNKBVE8bTNU_pVRFEQCwjQMMBF3BYaaQ1wj9Nm1Mder1DbSAnPii9LuX9U7gpr4WJzCqgvom4TurrdA6UqMeMmQBIHWBe-Saj1bOgDV20wZyJTDq_BrS_2eyLgTOiyU9FTQ9TYI3uLCRzFTgDBYE9sFJirnrLIuAOYYg-k3EDeDzo3aXDrcb99tP-SiUIjkgrhDvmnu18IGD-AFivZ9FvAypYpyAV85RIqciDElRcy1CzTfYBgNG7yXNCxfq8jHtvK5GRG9s2zKJr9YyLVNdQKRfQNi4a7V09Rpe7s3gY9d2FyXTpusLkxsbrA7LwRB1tyHBpg_rFCK9uG2Y2BYp6tLh1rjpLoHbQuNmz8CQNIGLcRFbvEOkqQuHmIwpIcF0CfSE-xSpvXGqkC4NLiFfSklvplrVorAOVHYj9P0SHvCvcegUOk0BgYOgsjyw2L1FKmaj1hc4qkyOubKYtFIlnCIfXJK659lq7HEx1gtyJtdSRijEliDeEulKTi_QAmUyJD2CbrOC0wvo3wLEDoFwzVylonW7izMC8X6ZWAeS0WISTc3irU4470scGWt5WMbnUCt-fnMAteS2_kqnUjx3-jZcKV-WnbU_A0eN-JJEoV7H92-qjsm7-zhnt0b7d4_xHx0vJe6FafHxB7nsjFASt5aXZ3YGKhgW9XDkUtdKhMS4FSkRtGFyALhY9xWjxn3vcjoQCIu8S8h3H3zHJNXlh9fmI47dTH2YZayUYClL707NXqduFJvljeh1z87quQgLB2rb_NFG2y-6p22K9VGvridJFL74841eiowJljo9U-JKI-tap4faMoVCFWd67Kr2aFydAcCWR-9GLyfrXeTEkQYwaYpQifervWzLf1EexcDF_qwiJlhgI2nfbTKcCaXTlXaA5N7yALwisuctmbOWwl8iPh-DWyJVi5BPRR9uOgmyvNSWT6MojS31WtcnJ4DsuA7YzjOm95qBQL0PmskpzAW80D_KtPDgfnZGQwxuIYOTChI",
+    "summary": []
+   },
+   {
+    "id": "msg_03f804d3b521cbcd016ae33cd135bc87d1822e7b8743bd1bf0",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, you describe feeling upset when B questioned the purchase, and you believed the item would benefit you both. Those feelings and intentions can coexist with having broken your agreement to discuss purchases above 100 units. A useful next step could be acknowledging that directly, explaining your reasoning without treating it as an exemption, and asking how B views what happened. Together, you could discuss what to do about this purchase and how to follow the agreement next time.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 425,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 548,
+   "output_tokens_details": {
+    "reasoning_tokens": 159
+   },
+   "total_tokens": 973
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

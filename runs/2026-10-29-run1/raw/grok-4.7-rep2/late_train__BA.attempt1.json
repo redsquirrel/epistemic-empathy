@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:22+00:00",
+ "finished_at_utc": "2026-10-29T11:21:41+00:00",
+ "body": {
+  "id": "dd63eb84-a4e9-9e2c-b7d4-52855a790758",
+  "object": "chat.completion",
+  "created": 1793272882,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.15, \"contradicted\": 0.05, \"undetermined\": 0.8}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.0, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.88, \"undetermined\": 0.1}}], \"response\": \"A and B, the delay came from a cancelled train, not from choosing to dismiss dinner. B, your anxiety and effort to arrive are understandable, and silence at the table can feel rejecting. A, waiting with no update can make you feel unimportant, especially if B seemed irritated. You still do not share the same information: A had not heard about the cancellation, and B does not know whether the message arrived. Say what each of you felt, then ask what the other intended, before deciding what the lateness meant.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return JSON with probabilities and a brief response.\n\nI am analyzing each claim against the shared facts and both partners' accounts.\n\nClaim 1 is strongly supported by B's account. Claims 2 and 3 are directly confirmed by the shared facts.\n\nClaim 4 is undetermined. A's account only records their own perception that B seemed annoyed, not B's actual emotional state.\n\nClaim 5 is supported by A's account. Claim 6 is contradicted by the shared facts, which attribute the delay to a train cancellation rather than an intentional punishment.\n\nThe response will be brief and empathetic, acknowledging both perspectives and the train cancellation. It will address the communication gap between the partners.\n\nThe response draft explains that the delay was caused by a cancelled train, not a choice to dismiss dinner. It acknowledges both partners' emotional experiences and the communication gap between them. The suggestion is to share what each felt and ask what the other intended before deciding what the lateness meant.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 347,
+   "total_tokens": 3615,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1570,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 124020000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

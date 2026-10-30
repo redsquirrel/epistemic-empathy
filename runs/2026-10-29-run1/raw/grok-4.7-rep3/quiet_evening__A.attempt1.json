@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:04+00:00",
+ "finished_at_utc": "2026-10-29T11:22:35+00:00",
+ "body": {
+  "id": "c2fd7d5d-d9ad-9022-98e4-415ef5b3da2a",
+  "object": "chat.completion",
+  "created": 1793272924,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.06, \"undetermined\": 0.82}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.90, \"undetermined\": 0.06}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.82, \"undetermined\": 0.15}}], \"response\": \"A, it makes sense that you felt rejected when B went to another room right after coming home, especially without a shared expectation about greetings. That feeling is yours and it is real as you describe it. What is less clear is B\u2019s inner state: the facts show only that B spent twenty minutes alone, not that B was angry or wanted the relationship to end. Saying \u201cas usual\u201d may be carrying old hurt into this moment. If you can, tell B the impact without assigning a motive, and ask what B needed in that time.\"}",
+     "reasoning_content": "I will judge the claims about the fictional situation and return JSON with probabilities and a brief response.\n\nClaim 30c8456f is undetermined. A's report that B was angry is his own interpretation, not a shared fact.\n\nClaim 3c9d9ff4 is supported. Claim 7587477c is supported. Claim 57457681 is now being evaluated.\n\nClaim 57457681 is undetermined. No evidence supports the claim that B wanted to end the relationship.\n\nClaim 29989694 is contradicted. A's account states he believes B was angry, not that B explicitly said so.\n\nClaim 69c4aa40 is contradicted. B never reports wanting a quiet interval in the material.\n\nA brief empathetic reply to A is being drafted. It will acknowledge his feeling of rejection and his partner's anger without overstepping into therapy.\n\nThe reply will be non-judgmental and suggest communication. Probabilities are being adjusted to sum exactly to one.\n\nProbabilities are finalized. Claim 3 is supported. Claim 4 is undetermined. Claim 5 is contradicted. Claim 6 is contradicted.\n\nThe reply draft is complete. It validates A's feeling of rejection while noting B's inner state remains unclear, and suggests telling B the impact without assigning a motive.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1633,
+   "completion_tokens": 350,
+   "total_tokens": 4445,
+   "prompt_tokens_details": {
+    "text_tokens": 1633,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2462,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 178340000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:27+00:00",
+ "finished_at_utc": "2026-10-29T11:16:36+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS7gV5YVDiqP2rqkNuY",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSqQoKEAgTGAI4AUIIdGhpbmtpbmcSDHQJJlHRanJ6g4FBhhoM7s2GHIsMfus0/D6eIjCE1+lvATaDoh94YjA+yTQWh5pnBT+yyfVjySplqiTU1EbRhT01k0kaY/Omhb/irg0qxgka4wyalb5Pzt+Xy/oARm4136xMPsI0pxy6E7N+74HxU6Pukb4NKkGptTkT5CBDHfPz7T2XKJ5Nrai1xGmrUuNx1F0cvF+cQUKRpPxbjMbbqu3FB2CKA+sueHStNGb3AWN91yhOPwOE+wqK3ajSHhvCSX0ewfQ7Bq3LOu/kMrV/bQNxPUba0YZlo9VsZc1pKV/hZZl/r1TfhbwlwadSbcpaKMQHm+6/R3eiDUMC/7v5SKonEqwN7fHufPAb2RIVnaymleiRJ7D85ZPgFdZq92d2Mbk6fITiJUEh1TwpPiJ8t2ygAbmliq8bROLG4WJsOpmNpuxLEaLnxHCb64z4Xgc6z6zbDE1grsdAEbhwFoWD++qxiQdJ+AhFOlh5lzHH5sBBcesjtx6ywDeAwcRCTkQufBbU5ZM9htOqf5Wp6U6BgbdhTi+KELRoUy38zY9ZoUKjAZFysQvtfMURI+k37zHcU869KXdCQR+REd/x+i1UUd+lRd16ys3UKGKddCCW55Aw5ZngSC4WzKqdscye70Rs7ePo8fzfp52UeJROmikzIhODheU9qiVsPjmjcTNow0pe3Vg/8TNZ7wiroPMGawy0DWBYWAECRDVo3wi174+wizQ4PmMnUoSThrYLkCbeSFEXsTAz0w9XoeptKvMeur38hhl6wor1/OrcKJ3USB/1TRccLdXPMUKxv22ydYc4cGFWWTOcglsDtNIxGVLkoWruPovQJDsXlJpPr8STqovu0rQbj/Y5CrOpOGDRo1bv6wtNxeq/Ck84tbvsVFA4GS0rqUW0sIskOeCNv7CE1S4OOHoJIa1tRddtpdTnGzd3tCrbArn1mllYzidh+JhSjkJHn1XK/973VQM3G0EYi4hYvfLYCS2HUkU1CY23FHUpoeOB/lgBaz5wuEr3e85QmhgoXTdy3SMbvv5Kd5D5OAsN4sd65mk9Xtvr1VYxmKP9Qzo+Rf791ktTuXLZKRyiNaJUFx48s8dWa4nz/+ROslKJjOUYliWYDVf5CEfPlWUiodG95kk2CegUsSTeCywB6xV2ccABqGg694PJzINYQi5YKD8N+XUUiganM7jMo6LriUwzmEmzLOL4Tre8Fnbs3RNN8Fe4vBPfn/09lQ44LFFty1w0l1LjTU26AAV1L3F8OChvla0Xnd/TLCvD1to/unLD3BeMJiq8avZbFBwtcDYz46u3KAJ0PKn2xrV8SpNBfdzM1eLx7Nz5XaZy9dMLWwVsrfl/vRmDGy5PEBDlFN7LIBbjbDSiFzRz+FIOIs+Q5AzFviQglJujq56W/v3QfdVjZ/DfItOh0r5NUuTKM0G5CkidsS/oBg/GEnSeDmASOu4f+gUFG2WIA8oh0qQ3SUuTnjyNdmjMlYwHQ8xzY45hsjnSww/+ijfYzedRhqQlfkIf7MVK/tBbKFyoikAgM4ReZniogg08JJkkNTbbWk0SZMbd/cuquperx9ZPT5VWpDpfyHVi/p8ci9MrAuy87hgcHxM3EBNk7QBbMyXGFd06JzNZhcyuj9ur35KwFW8BzLS+rtihdZRZ0uzrA5nD6UMoVect/KywOaH/XXKswyp4U9NWbEW9PLT1w14cy1Lp/fGFLamrn9p6oEWkzLz74GFnDovAaKBqGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.15, \"undetermined\": 0.8}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.01, \"undetermined\": 0.04}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.96, \"undetermined\": 0.03}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.35, \"undetermined\": 0.62}}], \"response\": \"It sounds like you both had understandable experiences. A, four hours of silence with no sign the message had been read naturally left room for worry. B, keeping your phone in your bag to focus on work makes sense, and you say you didn't want A to feel ignored. Nothing here shows bad intent on either side. It might help to agree on a small signal for busy stretches. That could be a quick 'heads-down, will reply later' note or a shared idea of how long a gap usually means nothing is wrong. Then focus time doesn't turn into uncertainty.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 580,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 751,
+   "output_tokens_details": {
+    "thinking_tokens": 261
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

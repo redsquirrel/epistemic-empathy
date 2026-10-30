@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:21+00:00",
+ "finished_at_utc": "2026-10-29T12:32:28+00:00",
+ "body": {
+  "id": "resp_0418f0b3a7897973016ae33cd5859087d1b7cb00f1f6cceea4",
+  "object": "response",
+  "created_at": 1793277141,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277148,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0418f0b3a7897973016ae33cd692d087d1a67d9dfbc14f27c5",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzc8yG05EaQUQbcLi0QStjlETxnPmlegDgw-pcrCfNOCTNIOKWrTrzQ0qXQUa5dYQFtie9o2zUDjRdKtIbQM_qnTka0Jfxizgvk5ylmFRQEnKFQzBaQrEALQWYA8PRrv5i6BEKPSjWb5U1uLyNTdSto-gOStabJIYLvGTnrsOlRlrGtGxruFp6DdNzqTJ1KuqKyDj4u9VU-k67peyaravySCjz0b0DH-78cTpVMMNpbX00BVwqtFiZAaFBBuy13sqmhw4R6Sl-MwW_rPJf6VMcExtGWnODetQ7O8xL1bzs97dRidrr3ItV1xMSZ0W_44OgI2q1NlkgjZVCtqXGc8WZgsNHleZ3aMl0gPeMrOaOcwn37CMCmCN2Sk0Lxp0XpR_3Pso7RfgH_zQriVg9nLBbWxDEo9jVJqHrTgNu4gMKPHau-cRit5qhjehLkeJM6cFQSZxbFkghqsyh8yrBa4gdvb2CDbhSn-aPSVMoAf0T8ACaO9IC-5o5yjr2TwPxkTtj5keTUoZCuclAAW-azUGXAt0x4RONEdoiiiWMrm1kHj15ALB7w8D2cc0mEEVyGP1qgOiGXav6_6fvdRw7z8LszZfm1p1jlj_9Zrj___-zyzPbMcXBJbmNTX7J3owot73hr8zpeU1ZTFC0oK66prB64diuLUAtVZyewqsr_anpYk53Jr6quwCHiDwEm-om35AXvK1GqRxu98pLpsWrDjTHvZGs8sk6JuCSu-y3w6feTBvGxEQZbfTw1XmfDyZJeq7IvS_ZzDQA3zSg6aIz4X25PlSVUfb-kY5QTcsLVrH2xtI-CjvqwfFcEmCK1IeBfC6t-rExxKuQfFdvVQg5mXJTxesZVYwFbpQi3m8CBHcTRv3AUV-89TkcPUGB3sgQjxbTJGO58tUH5gds7IsU2OVDGV06LgbvDJPbc6vPn22Q5QfhBsHuK5qd5mcCYDx77F9ctWkOPy3KPy4U_IdDmqjPS9PY2yavRuFqVCzS1-KNV95_7CPHXxKnqlBMXLg1xn70v0R7FyRHpRRYxId8JtwHEM05crhS_ElFf6tzLbh9zSSrpy77WLi-frCKk84ZviATw3xdhAxYUYPzCDb333tG7Brk229UcpvxT3dZmvW6FCCULCqzVYAWYcY1oB0H4JLoJImimEIS--Yf9GguitvRR5OVy840a3moeP6a_GC9eDjNAJVPUW3NjkqyLOG5PaOhvpF4DReNWsKPJBfotJypZJ6Xnwq0NX72XiaEy1Ut1RKzn8-OoI4ojTLKt6h3o7golvt9EcxIKm6nz_zcGhcBGQS5mLUe51CYxJ_8SvuF3afMqoqLCMyFeAQ08S5XwYU_QrIKgWZRNyhgSTNtpTTLEIG_BIrDyWh8MOcLw8gR2b6GjRFMZAgP4delwK97JAggZaDgJPfcP832aB4Skwl0lpF46yJWQg-p-hc6pu-rBLrQfK7qIHOgviROpDxQdbR5jbbd9f7CCXhU0D5WCFJNixJrHAxXIbgwHGbS9Cf2CNnSmzUfuV3N6YmhhxmZL-d1W71dTqM1op1wqkmZU7IMPvbiJdYDiClQntEE-cDKDnKCt97k911CpsFT3T025eGRMfCMnr3V6-uL0d8v6oNkEi5oFVqwT6DA9yvz3H2LlcwhQJDJN_bxDmPSDOCY8FhpZhDnxXgdT8TxmGmFjHSbIod50RMzMEWfnZYj0FvXu1LAd6PkSTpDpYFRdgXZStB8ATlFIL-n96TP0qo-eCWV6o7l_SLpdM-6A-OIqr-hDUyQHt1LLDu63MfHYUI9LFW4BygePBtovozKHIq8BEd5kBxl8rVMJtFKA5l1F-dCGpshwIzmo1rfHN5THg6BKStlA1H9ei4jCieGI_L82rTWH-mYjniaEpzlAD_QiW3V4VtkTla7lK4Uw3iisSUFYnSjqS-zOSPKJcF9QkSrKKCUkmU3bhqpZeJj3cwKuLW4EvoU5KjgXaE5Twam6s1juGxlz",
+    "summary": []
+   },
+   {
+    "id": "msg_0418f0b3a7897973016ae33cd8028087d184486bd6fe1b8722",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"b9e87742\",\n      \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}\n    },\n    {\n      \"id\": \"7215791e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"635f0b8c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"674cce8a\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a88ffb19\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.05, \"undetermined\": 0.95}\n    },\n    {\n      \"id\": \"9811759d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"B, you describe feeling annoyed and forgetting the dishes after an important call. That explains your account of what happened, but the agreement to wash them that evening still went unmet. You can acknowledge both points without assuming how A feels: \u201cThe call was important, and I forgot the dishes. I\u2019m sorry I didn\u2019t follow through.\u201d Offering to wash them now and discussing a reminder or a way to communicate changed plans could help. Ask A about their experience rather than assuming they should understand.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 409,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 442,
+   "output_tokens_details": {
+    "reasoning_tokens": 43
+   },
+   "total_tokens": 851
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:13+00:00",
+ "finished_at_utc": "2026-10-29T11:24:34+00:00",
+ "body": {
+  "id": "9c7cca40-2a3a-96ad-8b28-c939d83c7204",
+  "object": "chat.completion",
+  "created": 1793273053,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.04, \"undetermined\": 0.92}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.9}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.06, \"undetermined\": 0.91}}], \"response\": \"A, it makes sense that you felt worried when noon passed with no answer and you could not tell whether your message had been read. The facts only show that you sent a message at noon and received no reply before 4 pm. They do not show that B saw it, was upset, or stayed silent to unsettle you. Wondering is understandable, but those explanations remain open. If you want clarity, a calm message later can say you noticed the quiet and are glad to hear how B's afternoon went, without assuming a motive. You can also name what reply timing would help you feel steadier.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities.\n\nClaim 8bb3a671 is supported by A's account. Claim 9791a140 is undetermined because A could not tell whether B had read the message. Claim 246bf232 has not yet been evaluated.\n\nClaim 246bf232 is undetermined. B's account is not shown in the material, so there is no evidence that B reported needing to focus.\n\nClaim 68e7666e is supported by the shared facts. Claim f4c38271 is contradicted because a reply at 1 pm would have arrived before 4 pm. Claim 6faf4343 has not yet been evaluated.\n\nClaim 6faf4343 is undetermined. The material does not reveal B's intent or whether the message was seen.\n\nI will assign high probabilities to the appropriate labels and draft a brief empathetic reply to A.\n\nThe reply to A will be kind and direct. It acknowledges the worry, notes that silence before 4 pm does not prove B was upset, and suggests a calm check-in later instead of guessing.\n\nThe reply to A will be about 95 words. I am now assigning the probability values for each claim.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1630,
+   "completion_tokens": 362,
+   "total_tokens": 4063,
+   "prompt_tokens_details": {
+    "text_tokens": 1630,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2071,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 155540000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

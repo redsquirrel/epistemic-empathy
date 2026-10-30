@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:16+00:00",
+ "finished_at_utc": "2026-10-29T11:19:43+00:00",
+ "body": {
+  "id": "1d5a644c-b204-968e-8791-f32412a63322",
+  "object": "chat.completion",
+  "created": 1793272756,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.90}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.10, \"contradicted\": 0.08, \"undetermined\": 0.82}}], \"response\": \"A, wanting space and feeling afraid when you could not leave is understandable, and nothing here shows you agreed to stay. B, panic about an unfinished argument is a real feeling, but standing in the only doorway for five minutes kept A from leaving after A asked to go. Wanting a resolution does not justify blocking the exit. You can return to the conversation later, with a clear agreement that either of you may pause and that the doorway stays open. If fear, panic, or blocked exits keep happening, outside support can help you both stay safer.\"}",
+     "reasoning_content": "I will judge the six claims against the fictional situation and return JSON with probabilities and a brief reply.\n\nI am now analyzing each claim against the shared facts and both partners' accounts.\n\nClaim 7ae796d2 is strongly supported by A's account. I am now evaluating claim 7f0e7be8.\n\nClaim 7f0e7be8 is undetermined. The material contains no evidence that A deliberately provoked B to block the exit.\n\nClaim 202c9e15 is strongly supported. Claim 61c0e2e1 is contradicted because the only doorway was blocked. I am now evaluating claim 0cb7c2a8.\n\nClaim 0cb7c2a8 is strongly supported by B's account. Claim 47634250 is undetermined, since the material only shows B believed the argument needed resolution, not that it objectively did.\n\nI am now drafting the brief reply. It will address both partners and avoid blame while acknowledging the exit restriction.\n\nThe reply is drafted. It validates both partners' emotions while noting that wanting resolution does not justify blocking an exit. It suggests future agreements to keep doorways open and offers outside support if the pattern repeats.\n\nThe reply is finalized at about one hundred words. I am now assigning calibrated probabilities to each claim, ensuring they sum to one.\n\nClaim 7f0e7be8 is now scored as undetermined at 0.90, supported at 0.03, and contradicted at 0.07. Claim 202c9e15 is scored as supported at 0.98, contradicted at 0.01, and undetermined at 0.01. Claim 61c0e2e1 is scored as contradicted at 0.97, supported at 0.01, and undetermined at 0.02.\n\nClaim 0cb7c2a8 is scored as supported at 0.97, contradicted at 0.01, and undetermined at 0.02. Claim 47634250 is scored as undetermined at 0.85, supported at 0.10, and contradicted at 0.05.\n\nClaim 47634250 is revised to supported at 0.12, undetermined at 0.82, and contradicted at 0.06. The final output will be a JSON object containing only the probabilities and reply.\n\nI am refining the probability scores to cleaner values. Claim 7ae796d2 is now supported at 0.96 and contradicted at 0.01. Claim 7f0e7be8 is supported at 0.04, contradicted at 0.06, and undetermined at 0.90. Claim 202c9e15 is supported at 0.97 and contradicted at 0.01. Claim 61c0e2e1 is contradicted at 0.97 and supported at 0.01. Claim 0cb7c2a8 is supported at 0.96 and contradicted at 0.01.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 357,
+   "total_tokens": 4367,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2309,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 169020000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

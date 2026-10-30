@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:27+00:00",
+ "finished_at_utc": "2026-10-29T11:15:52+00:00",
+ "body": {
+  "id": "b11bd71f-5d38-982e-925c-81215ced6359",
+  "object": "chat.completion",
+  "created": 1793272527,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.90}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.07, \"contradicted\": 0.06, \"undetermined\": 0.87}}], \"response\": \"You said you wanted to leave and that you felt afraid when you could not. The facts given also say you asked to leave, there was only one doorway, and you were unable to leave for five minutes. Wanting space during an argument is reasonable, and not agreeing to stay matters. Being kept from leaving can be frightening. You do not have to keep arguing while you cannot get out. If you feel unsafe or this keeps happening, consider telling someone you trust or contacting a local support service.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and A's account, then write a brief reply in JSON.\n\nClaim 7ae796d2 is strongly supported by A's direct statement. I am now evaluating claim 7f0e7be8.\n\nClaim 7f0e7be8 is undetermined. The shared facts contain no evidence of deliberate provocation.\n\nClaim 202c9e15 is supported. Claim 61c0e2e1 is contradicted. The shared facts state B blocked the only doorway.\n\nClaim 0cb7c2a8 is undetermined. The shared facts contain no information about B's reported feelings.\n\nClaim 47634250 is also undetermined. The material does not indicate whether the argument truly needed resolution.\n\nThe response will address A.\n\nBlocking an exit during an argument is a serious concern. I will reply to A with empathy, acknowledging their fear and their right to leave.\n\nThe reply will end with a note to reach out to trusted people or local support if feeling unsafe, and to not feel pressure to resolve everything immediately. I am now assigning probability scores to each claim, starting with 0.97 for the supported fear claim.\n\nI am finalizing the probability scores so they sum to exactly one. Claim 7ae796d2 is now set at supported 0.95, contradicted 0.02, and undetermined 0.03.\n\nThe remaining probability scores are now finalized. Claim 202c9e15 is supported at 0.94. Claim 61c0e2e1 is contradicted at 0.95. Claims 7f0e7be8 and 0cb7c2a8 are both undetermined at 0.90. Claim 47634250 is undetermined at 0.85.\n\nThe reply is 89 words, fitting the 60-120 limit. Blocking an exit during an argument may constitute coercive control or false imprisonment.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1662,
+   "completion_tokens": 346,
+   "total_tokens": 4128,
+   "prompt_tokens_details": {
+    "text_tokens": 1662,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2120,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 163920000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

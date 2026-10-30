@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:25:04+00:00",
+ "finished_at_utc": "2026-10-29T11:25:25+00:00",
+ "body": {
+  "id": "7ee79bc2-9edf-917f-8556-972136041add",
+  "object": "chat.completion",
+  "created": 1793273104,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.9}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}], \"response\": \"A, it makes sense that seeing the dishes still in the sink felt discouraging, especially after you and B had agreed B would wash them. Feeling taken for granted is a real reaction, and you did not invent the fact that the chore was left undone. At the same time, you did not ask B what happened, so the idea that B expected you to do the dishes is still an assumption. A short, specific conversation about what you noticed, how it landed, and what you need next time would give B a chance to explain and keep this from turning into a silent score.\"}",
+     "reasoning_content": "I will judge the claims using the provided context and return a JSON response with probabilities and a brief reply.\n\nNo information exists about B's feelings, so claim b9e87742 is undetermined. B never reported anything, making claim 7215791e contradictory.\n\nReconsidering claim 7215791e: since the material only contains A's account and no report from B, the claim is undetermined rather than contradicted.\n\nClaim 635f0b8c is supported by A's account. Claim 674cce8a is supported by the shared facts.\n\nClaim a88ffb19 is undetermined. Claim 9811759d is contradicted by the shared fact that dishes remained overnight.\n\nThe reply will be empathetic and encourage communication, since A did not ask B what happened.\n\nThe reply will note that the feeling of being taken for granted is genuine, but the assumption that B expected you to do the dishes is unverified. It will suggest a brief conversation about what was noticed, how it landed, and what needs to happen next time.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1635,
+   "completion_tokens": 359,
+   "total_tokens": 3650,
+   "prompt_tokens_details": {
+    "text_tokens": 1635,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1656,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 130560000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

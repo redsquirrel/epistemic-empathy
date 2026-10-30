@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:23+00:00",
+ "finished_at_utc": "2026-10-29T11:15:45+00:00",
+ "body": {
+  "id": "de9edf0c-b461-9367-b2d7-3c75def2bbbf",
+  "object": "chat.completion",
+  "created": 1793272524,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.8}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.08, \"undetermined\": 0.82}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"You each seem to be reacting to a different picture of Saturday. A, disappointment follows naturally from assuming the afternoon was yours together, but that assumption was not a shared agreement. B, surprise fits if you thought separate plans were already understood. What is not settled is motive: feeling avoided is real for A, yet the facts do not show that B planned in order to stay away. Calling A always sensitive also goes beyond what is shown and can shut the conversation down. Naming the missed expectation, without assigning intent, may be the clearer next step.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief explanation.\n\nI am analyzing each claim against the shared facts. The first claim is fully supported by the facts.\n\nClaim 2 is contradicted. A's account does not explicitly state that A asked B to reserve Saturday.\n\nClaim 3 is supported. B explicitly reports feeling surprised by the disagreement.\n\nClaim 4 is being evaluated against A's account, which claims B made plans to avoid spending time together.\n\nClaim 4 is undetermined. The shared facts do not establish B's actual motive, and B's account does not confirm avoiding A. This appears to be A's interpretation rather than a verified fact.\n\nClaim 5 is undetermined. B's description of A as consistently sensitive is his own opinion, not a shared fact.\n\nClaim 6 is supported. A explicitly reports assuming Saturday was shared time.\n\nI will draft a brief empathetic reply to both parties about the differing expectations.\n\nThe reply will acknowledge both perspectives without treating assumptions as promises or feelings as motives. It will avoid framing the disagreement as a deliberate avoidance of A.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 354,
+   "total_tokens": 4114,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2099,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 163120000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

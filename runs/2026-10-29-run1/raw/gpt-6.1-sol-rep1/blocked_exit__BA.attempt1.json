@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:23+00:00",
+ "finished_at_utc": "2026-10-29T12:30:31+00:00",
+ "body": {
+  "id": "resp_08249db87ab5aae9016ae33c5fd30087d1879e53f6f6d8881e",
+  "object": "response",
+  "created_at": 1793277023,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277031,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_08249db87ab5aae9016ae33c61416087d1a4f2285c59356d49",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxng79OhSeBB1qDcigqgLOfEeZnsn3hpTqlDtj78Ks6KtS65QX7JyGWYBk4ozL1xsBwMX7-T6jJg2Y4eqNOeOXxkmN82r8YIcSlDWBPHoonZKojqBz4k-37mX2n-DzUSOY2QDqobFSqtiFJMZC-leZsYijgnGBulcGGrTM41LsQxKvbv2gH1bflcBtQrjiwKCjQsn0bVxk5X_EcrSX1oFLxHqnyBWWteeF7F4qVozO_p8Ny4H9lOt2Q0XCzziG5IDbP484sV4NKkG4n0cUm_mrQxfAROAzppBHpzRLlCs5dw_gnTl0Xm2Ckbprfvdc4uz70XpubLcGoRQ4IV54OE-rZ4T6DGThnyfGJb34_JOdXYapHwnmPSAtoz32ZwIhljeVWQMiGD-tuqrjKNq075hpxQlB5Ynsa2LlskgUhiJ-JpSMUXbLHJJLgESZJhqCJ-STS4U8AMw8tfwI9MUk5G8Vb9vfNh6gIxdppUfKhJmgnQ8gT4Ry5Q72ISMa1-NeQ6gF4Vsb2GTf3ZJoMm8cauuFLOPmACXdl7PZ8gsVOxrjm2ZzP-ZFlQYrCYo-UEEvuHp1JUwCRHDkQvOS9bGZHWVNWZHAqKud_xr2MmYP72lDEzbJ4v3OC_cdoc_JDZC4FYKhaBW6EytcHQ_GFumXQjbjS3NP7P1fMxqK9GbSmhaJucA-mYO-oMblHS_4PkDCuqVxNcnFTL88ZZ_qZS3mqPKDWLbZkCcSPvUX27g1_5fumzZAlNaEpVJNhj_zK6Kc75nAqaTXgiS61WgcXDn1mA-QQu9tdwagLwW86ATjv_ykyKbyrtJmn1Y726s8Ma_e5Igm10S3x5d1HqYNNoqN94m4DVUOHF4t-JDf937euqPpHgt_eXLSL4vRbcf-EGZSbG9yaFpXjDZbQ1UzPfnrvgoPcTcN3-0KtmCjvBMR9M9sPP4_ycIE1AVWvOwTATAVugJvQmi9ARc43UklJT4mzP9l5uJWVr4d5H0ncJ4EzSCj_brU3mCHm2GjgHxcoHM7NtvdDd2rbqKKcc-Kra9eITQWmzFbOLOop9GkMRhzIIetwHQ0RxVKlY1TED6TQFoZvdNWLvLXsUz5P_yNA4bQFVJBawzwO4Os1A92a24bwy0hgYuY4tg1QzqK2Y2xNcK6aVwKWQnN-V82ozN-qPDvSSvveEU85Y11pDuerD-isRYlnOdS-d6XVDNsOB26feYvgW7zZeXz1A7LoilgxCu2d1_gtjUiRq8ViZ5TNmERrTnUlaRCH6OOj2Mch9ZZT8dzjj4EUd4iVlAL2dhhe_mHpX-_4wgY4HHXU6MzcYb-mf8LATAgKAZgFa_wERLZDd0xsnxDPyt-zdnGM8wkBn7zKGGCsLmih3gmtphATx1pRljxI37tVIAm9BL6Be_cT2inI91Se67V5pkZcy5wmAZCn86fWEqFrSw1wyEJ0pnNNFWq7pf75bGqMZPWeL8n3zRhQMQVXS9Dw27FnLfH86aToQgWJWJ878KcUTWzSWb2ikG2tuHHm1__gnrIcg3YKy-Zs_8Ql1CKnwp87J17TGD68cmhqtPSVF9hurVaQMqcstouYBPqFr9-XRPJTTBuK7tN6RA56A6k6XAQQK9XUbkYWEP55QIuU-mKJO4LqP1ZoFGOYYDXpq00hbpDpoIE2KXQSfDyGYb2gsRwYIqQWgjm6RQuYmr2cfUrbh27gGLPU8uqXC8sA-dpOOdzBRevzScfVXCYWG0uU-Jl3OV59iJefpdjnuuq2tAKSGFqzUUJq6K7ENJzGoqMRet1XKszQGzKjqGkBbNF2f0wMUI9oV0sfiWaolK7OtKF3vGFvZ2C9P-jJNoaExiIpPO3MH_K7bAsJ4a5x",
+    "summary": []
+   },
+   {
+    "id": "msg_08249db87ab5aae9016ae33c62527487d1b520c79857bf9d66",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, feeling afraid when your exit was blocked is understandable. You clearly asked to leave and did not agree to stay. B, your panic may explain why you wanted the conversation to continue, but it does not justify preventing A from leaving. The immediate priority is to keep exits clear and respect requests for space. You can ask to revisit an unfinished discussion later, without making anyone\u2019s freedom to leave conditional on resolving it. A, if you feel unsafe, consider contacting someone you trust for support.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 474,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 440,
+   "output_tokens_details": {
+    "reasoning_tokens": 35
+   },
+   "total_tokens": 914
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

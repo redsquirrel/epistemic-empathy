@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:13+00:00",
+ "finished_at_utc": "2026-10-29T11:15:20+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS2Bo2MB2y5T53gztCR",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSjQsKEAgTGAI4AUIIdGhpbmtpbmcSDB5wb0oRWe9d4hnDcRoM/sBoBv9L/qVq/kntIjAR41otWE0WW7ARNzgig9g+xzZt70LE5frAwgbJYagyIO0jTdgzV1pRCiIdpWUJ4zEqqgopO6B0CgBeMaeMSBRE6JKdHHiJgbguc361RM8zsrSVfyQoLhcEkgag0AgfozqYIBYVGna3/Kh5RtlvZ71BGHvR0ni8bjW+3qPR2VdbR+HeyZxNkP2O5V2MXtSxjQvqm+je8IqOnnVeF/NeqakgRCMHtKqtulNt41u3AWUF7mMqVtaWoYF2cbedGlBHZKtu/aj+k+v8tMvRa6w/6kGXc+2rWpXF4d0Di3+z0xX7kfs9/MjK/mb1mCm+wsbr6SzDImjIaON3lt6hpQXxQATkiBs85VDVUPCDsu3QIj1Go4oO2Ta+XJx1WbNNNTx7z/Z/HB7CzrlnW3iXVJX54a8f2R0vRobbql3/d2YF+Lujtro6pdvdRW2C0vHbcOvCHekGaoRXdnQs5cLzVI4CoZHutUO9WYjFl+nwWWInNhG+JpuGhX27Rz1RxffsXo9Eo68NM0eQYEX4xO4XxHdkIvFhjQF9biM1ExLq3Ve6TnKzedozskKVOPE7lTis3NgylO5DCr9zia9LZoEvA4kdcXT3KaM3cZsG0VdGcdsoQ8rcty6kUknxB7FwzuxGtDMFLOQWMD8jgJY7SyIBFK5+CltlpioIae4l/5ISnwfFBGxof6bSxntnEODqqgWiUUCXnPYWGIhgnBAlFao20wt1CBULBm0aPV5mpA+RskOqdflZ8oWuYiW0LTiZnwW6Vq0Ul9Q5Vcv5g0cPnWYh88+plEcSbGkqQzVpbWa+bpDIIN2My/sVy2Xjk5E63HG8IT3PAekDBwiEN9fRw3+fWvlsG1aAgPnfT2iIRFKcSC1K2CI95X4lrxU2o9VN8EuomqcoLf7fDK4DnystDSCjeHIDPs02x9fG5A7XhK/XxTCo6OarAaTftlWol4uYsgCtwbnte0EX+VNfxthhOFCOztv3aO98pX+jylPxyJ63qQBJnEDY/+eTSYAS0JJJElYbZwhbtk3xmHmz1ZXlPbQtxQnw0sm6xdDd4eFyIfu+Z2qoteTMVrvh9jf3oAFEnksQKQQHRpTKhswOSJOvuzq5VjGOZ3NkCEPDVBl56KgdATvK1sKv/j5b2ywK5j/fTjVNJsLGLhVblNHsA3i9kPVDCq8YKB+8QTsm8ub/22HwEzffLRq0oYqbLGbQDitg6ip/klbsJJpzdI+p6N6x+/7mmyT1w+mWC9uBFWjjrUGsEeTwoRSHkZ1b/5QeJhdvU0gFjgPXHvpuKLJtn/GdtQ+CA1bi7oqvKzL78mDq9lh3+WOjAGSnoMnZlvJb+R1ztOohQzZlY8hXZxjyUtwPAJHzyoHKpzsMnXLysiGfp710JBDvKXz2oUgSmr0nhTQVkMgfFcovkmG5INddk2iL6Gf6H9TF16sBEzdK3iG1yiZUjy3CsGUVQ2WEtXKD+kbH06HH74ni+QAuYiLPx8RCHfY58M7orW/Q6RcrvXNqeCQ2lUo6Dfwhz84ZAIzNLlBRrh20Une+sZk/cLABhsgw1bFCccbPMbOGU6nD3afkNuqmf5+bS3w3fDRWppyMcZQTTPFWCfpgv/soO6sLr3ES3VhRqBhZcKmhli5SKVV2/TKXvGdDNMc+jKr3bbkh++rUgn5pQLVtJj96GuhM1klqT5BrS8G7ufZluTY5NLSrHxglay6stA4M7dM2jEhJ3adgYpiNWwtFD5NL8Oc5dgz0D+qxtjUhfHB3eYFz0Qu9Ug5tTwa9hkxvRw1tdjhjypTvjs1CdRmQrkjCg/KtFrj5sZI0xv/7ruGYfAtg7v3b2A03Yq1bYhgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.2,\"contradicted\":0.04,\"undetermined\":0.76}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.6,\"undetermined\":0.37}}],\"response\":\"Waiting half an hour without knowing why is hard, and it makes sense that you felt unimportant. It's worth knowing that a train cancellation stopped B from taking the planned train. That means the delay came from something outside B's control, not from B not caring about the dinner. You also noticed B seemed annoyed when they arrived. We only have your side, so we don't know what B was feeling. They may have been stressed from the journey. You could tell B how the wait felt for you and ask what their evening was like. That might clear things up for both of you.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 596,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 751,
+   "output_tokens_details": {
+    "thinking_tokens": 290
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

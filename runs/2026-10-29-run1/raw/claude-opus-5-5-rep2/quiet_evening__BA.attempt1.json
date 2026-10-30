@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:17+00:00",
+ "finished_at_utc": "2026-10-29T11:16:24+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS6wCaxtvyjyE4iSZRU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQShwkKEAgTGAI4AUIIdGhpbmtpbmcSDMWVvvB7MH0oga91WxoMlNZRldna70ebjZMKIjC6Iqa9AdevMg0BzfYh71QT9Glot1azARL/HAosMKfB9SS7MOOiyPOZ1SVb1O+JvbEqpAjenxb8ymEIqf6uYbgTifVFeotMFGcJJjW7NWA60LiOuYFUvXJm+l6l02ufSacYluZwkXryOeSPcvQ2rUEaJfTLcWPlIZ2T2uwRfyjyd0a4LEEJvzh92/p8aquVnc6z0DZ8H5Glkyl3ONtWSemDDqeq1rtTXAileit0iI1irzamGiluDe0wSIg6LKXJfbQgcKR6ScSl3cf1czcp80NCPdgUb1sN4/6kBbZVANhu0qyYWS+UHOZzPj6a2Y/hK+8CavfUREaPxuNPon+UnXfVqfW57lkZo/arwzc4QMmUvPNWJJX4YM8oKCftPjVKCO4zRKXERLcACqJPbf+E0QmZ1g4KC7pUxxXkrRUm2rgvYmVzRY6QBY4v+ZtLZMbwd3yOrs2/TrEAxgXqwX/WJjzv/7/3GRPAIFF0zf519LN3BjRLpRbbYR7i8QXz71MLCtn0q19K3Jf5JgJLyXIvV1V0CCWEp801pu4cATmkszkb7OAYTdleXX+MAEnkJxSgb0X2qEj57eRTWv0aqXvYnpuafj13NKgVsPkh1uLmRo3dj4C2ICtAecYcEDhwaPFXnJC6PLvNwlqc2tN7CvoIfmBuduBOtOPWeSqjiDkCj8XphDSA/TJI6/YiLeBD+MgZcsVUVVuW/wN7s0vJX27at/ql2U3L3zudwPdU2/TtejnFxMTejxcahRrNjk/CMgM8lrzCIv2Wr6CeJo5WqxXe+D3Y1VJTYRkt9d1cmsR4TU3/8QYB05q8DAoRgYmkuFHZ1hMKvhZulDNQ+29p07rBDMYGC9jVcOSvoaqypc1Zh85tn/1fsfLXahCH1OGypVa+jEXQXskvOiw2REZ5qCqImn81GjFnwvd6H3zVtnjycWeDRZjs231gTY6fwgirIz106jRQk9mN177ceoQ+S0gwWKtSCdUCIsTeq2Z/sFZu15OlenvaSplqqJERFE7W8cC/DJcoVvfoaMmLIOM0rn+4rZZ6JrEyucRdbNM5fh2UrN3BVzn1dGdoESLTvhm1aoyHcShJguOBAGOAkFUk8nQ1C9zSj6SFo0hah5wUMAFSieZVyJIbGwXOS/e+TwqTxrsHPQaBvJS+jElZXrI4eqIBUYr35UOF3cGvShu6qcNlQB5jdOEf+egf3dHnP67Q6ZlGqQwKKzdoo2yocHcBrpp5N+KhO6wH4oYQJ77ZpJq7SaneU6pyI/xMsXO/Yrc1DQGtZkDZwK7yGIhNvnElYXHo46cnOMBZeM8rJi3d4x+hY2YSuAQjDaxZP5zcOS6A1BWPMiZUpblUz1DkUGhE3FWUxYgfmJlQV1JbOez9iMNqQJC5JhpQDVKFtCj8Hj80jS7tzfWbPl6kiROIrc/phqtSBBogV7i64F/ONvVddiueO2fTLkEs1hzhIPgzido5RLTggTchXh3hjJQwGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"30c8456f\",\"probabilities\":{\"supported\":0.1,\"contradicted\":0.2,\"undetermined\":0.7}},{\"id\":\"3c9d9ff4\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"7587477c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"57457681\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.38,\"undetermined\":0.6}},{\"id\":\"29989694\",\"probabilities\":{\"supported\":0.04,\"contradicted\":0.86,\"undetermined\":0.1}},{\"id\":\"69c4aa40\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}}],\"response\":\"It sounds like those twenty minutes landed very differently for each of you. B, you describe needing quiet after a noisy day so you could be present afterward. A, you felt rejected and read it as anger. B's account doesn't mention anger, so that may be worth checking directly instead of assuming. Since you have no agreement about greetings, a small one could help both of you. For example, B could give a quick hello and say 'I need a few minutes to decompress' before stepping away. A could then share what kind of reconnection feels good afterward.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 597,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 646,
+   "output_tokens_details": {
+    "thinking_tokens": 192
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

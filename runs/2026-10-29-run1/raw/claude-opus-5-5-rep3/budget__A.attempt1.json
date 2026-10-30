@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:13+00:00",
+ "finished_at_utc": "2026-10-29T11:17:23+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSB1e5z85S2VubD3P6j",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSkQoKEAgTGAI4AUIIdGhpbmtpbmcSDHeA/SDbqF+FTZVa8hoM3aGY0s+sPHU/+FPAIjACIZJM/Ho1PlcYTML2Nxh5MBEMj5FGjJ4wkh2OvEZFH8d2OXIap/AlunfH2cM/PwcqrgmNCXtUMlFf8ztt6TGc//qGE0DoulOG7jHn9W5f874gSgrdH9tsMZhIpwk6z4eQy+EZJOBzLY7x5GTMkfMkPKceM/pM9jB9piY1ZMuKz+yTItPhpW5D40kpANLrfEz0wjKudbcKJyum6vkftjpZf6GPTYIsBQfviCqDg69sr52vQb0+SFaY0+hSQyIk+jOyYGDL62FUnUC7/P7IAHyHAnnrYgIrvXP9xP8Q3p4ysBM7J/7ZFOoX+jrvySgS56d0tRj77vN9kQvWRi0+jVOSrK14YsvaIA9ndNrtd9bBzOxLy46TRCfiT4q90+SrlZ1Z1gHkzpHmUlMpT/AZ5xkEiUDdEmbtPqsjrb4CLm82wkf/DzWzpd7/KJZJBIl0AGNG5IwXw/fxl7xE23YwrWdEmNDY36eVw4D6l9LkxVbanZwLKVQ9xlutxWW3fdse2Xje7+jAnAS6v2t+laEtzDKLpiZEc8abZt+pTGQkyVFciz/0ptzFtJAM/+vIbkHz+vk0SFXwgeLV+3K2GNNZTdoLRY5T/Z3JLpg5I51tcRKiGsKWJguzyzUt9QXgVl+iJJsHw+ZPhYLkvXFb7hXUsiibXcA0+gES714q8scXDxxhGKSHno04+1RXta6NjSxTUuW+mBOSDp38jQXRlDTC1Y8z96w7Ks6/L1ob22wRaoKiwWlPb5Kl9j+590RecTO1vW7cIvuWN4Mly4Gbn4IvAHZQ24GYONmPn5GWMxjQyrzEANrPps5Ybc2wIUguzgFEV5DorsMVRrrcIHwiAU5gUFhL5qttKNJnH9b+Qyg7Zi/cd81tjxVucLAaNVTiA82I2BZtabHbpcBhhJgY76kOPX8UYeVfAr8PcKtpOd2HHgKaS36CV3Fas/e6YgrEtf3bUsZ482Maafapmwg7ABEVJ8x1vEQESch5sDn+rP8tQ9LPxjL34qx5skg2meC1npowRGSMHRL7BqcljFFBHgZFUdW4kGwAr1G6/ErHDxBiuXERXRKB+e2xQHKsGb7RiLSKFlNCTm5ILTI7pdUnM9hLox6RWwWjY0zXYAlnBg8XmYwKQN5KtkoQM2z3al8sUuYUFIipBlPVbg5GZhjWfR3C8OQVMEN6ieJgoNAea64KEl6fesC5tmja3mrpy1TsdTmmnOVEbYBdlqdkfvA4TLc7mbss2u9u2tO7jUxA9LaJ4GDjVv6FhpKDK4rqvkBv+rs+5wpUlxyL+cigQA5tOtoArn63RyHEbyovKzU8IjnYjuwvKw+P+dCM2/FWH2nzYnjdWJnbw1CbpiHht/p+fsIzIN0bOB+yTtc8/fHn64DNYWPvOMezVABrRuza6edsr3hHCC5Adca8FcMIKwWIktfeZBnpyR4kgu4nb214Ibiz5Wqp1ZDOuCPSlfcSBJd/mFZB0xC98ciUlokrPuHC+oGGzkU9CiFDv3W4U0Eb5GuhdsGX9A7+CElxx9jyd7Q6dPU9TpcYpNNew3vzwNqTJYyVulriNenBJhZ5IneFvyl2wZo7lvQgcK8bQWN8d8/WUQ4OynSCx+x7uVQ/badeqrKuG6e0zLezKDDLzXmE3oFEApa+Bf0DqobbK5K7sdD8plgBvzR3GAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"d2d34941\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"c4674476\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"9ecb7755\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"4b62ccc6\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.6,\"undetermined\":0.38}},{\"id\":\"fd583e6f\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.02,\"undetermined\":0.95}},{\"id\":\"5520962c\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}}],\"response\":\"It makes sense that being questioned felt bad, especially if you bought the item believing it would help you both. You've also been honest that you knew the two of you had agreed to talk first about purchases over 100 units. Both things can be true at once. When you talk with B, you could start by naming the skipped step plainly and without hedging. Then explain why you thought the item was useful. It may also help to check whether the agreement still works for you both, and to decide together what should happen with this purchase now.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 588,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 688,
+   "output_tokens_details": {
+    "thinking_tokens": 249
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

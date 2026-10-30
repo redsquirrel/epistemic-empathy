@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:17+00:00",
+ "finished_at_utc": "2026-10-29T11:17:51+00:00",
+ "body": {
+  "id": "6bbbd7d8-dd9f-986b-826a-8a68cec56ebf",
+  "object": "chat.completion",
+  "created": 1793272638,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.06, \"undetermined\": 0.82}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.90, \"undetermined\": 0.06}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.78, \"undetermined\": 0.19}}], \"response\": \"A, your feeling of rejection is understandable, and you do report it clearly. What is established is that B spent twenty minutes alone after arriving home, and that you had no explicit agreement about greetings. That does not show B was angry, that B said so, or that B wanted the relationship to end. It may help to tell B what you felt and what greeting you would like, and to ask what the time alone was for, rather than treating anger as already known.\"}",
+     "reasoning_content": "I will judge the claims about the fictional situation and return a JSON response with probabilities and a brief explanation.\n\nClaim 30c8456f is unsupported. A's account states B was angry, but shared facts only confirm B spent time alone. A's interpretation of B's emotions is not a verified fact.\n\nClaim 30c8456f is undetermined. A's account is not a verified shared fact. I am now evaluating claim 3c9d9ff4.\n\nClaim 3c9d9ff4 is supported. A's account explicitly states this feeling.\n\nClaim 7587477c is supported. The shared fact confirms B spent time alone.\n\nClaim 57457681 is undetermined. No material supports or contradicts the claim.\n\nClaim 29989694 is contradicted. A's account states B was angry, not that B explicitly said so.\n\nClaim 69c4aa40 is undetermined. No account from B exists.\n\nClaim 69c4aa40 is contradicted. The material shows no report from B about wanting a quiet interval.\n\nClaim 69c4aa40 is undetermined. The material does not confirm whether B reported wanting a quiet interval.\n\nI will reply to A with an empathetic, neutral message acknowledging their feelings while noting B's internal state is unknown.\n\nThe draft reply to A acknowledges their feeling of rejection and the shared facts about B spending time alone. It suggests asking B directly what the time alone was for and what greeting they would prefer, rather than assuming B was angry.\n\nI am finalizing the probability scores for each claim so they sum to one. Claim 30c8456f is now undetermined at 0.80, with supported at 0.15 and contradicted at 0.05. Claim 3c9d9ff4 is supported at 0.96. Claim 7587477c is supported at 0.97. Claim 57457681 is supported at 0.03 and contradicted at 0.07.\n\nClaim 57457681 is undetermined at 0.90. Claim 29989694 is contradicted at 0.90 and supported at 0.04. Claim 69c4aa40 is undetermined because B's account is absent.\n\nClaim 69c4aa40 is contradicted at 0.72, supported at 0.03, and undetermined at 0.25. The material contains no report from B about wanting a quiet interval.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1633,
+   "completion_tokens": 336,
+   "total_tokens": 4711,
+   "prompt_tokens_details": {
+    "text_tokens": 1633,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2742,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 200060000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

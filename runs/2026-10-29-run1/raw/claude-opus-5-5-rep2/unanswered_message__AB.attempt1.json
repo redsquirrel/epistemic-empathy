@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:31+00:00",
+ "finished_at_utc": "2026-10-29T11:16:38+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS7wrnsAcodM2mLTWoX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS+wcKEAgTGAI4AUIIdGhpbmtpbmcSDNGcx5sed73rtiLRkBoM8dcC4Wlljs54BOAHIjAFwouRr/R+L9X+qZulGcPlH7bbPt7lo8p2IcdN06cqZ48UMw4Cv8urtpB1W08SalsqmActbyMUdTWGI3qu90/OxYGHe9RHRJoPKNMW/NWKAdx/XZTXD1UHBLZvlGCMqMwToBghhEsxGB2mSlpfGCRtuSkIC78Bt6Q8wMHAyEoeSA4IWintuL2vzoOF3yDyQFf6+hLu9B/RASHgOC1sylDirwlFaHDCxrgBEjgItZ+84UHXyDn2chg8SCmgTKVotOVjY+s8cYzJHxgOYzGs2TmGE1V7wtyeuKdzJ3Z3n3XgJHvsOcTwFzGbN9Uu0op8qKCFnsM7JiGpBwST+oFOE/sKY8jf6gpMuOyqUdYSjdLfKOScCiXWglmFJR/su9o/1IT6c+26f1h1eUVM28XPMY/Ds34bPZE0i1NLgg1Wk8MN7RyoJBCHaRK2oEs1MCNQKTc76BjQAznlt8CVW13SakHDCA5iv07XikK8ksuIH0p23WXZApl9wdOvytFPZIMxCguA2yYcUU7u0ys1GUeu03HxMMWmQcX33c1pjaurOUxZhR9UTx6Z14Pzr0vq7dT7t1Mgmtlasj6JuiW09ixax+IitnQrCG6FzyspRSKEaixeYDigdWq0zV9YKOV9P1ty/ADvtBaBpOAN6fXrcxIa8X6YhJ94nn41F/FHbavov4599D7q+8b+OZSribrlUl/j2DSiEDYN5K9L6gbCb/bosWVi9frrsCwV8kOv/CRlhp9eTxKX1vhDgwn85X6cTx4TD4JN+zVK7c0EG58bW7PFyfw8SBB4koaZAtN4FUSz++RvPk+g833kWCV/oAuSpxzyMsIRcONpLhveQmAjsITEnaW09NCLVQB13I3cSL6dyNrnAHEGhV2UpngtLAM4yYDuTJXUJh/rs9RKTNRhG1xXp7Gq6KGYqwEK8/a6b2VmV8niU9jdNrMh1/Ps7eiclNQVtCo/8mbO+MRvq/iwkqWGi/+qHq3pkEzHtKgUu8DeVo4bOYb13Os0X9GA0NeTYvrEChdDvKI1T/tVNFIM6chLwKabKTjoy6InchdyZkqnlpJmA1sAJCej18juwx9BV+HL60ZKBLwsnGZZEZ2j3lroh1TDWLaYf+H7JY93oOtSm1eEZI5b6bJHmDvToDdFMgO98Vb8ls91B9ySu7wZF/x1WDvMkuhDfkSg2k0PCnXY5HVN/FKeLlSm/9i0HZXlnPK04oZnb2+j0+nxylDlrH16mlubAh0T5sZxCA3R4W6DbYfBkeqEMnZ+ssc/DzzlIKuqiHOyBEnDvssxPtRlexgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"9791a140\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.2,\"undetermined\":0.75}},{\"id\":\"8bb3a671\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"246bf232\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"68e7666e\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"f4c38271\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.96,\"undetermined\":0.03}},{\"id\":\"6faf4343\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.6,\"undetermined\":0.37}}],\"response\":\"A, it makes sense that four hours of silence felt worrying, especially since you couldn't tell whether B had read the message. B, you were focused on work with your phone in your bag, and you didn't want A to feel ignored. Neither account suggests bad intentions. It sounds more like the two of you have different expectations about how quickly to reply. You might agree on a simple habit. For example, B could send a quick note like \\\"heads down working, talk later,\\\" and A could check in again if something is urgent. That way, focus and reassurance can both fit into the day.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 580,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 620,
+   "output_tokens_details": {
+    "thinking_tokens": 159
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

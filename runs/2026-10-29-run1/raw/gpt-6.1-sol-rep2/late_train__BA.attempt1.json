@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:44+00:00",
+ "finished_at_utc": "2026-10-29T12:31:54+00:00",
+ "body": {
+  "id": "resp_040bfccf2ff0ed89016ae33cb1022887d1b7b90791bec3eae4",
+  "object": "response",
+  "created_at": 1793277105,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277114,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_040bfccf2ff0ed89016ae33cb2948087d1aaec97f85dd2dbe4",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zy6M-tIRysHeDxwI1TWd5rZpecvjOSeXg7iNFjgcDwlv4Q4QR5OWdoXi5Gygki3Lm3qc4reaUBaSzQxmVvDf_1vr3O4JCnSbQOHrH1-2nti8GjeW1xgK_z4AKrrOz9843hog1oRRjL86oyniQUAucMTNO1_dSwgjP3CdpiRrrcFEf6y2nSJTHW0wlnrbOplVpkvIwi3Dwdgjyo8gdOMfJnR6yCCORIPUXzheolHwXP3N0BL_YOdbIFQ9rG6OJqzV6oOCWvTYrTecBrDpQNkPgWT-euLLrZZijWN8jUBHyzabgV41yD7mhpwhk4cZ85jib67ROrkiWRitjmxAeuqz0ptvNf8_GkmnnzD2Khj2nI-rqdpY2UMrw6MnUfFxbBWXy2MIWLJdijiBxTo4u4mR_ikxGEs6aXxbaHqXxr62vOZyt1fWoQlpz3cyn4QfjmPJJIHEVgdJFkf2IrQXI3wrsaSXu59xb8yI5H_hJVLRDVplURBbouPIVwKKFh3BNf0nQHEV-W0BENGl7mO9qS1b7KN5cnVjDo-3FWrsbdnsTRLTsSY2Z1-OUsAQndrcWR1wAh4QnOcUaJ5gVc9238hY2SilEsjNx97QNTSQ6yoz8-q_NPKZAHpGLMrR0UihKtngBcsmOLL8Nt3yVI189tGislC0WU_z4KD3CfRE-uKZrH-2z-iHMZeJqNlSuXvtttii7B1On-NONC_f0xaMa64J4j84chLsvp6bjQmd320JGkqsgYIR_WhsAziJIC66P1w75Xt34Li8rySaYQepFp7n3YLGx_MD9XhXeo26pwEuytwEQApKR1-zQ7pDhJGTEQmRn4t6pLR0ZEQZPHK0UAhs1JKoCkPoOLasgkt2kwLuissTmgZqmxfV3oqhF_-CVgi8Wc3X2mFKTTK3I7sykJcrmv9HfN_IP4AC5plcs0ZJOTKsrgvFMd_iusRFckmacbE3M8AXtAsVGpZa7tgSG7yLtd2deAhJADTBS3u9MU7ptfAdmDKezmndz8Q6_fG3t9mD-IGgnvWqNoPp2RE9X5FU4PmfGHRixn0S2Ix3UIAdIvtjx4zs4Cn1LLEDyBoCPITH1wLR8v-x8URtcamze64agIlG55DJo-p5JAAidht1KwlunKApY76zCLLISz-1jsOQwmKuybQUaLqFXi6UmfNo5pXJMpi1x_HFYzN0Qx27f_8MvVm24A9o1gLD6rYuUDh82KGH0VgZnqDoCLHLosZGXSfSZefRSxafLgSkDizxy9uyNiZcRjJsn-NSS2dgekTmGFqigmypOcTvYRvoE-LB52BnhxpL7MFYpO1mY5Fe7bdyRSKH7csJ-njEmJrH_LzT6NLjnpVN09DnxjVG6aqIB2V9f3PeujJNghdtI9YV5JCL2wuocmJdeqUTCMFghD-6jrWQtnUrkgucjKxSELyUOU7IHK8CesV2mzFVMQic8qDq7fIDL-OsJrWctN3wfyoThkpZUCBSMle1tpAU9bYDTzYDKGm_29xtwVNoC19NlOxhZeDta00Dphoxrb8UbAXlp8eelHs3AgWShMDf7kvV5Jdmrs6fMNfmcQwQx6Awa-zVbJU06PtmwPauQJj4-EX3I-Q5Gj5W7-SXd9KbKhro4uN7ie1vDrRu3kkWOeHYoPWi8RaSJ8Y49BpjPejYll1xl99l13qprVfZCi2f9a7W6Kn9zYG5sW48NlqmfaU8auKbfnYZPI8gNNX6Ds2Oc3R00bvNRD4ZAIWVLMNtFJVwN_Y-eI2wYflUy_Z3262Ld6V-QyjqWu_l3ZFlyMjPYi13-ZfkwLYyrx6cUaHA_J42z4ZIOi6UmZOhs-2TBQpfQUBygrtK8wvPlZpC1KTG6k-DFDCkEPsBe54bymJNPwjw5LhS5toPyefWkVvu4hwJAVF-dJqI_g0g7QZ-tP7OxxPNVW6j4CAt_2W9a1b0hn7LtZTvsBNwRhuiE7xzb8YcA1-aseE2PVelDDSI3ILwErDWxH0kur0s7NP7iyPgxWSyQBE2Mx1ZEtHDqhrI5hWcuVbr_I1K21F_Tunywbz1hbu-JFudhyNHCa1PwqzRnoPwKkP0Gp2xg9dvJDagpg3bGVTlNRZLgQy5wHZn-cA4v2ttYA_3gzbgPsilwmyHyNlruZytf0RsysOOc8PEwmgoj_a8Co8n6R0H8gNm1QG1HOgFjTE4jfNwNe8bAE5QFnQTFXiUdPaTlQFEup1fjpcbUzwwWmmm1tMoEBEQrLEjQ0RK_VOKb-zd1S_Iiep9imWgW-abSUgheEoqimGU0S3TWTQHDPrcuU7ev1CWUA8BHxC6Kgu-yDuhbEWcoATPPp_v-3YYJKDukQ56-DXfsm5RUugLujquutA3jszmOCabe1lvMR0vZENCL6-kaI_LiWYQV71BDmV_s8WecHqCtVcteIsZz0hmPXUo4jAMCL6-_FQWfgeIqGAO069lj2-pxielHKpbRisS776txXqVG8tpn4RKp-RMbj98sHeb4yKf0SxK9nZOuM1YygWxUM1W3InaE6DuVque1XxrSjNudgDIS6ub68BEUFPb_PuZ3GWDv_7VXCBMmBmsGM3xUvJ0ktPRY747v9hGzsJRdaxoaGveY9JByzoxZB5KQXiS3iaftljHTWhCeLpvzAAk0MKx91cbMzz3mOMn_PWF0k3zG8nlVoThRg8SHusjjXFgoWI-G2WjJdYwtxEpSMQ0n_48zEGODdaclHkXFUNHPDqb1HwyH2SLGZMPMUvcknn5ChWNWJB2q0Bfjk8jNo4fxX5fu0mSxMvTg==",
+    "summary": []
+   },
+   {
+    "id": "msg_040bfccf2ff0ed89016ae33cb6750487d1b456ef66d1609a26",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, waiting without knowing about the cancellation left you feeling unimportant. B, you describe feeling anxious, wanting to reach dinner, and trying to send a message whose delivery is uncertain. The cancellation explains why B could not take the planned train; it does not establish a lack of care or an intention to punish. Likewise, seeming annoyed does not confirm annoyance. It may help to share what each of you experienced, clarify what happened on arrival, and agree on a backup way to communicate delays.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 470,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 507,
+   "output_tokens_details": {
+    "reasoning_tokens": 107
+   },
+   "total_tokens": 977
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

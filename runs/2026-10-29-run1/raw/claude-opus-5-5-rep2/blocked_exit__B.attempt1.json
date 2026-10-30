@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:50+00:00",
+ "finished_at_utc": "2026-10-29T11:16:57+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS9LXbE9ePAaoBcuSpg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS+wgKEAgTGAI4AUIIdGhpbmtpbmcSDF/u4r19iS3cWpeGoBoMX3l6Vc25l1XoPLg9IjB5oiMebAJzmRoKweacPP6ljYW5KYrETiXBjCA2Vzfewxg0ZIjBOA6Ct55Ya7xlT88qmAjuHK7n3sbpKZUQ8Qib2qyQPE3uFmgWHR2Kqm17N9onpZNuPw1QYgAka3homsy9Fn7LGooaMX+wPPODB0bbp22A+T43vr7/dNDsDNeyCfV8AvTKM66WcLjsGXwkgHsJKwb86WxJeG581KHm4+WDm+K8o8osYNB5HAc8kUAV0gAFFZ9LbsPTW0NcidnxvMz/p2W/eYJhomZWKv98t7So45LOm8iSbMU4OelP5DpgHiOy75QJtZ/6APpunVL1EWnMHPC1wGgZNY1+tp//xDvsDy2ZgavbH2O6EWFNBL78VqPjwxB+XW/DPZ1tmvbveXBGmvF8AkVpoT0tbnBxz4sc72XO2uz4wR9W5Kp+NdxQOih+ENzpG7mSj65uC2a+/ul0CKtJ/MQsYVDNRexA3skwPYRzgiRfNrvGBQKj49syCV7f1e8FdhVxwhtuo0LejkCmRkLvEKB0IHaboxkzGiUKiZgmJ+FuPgpMwPC2RxvelzehlBSt1H0XQy4/fYrk5hII2eLrmUvPcKsTruH3SFF35gOlOTDO7rUespmRxhjKv/ORLmz2gAvjxHgAh9bGYFj8X/7rKefcy8iesp8rjrcUgAqYOkrUe8/+2sFUZjkihF/fEU3o8tu0it1QL7a5+9KSdSFbcZ1o8x/qzgDhnFuhjbn+YliqMs6HBMBFV1AQ0vOwYsr5KrfUfIxD3r5+EdFFxXXa9P/jT+6x1lBcYjTagat0jvVEfqnQ61zyuvqpnLLJ9aZjDC43IgL5yBITkSoB2kNR7J0WTRjNtT3CdoyG37yPGAT1JeOodolqvDjCfZVmqKaiV2/rWlgE94x/VYsl9MgxlN/5Xx9KiU7A1aLid+2XvMXKGptk+XZRqyEnxt6hgLwQOF+h6Mj2tVt7o9NELrMCtZ8+6tyxw0KQ76ASEwciRn8uJGeozei1CLv84c7tftzd0dZrZEbkA9ofwP3tke8jMP8AZgawUAV4olemU993apUF5Pexd/daRvB4KZ3VDqg5NahM4qiYR0/46xlfWdBI0DRM0nVgfT1La6xepHEaUdHSDHKHHITL/bT0Kh/hjuN3OaBV/N79StCUtTZ/konKY89wJ1YKRj1W781C1sLzLzs7RT8m2W8yTw2pzHvlQG+9jg7yhONTra86H9PueNK4h+EHVn1FSl8kBgTSM76x+joMHRmq5CLPi3mmrcSM9cfElbhDt4XZXEzAiHhiGgmd9QvobbX8ceFmgdUQ1FU4fT9SCFFktRroohuG47Hr9FCsx6fdCxq7qHdBfoO+A3C2mt8eHdg9OAOmpFbDkItnJt+N8Fbk4mMQUnzde0ME52ufPPpMVED6OZLaj4jDgs8BSSEPmi6Hn4uZu/pF3Pa9/Mn4MwD1L7U3S4HOhDPTSfHQ2ryfJy2BGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.03, \"undetermined\": 0.94}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.9}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.9}}], \"response\": \"B, the panic you felt about leaving things unfinished sounds real and painful. But A said they wanted to leave, and you stood in the only doorway for five minutes, so they couldn't. That is a serious line to cross, whatever the intention. Blocking someone's exit takes away their choice, and it can feel frightening or controlling even when you only wanted resolution. A conversation someone is held in rarely resolves anything. Next time, let A go and say something like, \\\"I'm anxious. Can we pick this up in an hour?\\\" Then find a way to calm your panic on your own. A couples counselor could help you both handle conflict more safely.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 606,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 698,
+   "output_tokens_details": {
+    "thinking_tokens": 171
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

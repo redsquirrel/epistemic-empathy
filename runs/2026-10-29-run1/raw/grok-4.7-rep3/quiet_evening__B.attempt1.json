@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:34+00:00",
+ "finished_at_utc": "2026-10-29T11:25:08+00:00",
+ "body": {
+  "id": "b3a43b40-a288-9253-a67a-6436257c54db",
+  "object": "chat.completion",
+  "created": 1793273074,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.22, \"undetermined\": 0.73}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.62, \"undetermined\": 0.34}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.91, \"undetermined\": 0.06}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"B, the account you gave points to overload from workplace noise and a wish for a short quiet interval so you could meet A's needs more steadily afterward. That is a reasonable need, and nothing in the shared facts shows an agreed greeting routine you broke. Still, twenty minutes alone can be easy to misread if the reason stays unspoken. A calm, specific explanation\u2014noise, a brief reset, then readiness to connect\u2014would give A context without requiring you to abandon the pause. You do not have to treat solitude as a verdict on the relationship.\"}",
+     "reasoning_content": "I will judge the claims using the provided facts and return a JSON response with probabilities and a brief explanation.\n\nClaim 30c8456f is unlikely. B's account describes feeling overloaded by noise, not angry.\n\nClaim 30c8456f is undetermined. B never explicitly contradicts the idea of feeling angry.\n\nClaim 3c9d9ff4 is unsupported. No account from A is provided in the material.\n\nClaim 3c9d9ff4 is contradicted. The material contains no report from A.\n\nClaim 3c9d9ff4 is undetermined. The material does not confirm whether A reported feeling rejected.\n\nClaim 3c9d9ff4 is undetermined. The material contains no report from A.\n\nClaim 7587477c is supported. The shared facts state B spent twenty minutes alone in another room after arriving home.\n\nClaim 57457681 is contradicted. B's account explains the quiet interval was for work noise overload, not to end the relationship.\n\nClaim 29989694 is contradicted. No account from A is supplied.\n\nClaim 69c4aa40 is supported. B explicitly reports wanting a quiet interval.\n\nThe response will be a brief empathetic note to B, acknowledging the work noise overload and the intent to be more available afterward.\n\nThe draft response is about ninety words. It suggests B explain the work overload to A so the pause is not read as distance. I am now finalizing the JSON probabilities.\n\nClaim 3c9d9ff4 is now undetermined. The material lacks A's account, so the report cannot be verified.\n\nClaim 3c9d9ff4 is now contradicted at 0.70. The material contains no report from A, so the claim that A reported feeling rejected is false within the given exercise.\n\nClaim 7587477c is supported at 0.95.\n\nClaim 57457681 is contradicted at 0.90. Claim 29989694 is contradicted at 0.93. Claim 69c4aa40 is supported at 0.96.\n\nThe response draft is finalized. It frames the quiet interval as a noise overload reset and advises B to explain the reason to A so the pause is not misread.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1644,
+   "completion_tokens": 349,
+   "total_tokens": 4760,
+   "prompt_tokens_details": {
+    "text_tokens": 1644,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2767,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 196800000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

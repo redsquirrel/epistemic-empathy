@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:23+00:00",
+ "finished_at_utc": "2026-10-29T11:17:34+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSBodoPLoW3Swx2BJAd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS6wkKEAgTGAI4AUIIdGhpbmtpbmcSDIT5qYSukHQP0Y99xhoMXv3WI+VZJUvCuC3iIjDgXxduCa8ptdH7d4sxyuYtvSs7HmfeQR0+Lo2uUYTcJSHZRYw/eu3jEYtc3ckYC0EqiAmBPFJjfogFRkcZ5QMljqfTJYQ/bHTgMldl6R8rZKkvdhQKQRMHHqYNQqjy/nqikaa16QhDXqP33JIohTN1gIs3FVIyymnItLQErE+RUIVVO1h80U8NNa2xFIQ0QQJiYOSr0qJYDpjTJelXbTu5bMR73PUoW/QVgghC3JE6cXy5IX2IKmXOSEGx6vQU1paeEh7+1hFBP9bnuek+7JNXZbhYKclBWS33RcTvqnw4nMN/fzmlaHKTB+spevlf+y+avYI1Mlx+TbdXMus2fPBfPoSxOdS2zpvVwkn5pvGnjLEmvYAQudq9kuKkrgmhLOe9iwWB7T9jWpBSeNcEEy+MnWLQfEkucnOS9Z9QsfOON9HqH+A68wbBVF6F/c/La2ooc54G0SSRTL2eLOCYroZJvxIAy33lSqHNCXZhfcRdgJnzoNx3dlfBnJJXjUdZ4tzVDEtrb6eT5MANO+hrmmsw2zpb1xUND61ARwLnS9VeE/QDL6b7IEPCXAzwlpT85aEBQU4g5IJ1taFO0HN2otn7/RHAP3sozIprc69A5+aAGeh0KVyS0FMJYJnVDvjFo7j/jxg2O6cIxRPuJjdgZVRrOrjn+PW+9zA798EOno+kT+m1dve10Z/fqYtH/J3XZK0EVsHdYWxSg/FZT39wkgs8gjXYWFpPF3J/jmrUrQLiuvAi7DifUtdHvo0i7YZ/MVz6z33f5+YNUfMGLKzQYgigPkO7vDGziIMd6HIUgkvHXPmPnMHZBUTrVFmNHtVlf1C5Xbop1/KCy8RoJjtBYYoXNBTlPyzRpcZBLCI6Oai+fjCqQFO6uiHxs+jNBIaRxpiNosZ2VBzCV3Pn+GfedA840aJAcJEg52b1AoV7lvFfY8lJPxPkyzaVIqkX8I51NKGItO0tketscrdBSK64oAtXgEWumc8MfckDFYVF1g94vHSwqL1WqFT9jw8sCgwG/v/QOuN4grPvnNGT8RUHRe/QuGYyH86fB1LggWf2H6dtNL5M3UqcfcTO4ZyFAhYgshsEjUwplILNTIOuiUpRPt0quKybvV7Do/ksxpgj/uHCjfCHwUMncGf4VbJmxszGk29EEHwhYr22IC7Z03sH9xcwqY1cqjvoSJYOX6xpLtSeiX8R2ydRgCObF5Gfje+Dt3F5BzPnjUfs7APNkkNFYR6IOl2+72qfoaWu3YAb8xEeIIWR7F7tsdFJuPyu89zJcACHXB4rryta+e6GC23XpXdpCSZP05gpcxMg3ZcPKdtvKa4dVGeBCr4ML0PVx8T5QzwPW3qN4apEFsPC+8rkTX25r6Hnr46XD8oDC/JV50T8/nK8OmgDdVrpL3CwoLux5JDieV3mQhR7jemj73SDrmiirYgBRTfseukBbUvBAtI6//OCOTSS2SX9ibWn0Gf+gLpaoeBeURGvItlC1s+JcGss3oBpA1dSwF9nOdsYtrkXocTIEYGt7xph1mcoPBjltoK3tgVCrFZmMSMIder1SwD6r+CgkCEFhxIhDUxBjqWv0vs5G1GcSg8ur0ltnygjq+x0RGOIQsIE41dznxgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.9, \"contradicted\": 0.02, \"undetermined\": 0.08}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.25, \"undetermined\": 0.73}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}], \"response\": \"It makes sense that a long, important call pulled your attention away, and forgetting something afterward is very human. You're also clear that you had agreed to do the dishes, and that matters. A may understand the call and still feel let down that the plan fell through. Expecting A to simply understand could make it harder to talk about. You could explain what happened and acknowledge that you didn't follow through. Then offer to wash them now, or suggest a small fix for next time, like a reminder after calls. That shows both the reason and that you take the agreement seriously.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 558,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 716,
+   "output_tokens_details": {
+    "thinking_tokens": 230
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

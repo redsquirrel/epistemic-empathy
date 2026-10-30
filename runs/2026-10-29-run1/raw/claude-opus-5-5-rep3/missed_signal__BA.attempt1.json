@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:28+00:00",
+ "finished_at_utc": "2026-10-29T11:17:35+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSCBJ3V3dgRsrMZfCDd",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS/QYKEAgTGAI4AUIIdGhpbmtpbmcSDIhKthL8BmiLhk1mBRoM3rd/lLxneMt/gU+TIjCAjbIhOMkjKUzectHgJObduDU7KFJm3xeYEqZfWCdfPkwHNt8UBi5MmWjyCVF+jU8qmgZNCa0IcrEL9n7/bibUhRd66ZWTfvLYzfiQ0VS9UUrnPeXOsjLuoBvaBPU4D2GG9hNvvEmUhrorXneRhjSX8VrgV2nD8sflxK7P7dD2SEf8IifMQ8tUmPns+tKlW+z+GIJdM1Pym9YCQr73fwxxv7pQrd6RaYKQCsqI475SStKR3g/rl19BWJRn1df6mgz3D23URVU4zM+lCRC5gIL3sFQDV0km5Voq4IkY72soHjxIq1dpubxqeqyiJGdR1ZDWC81RHfEAz+BA8/keygKSA84LVfI4YrgdMZeHh7QtibGpja8JcpFFmJkRGzYA2Bzr0PP5/gD5tor0EdhVnB+1rwGfJEBOqjFtAxzK6DCkTfPT/zZHDlAIZq3pYscjd6Byl9AqRZ28aofZqLBerST2s80ry5vK0v6vqqsN9tP5mmSxfe3sLQSFW7gkkw+8FJELrNVDek+7PqbJZFtf/xZMVMsGIwRy0XJJGjavCLig+fKcrIBe6q9XqwDwO4u9eUjt8/7UkMVXiJKH5n4tkPdfPw5zUwpSTlUuZK7rEnVXD3aybigxtqOANv5+rqC0RIY+rLte8P2pvfgBewABEqb6T4virnhlsKbq5jnORy6S4ECh7RDNUs+NW+DhWi9mEKHTeg6FSGzc9fFg/pq8SNXh1DUHul55il4wtz6oe6Qg27Zr9ldS41BPQ9txWwMmzOmm4UEPPoFNaYaLDHM6Hq2f6gFV2TVuTkTqtRypTUwdXSEx7cEifEs2Kxr+/U8CNIpmfr52j1floeP1n6zRa4R56Xti2YDjzd/YBbyr9OWK+O94bDXTlqJB87apvCyYgTRu4RmIdwmdfLbm1FC69RdB9e9QYgdcnwnutJ69IcOYS1nBZ3JBt/5Gfczz5gXKCARNKLg75U7E/bAWqI92NLdztYlSdQEamhxnZhcFVNDiKab0wkx/jg8ECi06WmCH/jFfZmmOFuyiNrVxY6Mcq5zKFdvpD1BprBgaE5hU8d2jsg7cZV8BN15Q+pffoWB0jH8tyX/uC8VahF9Rh0SSVVs9mJBX6XQtarHbuvYOhRgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5d297f78\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.95,\"undetermined\":0.03}},{\"id\":\"947357e4\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"bec86d48\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.97,\"undetermined\":0.02}},{\"id\":\"48682ac2\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"8007c49f\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"5e4d2f76\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.22,\"undetermined\":0.75}}],\"response\":\"It looks like a fan blew the note behind the cabinet before B came in, so B never saw it. A, your disappointment makes sense if you thought your message had been ignored. But the silence wasn't avoidance. B didn't know the note existed. B, your confusion makes sense too, since you were reacting to something you never saw. It might help to get the note out, read it together, and talk about what A wanted to say. For anything important later, a quick text or a word in person could be a good backup to a note.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 599,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 559,
+   "output_tokens_details": {
+    "thinking_tokens": 117
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

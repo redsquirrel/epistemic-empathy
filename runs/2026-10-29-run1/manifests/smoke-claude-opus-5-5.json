@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE",
+  "run_id": "smoke-claude-opus-5-5",
+  "protocol_commit": "c6f477d950d5e646d0d6d38ec42bf8fc138e55ea",
+  "dataset_sha256": "12fef036c827cab88cf535ac45fe46845d70d279aa7955b56829f3dcdbca7f43",
+  "requests_sha256": "d37cf9bf959e9dd224066957d0a28623c165bd503482461961b0fa8e64fe72e0",
+  "responses_sha256": "c8593a0df36fc2c192a217937bc1590b09d3c7b4b824449e2950d51a78153438",
+  "provider": "anthropic",
+  "model_requested": "claude-opus-5-5",
+  "model_version_returned": [
+    "claude-opus-5-5"
+  ],
+  "provider_version_limitations": "Provider-reported model string only; the provider may change weights or serving behind it.",
+  "repetition": 0,
+  "temperature": null,
+  "top_p": null,
+  "max_output_tokens": 16000,
+  "provider_seed": null,
+  "unsupported_settings": [],
+  "settings_sent": {
+    "max_tokens": 16000
+  },
+  "settings_note": "Provider defaults: temperature, top_p, seed, reasoning/thinking and effort were not sent. Anthropic requires max_tokens. OpenAI store=false only stops server-side retention. Nulls mean provider default, not zero.",
+  "request_order_seed": 1733,
+  "started_at_utc": "2026-10-29T11:13:47+00:00",
+  "finished_at_utc": "2026-10-29T11:13:55+00:00",
+  "python_version": "3.15.0",
+  "adapter_version": "run1-collect-1",
+  "adapter_sha256": "e006c9ca2c906160b38fe8b9834ef012613d235d152f54af8c1718574a1fb039",
+  "budget_cap_usd": 25.0,
+  "actual_cost_usd": 0.0165,
+  "cost_note": "Estimated from returned token usage and public list prices; not an invoice.",
+  "attempts_log": {
+    "blocked_exit:AB": [
+      {
+        "attempt": 1,
+        "status": 200,
+        "cost_usd": 0.016472,
+        "raw": "blocked_exit__AB.attempt1.json",
+        "model_returned": "claude-opus-5-5",
+        "fenced": false
+      }
+    ]
+  },
+  "attempt_count": 1,
+  "failure_count": 0,
+  "failed_attempt_count": 0,
+  "fenced_json_count": 0,
+  "raw_output_path": "/Users/dave/Projects/anthropic-fellow/run1/raw/smoke-claude-opus-5-5",
+  "contributors": [
+    "Dave Hoover (approval, keys)",
+    "Fellow research (protocol, analysis plan)"
+  ],
+  "deviations": [],
+  "publication_review": null
+}

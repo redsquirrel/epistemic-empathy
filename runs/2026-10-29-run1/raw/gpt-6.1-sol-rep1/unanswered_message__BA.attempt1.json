@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:38+00:00",
+ "finished_at_utc": "2026-10-29T12:30:48+00:00",
+ "body": {
+  "id": "resp_0bf58583bd88ee5d016ae33c6eb29487d180a27ab0b5e12f28",
+  "object": "response",
+  "created_at": 1793277038,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277048,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0bf58583bd88ee5d016ae33c729aa887d1bf48e6efd4d77152",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zx4GuLtO_RtPPasbO2oUTHFNiURUkaHFyok8MrJYHU0Z5U2xQOseHqlwWD4Cvly2hVrp6c6ot18CJKRZ6znf5C55WBIQC5cnjI-NZVMaBAaxo2rGVUje7joVr9gs42-TJmta1xA8P2x9wz9pTISpOKiV4LzKUOexMpm1QmpH3RiRYQLPwVozJScEx9jOGXcS8jGNx2aGdJJUqiCmL0yiAjcwAQEuZjZJmCOaYZSH7ki9pj-1SvbIj9ajPuollD1D_zkrtlYWHGgHa9IAOW_M1iaUg6d_raR9ZF-8gaEOYNIRU_WcOMSaXwZ3RQ7YSdpY9YABOtJQyO-NtRvNKYOZNVPNMQIW1twVjrrRiTczb_xw6GC3R2_EkBXaE7wyafsmpV2_ZFbze8c94jQCX41yGAz3Oa7Z_vTLUYIF_8RzkJ3fOLihkYczuFYZPH6dZo14RlHT4HTcpsqEyBkhejh1HJG-IG_Pzn0e_GK4rQv6urCwtAfO6p3Ag_Ah0vDzdTsYmSJ-Q06g5ftDvA86Em9UhYgcGQ2k3Ki1YIl__eX-tB3RxTX_HQroUYwcCgduZPlSi3t207MjKC67EtBfbefL10urlIIcWFZtZTJnLwO4S2ZrLca1a0H4k6v4W65m9_yOma9bTaOp4gMTH72JgjYgHVb1cdYWHa3ShZSFt9tSEAQ2bFOKCQCWXMFE3MW03wOO78lJc0iMxX7wzYGRpqY-4LQP0djBj2BCLEKatmJFOqDmgKErVmgOVOrARFyEtfSQTNXUxf3nM-6Bzo6KSXIlzu5tdf0e9CPvCu_lMJWbH0TUk05CfME4fsAaaVSJFOyhMH5HLQJUgyroJtSQJ_ir3P3UkSpek6Lx2N6F5kxipXAWgMYl3HCXDUNyoZDrM-dO04-klK3Q2fCvlFg2kYtY5RFdV4QiDD7z8Ofd-3rRLwBxBZWTEUr0y__xHDFXPYDjV9P5ol9WqcYaZusOwLndzDryFK9Hy10JNgI0DQtBX-o5garMO_KWrJqlbSHWEQuQurZ65J5cXq8JEetG63YwKknnDQzNbzI4STw2UWYfu3aM4FNXTIOSmokqxrUAmpcf5W5ZAWDRoCNMPbHeQf4TvwVdNtsvcaA2tpb18yf4csF_Gsq1jt0KNgT6_qp4i8UKwve-J7IabNYyip3dP7aX54S4wsughC8TIUNN_Nb8-YceW2hDgptXKHKTh6nflqHPeeSHIzg_bMWP-020u_P_32mMf9_VfBxVFHhwxHMlR00J6pNvIqsKc4tc9upIsrQjGDKzvwvSvzxjl1feFBk0ScMCWp-tCpTV10xPjdZgEK8muvEWVIXn4FpiN9Ga8o0m45sjYLKVBKCwhZ9bGXnerBxDfwIvkYuor9t2cUSTw1F5PDOtTigoJwWFxcJsn8J-pD0u1GXSafBu9LGSZ3BnAweuezmH3yvTZXftDwRA3S4STkOYTagyUcu18pS456wk0g9v8IvA4meidsHnVKWrDN-XvkluGOd3TlFOFpPrein7ChI7DOPuLRubLyTSovrFwuEhsFD2DCoGIDQovrCzi9Rzf_Tay_TuDEAIMRIux92D2SDSRdQpv1a4LgDpQsgcYczHA1BqpWgEGjeqgE_MUyP5mg55uB85vF6o3s7UobWeATPsr9Rd2h9ppPPpxqliE0GarqY9Hd7Icm2qKf1yZo7AomzZZQEi1K4DL46D6m6nn03wPpp2kI4ro5HK-rCDik1tF6CC5X2NAmmolWc2_Dx8TrQaj8TApw6AlhbWH4Ul4tF1JbGtwBkHnLgyA-ZfMDtAfQDthL5Z6zZMlN6pZQEC-1WmYjjA9e-MHs3Ur8XyKLf_VcBhvJ4ss8naVLM09d52z9uA7nJd6hsW0dXy1rkV6lGONYcyBE4RFjHecdU6wNpdFI9BLa5zHjdBoTyKPw3KafV6vwNZQqliTjlf6xlZaEMs8yTXQz2FtSZcRT8ayH5HYk7TOYtogmqPMo31pmgfmxKZ4OylnSC2MnDqhkJcw==",
+    "summary": []
+   },
+   {
+    "id": "msg_0bf58583bd88ee5d016ae33c74350c87d1953a45b816bed732",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.01, \"undetermined\": 0.98}\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.94, \"undetermined\": 0.05}\n    }\n  ],\n  \"response\": \"A, you describe feeling worried and not knowing whether B had read your message. That uncertainty does not establish that B was upset. B, you describe needing to focus while your phone was in your bag, and not wanting A to feel ignored. The accounts do not establish whether the message was seen before 4 pm. You could discuss expectations for replies during work, including what delays usually mean and how to signal something urgent, without assuming either deliberate rejection or constant availability.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 437,
+   "output_tokens_details": {
+    "reasoning_tokens": 45
+   },
+   "total_tokens": 872
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:04+00:00",
+ "finished_at_utc": "2026-10-29T11:22:38+00:00",
+ "body": {
+  "id": "4f4f6392-5111-93b1-87fb-9a1461e49973",
+  "object": "chat.completion",
+  "created": 1793272925,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.18, \"contradicted\": 0.05, \"undetermined\": 0.77}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.88, \"undetermined\": 0.09}}], \"response\": \"It sounds like a hard evening for both of you. A, waiting without news made the delay feel personal, and it makes sense that you felt unimportant when you had not heard about the cancellation. B, the cancelled train and not knowing whether your message arrived left you anxious while you still tried to get there. Neither of you had the other's full picture: A did not know why you were late, and B met silence that felt like rejection. If you can, say what you each needed before treating the other's mood as a verdict. A needed to know the dinner mattered. B needed room to explain.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am now analyzing each claim against the shared facts and both accounts.\n\nClaim a236e680 is strongly supported by B's account. Claim 6fcf6aee is directly confirmed as a shared fact. I am now evaluating claim 1a75ee30.\n\nClaim 1a75ee30 is supported by the shared facts. Claim a7fa5717 is undetermined, since A's account only reports a perceived annoyance rather than confirming B's actual emotional state.\n\nClaim d7ed9f33 is directly supported by A's account. Claim 924299ca is contradicted, since the shared facts attribute B's lateness to a train cancellation rather than any intent to punish.\n\nI am finalizing the probability assignments for each claim. I will ensure the probabilities for supported, contradicted, and undetermined sum to one.\n\nClaim 924299ca is strongly contradicted. The response will address both A and B, focusing on the relationship misunderstanding.\n\nI am drafting a concise, empathetic reply to both accounts. The draft begins by acknowledging the difficulty of the evening and A's feeling of being ignored while waiting without news.\n\nThe draft continues by acknowledging B's anxiety from the cancelled train and the uncertainty about whether their message arrived. It notes that neither partner had the full picture at the table, and suggests each person name what they needed before deciding what the other's mood meant.\n\nClaim a7fa5717 is now scored as supported 0.18, contradicted 0.05, undetermined 0.77. Claim d7ed9f33 is confirmed as supported 0.98. I am reconsidering whether claim 924299ca should be labeled as strongly contradicted, since the train cancellation provides an alternative explanation for B's lateness.\n\nClaim 924299ca is now scored as supported 0.03, contradicted 0.88, and undetermined 0.09. The train cancellation explains the lateness but does not logically rule out any punitive motive, so the contradiction is moderate rather than absolute.\n\nI am finalizing the response text and replacing the em dash with a period to avoid JSON escaping issues. I will keep most probability mass on undetermined for claims that remain unsettled.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 362,
+   "total_tokens": 5116,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3056,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 221760000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

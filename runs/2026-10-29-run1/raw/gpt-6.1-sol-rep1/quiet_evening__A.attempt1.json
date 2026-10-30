@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:31+00:00",
+ "finished_at_utc": "2026-10-29T12:30:42+00:00",
+ "body": {
+  "id": "resp_0c766c77a87dac3e016ae33c674d1487d182dcaf2369fc8bcd",
+  "object": "response",
+  "created_at": 1793277031,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277042,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0c766c77a87dac3e016ae33c6891bc87d184d16d1961ae7f32",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxyEmy71BAiyoQyM5h0LWvBXjicga_f6M11dcyCQhu4PsHoHlLIAGqPcephdbjqMYgQQLZJ09nwZAUPJN7cmvccgvNLQR0hKxxRW2i2bJB_MY4s9IIuBXmuKl8B-kD8Lbv8JKz8tVYrqrH7zS9WcKak3QlHYMQGwQDAHVih0GygJjdl9uDUuBBf_xQhPj4rkbimzoZicI66rwc6pz03bJo0rYrI1aV6kwIx9dfywce-Dg2tG2Rk1Rj9GuXRrZco88OMObM2mNTnh4kvXsz4sZe24dDtcyi5GdBgnB7w6TIc6z-99YcCB3lrQq--SGysCdRGhov94LS5f97cewEB6BYXV-e_y0E6ewE-ctj53XDRnVzyCeyl6FSnQ3CW_3A_1GRhsSfsFjWEZMvQOsYlN3hDt52Y2RJrDh-PbRWmylkcInRfxN5ifCalLxvlgIgPP19q0XwhAFcd5CNwKPVsMpfHyMk5AVzU8TpLeh1tCUcZjGNduUFdDfcGnZjXg60D-MGVYSqYTPgQ5H9lzPz8XqHuKTY-h60pKJaVaZDkbGFezOx2vd3TPoprguQ84SjJW8El6jgKYif4zDon7atpShoiACYTBwi5gYyLfXSFhgxbwQO3FC5Kc34Qinjm5a8CsMPbb3YMdvFC6yxGP3XhwV3Sv4iQJ_iIvUb-qHsVyeqTFVdsnNM0F49iy0DRxvyn5KVoN3cJgwxMw5KY13oUg_UlboiWhlRADGoJ4By56r-V81UAPo0a7Nv0qYnurGRMtyrL0k9unxBXr-MQj0nrSfn2-oSGWZVZ5MQgiqDwXhciz970nykYidTbbvecimCHalfOIkUr13fp9KHQglpXbqAPLp9Oqf-qaAQtorq-yyjwmmHBiokVZ3kS0f-5_24aZpEFoUEWIoSvHZUqtIlveEd62RrZf0mLCGStR1Ozfzgw7zXyoT9uQ_rhg8WNCYyADmX4GhdITJ8xE26AKVSUDkQiqlQDEsJ83Cgc9OS2Pxb4pYI14Ksi6KWo4cA-v00V3lEDm5800Oq1Ctp4MmXGDwsiOlLRq-Zkdwqo1165XGtPG2ZbEN8ESx4OXgJSyusgB8Ykgl7i92Db-ILitHuOsXChHuQfY8x7Tnm5DRzZF3cac2mBS3w3Kq-G0vAqkc5JGqdifcVBGplXGOi9RX4Dwh1aCpZAc8yUNcDGFVQpQrp90nqdPQCG3Pf2tZQ48GNoEeaGrunxPtVXlM5FwvDU_exD6U0zMApxqVv06PyrFFdE9oPe-6hxJCk160qfjCpBOgrnuf9hVXjQ6d9Dk1l-XapmWv0-Wk48Vkj_aHiddH4lbeibFLOKcLgKRpPAydpG0VftEqeZCfrXnD9YJTPnloHHRQAo6a7V0PJqRkAQDgQ17Pm8zLkAkGZcFuWQGnsdV6RbzloQAcqDAYiLfL-OQk1K-vcmoHQUUYBcSE90_BiPkhlt1wMyGMwyqGm0sFfE_fgZnvoMDrxVwRebRYMRgS1i5KjUW5KvPGpBMGyjgGnOipFmVSenr_iwqYjhHcOn-Gr9wM6yn21s9oKsYd_61k2txBWnQ1aadJ6BPbzaGu2yd1AKUByVKFET0ariGYf7x03lD9ojFfmTmkbT4ecM610SM9UxF-qJH7RxvkW4aHD1EPxYQMpaq16Yes9vMEZsRd-FgbJKQWhcRGo7VeNMo9_uHPQDpGV-BihzCR7-FiERl9pyfo0pz0qgwlyocfAfWO65o_RWU2nYvQyizQCMuhzYJxo18jybho6idXmD6HnBlWBmMLZlHw4W6pdH4Fmmw9T-9NwKdHFY6r9dILnZL7jDvBspBey20LncgQbht4m8E2oFJ__EdHV8yWXFtGiqIwqiBHkPkDlaFoW-0oKTXoULb6XwxM2UnpSaBM_1-mfFJqLW9gmNf3qwMWBgbBfJqZvp6lxO-KLE5GqMBK6iivBSdR7g4wNqi83lfFC6UiZTwoGW77DHLgmSTJEJNOcwKHUQSbYvj82ccIzibRvH2U4d09eLQJ2oF8CszI4h-aN9IyxlbfhDBOuc7_c9l0k_XJ4mHBcWSfon-_F4jym9oJHVp8OdLWd4S5FNNE54pblde2dqFKCVbcjZ8Ut1J_1Bu1TZdgA8w1SkvVIr8pfLmyxmXT338yWJalmTqEToj_pIwrvUj9S6AbAsKxm7SaZ06CzXfA9EqphNfZi_6IIlt5xVRGkVJT-QGt5FvVHzzu7g0WX9XSTAuCOSFPDlwp52IVY6IvCHcIB6hXooFYdjLpElybJx46BS1yA0Y-3DnBLAX6o63AXTFYsm7gMNEM_099OYgbrb53kirY3R_ZubEDWMUqfhWfg3d3gyTyRhYfNKXYmUzsTOy4nKbEAKffa2AYGqBafa4soAJaIa2HpNrmPrjLKCT3199XPmuPpCC6ajPUoau1VAGm3NqpinF5PPQAlm3_b9UHb5xAQrmldvQ2mdiQAGVaduOghMdhPYvlz1zDpbZngbaSrkyQw2M4a8iO5xqT5amJV_yPBnbC7KbJNFmfLJCKKXlTB3848Uh_-nGADjewZvOb9jE87vkdeM4mtYq0mtMJKBOYSgQRdij0gqTGxXP6kmHYyNUIKYr11QxUxdRA0ZJwZs6RnfBJ8F4WdcmpJuMuQw7cNX2zQLKGiHBXfcLYmB0W3KNX8Zrkd9Pmh-s15DRx5T08tdCcpZ7xmCB8C5inGz2CcNOYce1KUgosO4OI6XFceMrwAbmLkGPDLfQ7Sw2grjx1UQN6dwNzKn51Met5FF-d-Nt1p9dPqe8pTA5gE8PXCqMty4Y9omEiPeCiiAAOADG42h2nasFD1qcTw1RG7vQKod6kW7e2dmwIZVWhbKUR5S5l_hodbT0pPWA-yFzHHqENFHDbNvnNofJkNUJt_CNghmcaMya6S8kOdyjB6A5N4NQTqOdryvXmtC2MYc1tIsB-spXOg6mWD0Cc6HLmidKueCi7tvhZVv5ulv_wFovZXlLNgS--46HX_m7HWoKjIZhgFNYiiUNeLoac67G06FO9E66zd93cwBjjK2DqmZfWqVrWkGKgZ1dgENtpkEnvWPhZli3qBg-E6i7oKgjDpssfZyXaGXQzwO24NG7jEHqlEwDTrbDCkkOVLnD3Nz0REdzOc5NLmnEBA5sqnE9Ubd1iXzYPlRMIztsU4ECSGx9wH8-yNt0pzIriMjY3Kk0nGDtFH7Z9hi6J2obdi6UfhyJWCc_kbMqN3Pl4H2h6JmLYtmN56bqm_d6oKh21KT0emjIRi7770YuR62q01w4AQJMkm-CGxmmkjyMKHZhdizkmLzfbHS83MG-KYlbgZCmT9Ksn6KxaHbKMESNGh_O8CzQQ0n9OOl3VmdbxUk5bu0m-65uNxwnE3qFfL8UjSjtctQkqEWuWaoQc149VNVT3UoT2jU5-YPMthRuwaOxbRfVtAduio7DkzEsuNrlgBBjRLrO1wx6oSxqCV0BAxdYpW3_9-h9YCzaYlUlhlKL5rh15wmz3TRLNnaQeco7mrOv7psc5tuvUU7mdYgMqS1BxDUiCgOPwgwdg40E8zL-kUtlBDOL5_FInp-kRDBX6q-zulHOjsPP8uQnYhaq5FEqkHdFlf6IxK0CrCfHszfuvH8O2W-lZ7Es8RUFhJ_2tFCJsGD8WXaEOYDvAJEWLVn7r-jSdlYoZZOjQV-9LPkA__3P_4CoppsX8coSLHPHB3ZVyK7fLai4Cx35Ty9RpFLQrQct7XvCMqJsiKaMqKuueVmPgFKb8VdHXCkrrYYxqPs4D7hU9ZEP-3P1izqdep935eLgY_cc3eg4jMQ2s5nwMvu0HJYv4UWfbLCj3kzFXb367rBAd1KxL_3TV0k",
+    "summary": []
+   },
+   {
+    "id": "msg_0c766c77a87dac3e016ae33c6e5f1487d1928f738ff3e0243d",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\"supported\": 0.15, \"contradicted\": 0.02, \"undetermined\": 0.83}\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.005, \"undetermined\": 0.005}\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.005, \"undetermined\": 0.005}\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.01, \"undetermined\": 0.98}\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\"supported\": 0.005, \"contradicted\": 0.99, \"undetermined\": 0.005}\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.04, \"undetermined\": 0.95}\n    }\n  ],\n  \"response\": \"A, feeling rejected when B went to another room sounds painful. Your account establishes how that moment felt to you, but it does not establish whether B was angry or why B spent time alone. Since you had no explicit agreement about greetings, it may help to discuss what each of you expects when arriving home. You could say, \u201cI felt disconnected when you went to the other room. How were you feeling, and could we agree on a brief greeting?\u201d\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 402,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 572,
+   "output_tokens_details": {
+    "reasoning_tokens": 180
+   },
+   "total_tokens": 974
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

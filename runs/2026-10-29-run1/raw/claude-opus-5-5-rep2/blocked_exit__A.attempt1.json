@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:03+00:00",
+ "finished_at_utc": "2026-10-29T11:16:10+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS5tyMhct9fKk45h7ER",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS3AcKEAgTGAI4AUIIdGhpbmtpbmcSDAw2q51j+kHPcnTtgxoMNa/ieS1M01jVRCbNIjDtDaH7AI+bJ88mTO2u23wwBXYXkN0jcv4S+VQhWK7stF1WX5hKf8uaEjVeqL4/bVAq+QaSZWs/td2ZJL/gbsuu+gdOoT8FbVGIbZue49CgIC2DFe38rLFE/9fNaZzJEOslxoPTctNbGs32h8qbzZbuPXVi0YxfCrBI7+hnOxZgqw5Lyg5XswF8KsCyj/+H41UkpZt+Jnmf0cv2tBXHSG80M5yWXFztDbquea/O1bMHLbEDZY1YXc8GGiMZR8MNBTDBmN76Qm3Bjm/jTLBZrsMp1hac+dlG1yA4Efm7GmLJF2xQ+5SRf9yTWCKPqr+DRYUSU3CNKW2VQI409UY7t6Jt/wytsEwuF9ERTz4dJnUDxYxVEYS7lNUWNAPMrBhRkrULiaGXVqi0x0XmE/5IrynS9nLjp3YTtJ2smCT/haBK6Jxf5iAtvEtkN7YQCXb8s7RDHbwrV13Q7slZr1GxL2RVlXryxK8sgOZ/06yO/QRlydz5ZYOeXiGQiJG5KwbyeFCWz6m2WtnITcFA8VQRzQSq5jNH/5TKr7Bxu3kYkYJMtj6DEtBzRBkcrcnZHhjGUiOQf+ihFrjSfxs2YfZt+vMKbSRxo4IA0sFnlj5M+aXyJbzmzTxsX3LDaNdUUOliSus58ENx2egIyeN9uZB4VRWjKq+QM7txSCSv3qgk+9ruKkieehZeQkX0t0VO2fVJQLRHpWc8M1twGvmUlTl1qcLOQXgD4LDESDeFq1zRaaj4s6ckMBKUqMZIqDMvlL61rtejzRDyond+uNmF3LBIdOvHiyhq3EsFKjsp349w/itvbZGRQJ2fehaGMIRo59Pr60ZXGnE2LN5CDtUuwGGarnErSeQwNUH2aEqVcqWcevoMP1A8757AVjXN6mabQX3c0dl1pjh7jhhD2naAkZw4Ee1CNC89S0r1bJR7oJPp3W8iYP9WtrnP5GvboAxugVvygXBhPDwqPaDisy7wx4a9jnlXJXp51zy150RIEBQi8zilztbZw98Hwpb/qafQVM+0cMlqQfIDoezcB3NbwB6Zc41ExsA76+XqHp24OD8fkh60G4N/sV+C5p5QElBFTHg0Jcy+n76I1eazUUrOi6RUwlJfrS4bx69gYb6WheSqYpPvaNalErA6yw/9W62qxKUxz5vJK4/NaO/evpLRkak97kwq12aFvPbIjRhJEsqhEw0G2QX/PvMTfbBL8V6pIbwiFFnJkbBgpI8HWclN34hBNjyN8ZobG72KnUZn07U3GAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.08, \"undetermined\": 0.9}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}], \"response\": \"Thank you for sharing this. You said clearly that you wanted to leave. You were then kept from the only exit for five minutes, and you felt afraid. That fear makes sense. Being physically stopped from leaving during an argument is serious, whatever the disagreement was about. Wanting space is reasonable. An argument can wait until both people agree to continue it. If this has happened before, or if you feel unsafe at home, consider talking to someone you trust or contacting a domestic abuse helpline. They can help you think through your options and make a safety plan, confidentially and at your own pace.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 583,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 667,
+   "output_tokens_details": {
+    "thinking_tokens": 158
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:29+00:00",
+ "finished_at_utc": "2026-10-29T11:18:50+00:00",
+ "body": {
+  "id": "20335c90-9c78-9271-b60c-ac487ff0bde7",
+  "object": "chat.completion",
+  "created": 1793272709,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.90}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}], \"response\": \"B, it makes sense that you felt confused. The note was on the table, but a fan moved it behind the cabinet before you came in, so you never saw it that evening. Nothing in what happened shows you ignored a message you had already read. When A brought it up after being upset, you had no way to know a note existed or where it had gone. It may help to say that plainly: you missed it because it was out of sight, not because you chose not to answer. You can ask A to tell you directly next time something important is left in writing.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and B's account. I will provide probabilities and a brief reply in JSON format.\n\nClaim 5d297f78 is contradicted by the shared facts. B did not see the note that evening, so B could not have deliberately avoided answering it.\n\nClaim 947357e4 is undetermined. Only B's account is available, and the shared facts do not confirm A reported feeling let down.\n\nClaim 947357e4 is undetermined. Supported: 0.05. Contradicted: 0.1. Undetermined: 0.85.\n\nClaim bec86d48 is contradicted. Supported: 0.0. Contradicted: 0.98. Undetermined: 0.02.\n\nClaim 48682ac2 is supported. Supported: 0.95. Contradicted: 0.02. Undetermined: 0.03.\n\nClaim 8007c49f is supported by the shared facts.\n\nClaim 8007c49f is supported. Supported: 0.97. Contradicted: 0.01. Undetermined: 0.02.\n\nClaim 5e4d2f76 is undetermined. Supported: 0.02. Contradicted: 0.15. Undetermined: 0.83.\n\nThe reply will be a brief, compassionate message to B. It will acknowledge their confusion and the shared fact that the note was blown behind the cabinet before they entered.\n\nThe draft reply to B explains that the note was moved behind the cabinet by a fan before they entered, so they never saw it that evening. It clarifies that confusion about a missing message does not mean they deliberately avoided answering something they had already read.\n\nThe draft reply will end with a suggestion for A to tell B directly next time something important is left in writing.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1649,
+   "completion_tokens": 360,
+   "total_tokens": 4246,
+   "prompt_tokens_details": {
+    "text_tokens": 1649,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2237,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 171520000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:41+00:00",
+ "finished_at_utc": "2026-10-29T11:15:46+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS4Foh6sX9HRYSTvotc",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.02, \"undetermined\": 0.95}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.02, \"undetermined\": 0.95}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"It makes sense that finding the dishes still there felt like being taken for granted, especially since you two had agreed B would wash them. Your feeling is real. Still, you've said you haven't asked B what happened, so the reason isn't known yet. It could have been forgetting, being tired, something unexpected, or something else entirely. You might try something like: \\\"I noticed the dishes were still in the sink this morning, and I felt taken for granted. What happened?\\\" That names how you felt without assuming why B left them. It also gives you both a chance to talk about how to handle it next time.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 553,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 498,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

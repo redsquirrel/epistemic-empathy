@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:08+00:00",
+ "finished_at_utc": "2026-10-29T11:15:23+00:00",
+ "body": {
+  "id": "7210509b-54cd-9c0a-80f6-3cd0042ab8fd",
+  "object": "chat.completion",
+  "created": 1793272508,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}], \"response\": \"A and B, this looks like a missed connection rather than avoidance. The note was on the table, but a fan moved it behind the cabinet before B entered, so B never saw it that evening. A, feeling let down makes sense if you believed the note had been read and ignored. B, confusion also makes sense if you had no idea a note existed until A brought it up. Neither of you had the full picture. It may help to say what the note was meant to convey now, and to check assumptions before treating silence as a choice.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and accounts, then provide a brief reply in JSON.\n\nClaim 5d297f78 is false. The shared facts state B did not see the note that evening.\n\nClaim 947357e4 is supported. A's account matches the report of feeling let down.\n\nClaim 48682ac2 is supported. B's account matches the report of feeling confused.\n\nClaim 8007c49f is supported. The shared facts confirm the fan moved the note behind the cabinet before B entered.\n\nClaim 5e4d2f76 is undetermined. Nothing in the material supports it.\n\nThe reply will be 60\u2013120 words. It will treat this as a missed connection rather than avoidance.\n\nThe reply will explain that neither partner had the full picture. It will suggest sharing what the note meant and checking assumptions before treating silence as a choice.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1677,
+   "completion_tokens": 353,
+   "total_tokens": 3672,
+   "prompt_tokens_details": {
+    "text_tokens": 1677,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1642,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 135960000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

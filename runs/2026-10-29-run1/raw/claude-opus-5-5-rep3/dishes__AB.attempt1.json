@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:35+00:00",
+ "finished_at_utc": "2026-10-29T11:17:46+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSChJag7oV7yEyQ9qD6",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSqggKEAgTGAI4AUIIdGhpbmtpbmcSDB5guhOEqmARmhlBCRoM1Id0WUidDOsRXPWLIjDnnvsE3JXCTcONvDc9vj1sZUIVZva0P4HSA01tm0kuw3bqgR85HOrBTrTsvRKRqagqxwdpGTORFZ+Ir1rLnjyapXZwogXH1Vkf14iy+h7lrm7zvey133XYgKdC7Hj09LG4B5BV+EkDOgdicTG84TB7mXZVmYrh16XmIy6jzjGuCAaF0XMjJrqKmclOW17OHB10cj9EFOenZ8ssirJMYs/AeS/2ztNE5hmi2e3UQyVltOl9fP8L/Fnd0IVdrmaq46YVEEnbQrG5W3ovboFiH53nKbMONCjFBoMRKza9eCbv8xdZkKl13l6GLY7ePNKYscKzJQhboxxbEjx9wtjEaurA0v7fNGaYs1/XG9dnJiiz+Fx+znR6O+aBasNRwE4zbS320nROXQI7M+3Xut7L1Y2btGykazqMfgAd4cg0dFbRJyhg9Dwdayqa3oZ2zXzWxO+7BxPogeMhclisr0oNdOcP+1WIBRod0LO1CjNFMfa7CEYD5usVOBwn2nVCudxcToc+CPRni7HrlXXoxV5UtBt5fayvWpdf0cYYBYQK7ZojBylGoxE7zbLdjKtK62QJNe+PIkH3bR/BrpXhlrotmJUYmxJCmi4yIv4J0+NEQpSZ70HU0V9POQPHoJokpEXHM9itU5bugR8+cwmpGXoVdC5cOw2H0mQGqYuEYgJJNE0ysgwa6EUk7CRGASese/a7I6+7OdUz53so7XP7cChkzksdWr4JR6BfmXPrxY+piQUMk9/BQSOjfsxw6TR3KFlAUi0xKdQu99lfrdjQ6CQHOa3ravP59kW+2dQ8WAph1z49TOEE5IbNg4NOp2ysHWCaypxNlOSaRrMVVrNBdOOFs4vSB7/voxnc63G0nSf9yuRPwZmMqCpbZMIP/jn0bHGTByeI1kjiUIEGO0sfxc7HdesC/jhrIKdDR6+MAICb7wxoXw8TfPvXKIAP8O7N3nmxuX0YytnWRiVkSXNhOwXi0Whi36QTip9CFTpnq5FDd5YRTDZYhu/joxa9iHMzWcxLNxZTIHxpYjBqkKlSryrDmwXZkB4iJjQJ7TEdZnH74aD82Aye+2Ruto7QBxz03cryJdKJoegEUf3LpSn8hukHdaR0SrXqCrTrJ9b56fN/OLu69KXA2FkKFTnLZPCkCRysP/4ae5Yp8HHaIoEv2G3k6OXa8qWPjtZ79UU2ncdKAWBepT+Bh4ZFOGpfBsPgRB5H7U5ADD0zOzNtQcBLn9l5vxrpnMxn1rb8rsb64KE8zaWzmX9+lJtAZjv7xtV/OG3CtmfQ/CHK5JkopZWPJ2SxOoqdNF823j9hEXMh7D9rtyN9Kt9fIUfEI6MjgQ4FX1pZPKZO4rVgUiajcr14GAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.85, \"contradicted\": 0.03, \"undetermined\": 0.12}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.25, \"undetermined\": 0.72}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"It sounds like you each had a hard morning over this. A, feeling taken for granted makes sense when an agreement isn't kept. Asking B what happened might help, because B says they forgot after a long call, not that they expected you to do the dishes. B, an important call is a real reason to forget. Still, A was counting on you, and saying something like 'I forgot, I'm sorry, I'll do them now' could go a long way. You might also agree on what to do next time one of you can't follow through on a chore.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 625,
+   "output_tokens_details": {
+    "thinking_tokens": 150
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

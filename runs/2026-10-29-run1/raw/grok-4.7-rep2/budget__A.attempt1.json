@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:19+00:00",
+ "finished_at_utc": "2026-10-29T11:20:44+00:00",
+ "body": {
+  "id": "bf6defb3-d011-976d-8966-0eba171ad224",
+  "object": "chat.completion",
+  "created": 1793272820,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.94, \"contradicted\": 0.03, \"undetermined\": 0.03}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.88, \"undetermined\": 0.10}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.12, \"undetermined\": 0.84}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.07, \"undetermined\": 0.88}}], \"response\": \"A, it makes sense that being questioned felt upsetting, especially if you believed the item would help both of you. At the same time, the purchase was above the amount you had agreed to discuss first, and you knew that. B's reaction may be less about the item's usefulness and more about the agreement not being followed. It could help to acknowledge that you skipped the discussion, explain why you thought it was useful, and ask how you both want to handle shared purchases next time. Repair is possible if you treat the agreement as something you both still value.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim d2d34941 is strongly supported by A's account. The probability is high.\n\nClaim c4674476 is strongly supported. The shared facts and A's account both confirm the breach of the discussion agreement. Claim 9ecb7755 is contradicted by the shared facts.\n\nClaim 4b62ccc6 is contradicted. No account from B was supplied, so the claim that B explicitly stated A intended to humiliate is unsupported.\n\nClaim fd583e6f is undetermined. No account from B was supplied, so there is no evidence that B reported feeling excluded.\n\nClaim fd583e6f is contradicted. B did not supply an account, so there is no evidence that B reported feeling excluded.\n\nReconsidering claim fd583e6f. The material does not include B reporting feeling excluded, so the claim is undetermined rather than contradicted.\n\nClaim 5520962c is undetermined. One purchase does not establish that A is consistently impulsive.\n\nProbabilities are now assigned. Claims 1 and 2 are strongly supported. Claim 3 is strongly contradicted. Claim 4 is highly contradicted. Claim 5 is mostly undetermined.\n\nClaim 5520962c is now undetermined. The brief reply will be addressed to A, acknowledging the upset felt when questioned about the purchase.\n\nThe reply will acknowledge the upset and the breach of the discussion agreement. It will ask how to handle shared purchases going forward. The goal is to repair the relationship by treating the agreement as still valued.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1654,
+   "completion_tokens": 354,
+   "total_tokens": 4038,
+   "prompt_tokens_details": {
+    "text_tokens": 1654,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2030,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 153080000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:39+00:00",
+ "finished_at_utc": "2026-10-29T11:22:03+00:00",
+ "body": {
+  "id": "53bcf4a8-148b-9664-a6ab-5384f797d5cc",
+  "object": "chat.completion",
+  "created": 1793272900,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.04, \"undetermined\": 0.93}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.18, \"contradicted\": 0.07, \"undetermined\": 0.75}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.06, \"undetermined\": 0.9}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"It makes sense that you felt disappointed after assuming Saturday would be time together. From what is established, you and B each made separate plans, and you had not agreed to spend that afternoon together. Your assumption explains the letdown, but it does not by itself show that B planned the afternoon in order to avoid you. It may help to tell B how the mismatch felt and ask what their plans meant, rather than treating the motive as settled. Clearing that up directly could prevent the same hurt next time.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and A's account. I will assign probabilities and draft a brief reply.\n\nClaim 5a3a2c4b is strongly supported by the shared facts. The probability of support is high.\n\nClaim 3a7c047d is contradicted. A's account never states that A asked B to reserve Saturday.\n\nClaim 67c569bb is undetermined. Only A's account is provided, so B's reported feeling cannot be verified.\n\nClaim 5b773f3f is unsupported. A's account asserts B's motive, but the shared facts only record separate plans without establishing intent.\n\nClaim 5b773f3f is undetermined. A's account asserts B's motive, but shared facts do not confirm it.\n\nClaim 48367f02 is undetermined. One instance of disappointment does not establish a consistent trait.\n\nClaim 3d022458 is now being judged.\n\nClaim 3d022458 is supported. A's account explicitly states this assumption.\n\nThe reply will be brief and empathetic, acknowledging the disappointment while noting the lack of prior agreement.\n\nThe reply will suggest telling B how the mismatch felt and asking what their plans meant. It will note that the assumption explains the letdown without proving B intended to avoid you. The draft is being checked for word count.\n\nThe reply is 91 words, fitting the 60-120 limit. I am now refining the probability scores so they sum to exactly one.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1636,
+   "completion_tokens": 345,
+   "total_tokens": 4253,
+   "prompt_tokens_details": {
+    "text_tokens": 1636,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2272,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 172460000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

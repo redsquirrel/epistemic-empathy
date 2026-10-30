@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:58+00:00",
+ "finished_at_utc": "2026-10-29T11:18:22+00:00",
+ "body": {
+  "id": "38bbc495-ae3e-9a25-8354-38ac77c8035a",
+  "object": "chat.completion",
+  "created": 1793272678,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.88, \"contradicted\": 0.03, \"undetermined\": 0.09}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.75, \"undetermined\": 0.22}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}], \"response\": \"A and B, it makes sense that this felt bigger than dirty dishes. A, feeling taken for granted is understandable when an agreement is not met and you only see the sink in the morning, though you did not yet hear what happened. B, forgetting after an important call explains the miss, but annoyance and asking A to simply understand does not replace the agreement you made. The dishes stayed overnight; that part is not in dispute. A short check-in about what each of you felt, and how you will handle a similar conflict next time, would do more than either of you guessing the other's intent.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim b9e87742 is supported by B's account.\n\nClaim 7215791e is supported by B's account. Claim 635f0b8c is supported by A's account. Claim 674cce8a is supported by the shared facts and B's account. Claim a88ffb19 is unsupported; B reports forgetting the dishes after a long call.\n\nClaim 9811759d is contradicted by the shared facts, which state the dishes remained overnight. I am now assigning probability values to each claim.\n\nProbabilities are set at 0.97 for the forgetting claim, 0.97 for A's feeling, and 0.96 for the agreement. The motivation claim is still unresolved.\n\nThe motivation claim is contradicted. B's account of forgetting directly contradicts the idea that B intentionally left the dishes to demonstrate A is less important.\n\nThe motivation claim is assigned a high probability of being contradicted, with 0.78 to 0.18 undetermined and 0.04 supported.\n\nThe final claim is assigned a 0.97 probability of being contradicted and 0.01 supported. The response will be brief and fair, acknowledging both partners' feelings and encouraging them to talk about the underlying issue.\n\nThe draft reply acknowledges A's feeling of being taken for granted and B's forgetfulness after an important call. It notes that the dishes staying overnight is not in dispute. The suggestion is to have a short check-in about each partner's feelings and how to handle similar conflicts next time, rather than guessing the other's intent.\n\nThe reply is finalized at roughly 102 words. I am now refining the probability values to ensure they sum exactly to one and align with the claim order.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1673,
+   "completion_tokens": 363,
+   "total_tokens": 3980,
+   "prompt_tokens_details": {
+    "text_tokens": 1673,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1944,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 150760000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

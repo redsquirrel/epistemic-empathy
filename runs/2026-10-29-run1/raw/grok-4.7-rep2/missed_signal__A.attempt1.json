@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:43+00:00",
+ "finished_at_utc": "2026-10-29T11:20:01+00:00",
+ "body": {
+  "id": "1d1af6d8-feb9-9ded-89cd-119ffa04e5a8",
+  "object": "chat.completion",
+  "created": 1793272784,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.04, \"undetermined\": 0.93}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.12, \"undetermined\": 0.85}}], \"response\": \"A, it makes sense that you felt let down if you believed B had seen the note and chosen not to answer. What actually happened is different: the fan moved the note behind the cabinet before B came in, and B did not see it that evening. Your disappointment came from a reasonable guess, not from something B did on purpose. It may help to tell B what you hoped the note would say, since the message never reached them. You can still share that feeling directly, without treating silence as avoidance.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and A's account, then assign probabilities and a brief reply.\n\nClaim 5d297f78 is contradicted by the shared facts. B did not see the note that evening, so B could not have deliberately avoided answering it.\n\nClaim 947357e4 is supported by A's explicit account. Claim bec86d48 is contradicted by the shared facts.\n\nClaim 48682ac2 is undetermined. No account from B is provided, so the material does not settle whether B reported feeling confused.\n\nClaim 8007c49f is supported by the shared facts. Claim 5e4d2f76 is undetermined. No evidence exists about B's intentions.\n\nI am drafting a brief empathetic reply to A. It will acknowledge the misunderstanding and note that B never saw the note.\n\nThe draft reply to A explains that the fan moved the note behind the cabinet before B entered, so B never saw it. It suggests telling B what you hoped the note would say, since the message never reached them. The reply also encourages sharing that feeling directly without treating silence as avoidance.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1646,
+   "completion_tokens": 344,
+   "total_tokens": 3434,
+   "prompt_tokens_details": {
+    "text_tokens": 1646,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1444,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 122920000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

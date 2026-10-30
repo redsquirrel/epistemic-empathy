@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:31+00:00",
+ "finished_at_utc": "2026-10-29T11:16:39+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS7yhSDjNAxk3EvrDAn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSkAoKEAgTGAI4AUIIdGhpbmtpbmcSDDSzw4L+DoqpMHMOHxoMOx9CB7fQJtNnXpdAIjADQJe+UER86Hb8kFHkQi/RoZhPjEvd+5hD/UjRZAod2zW6dj6I5njSiB4WIZs6w5QqrQnnNeXQ/EWRz0EbvIXdZa8g/O9aNLCTtoqygB7Dlqi3k83ZFCUn9cTETdiAQecCUPYyeLXF83qCJSmrMeY8Xf73SKitQiWuWZQmvEIOW4mt2bTr563XZJSO4BcfhGw4FHLsf0nUXJslvFKpJPKKo3yznn2fwdYt+dPm4DgV55F09FfPxrepWV/d5QumBov1WgePIpxqLaCqJ6oQGx327yRMFvBouVv1dPMJRPGNkFD+tHbdxVuP4jIv/hnHoFzQCNkLW0SHzOwamgk20ne3p86CU3yYegVLtotYdd6IqzjEtEOPra+/+9iQ6hi4bb/jDXXbhYJoGcMPWT3fVU4djYsb3P6T0dxGEJX2855idhAeSpYYD7m7pthtR/uiu8vHuZIJSNTpYH053Advw/HyawWY+yHtTAqEAZrTp0d6uyqePZQNTNOOOD7RrZohWF7qTVbpIUvy66OgLEXGB4lkixYoToqBhFSztXrlloOdL78Pt94Y8WHhhMMsFUOtfa5wzSg/rcoTvC58T4W7dhO0C5vh80jBd5GaN0dIGeNOCL4zia9UAxj5dkCYZgaNxE2U0LoZyxxzV72DAUI3Gq/+Sz+oTHx18CkctmLML6VW00ANl6BUZ8ziVr/0taKaRpg7SRYLNyC7awYoxT+hOWHIjO4wvJ4Yousj/OG2k0aZuGmvgP02WUbrj45YESXgQ8UX438ym/UqFVjSdgD4RvD3Qv+kWou+QPJH6GzohiO/dQKf7VFd8N44y3N4J/HO22x1Erck9TZ+EhEv+mkYyV03DPzuJbRuNT3maXO7mZ57+GyTj1v+MYpi40EqvpZCxUmj2EYUTUaQ6lklz1TNUF27ku02cP7GhrBpuxlRm+aS7ZyMJA7DnQlAj+qh9mTuCTWWn0r8IPILO/VeUp3r7b6CUdxxShmDoTN2hEvbtv3FgYK8EnPBZSqYDl/l/eJaDz5m0OJQx/IHj85zBi33mqANZaPGkg4TriWFphczHHBF0yGU6F1HqXPCnveH5imMAzJcuXfJWsTrEVvJhfLk74/6a6FtzKicTsQVTCmzB9vtbtbzsLtSYQfYoaodVwMTGLecl6+foYEAPmn/q9+idsIKQhb81nM2tm6lMOiLalXtQ8ruQ0JZXRog/dJgHaaeImcvc9DvxDKAF0mxNkz9zQWPpfs19+uzI6RaMHp2yhb8ZXbNLD63K70dEwIa0fTudmHLS9PylCpz8Yj20GcOc6iUXKQX1k+ML3+4vGXot7CPLdQKhsSXRFZfPErjmAzDffDdWNrWI/tNsELDaRyHXvQDfbw0vcDkRv3dmbhLgrvy7svPydDfX4xVrcA34PvUIVH/cncHkIa8zq7Sj4CzxoI3DRr33aRUlDH9J9nw4/npuYumuUUaxV84FtkASg4qP5b7A8fmdm71LFPBmPPziVu/a3jurq7Z/tD13gN4F2N6yBThiMBn1/irwqtyBOO3+RXKwLsTf6EU50Kisi2UhMPMVeQJTHP5y/ncN10XFMdu/H1qwnOAQ3Y/Ayoctn7KiI62VfhWrVdjAxTd8KdX+Z61u6o8CRKhFYbafRbVajUUxgPsatCu3/q87djzg0+5wAoYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"30c8456f\",\"probabilities\":{\"supported\":0.08,\"contradicted\":0.2,\"undetermined\":0.72}},{\"id\":\"3c9d9ff4\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"7587477c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"57457681\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.3,\"undetermined\":0.68}},{\"id\":\"29989694\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.85,\"undetermined\":0.12}},{\"id\":\"69c4aa40\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}}],\"response\":\"A, feeling rejected when B walked away is understandable, especially since you had no agreement about how to greet each other. B describes that time differently. B says it wasn't anger. B felt overloaded by noise at work and wanted a short quiet break so they could be present for you afterward. Neither account has to be wrong. One way forward is a simple shared plan, such as a quick hello and a word like 'I need ten minutes' before stepping away. A could also check in when it feels like anger rather than assuming. That way, B's need for quiet doesn't land as rejection.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 597,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 717,
+   "output_tokens_details": {
+    "thinking_tokens": 252
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

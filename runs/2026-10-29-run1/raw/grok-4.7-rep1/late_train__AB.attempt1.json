@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:07+00:00",
+ "finished_at_utc": "2026-10-29T11:16:24+00:00",
+ "body": {
+  "id": "46486476-2e10-9182-af8c-9b12847e77c6",
+  "object": "chat.completion",
+  "created": 1793272567,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.06, \"undetermined\": 0.82}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.86, \"undetermined\": 0.11}}], \"response\": \"It sounds like you both had a hard evening and were left with very different pictures of what happened. A, waiting without any word made the delay feel personal, and that hurt. B, you were anxious, trying to get there, and unsure whether your message arrived. The cancellation explains the lateness, but it does not erase how either of you felt. When you talk, it may help to separate what happened from what it seemed to mean: A can say how the silence landed, and B can say what the platform and the arrival were like. Listening before explaining could make room for both of you.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return only JSON.\n\nI am checking each claim against the shared facts and both accounts.\n\nClaim 1 is supported by B's account. Claim 2 is supported by the shared facts. Claim 3 is supported by the timing details. Claim 4 is not supported because it reflects A's interpretation rather than a shared fact.\n\nClaim 5 is supported by A's account. Claim 6 is unsupported because the shared facts attribute the delay to a train cancellation.\n\nI am now assigning probability scores to each claim. I will also draft a compassionate reply to A and B, keeping the response within 60\u2013120 words.\n\nThe reply to both partners will be warm and brief. It will acknowledge the different perspectives, note that the cancellation explains the lateness without erasing either person's feelings, and suggest separating what happened from what it seemed to mean.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 363,
+   "total_tokens": 3486,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1425,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 123960000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

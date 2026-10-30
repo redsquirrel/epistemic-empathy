@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:20+00:00",
+ "finished_at_utc": "2026-10-29T11:15:28+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS2ifexi2qRB3hxP12N",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS9gkKEAgTGAI4AUIIdGhpbmtpbmcSDJg6tTUaMx0kQ6tuXxoMUBjbZmqS4kDwjJOPIjAqU8gs28HmzVdnimuThHWQX3IQvuDuP+JAqY/CG1YSkRJxT5ptNhtEhmRjSfJNWcIqkwnQ1TtYBbx7GzxhpTz0DGmbFgwps2Q5Enf3gTmCZEaxtkw+XMOX+7iAm9X4gopJHf8DfBQlMgHV8fKbySiWOapSYjKdGCX5ccTgde2iqFWqSPR00ZbnZvliS/VeRHBprUtLRbRt4MLLA0XMUjBZ7WQPw467r6MOzpE8gbFhxwuVf8kU9vk5ta7jHKObUe71XF0msP3YLzviuzYbwMjlPkypqrfSy8ImBfld0jJ+M578T+kF6d6nM7rNYnRv6WDsWwA1xm+wUP4dbSXfLhUcXKVbPtl3HCWTpvhD59cwv83ytgHvJGZDwMdsa43KMqlM6t1rhVwKyIUKnlMyi0NcEb8rGmyA1OZgYuCGDZrByeiMvq3Pp71AuZEyJzSh2mZZw0oJY0ULC01uEXb0qSdsYqOg0ZIap+WWv26FakmzyPORaGV/rFD6yp2EbkCV83PCV40JzS/K0G+Hal5rIzu/ceeQOUC1lzByiOFWWq+UIqxZM0lU3wEEn/KGEZ2J7/kXcKB80OCNakUhCnS0lHSPuGxwC8wpk7feWRcyU56pPyxRvo6jDdwwTtO4TYK4TbJGRjtJe/1Q6iE0ysDOYQV18Jd82xjgs0I/sUbmgkMhqTrKw7bYz/f5KbYyU09enCWnXRhJLttCZiNzD/+DrkroaGamSrUwL5C1K4/E2Byql0Z9RspCYo9HfUmmfxzL0+dF4r85EA1EarVJ52UJymH618c2rLPsIxO+6rDI6+p4nX/jGWDklCszfZQpLu8htVZj+kJfH/wpWYXPrYLFOakUdsfsT0UknQpw25LVRqBXL8y2UQqxl1LvbrZECsyqFyWxyqAT0Eo7jkum2Cs9J4YJ3zrY9GTx4Q5JuRahuaBNbksej30Em2CD4VaFjHE+v7sFWa0qbtZfi3N6p4lTztDz98g9//p/8TYE+X0HBluosgy7PrUyeoGhfEiZKs7kFhffvoYM/FO70VInSpbAltcQ3ZkSXouHDkNAHcKUTRFhzvtNo8exb9CEI+h6bw7kleDvKu5sUKRlrRB+dEhA/mJ/OEe9P5Hmsvu58RF96BlIQreEeTCbX130Ui0Qr6q/N3Qj2SqMjHP3slH/BP9rZaG92wywkugMKVCmTn2fNrEs8D5TswGNbb97an/RwoHWd8xK5gGxcAVR/CVTQAPPgHqlfBpyUuQoDoMCy1paqPNIou5zNeGkOpp1jzAP27LkHmC1yRHNAzla+FE5TG/53IW6SUN/DIZjN/NfUEOBODbcsXoZCrquYna8HHsjFEekFa8B0O+9WctxW+IVhnSRnGvibbORr/enYvfi7V1ep1Z+YrfBfrNy2wmH01O5AE+j79F6mS6anR3kmo7iK+tuv9Xxm/Mt05ynMI9CIN2Gdlug9jFbjI0j05GG4F9cg2C7mL41hNesXB+9dN8gkxcYsGgI5mPLrrwzhecsToj5ouPPKWyNolBV+4tabYa8lhtu2IbOf7AH4294GlhKrZHwwdxgLICLk7f4194zUQKxFbKx4ro0XGdch5tYIJBJNZB6PfVVWvT3T/Uc7b6B2oeqGFWcHZG9SfCXGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"b9e87742\", \"text\": \"B felt annoyed.\", \"probabilities\": {\"supported\": 0.85, \"contradicted\": 0.02, \"undetermined\": 0.13}}, {\"id\": \"7215791e\", \"text\": \"B reports forgetting the dishes.\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"text\": \"A reports feeling taken for granted.\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"text\": \"B had agreed to wash the dishes that evening.\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"text\": \"B left the dishes to demonstrate that A is less important.\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.27, \"undetermined\": 0.7}}, {\"id\": \"9811759d\", \"text\": \"The dishes were all washed that evening.\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.96, \"undetermined\": 0.03}}], \"response\": \"It sounds like this left both of you feeling unseen. B, you agreed to do the dishes, and a long, important call pushed them out of your mind. That makes sense. Saying so plainly and acknowledging the missed commitment will likely land better than asking A to understand. A, feeling taken for granted is real. But you guessed that B expected you to do them, and you didn't check. B says it was forgetting, not expectation. A short conversation could help: what happened, how it felt, and maybe a simple plan, such as a quick heads-up when plans get derailed.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 820,
+   "output_tokens_details": {
+    "thinking_tokens": 217
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

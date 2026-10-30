@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:40+00:00",
+ "finished_at_utc": "2026-10-29T11:15:46+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS4AGoXwwnd3omtquJa",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS7AgKEAgTGAI4AUIIdGhpbmtpbmcSDNmbowlBgtikC1d2RxoMUsNacgtBHbjHS381IjBx72sn9YiZqBdPgw4YLgWvP9eiZlr+FxUCieRH0gMo3EHpy6Eq7Xq8vQi65kC3VP8qiQgc3pA816Tn5dC96AlciHK5vt2Hdi6HgoKpxHaAqksU+di6VVTWw9qIKQKmjMdAZHXs7KMIY1nRVUr9zFcaw0GfG4MBJO/F6LR5t6b7dfcQNNb/6+XbFZojDVoYbrjUVBc0PBe+19YjMOzRAFz3jvQvotAjcdCEL7Mw7qRbMbzh7SQE7+OwQ/lagEvquPHzpVUmM3EAIOiZ+bF505WSFQrYY9Nrx53MzTbN/WpsF41nTIWI5VnzxOc/CGgwng/2XP8S+5HCRIOFG/J2BokMyJVTPZhLLJPrn8TU52aUqlqyWBtu1ewmtj34d2zHODkh6nVAxEM53mgbrN4ZrNc3/75hPfnmBZjH4rM6XznM0atNT5Tq0G0YzLFX1WDWymC0tghfwgVveTvRg6MBCN1gFoT6ybokzJMQsI1u5kReXjhbD9ZBrrhUIZLP1dHQ9RLrkO4vm4uroH2ACNm69QVLG7Ettqi1dmN3PZxl6E+gXM8YkO1H+hJWpEMfvlOdW2Iel5Wl9lIIe9tfCIN2KIu3e9UR+zA4RDxz8BwfDLlrhexoMAusi3H3gBRANDoVC0nSFD2ES+D3VMLifNkJVdUYxJ99RySmL84SERksNvA0l/1xaoS4B2BKAfjicU4hWlEZZoirXOuWD4SXf5HDBLfsGObW+rbXH9DDvAz0KFuSyyf7FaGQo9wh9hIdzBbQ8mPNxvAP8kj68Wk5tGfY7MLJSrXh/JBq3CuIrEEPfyiCW926Zp6i2aFL9HN5xgikci6v7+7WJ01ISf98VuEDfGZCsY/Awp19A+0QVmbamVVkKskyGdMT3K4H+OMZvVc3+4V9Vq5IAgZQ/Gp0kZ9bLhq9aKOELEQHy9861trfbmM2n1Lsq1xlv2NfF5e+15q36Hb2XCfgz3zQFuxahqyONZOV43sS1fA6vIpidO9QUXLdcRW1Ja03Hg/LCxfomKv/5S6XVQpxZE9wS1CEOLdhggYP5rn3I3AHY238XZF76gjJb3Fsb/z3iTtmMhOYld49mTUyy3lAQPm1CQRYiZnpnvHTg+3KxpYYyUas2u8k1v00jIFY0goZzW8ZkKAlgkW3gNsVqVtoFamLFv3/8z1Hr2BWj6PCymhd0hJDmamIKUrOBCzKZ/vp8qmF0JgoZzbR+biGaU9gs/kWBd39D/YcgHHJfZs/57fgxGkxHiXIDRqpexMrtfRn2Op2F6zoBxJEiG0CVIFmMwRFl/knHK2AjTTgTLIejZhXaDwoXTu5+mKuqCV8Z+3aM0IJDurt9Nin2OH24etIqRclK3sCPqADvueLmZWsB8hBRqPaYUch2q1TluZhYlZUrBF2iTDGN1jJ/LXMDKzwi1jwHt7vUmhy5jL7iNqhmXNN1NVTj7ZJGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.03, \"undetermined\": 0.85}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.05, \"undetermined\": 0.93}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.86, \"undetermined\": 0.1}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}], \"response\": \"It sounds painful to come home and have B go off alone for twenty minutes. Feeling rejected in that moment makes sense. Still, what you've described is your reading of B's mood. B's own reasons haven't been heard yet, and time alone can mean many things, like decompressing after a long day. You two also have no explicit agreement about greetings. A calm conversation could help. You might tell B how that moment felt to you, ask what B needed, and agree together on a way of reconnecting that works for both of you.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 545,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 668,
+   "output_tokens_details": {
+    "thinking_tokens": 192
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

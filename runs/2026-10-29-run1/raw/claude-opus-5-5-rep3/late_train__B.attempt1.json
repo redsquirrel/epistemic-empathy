@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:02+00:00",
+ "finished_at_utc": "2026-10-29T11:18:12+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSEeFazcBjP4Tqd4PXU",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSrggKEAgTGAI4AUIIdGhpbmtpbmcSDF4nqtPhNs0Y8wI0ihoM2bDutg3u/fF+n7hRIjBCv5BlsEoXjXRfnKk8sjxY3tmvcq5MRcM8CyJR4/Xy3IeHZgZgBUNATruiMWru8Icqywc3jL7zGHDfQnKX/0lDTY39uc3jgiIwEa4iQT8DiUj5tTjGji0UmnJA5Mj9R7I7k6lPE5FvblybXod47tWmMOJ+sEREyl0i8qQiqJod8wFmC0AyiwD8udIT5fAuYuR8iyWnPTt2b9IKsPy968YaaoSa7qnC5Vih7GcDCD46N9Gim0wxEQpwd1+LYDlGK6ia7A31gl1ulW5E01s1UL7k4Y/y1j/VkO/I3OoGzDbdkKFzdTwr2prXV2pUeq5+6Kdd4ZjlkF6YQlX7Y2p66tKFHXxAn4V1+0UbsEWEN+8oG7Y/PTQJUWgNKdotwCK9xno6OdD7hneKKa2sfD+fQnhhJm3/fJe+rfCyt0Kg1dZJihezIA5AjPbF10mscu41HFmevQovlu3hLmyRYS5aqfINR6axt5iijsOit03g88tYedTPPUnode+l6ApIdpflJrHezN+UPa+znljFTSXx/ONqspZbPJl5Rn9zm3Yijy2YM+GliptFwnH6uOnnxNvoRo3GCNxzUI1opiYKz9G6FX9NIzmS7+iKbI1fkygv42cbhJs4gDqHWajwGRO/FPuHxtLNq1a/Hidnsa1VByiuKV00m5wwvSeapAy/isHb8hSG6pHoHFgmaKGsBuWaFfBZJazeA3DIfaH4dllKjzI07tuYheg0avvY7i05vKkBqPiZsZPwsgwrXMw9K2FQfRrhm6jch/unhMK/vTdrzAu8KCAbMfdDNfeJzH984cbjMxnCmczpLg/aokOdrny2iHOXjvu8E/uZMYiIN34YEpz3fE30+cLSJHUZXiVrMtUhdcJvQxVSAE/FWb6ICrqmMv4J66iPuMR2iKSh9YirWRuVntI6UTfMVR9Uiwm9TXXDMlmYquwy7pcqYZaCYnK9LHygSN9GRvEh2I2NanMxF5lkIf2OtD4F3uVkEAAuN/IVfijeYQ0q0GBX3p5gPQ7vsO0ZX4qp+6gLuau+7veuSQ86Mvn6Tv79sPlP2QKq6M+G6MF4aw73Q3j4OWF22L1z5Ga2urJm/zxOLt3pQ0yP2wCJouz1YwEysv0AkVNRZsPSpnUA0nVobP0Lj0nGiQIHf6mFKBJpEpF4FSNu5A+7QO8LOxjx1CNDUQcZrcsyCIjqaSKeLfupl2dj5NmLo9+rAuIZ+FLDfciZcY7rVGvogl1PHiA0lC4b1Qu53sMRtmP7vwmuRyiRR2Xqm85HnPtSrJwaGRvdhE1EkVDx2uCG/r+smjNbbtI4Frk9GcjrC6px/cSpzpfjAp62GCUo9wSZyw/sxI4PIxjXsdNQGU0QWlgZIBgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.08,\"contradicted\":0.07,\"undetermined\":0.85}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.02,\"undetermined\":0.95}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.8,\"undetermined\":0.18}}],\"response\":\"That sounds like a stressful evening. You were anxious on the platform, unsure whether your message got through, and then A went quiet when you arrived. The train cancellation was outside your control, and it's clear you wanted to be there. We don't have A's side, so it's hard to know what A felt during that half hour. A may not have received your message and may have spent that time wondering what happened. A calm conversation could help, one where you explain the cancellation and the uncertain message and ask how the wait felt for A. You might also agree on a backup way to reach each other next time.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 592,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 654,
+   "output_tokens_details": {
+    "thinking_tokens": 188
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:39+00:00",
+ "finished_at_utc": "2026-10-29T12:32:50+00:00",
+ "body": {
+  "id": "resp_03370afed1aff58b016ae33ce7ec9487d1806b2a5547614ea9",
+  "object": "response",
+  "created_at": 1793277159,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277169,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_03370afed1aff58b016ae33ce9536c87d1bc4e880de8cddcd3",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzxaq0qluGHRG36aXUkwMFZ9eQQZd4EJtO7D1NsWbBaMcR46-d1umlJf9TKpnWwznVoNcMjH0XFHG-rPqJFXrYtf0WWz0tPEogrLUHAbjajz7oYeSL7bLXfFv50Cl90oaxqhh592_qel8hqJNYKOHNyDisykNm4xWvWZfSMZyii8ZFF1khOoJY4J2P7DGpjpY3_CguETaklPbEDqPf41IXEcNVekSChiGt_jIul4VLMQz97E25TjraAZCxRpvEWNNckxpSAMoTCTrTSjCZ_hs2NHkzoFolosLa-pluFvsLZbAjv6qvA-tIp8-mnvIT8dGkDbiy_LXzTBDXGSIxv3AWwFgOxUFEZg6iWfG_RbFaLabmue6EsJO5Fflau1w44uqiqn-vZALIkyEtmm2ED7TbS-2RzyR5WJgCGruJ5o5fD5kmuo9Nhtb6kdSk115YKNk54Av68wMhZy5ngpf5R5feFDxehhkAVWJ5ZsDLq2FHk3bEyzmCmm1MuGqkgmphUqC_czrv7tF5eFtRx7YM3WSP_o-IKaghVPeUYXKlBni7H2j2k1zHi91M3fjKW55Rxim0F2uZvwtGWwNgcau4XCwiJIp5DS9GcYN8qV4OsusJwNrlspzk3dwgpwTRxliwdl43G19D49dLFaDPnFnuaL758QdrD1ZtPa0GyuinlbaApY6_5SadjjK_CQ8BYd9SamMyZGWR8Dh8ou4XRqR6jG2slTQNMmYoVZMM75vJYHahM2Xe9y32T2DV3ivcPeFPFnkyf3WNq92ZLaBgYiohnzb2x5L_-Oak-DE_secmEdCsd1oHqadSuAItWnL23P9nVj6VIapW9PFeKehHAhOnaS-GeUdEZgnMnXqtmkIG6vo8J49CQrFWkI3jyKfyfDiKsJyIeLdBQ5zLFr8bURD_tTOEA755lz7ICTtUeMwoiXvFCtBC9PA20RPCrANsLvuNwxHT4UuEECshWYmu9gzLYHfJq-23GAopKx_d9rpyRt3sLRvLR_9DcXJyltWH38BEl2EecHxHrS2PxBzyB5nqLXhdQDVt4LMKbERZqdQ_WhIAjxgiy3Rgs-lfjflCi92xMupPVRBiVDoOMkXu4ipq8mFrEElX-pfhK_fPSQgc6tCa3WUcHDygWFm60jWUyJasIKSf0Jd9tftKJSwg9GC3U3UtwGKLzABq0PmZCTLLWZMKYc4rQpMX7Yuz7GEr_PW-CAiESrMGDuENokClHQwFc6ahtE718suImJWlb4JbZwEKlSxMwaEEuCjruA1e-beDOCq7Re7FK765N3gf_9sM2VBKQyYfMItbnd8qQFcfcJRFjLQoM9UEnX_3ErxzzCSMpB4_KN3DjiDqf5pZXGoNYINs_MzesIAnErj1OqMpVsE9iTe1pyE_XOd3all69nu8K0Z5tsnMAw0GTy9RzlKes9EoPtPeg92e0Z3GsuC4PpqkngRzNytd2VuDsDvTuqqOJ6oGBY-tnD0hceV4jF_PmqVmjX3cZzI8Zi65nqN1zxwxP9dNcWba6jD3yd1DYWh5mXH1eXJkz-bcY6xwwmYgenSR7n4X_wauYl51hOTDj50RXOmb8kJAvg_DZ4_AoV3UM_55cXOwPt30J5ChsBO48gtvcbeyv8ixWv8086IjsOZiQf_-eM60V6G-Tbc_UZtWw3_P_VKCwACVJ1c8Gnrpygw7yKQrL9ruWSDDqawapoNCgLRJb7EAHG4lTdJQpWQKXZxXo510KiekujQ7UL5ddR6rPv9-ksTeVqMWpxcs5OFWyahGNhUKqw_EQxzHRS8YfSmqVx99dISiEgCbS7PKALbzfdtaO4QquJ7qEFnwkq__iSMDztsCuhlhKbcjn6mVVZkAR-oyopjVGXGdlIPxnXTCXjvJm31WUcPIgsLx2q8Ae_X8YYhfOlbYe0WxWLSXkqPDo4EIgtCn8v_HbYimMnhvaFtDtUXytWtU1HGsDeZaWFKpj_NYsA1O2WTkyeZx2Rbl-aJ32awgIyrZMsYRpADgSyv_XYcKrUCjtOEUpm0TDz_5eZ_Ayu-YNlMFCdo8jFXsaGBHVlAHyBPfj_SZMNtN-NGTei1BIeHEGhm_nV5RfQZxqS_Iks4JqEW1o9VCLH4QbOQq6-IfMC9U9HhFsN8XZnnsIX1MP9N7MFE9w6Ma38ocwndXgOWoCiFjkuqZmBiyKYWMeL8b8mu8xf6UNcOxMNSFzCYeOhYYKiv-Fq1qSALIJkn076cj3KulMWmvMpuhxXE3epS0ZjGIiyDEwtDYsNPPpRRo6NPQvb7VQIKiu08MGfDmBgKu9dJw9k5CGoNMcqWkxOOE4U6nPz52250QuIxxdJoWMfwg9BhKVqD64kxSAeQhpEZ0cOfDmBq6hciZ6Xn5Dt-JyDX54pEhWxNXivT1ekOTkCJ3ZLaJrvnF_PJ7FeLp4BrakeLdf5s-Cy7VyJKKWdVZib63j-ksE2XsLCMNtayvW0wmuWBTSqFp9eDP0tvhC5RVIAmUrdc571KyFM43FQdAuhWIqBkBFyEKpNjUV1Pa6-s-KiH5WI6I2hJEocYwB4nyjIlUqPDatwKA7rfPbBLjr-sCcCRntnpsg3cmjfo_o2bCY2GLiAicB0N-g_vftjb1C8827qEZU5UN7s1MaZTpNSrRRoDzuw3-39mseBO4oNievXnbx3Zc5Qb8=",
+    "summary": []
+   },
+   {
+    "id": "msg_03370afed1aff58b016ae33ced2a0887d1ad1e226ff7500a92",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, feeling unimportant while waiting sounds painful, especially without knowing about the cancellation. B, feeling anxious while trying to get to dinner also sounds difficult. The cancellation is established, but whether the message arrived and whether B was actually annoyed remain unclear. It may help to separate what happened from what each of you inferred: A can explain how the wait felt, and B can explain the disruption and attempted message. You could also agree on a backup way to communicate when travel plans change.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 470,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 499,
+   "output_tokens_details": {
+    "reasoning_tokens": 101
+   },
+   "total_tokens": 969
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

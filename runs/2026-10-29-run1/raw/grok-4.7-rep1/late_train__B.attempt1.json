@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:47+00:00",
+ "finished_at_utc": "2026-10-29T11:17:01+00:00",
+ "body": {
+  "id": "36702ce0-98e7-9ac0-8102-97ea7ffeefed",
+  "object": "chat.completion",
+  "created": 1793272608,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.08, \"undetermined\": 0.86}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.92, \"undetermined\": 0.06}}], \"response\": \"B, it sounds like the evening was stressful. You were anxious on the platform, wanted to make dinner, and tried to send a message without knowing if it got through. Arriving at 7:30 after a cancelled train, then finding A unwilling to talk, would feel isolating. The delay itself is explained by the cancellation, not by a wish to hurt A. It may help to tell A what you felt and that you tried to reach them, and to ask what silence meant for them. You both deserve a calm conversation about the missed connection and how to handle delays next time.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim a236e680 is supported by B's account. The remaining claims are being evaluated.\n\nClaim 6fcf6aee is supported by the shared facts. Claim 1a75ee30 is also supported, as B arrived at 7:30 pm. Claim a7fa5717 is being evaluated.\n\nClaim a7fa5717 is undetermined. B's account does not mention annoyance upon arrival.\n\nClaim d7ed9f33 is also undetermined. A's account is not provided in the material.\n\nClaim 924299ca is contradicted. The shared facts show B was late due to a train cancellation, not an intent to punish.\n\nThe reply will be drafted to B. It will be compassionate and neutral, covering the stress of the evening and the uncertainty about whether the message arrived.\n\nThe reply will suggest telling A what you felt and asking what the silence meant. It will also propose a calm conversation about the missed connection and how to handle future delays.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1654,
+   "completion_tokens": 360,
+   "total_tokens": 3265,
+   "prompt_tokens_details": {
+    "text_tokens": 1654,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1251,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 112460000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

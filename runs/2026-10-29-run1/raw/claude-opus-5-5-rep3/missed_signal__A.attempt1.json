@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:10+00:00",
+ "finished_at_utc": "2026-10-29T11:17:17+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSAoHh2zws77DbK33wB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSjQcKEAgTGAI4AUIIdGhpbmtpbmcSDMJ1ZSGX58qBeepH7xoMcJlqeK+Xh5eNRw6qIjA5KHP3Kpn0ObAK1j40cNTNeFS7JNmcDffpONMeFF1g4s1TCW1mL6CWWetVSfmz25Uqqga+HvIyMn/pFCUD3YD5qTs9ScduF9wzQtFIIlXJ07dBl6DV3G/6z+jiLhpU4jNq8fhGwMwmxRubwNMazVTAcVoblQ1CBFec026bqYw9g/dLbQBbQol5EfF29nSfhi0qzoYYYU9zjfAzK0wDSc9EB/s9hQOv/hOK4/G5nOkOnjBT5hTHfou0SsbY9DIVxmaZLE0iUQCMXozAThC1A1bx30ame7j4tkHMMtlpGBfEYiEjv67ex2FiXtsTNjVDlzd3dIxrlciADvqrCvMu245uI0NOaLJ46v84cPB04x+7FLtUVut7KvPqHQsCkEKKjeOlzdfCIY1h2FOa+2YUlYDlFKAdVOPMcAp5Mv5uURCaAr1nesKTJKlRkc6BI9HM2ZQvj3Zdf78Gp4hPImO3zi6J+cI9SNGn27DAytsG2nPfKDEx/ACMHmmVpvQnEItF6pCl+t65b9KPNQXTwp1s+PqfLU6Y1hY87bz6Knpwun2GNT8cHhd6ZuHZXQmJtMI0hUjp1SbSH5zgdZvOfLt5bPGPEhGcpeG2Sla9WCvpw0x/L/vRiWPW9FwjB7Pd7K3qqTpLZX4//9FXbXXhbEQ6E/OQgf+8jFd/KEmLUn8O8FsntJjdF3WS+tew/dmymUMWQScyr55ewdRanMpPgPqH73kBqJGaL/9c+OvcMYPVYgbwR3Yjdc9/F4cj8xalENz98dSL4uE9AfnTQV9bAFoM1T84+Q3XAstqE0eCTPQZ5IK1gCNzIeXULhE3nwnyJqoSpuCFtNutfJmkliUmP6yoTr6S9HlpwmLvYKyVhbUpyJPtMoql7DU7WqF2H+20uZM+/C7viS2CSEfpDPUKqyzAIM+2VTrhXdqp0AotdkfcV5IwREcP63BQgwbkd/kAI515miwQcbtVZEpMtpfoGXQd8xc/fxkxLxXuyfiO9numirekKnVQ6DiI+ixgYlvWLGqlxza55U576BGYsGGP+C89JMmNJgqi1sMlGDXeeuWEM1qCSPwTmmtdffR6bY/Yts6XC/Vq26x4pcoMSWFwGR/NviOOlogEUVJZuXpBtvjmebzn4oHwAHtxyUfeiT+lCegYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5d297f78\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.95,\"undetermined\":0.03}},{\"id\":\"947357e4\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"bec86d48\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.96,\"undetermined\":0.02}},{\"id\":\"48682ac2\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.05,\"undetermined\":0.92}},{\"id\":\"8007c49f\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"5e4d2f76\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.17,\"undetermined\":0.8}}],\"response\":\"It makes sense that you felt let down. You put something into that note, and getting no reply can feel like being ignored. But the facts here show the fan blew the note behind the cabinet before B came into the room, and B never saw it that evening. So the silence wasn't B avoiding you. B simply didn't know the note was there. It might help to find the note, or tell B what it said, and have the conversation you were hoping for. You can also mention that you felt hurt, without blaming B for something B couldn't have known about.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 558,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 570,
+   "output_tokens_details": {
+    "thinking_tokens": 123
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

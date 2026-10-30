@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:53+00:00",
+ "finished_at_utc": "2026-10-29T12:31:59+00:00",
+ "body": {
+  "id": "resp_0a727a2414127d41016ae33cb954d487d1973629efa24829e2",
+  "object": "response",
+  "created_at": 1793277113,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277119,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0a727a2414127d41016ae33cba24e087d1836198763f9a7945",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zy_0dlaUuZnG4Bv27uaFEptwudWcqt62vkynoCeDAfhJU_2V2UsXRccZZxmPRKiAt83PBzjZX30kSumxtFo8SQQhhI2Zm75JzByIGk25NypXq5f1ri7BI3TxUhrGxcNQ4nepO0uFK6FMa3Z9mbp_uqsF3TQOsW1J5u6mQ4zUvyLShZTnmHQK5Sksb3mQpA4Tt2Srslf1a2lGkRVqcMXib3xOooT8mV7V2bg2Bm0R72DRcLb5h7e5dEOrOQwPQ_12S3bAbXRwlfcqGmuammBQaelv52SxztZtpDj6p1PjHMZIf9uPUUjlP5cAd92xxh_vCCHm9PZ6twtNT_3SgABljCmtkYHKyouM0O1JB8YUm4jsNzky3D8VBj4u3Wwq09a-713SeKhhWsRht6rYdvspVUMf5XuWOHPx-Iqq7mS0beFcNtag5lHRYj7PqVnt2jSqUny8NxSDOcEz8QLKwFSYGXlw82ijionqj6hKdhGElBOsFW5W_1y2nZbAd7kGQSuquDwCbwRiMLKOoeKtsfkgUF9ZhMuoH1ihw5qi2FKbTOHXMMNZKH8ewnUekosMtyF1ieJUM6jcYqXSKH_FPvjSpCxZKY9wmeFNb9zLJymrxa34CPm6-TbvOmPdj5AOgqRMRAL3chQyk5q_n_2dvmoOrQ9l2FxD1hpYLF8VI3_0K4u_gbTFilXzKd2-lZZL1nygFFg6-L-4RzEkx82_tGXdPHvedAcIjEhvlky5s93iXjK8oS2WVWCgfUtIqrzoG7hGqYLZeyMYNITqp4zUjAwG7-4fPOZg2FNDQqNFEQ5nQzUglkD2MASpMvy1LGiB9gB4QHRQYEnV01SLhsEEuKgxj3qilvbnFpLy_sFRj0sVB-7o9jRnKnATEHjybnQMzHGs-qOCl-v2QIiC4TEyPpF64IXF125z-HMMHz0i80FHAo4FIYDvZMmpMzfCYsHftn4rwCF-wX13X-CKLDHvoNc4UkTkurKc1l4nzicN1M0b4g6amJdNSrIQQmPWS--06YJmgX3322sFq7OJ1m0pLnx07Mq1Mxm6_rZZotEECMepOVE5gmKbGsGSp-981gCAVIWo985IR_t0XjFutD7QNKkVTkYyTxBeAKsmn0ikgq6hTM-nEvHHu9kQUQ-SXNpNCpTcI69xPSKliX9N_5cDBglkmhD3oFr88Ya89p8jRcaVOlGkhKzdDY264PaK-RXFhi7bKXq0uxFPBw1WwEHhSvi7ABjZ67SpKXKkAU3KvL8aDqRH2CoRE_ylFFjxX4hIUWIRYPy5XpwQwG0J9kwPjkFX7hU5Z02dZwzV5z1AidbcWmmPgqVL7r2lXOsbSrSX-s02uEWRTy6GL6llVuqTgeCHjtRRSPSmcrUNxkEMbMzWQ65Q4Deq0kcl1WzjDUk2EMcQtE8z5r9GrF52I1BTRP55k9AsdaMYYvBUuZKKqfD3Zo6pmAP93COYALIv3T1hrt6_z3OP_sPnGIh-i_oKpdD1OfXK5QFJ41rTgJT5n7WGJdjAO1fXCQjc6bjVRofU-LmvJ7FTU_JUzquqVZSn13LLo6hoMuLJrvDKIeroEDhtXtnty02EpA7rwjWRPx_3qqhPu5MCNKhIvCtZYBGSYU36qPjebXqnQFN02uDS-k1vwSWblFxVmilpPHOQ_pFv0AzOVrjLmp5WP7dLUjVLLUfZxWCBEjcT9NkBVL8ofbGLfdvtUSHWndUBcD8vH4JGUEGCILRoOubkzazgdWGckYj_ofiB8RKJdJQJP3uFD0-Az39yr1cT-4c5I49MNVI2Ob4b_ss3pDBD71MwDvVZ2eDCnFXiFYofx4sY-Z45HZdxBAqDYQCkYGN4tMkg5ji2aujujrgoRTJ6F4MLUesPEEwkITaN-cEkxv3F_M6rK_rKMKc6A-kJ8CYBXYCCKdF7XoCCXT3xVZvRd7asUIwAxUZs8tZYa4UVd9wCiybu8xzDuc5Du6JrCoRmXNaIx8HdDaIAFz2CYBR7UXouVff05MQVoSKWHFgRucQeWSntcWDkbbxTgjZQ4DBD2VocFk5r8MrLhJdAazaFl7oZKuP62D73MN1yM4ceGzd5v3ZxGJcJClqWp5ObKSJrlZXGUj9iynC9CUEAesqFvznPHjbR1x6ec19LKXZH_HWLP9cZ17UpBRjlQgJjiESci7Pisi9hWokN8qe_RWnjrPISkZFYbc9Y4eF7lN5JBkwFIpQbwxdx0ysYaY=",
+    "summary": []
+   },
+   {
+    "id": "msg_0a727a2414127d41016ae33cbb78e487d1b341c2896d6baba4",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.01, \"undetermined\": 0.99}\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.0, \"undetermined\": 0.98}\n    }\n  ],\n  \"response\": \"B, feeling excluded is understandable: A spent shared funds above the agreed threshold without discussing it first. That is a concrete breach of your agreement. This incident alone, however, does not establish that A is always impulsive or that this always happens. You could focus the conversation on what occurred, how it affected you, and what repair you need. Ask for A\u2019s perspective and agree on a practical way to ensure future purchases above 100 units are discussed beforehand.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 449,
+   "output_tokens_details": {
+    "reasoning_tokens": 56
+   },
+   "total_tokens": 863
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

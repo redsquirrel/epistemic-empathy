@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:52+00:00",
+ "finished_at_utc": "2026-10-29T11:16:23+00:00",
+ "body": {
+  "id": "9c8794ad-61c0-9265-992d-ca9b68e1d1c3",
+  "object": "chat.completion",
+  "created": 1793272553,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}], \"response\": \"You both seem to have held different expectations for Saturday afternoon. The shared facts show that each of you made separate plans and that you had not agreed to spend that time together. A, your disappointment followed from assuming the afternoon was shared and from reading B's plans as avoidance. B, you felt surprised because you believed separate plans were understood, and you experience A as sensitive. Talking through those assumptions and agreeing on future expectations could lessen hurt and surprise. Listening to how each of you felt may help you understand one another more clearly.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and both accounts.\n\nI am now evaluating each claim against the shared facts and both accounts to assign a probability of supported, contradicted, or undetermined.\n\nClaim 1 is fully supported by the shared facts. Claim 2 is contradicted because A's account never mentions asking B to reserve Saturday.\n\nClaim 3 is fully supported by B's account. I am now evaluating claim 4.\n\nClaim 4 is undetermined. The shared facts do not confirm B's motive, and A's account only presents an interpretation rather than a confirmed fact.\n\nClaim 5 is undetermined. B's account calls A sensitive, but shared facts do not confirm this trait.\n\nClaim 6 is fully supported by A's account. No contradictions appear across the claims.\n\nI am now drafting a brief reply to both A and B. It will acknowledge their different perspectives while grounding the response in the shared facts.\n\nThe reply will suggest open communication about future weekend expectations to prevent similar misunderstandings.\n\nI am finalizing the probability assignments. Clear cases will use 1.0, 0.0, and 0.0. I am weighing whether claim 4 should be undetermined or carry a small support probability, since A's account asserts it but shared facts do not confirm B's motive.\n\nClaim 4 is undetermined. The shared facts do not confirm B's motive, and the claim is not established as fact.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1661,
+   "completion_tokens": 350,
+   "total_tokens": 4608,
+   "prompt_tokens_details": {
+    "text_tokens": 1661,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2597,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 192760000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

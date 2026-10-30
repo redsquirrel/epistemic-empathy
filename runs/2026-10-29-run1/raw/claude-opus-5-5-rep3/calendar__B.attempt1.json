@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:21+00:00",
+ "finished_at_utc": "2026-10-29T11:17:33+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSBeMTbN3D8QKHguMN1",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "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"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.67, \"undetermined\": 0.3}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.11, \"undetermined\": 0.85}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.05, \"undetermined\": 0.85}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.12, \"undetermined\": 0.83}}], \"response\": \"It makes sense that you were caught off guard. From what's shared, you each made your own plans and never agreed to spend Saturday afternoon together, so your understanding wasn't unreasonable. We don't have A's side here, though. A may have expected something different, or something else may have been bothering them. Calling A 'always so sensitive' could make it harder to find out what happened. You might try asking, 'What were you hoping Saturday would look like?' Then the two of you could agree on how to check in about weekend plans in the future.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 565,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 795,
+   "output_tokens_details": {
+    "thinking_tokens": 311
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

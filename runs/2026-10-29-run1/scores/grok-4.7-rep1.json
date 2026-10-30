@@ -1,0 +1,1529 @@
+{
+  "by_case": {
+    "blocked_exit": {
+      "accuracy_unique_argmax": 0.8333333333333334,
+      "brier": 0.26994999999999997,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.043000000000000003,
+            "n": 20,
+            "observed_frequency": 0.2,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9575,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.045714285714285714,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.963,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.025,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.845,
+            "n": 6,
+            "observed_frequency": 0.3333333333333333,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.905,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 8,
+        "supported": 10,
+        "undetermined": 6
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 4,
+      "unsupported_attribution_support_probability": 0.0375
+    },
+    "budget": {
+      "accuracy_unique_argmax": 0.9583333333333334,
+      "brier": 0.08706666666666667,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.040625,
+            "n": 16,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.965,
+            "n": 8,
+            "observed_frequency": 0.875,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.03571428571428571,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.971,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.02,
+            "n": 18,
+            "observed_frequency": 0.05555555555555555,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.812,
+            "n": 5,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 1.0,
+            "n": 1,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 7,
+        "supported": 10,
+        "undetermined": 7
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 4,
+      "unsupported_attribution_support_probability": 0.09
+    },
+    "calendar": {
+      "accuracy_unique_argmax": 0.9166666666666666,
+      "brier": 0.14425,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.030526315789473683,
+            "n": 19,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.82,
+            "n": 1,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9525,
+            "n": 4,
+            "observed_frequency": 0.75,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.055714285714285716,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.974,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.029333333333333333,
+            "n": 15,
+            "observed_frequency": 0.13333333333333333,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.792,
+            "n": 5,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9675,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 3,
+        "supported": 10,
+        "undetermined": 11
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 8,
+      "unsupported_attribution_support_probability": 0.08375
+    },
+    "dishes": {
+      "accuracy_unique_argmax": 0.9166666666666666,
+      "brier": 0.09599166666666667,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.03833333333333334,
+            "n": 18,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": 0.62,
+            "n": 1,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.75,
+            "n": 1,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9675,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.02909090909090909,
+            "n": 11,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.88,
+            "n": 1,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9633333333333334,
+            "n": 12,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.05263157894736842,
+            "n": 19,
+            "observed_frequency": 0.10526315789473684,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.7849999999999999,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9133333333333333,
+            "n": 3,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 4,
+        "supported": 13,
+        "undetermined": 7
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 5,
+      "unsupported_attribution_support_probability": 0.042
+    },
+    "late_train": {
+      "accuracy_unique_argmax": 0.9583333333333334,
+      "brier": 0.07256666666666665,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.025,
+            "n": 20,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8433333333333333,
+            "n": 3,
+            "observed_frequency": 0.6666666666666666,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.92,
+            "n": 1,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.066,
+            "n": 10,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9735714285714285,
+            "n": 14,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.03666666666666667,
+            "n": 18,
+            "observed_frequency": 0.05555555555555555,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8125,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.925,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 3,
+        "supported": 14,
+        "undetermined": 7
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 5,
+      "unsupported_attribution_support_probability": 0.102
+    },
+    "missed_signal": {
+      "accuracy_unique_argmax": 1,
+      "brier": 0.006591666666666668,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.034375,
+            "n": 16,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.96,
+            "n": 8,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.025,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.971,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.020555555555555556,
+            "n": 18,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8725,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.925,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 8,
+        "supported": 10,
+        "undetermined": 6
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 4,
+      "unsupported_attribution_support_probability": 0.0375
+    },
+    "quiet_evening": {
+      "accuracy_unique_argmax": 0.7916666666666666,
+      "brier": 0.3251,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.0525,
+            "n": 16,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.83,
+            "n": 4,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9125000000000001,
+            "n": 4,
+            "observed_frequency": 0.75,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.047857142857142855,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.969,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.05444444444444445,
+            "n": 18,
+            "observed_frequency": 0.2777777777777778,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.786,
+            "n": 5,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.92,
+            "n": 1,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 3,
+        "supported": 10,
+        "undetermined": 11
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 8,
+      "unsupported_attribution_support_probability": 0.06125
+    },
+    "unanswered_message": {
+      "accuracy_unique_argmax": 0.875,
+      "brier": 0.16425,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.03411764705882353,
+            "n": 17,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.78,
+            "n": 3,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9824999999999999,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.023571428571428573,
+            "n": 14,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.972,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.04588235294117647,
+            "n": 17,
+            "observed_frequency": 0.17647058823529413,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.855,
+            "n": 4,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9666666666666667,
+            "n": 3,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 4,
+        "supported": 10,
+        "undetermined": 10
+      },
+      "n_claims": 24,
+      "n_unsupported_attribution_claims": 4,
+      "unsupported_attribution_support_probability": 0.0275
+    }
+  },
+  "by_condition": {
+    "A": {
+      "accuracy_unique_argmax": 0.9166666666666666,
+      "brier": 0.14007916666666667,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.0445945945945946,
+            "n": 37,
+            "observed_frequency": 0.02702702702702703,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8,
+            "n": 2,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9511111111111111,
+            "n": 9,
+            "observed_frequency": 0.8888888888888888,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.04387096774193548,
+            "n": 31,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9676470588235294,
+            "n": 17,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.032857142857142856,
+            "n": 28,
+            "observed_frequency": 0.10714285714285714,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.83,
+            "n": 10,
+            "observed_frequency": 0.9,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.916,
+            "n": 10,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 9,
+        "supported": 17,
+        "undetermined": 22
+      },
+      "n_claims": 48,
+      "n_unsupported_attribution_claims": 12,
+      "unsupported_attribution_support_probability": 0.0675
+    },
+    "AB": {
+      "accuracy_unique_argmax": 0.9166666666666666,
+      "brier": 0.12019583333333332,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.029142857142857144,
+            "n": 35,
+            "observed_frequency": 0.02857142857142857,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.7875,
+            "n": 4,
+            "observed_frequency": 0.25,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9577777777777777,
+            "n": 9,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.045,
+            "n": 22,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.88,
+            "n": 1,
+            "observed_frequency": 1,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9708,
+            "n": 25,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.038205128205128204,
+            "n": 39,
+            "observed_frequency": 0.07692307692307693,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8257142857142857,
+            "n": 7,
+            "observed_frequency": 0.8571428571428571,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 11,
+        "supported": 26,
+        "undetermined": 11
+      },
+      "n_claims": 48,
+      "n_unsupported_attribution_claims": 10,
+      "unsupported_attribution_support_probability": 0.066
+    },
+    "B": {
+      "accuracy_unique_argmax": 0.875,
+      "brier": 0.208125,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.048285714285714286,
+            "n": 35,
+            "observed_frequency": 0.02857142857142857,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8333333333333334,
+            "n": 3,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.956,
+            "n": 10,
+            "observed_frequency": 0.8,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.035,
+            "n": 30,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9688888888888889,
+            "n": 18,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.03645161290322581,
+            "n": 31,
+            "observed_frequency": 0.16129032258064516,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8116666666666666,
+            "n": 12,
+            "observed_frequency": 0.9166666666666666,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.978,
+            "n": 5,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 9,
+        "supported": 18,
+        "undetermined": 21
+      },
+      "n_claims": 48,
+      "n_unsupported_attribution_claims": 10,
+      "unsupported_attribution_support_probability": 0.066
+    },
+    "BA": {
+      "accuracy_unique_argmax": 0.9166666666666666,
+      "brier": 0.11448333333333333,
+      "classwise_reliability_bins": {
+        "contradicted": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.02542857142857143,
+            "n": 35,
+            "observed_frequency": 0.02857142857142857,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": 0.62,
+            "n": 1,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8366666666666667,
+            "n": 3,
+            "observed_frequency": 0.3333333333333333,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9633333333333333,
+            "n": 9,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "supported": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.038636363636363635,
+            "n": 22,
+            "observed_frequency": 0,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9703846153846154,
+            "n": 26,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ],
+        "undetermined": [
+          {
+            "includes_one": false,
+            "lower_inclusive": 0,
+            "mean_probability": 0.035897435897435895,
+            "n": 39,
+            "observed_frequency": 0.07692307692307693,
+            "upper_exclusive": 0.5
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.5,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper_exclusive": 0.7
+          },
+          {
+            "includes_one": false,
+            "lower_inclusive": 0.7,
+            "mean_probability": 0.8216666666666667,
+            "n": 6,
+            "observed_frequency": 0.8333333333333334,
+            "upper_exclusive": 0.9
+          },
+          {
+            "includes_one": true,
+            "lower_inclusive": 0.9,
+            "mean_probability": 0.9666666666666667,
+            "n": 3,
+            "observed_frequency": 1,
+            "upper_exclusive": 1
+          }
+        ]
+      },
+      "gold_counts": {
+        "contradicted": 11,
+        "supported": 26,
+        "undetermined": 11
+      },
+      "n_claims": 48,
+      "n_unsupported_attribution_claims": 10,
+      "unsupported_attribution_support_probability": 0.052
+    }
+  },
+  "human_response_quality": "NOT SCORED; requires blinded human annotation",
+  "n_cases": 8,
+  "n_new_evidence_comparisons": 21,
+  "n_requests": 32,
+  "new_evidence_probability_gain": 0.7628571428571428,
+  "order_total_variation_mean": 0.025,
+  "overall": {
+    "accuracy_unique_argmax": 0.90625,
+    "brier": 0.14572083333333333,
+    "classwise_reliability_bins": {
+      "contradicted": [
+        {
+          "includes_one": false,
+          "lower_inclusive": 0,
+          "mean_probability": 0.03697183098591549,
+          "n": 142,
+          "observed_frequency": 0.028169014084507043,
+          "upper_exclusive": 0.5
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.5,
+          "mean_probability": 0.62,
+          "n": 1,
+          "observed_frequency": 0,
+          "upper_exclusive": 0.7
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.7,
+          "mean_probability": 0.8133333333333334,
+          "n": 12,
+          "observed_frequency": 0.16666666666666666,
+          "upper_exclusive": 0.9
+        },
+        {
+          "includes_one": true,
+          "lower_inclusive": 0.9,
+          "mean_probability": 0.957027027027027,
+          "n": 37,
+          "observed_frequency": 0.918918918918919,
+          "upper_exclusive": 1
+        }
+      ],
+      "supported": [
+        {
+          "includes_one": false,
+          "lower_inclusive": 0,
+          "mean_probability": 0.04047619047619048,
+          "n": 105,
+          "observed_frequency": 0,
+          "upper_exclusive": 0.5
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.5,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper_exclusive": 0.7
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.7,
+          "mean_probability": 0.88,
+          "n": 1,
+          "observed_frequency": 1,
+          "upper_exclusive": 0.9
+        },
+        {
+          "includes_one": true,
+          "lower_inclusive": 0.9,
+          "mean_probability": 0.9696511627906976,
+          "n": 86,
+          "observed_frequency": 1,
+          "upper_exclusive": 1
+        }
+      ],
+      "undetermined": [
+        {
+          "includes_one": false,
+          "lower_inclusive": 0,
+          "mean_probability": 0.03605839416058394,
+          "n": 137,
+          "observed_frequency": 0.10218978102189781,
+          "upper_exclusive": 0.5
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.5,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper_exclusive": 0.7
+        },
+        {
+          "includes_one": false,
+          "lower_inclusive": 0.7,
+          "mean_probability": 0.8214285714285714,
+          "n": 35,
+          "observed_frequency": 0.8857142857142857,
+          "upper_exclusive": 0.9
+        },
+        {
+          "includes_one": true,
+          "lower_inclusive": 0.9,
+          "mean_probability": 0.9375,
+          "n": 20,
+          "observed_frequency": 1,
+          "upper_exclusive": 1
+        }
+      ]
+    },
+    "gold_counts": {
+      "contradicted": 40,
+      "supported": 87,
+      "undetermined": 65
+    },
+    "n_claims": 192,
+    "n_unsupported_attribution_claims": 42,
+    "unsupported_attribution_support_probability": 0.0630952380952381
+  },
+  "provenance": {
+    "implementation_sha256": "d64ec5e654d28a6e1600910022dcfa673aa16816cbe21b25e45c0c7f2e5baf50",
+    "input_sha256": {
+      "data": "12fef036c827cab88cf535ac45fe46845d70d279aa7955b56829f3dcdbca7f43",
+      "requests": "d37cf9bf959e9dd224066957d0a28623c165bd503482461961b0fa8e64fe72e0",
+      "responses": "3ef1d60f9b3ddea0b751180d3036158a62c702d13ae8a6dbcd380833e933b550"
+    },
+    "python": "3.15.0"
+  }
+}

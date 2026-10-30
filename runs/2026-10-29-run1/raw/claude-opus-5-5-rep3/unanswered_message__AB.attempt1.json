@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:10+00:00",
+ "finished_at_utc": "2026-10-29T11:17:21+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSAqxRVyHzTsYWhBJV3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSzwgKEAgTGAI4AUIIdGhpbmtpbmcSDDjR37L/zGdG5+zUbxoMqVWXR9uRfOXH05iUIjCkxWw59V18gaU12VZsgKcoQO6cNJ4xAONPi6Q0+49BlD6gfl6jmbGqAeQRr+1OWQ0q7AfJX+8nX7hmN6bS46rbOKj72jDk8t2uo5p1mqr7BmwK3r1N33g+xQkvmBlYOSCiSACdRpzBNZRVOzPUplDLTySw/q7+YYa6mTpdtjGhD9x33M4W7QB2BCXzFYvPibWGAwUHXq7eDmmeVTVGlkgOQlm43Cw1ZctmsVUFXnhJXT2wU6+kWAHDBDhiCLCt/9zkxb4gmvD7m0kYIzQHee2joGKAy7EpTd8CL7tY7qEb+GVHxx9KbjmF+CbsgAoenQZi9MUsHtIznNcZaGw9HpWTBRCpfrKd82F/PwoX7RLpjk5eIkRHtj9YVWZyXGwaHeprkNTR3Q4Jj5feK23ojDg7qqGGfQwgulPoKZ1yTN2GL/chpecvkIlKDVD75Eru8wWtaVMAyvx4ffhNkvqslk39/q5NXEx/dWL3a1vgqMFflG1y3M2o6e1/iviBGG1VHnEjorxTv5fNQLzZB8HRZR9WZVKNM+Tao1TykUCZU1KsfN2eL0BTkO7BGBhb0LkBU+cfrAgZCQgQsdTm/kUtrxvY2zckymGXK7Je1mIhAVvduCUIRh3au31UerSs1V4N0Ej21dc7zm4fjuDAhJpHU/1pq29nzd3MEVpoPitb2F19AAmYUvtsE3z8Y6h0e8rQFfGO0V+dffs0yQbwa/zylhvT5cHiDXmwk/Z9/4baeX5q6UgJIaf6XaJQNoN9r2PEGjap4tvasL8HZuJU9Kcw6Ni0bvksCp4MRNOtesf9+ZthhpfL5AjBNNByAvsR7pU+RODsGX8uX4+Mm8vdM1gWJPBMQNOlu8NgQZHtSvE3Se06EhD5U1O2hk+Pmb/ltrByupqD6ZG1XX1br0ziFB2NagOEo+uMboNUy+xuDJFUIiBh1VkBVsrT+oxC/QZk0Cx85AwFldGPjaLrRaYuFkebax4MaS/lUGVbBv1pPStJHmD0E30pJvxP1E68fQT32B2JfyDlHqJ0eHT+hrOk3uXfTIvtFKrXKJq8p93xsLMRKc/Kj89iXO/3P8BV6f7sINoF9uyYk5KHIJ9B33yx2P9CpxVEyTce1WKq0PT4o6XoJ0wEHcp/rUXOe89pF4VDkHhD68zJysuzmOCJH0YN4av+g6fzurHep6zLvajzVy5ggczZ4cHP5ocem5tTj/CYMelW5VrTfaVby2L20DagFmBaA5nJ92Hvnscf4RLKI6dRLY4nSs0zNMjP5HulXIoXbUkEUuACJML8M56JWxwctJ8BbrKWeOLJHXAB5SBoYaYXS6DamB9+LIyeT8eamucJTvCVjR6pE4tzyA5cZny1g9klNnnqRx0n6rhwz2Uk16B6gwBl1uSUmjMFgXBnP71NFi3IchgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.2, \"undetermined\": 0.75}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.6, \"undetermined\": 0.37}}], \"response\": \"It sounds like this was a mix-up, not a sign that something was wrong between you. A, four hours with no reply and no way to tell if the message was read would leave many people uneasy, so the worry makes sense. B, keeping your phone away so you could focus on work is reasonable. You also said you didn't want A to feel ignored. You both seem to want the same thing: to stay connected without being on call all day. One option is a simple routine, like a quick \\\"heads down until 4\\\" note before long work stretches.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 580,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 651,
+   "output_tokens_details": {
+    "thinking_tokens": 176
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

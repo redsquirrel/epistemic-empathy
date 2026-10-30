@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:31+00:00",
+ "finished_at_utc": "2026-10-29T12:30:38+00:00",
+ "body": {
+  "id": "resp_0a416f87156de07d016ae33c674f4087d19d4de7b98da6974b",
+  "object": "response",
+  "created_at": 1793277031,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277038,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0a416f87156de07d016ae33c68938887d184ad34491f2d765d",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxuOJyAVpejaZmYR_ZGhiazRo-vOXMcLG5e686fI9Zhagn5GcyFZjlgot8o3cjvUV0hSExDve3XbTeTEm6PiPpyhwY3efI9STJRzkJVGc5VJf4N_HvJCIQ9-iWNwe5li0pZVqGj2HTB4H-ax9NMAJWFqYEBMUZ1lDefiQidRaA8RDtAQq9dEsPZM6oAg4Mta14VUMpCmWr3SYQcmSdJKLwtpIFxslETweI3hfptWQs__Tn-V9PsvWhjHpzk5Jwu_ZuS8H2VjkELLzfyTGo7am_1mLcYKSB5XtXcnrKZjHx1eV3-SlQ7t4JUtZvV4rbpn9Rq35L08q7PNDqSh54YMBK4nxWTIa9gtaNzzR6mMOfwX8lyBLuUaMhTY5s_3cCAL4wZNqmPM9LNbgc30a52_OG_apQQePXT9iOEwaHvVXur31pqbjA0qBs5ANtNygKzJngpsaFgjyGARhAi6Y3xjs9Ms0iqNjkt0KJN_d18ZOLvQuFN6ujPBadDuuxmDEN8y-JcxrVCvCmDC7qrIxJrsT_ro0h4HZyUy06fIsnUmc_Y_Hj6-7XaOXMqoyu_XP9O11m-xCun-O3Y2aNg443kzVW1n3q-ZHDpsH8B5Nd1kM8VvXWCfp8RmSrTV8Qu94YVaKig73mRtvYNHkP68LunL3PNCPVtunCy3JCMJwwIYQDDjGLpLUmHhBGPo60H_pfqenOdAfN3ETGqsSf2Jr_7l1ZsYGvImwBgPABZlxw7OQa2jyEK_pzoSzx4eSFrZDaqA3XSg6RLkWlqmXoq12nzyPpx-hSLgl_bfQfn6v_X8KTDZLSd2YjebSOq89oeoNODQr9haXKVTlULptjvp801p7-7Cid_cK4sOSL_17oGBP1_kDue5L4nYwcj3K3Iays5hdSlwTtK5O9M63nImUYujGZh76QLzxpD6Vd7ZUnllaX5R4y8uZerHwStAQamYY5Xq3TUnN5ZQDgDAZJMUstskMuzMDm7MYV6u45xWQXrPVFcTP9oQPKz-1XoijnNrFyDraLtLnX_DqMdJAKfBH7SuoRlV4tAIKvz9y0VJo5VDuIG-jUQ8ZB-cjiBSC5Hltq2W82wx1_MCKTpbxZKZKBF74eUmYbZUHvxxbAPPEUVLzCokMunVNfoFFnCHMk1xOz1gAIW4tHl7kbdydrjC75sKa8Sgiv1nCYeBjEtdSTnp1oeo0UiA_zbXcwtsjcfB0BIy1WJ6AMSWf6MtAMAtMqfP_bZJkukubnosjoaleIs2a9AUw8O4tmt8jUvMBpQV1GErk-TyLXKDi4iSg-X7_AW0Ey6hgS6cdiQipeIxGGC6yF-E5q4yBUWhCKBQdUyWtnFQ1v_NSo-faWTA8KGDoR5SAh4qT4GZtLVFgyeOyZtZJ3wELHfQcyz4jHuynh7b42wbRCw2MIHBcWOLrHs5tvOX7BAHOHEuub3me44mPiONaUSC2OJvyjfFYVc2EFY5yptHAYp1rbrorVkL7NMq0aCYjZj19xIObrZ5Yxtfa71XtoxF7mGYDYOR52iYgOdLECaZTIK-M6JPHRvq0D96XSaEfhgb0tuN9AYeeI2z8krAi00OTCeaZGXe-7wG0PSfEXj4qiooJXcGXPcpIkIGTQzvRNLOOBavADypXOXOi6MZmP-8JD-TC_eRPEg0U8JOl16OQkUqaNVHAgpKGeZ-KHqeysBS6-MPlwy8x6QSddQc061Uo5nBCHYhoENzLDbHM4eDodAyiqt1a5Khw3S6VR_-KewinW0z8BolxiGOo3CNSH_POWi8ijoLFHciJqvXYRa5_DRcbRHyorradpUIkE8beiaXhFDbmXJTR00RPAmBJCMhiRVzZBv4E2ORqTuBRLJRZ1YDnmBbO-IeWBGegq-Nx0ZLaYj8dSi-xcqpM7g1IJRqTXd9YtUuwGkF0ZH48qI731EVISWMfM1b5Ww0BRN3RWdML9lo-ldsbjE3Y7ODbYczbYJodSMB9LcyGiMNt7qgvLYI6kFZuqBZruWIkGw96ho-w==",
+    "summary": []
+   },
+   {
+    "id": "msg_0a416f87156de07d016ae33c6a2f4c87d1942d594816de35f1",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.0,\"undetermined\":0.95}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.05,\"undetermined\":0.95}}],\"response\":\"A, feeling unimportant while waiting sounds painful. B, feeling anxious while trying to reach dinner also sounds stressful. The cancellation disrupted B\u2019s planned journey, but A did not know about it, and whether B\u2019s message arrived remains unclear. A\u2019s impression that B was annoyed does not establish what B actually felt. It may help to discuss what each of you knew and felt, without treating impressions as proof of intent, and agree on a backup way to communicate when travel goes wrong.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 470,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 350,
+   "output_tokens_details": {
+    "reasoning_tokens": 43
+   },
+   "total_tokens": 820
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

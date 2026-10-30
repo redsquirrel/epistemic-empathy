@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:30+00:00",
+ "finished_at_utc": "2026-10-29T11:22:54+00:00",
+ "body": {
+  "id": "c9558853-c4d8-97fa-89d6-901889ec1899",
+  "object": "chat.completion",
+  "created": 1793272950,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.80}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"A, your disappointment is understandable if you had been looking forward to Saturday together. What you describe, though, is an assumption rather than a plan you and B had agreed on. The facts given say you each made separate plans and had not agreed to spend that afternoon together. Feeling let down does not by itself show that B arranged those plans in order to avoid you. It may help to say plainly that you felt disappointed, and to ask B what the afternoon meant, instead of assigning a motive. Agreeing on expectations ahead of time could spare both of you this kind of misunderstanding.\"}",
+     "reasoning_content": "I will judge each claim against the provided material and return a JSON response with probabilities and brief reasoning.\n\nClaim 5a3a2c4b is strongly supported by the shared facts. I am now evaluating the remaining claims.\n\nClaim 3a7c047d is contradicted by A's account. The text never states that A asked B to reserve Saturday.\n\nClaim 67c569bb is undetermined. Only A's account is provided, so B's reported feelings cannot be verified.\n\nClaim 5b773f3f is A's own interpretation of B's actions.\n\nClaim 5b773f3f is undetermined. The shared facts do not establish B's motive, and A's account is an interpretation rather than a verified fact.\n\nClaim 48367f02 is undetermined. One instance of disappointment does not establish that A is consistently sensitive.\n\nClaim 3d022458 is now being evaluated.\n\nClaim 3d022458 is strongly supported by A's account. I am now drafting a brief, non-judgmental reply to A about the Saturday afternoon disagreement.\n\nThe draft reply to A acknowledges the disappointment and points out that assuming Saturday was shared time is different from having an actual agreement. It also notes that B's separate plans do not prove an intent to avoid A.\n\nThe draft reply suggests A tell B directly that they felt let down and ask what Saturday meant to B. It also recommends clarifying expectations before the weekend to prevent similar hurt.\n\nProbabilities are being finalized so each claim's supported, contradicted, and undetermined scores sum to one.\n\nClaim 5b773f3f is now scored as undetermined at 0.80, supported at 0.12, and contradicted at 0.08. Claim 48367f02 is scored as undetermined at 0.92, supported at 0.03, and contradicted at 0.05.\n\nClaim 3a7c047d is now scored as contradicted at 0.96, supported at 0.02, and undetermined at 0.02. Claim 3d022458 is scored as supported at 0.97, contradicted at 0.01, and undetermined at 0.02.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1636,
+   "completion_tokens": 361,
+   "total_tokens": 3845,
+   "prompt_tokens_details": {
+    "text_tokens": 1636,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1848,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 142220000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:22:30+00:00",
+ "finished_at_utc": "2026-10-29T11:22:43+00:00",
+ "body": {
+  "id": "feb746d1-397d-9322-9136-60d43d169b71",
+  "object": "chat.completion",
+  "created": 1793272951,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}], \"response\": \"A, it makes sense that you felt let down when you got no reply. From what is established, though, the fan moved the note behind the cabinet before B came in, and B did not see it that evening. Your thought that B had read the note and was avoiding you is not supported by those facts. That does not erase the disappointment you felt, but it does mean the silence was not a deliberate choice by B. You might tell B what you hoped the note would say, so the message can still be heard.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and A's account. Then I will assign probabilities and reply briefly.\n\nClaim 5d297f78 is contradicted by the shared facts. B did not see the note that evening, so B could not have deliberately avoided answering it.\n\nClaim 947357e4 is supported by A's account. Claim 48682ac2 is undetermined because B's account is not shown.\n\nClaim 8007c49f is supported by the shared facts. Claim 5e4d2f76 is undetermined because the material provides no evidence of B's intent to hurt A.\n\nThe reply will be 60 to 120 words. It will address A directly with empathy and factual accuracy, avoiding blame.\n\nThe reply is drafted. It explains the note was moved behind the cabinet before B entered, so B did not see it that evening. It acknowledges A's feeling of being let down while noting that the belief B had read the note and avoided it does not match the facts.\n\nThe reply now ends with a suggestion to tell B what the note was meant to say, so the message can still be heard. The word count is being checked.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1646,
+   "completion_tokens": 348,
+   "total_tokens": 3098,
+   "prompt_tokens_details": {
+    "text_tokens": 1646,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1104,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 97000000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

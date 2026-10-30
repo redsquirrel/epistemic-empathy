@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:15+00:00",
+ "finished_at_utc": "2026-10-29T11:16:29+00:00",
+ "body": {
+  "id": "60b360b9-8f86-9d63-99af-658199839e47",
+  "object": "chat.completion",
+  "created": 1793272575,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.12, \"undetermined\": 0.85}}], \"response\": \"B, the facts line up with what you describe. A did leave a folded note on the table, but a fan blew it behind the cabinet before you entered, and you did not see it that evening. Your confusion makes sense: you had no way to know a note existed or where it went. Nothing shown suggests you ignored a message you had read, or that you wanted to hurt A. It may help to tell A, calmly, that the note was never in your view and that the mix-up came from the note being moved, not from you choosing not to answer.\"}",
+     "reasoning_content": "I will judge each claim against the shared facts and B's account, then assign probabilities and a brief reply.\n\nClaim 5d297f78 is contradicted by the shared facts. B did not see the note that evening.\n\nClaim 947357e4 is undetermined. Only B's account is available, and the shared facts do not confirm A reported feeling let down.\n\nClaim 947357e4 is undetermined. Supported: 0.05, contradicted: 0.1, undetermined: 0.85.\n\nClaim bec86d48 is contradicted. Supported: 0.02, contradicted: 0.96, undetermined: 0.02.\n\nClaim 48682ac2 is supported. Supported: 0.95, contradicted: 0.02, undetermined: 0.03.\n\nClaim 8007c49f is supported. Supported: 0.97, contradicted: 0.01, undetermined: 0.02.\n\nClaim 5e4d2f76 is undetermined. The material does not confirm B wanted to hurt A that evening.\n\nClaim 5e4d2f76 is revised to undetermined. Supported: 0.05, contradicted: 0.15, undetermined: 0.80.\n\nA brief reply to B will note that the shared facts align with their account.\n\nThe reply will explain that the fan moved the note behind the cabinet, so B had no way to know it existed. It will suggest telling A calmly that the mix-up came from the note being displaced, not from ignoring a message or wanting to hurt them.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1649,
+   "completion_tokens": 359,
+   "total_tokens": 3346,
+   "prompt_tokens_details": {
+    "text_tokens": 1649,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1338,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 117520000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

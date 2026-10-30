@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:08+00:00",
+ "finished_at_utc": "2026-10-29T11:15:22+00:00",
+ "body": {
+  "id": "1176cbed-d050-9001-9f92-a9aa7993c3d9",
+  "object": "chat.completion",
+  "created": 1793272508,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}], \"response\": \"A, it makes sense that silence felt like avoidance, especially if you expected the note to be found. The facts show the fan moved it behind the cabinet before B came in, so B never saw it that evening and was not choosing to ignore you. Your letdown was real, but it came from a missed message rather than a deliberate slight. It may help to tell B directly what you hoped they would read, now that you know the note never reached them.\"}",
+     "reasoning_content": "I will evaluate each claim against the shared facts and A's account. Then I will assign probabilities and draft a brief reply.\n\nClaim 5d297f78 is contradicted by the shared facts. B did not see the note that evening, so B could not have deliberately avoided answering it.\n\nClaim 947357e4 is strongly supported by A's account. Claim bec86d48 is contradicted.\n\nClaim 48682ac2 is undetermined. No account from B exists.\n\nClaim 8007c49f is strongly supported by the shared facts.\n\nClaim 5e4d2f76 is undetermined. There is no evidence about B's intentions.\n\nI drafted a reply to A. It explains that the fan moved the note behind the cabinet before B entered, so B never saw it that evening and was not choosing to ignore A.\n\nThe reply now suggests telling B directly what the note contained, since it never reached them. The draft is 60 words.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1646,
+   "completion_tokens": 335,
+   "total_tokens": 3268,
+   "prompt_tokens_details": {
+    "text_tokens": 1646,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1287,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 112960000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

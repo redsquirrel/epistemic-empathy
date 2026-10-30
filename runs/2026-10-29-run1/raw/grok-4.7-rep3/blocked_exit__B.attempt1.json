@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:25:04+00:00",
+ "finished_at_utc": "2026-10-29T11:25:21+00:00",
+ "body": {
+  "id": "8a18a7da-8112-9b3f-94e2-1eb45b02eca5",
+  "object": "chat.completion",
+  "created": 1793273105,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.04, \"undetermined\": 0.93}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.06, \"undetermined\": 0.91}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.05, \"undetermined\": 0.87}}], \"response\": \"B, feeling panicked when an argument might end unfinished is understandable, and wanting a resolution is a real feeling. Standing in the only doorway after A asked to leave kept A from leaving for five minutes. That does not finish a conversation; it removes A's choice and can make the conflict feel unsafe. A pause does not erase what still needs to be said. You can ask to continue later, agree on a time, or write down what you need to say. Next time, step aside when A asks to leave, and return to the talk only when both of you can stay by choice.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim 7ae796d2 is unsupported. The shared facts do not mention A feeling afraid, and only B's account is provided.\n\nClaim 7f0e7be8 is undetermined. The material contains no evidence of deliberate provocation.\n\nClaim 202c9e15 is supported by the shared facts.\n\nClaim 61c0e2e1 is contradicted by the shared facts. Claim 0cb7c2a8 is supported by B's account. Claim 47634250 is undetermined. It reflects B's belief rather than a shared fact.\n\nThe reply will address B directly. It will acknowledge the panic but clearly state that blocking an exit is not acceptable. The tone will be compassionate yet firm.\n\nThe reply is about 95 words. It explains that blocking an exit removes A's choice and makes the conflict feel unsafe, then suggests asking to continue later or writing out thoughts instead. The draft probability for claim 7ae796d2 is undetermined at roughly 0.95.\n\nThe probability assignments are being refined. Claim 7ae796d2 is now undetermined at roughly 0.90, since the material does not confirm A's report of fear. Claim 202c9e15 is strongly supported at about 0.97. Claim 61c0e2e1 is contradicted at about 0.96. Claim 0cb7c2a8 is supported at about 0.98.\n\nClaim 47634250 is now undetermined at roughly 0.85, supported at about 0.10, and contradicted at 0.05. The reply draft is being checked for word count.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1674,
+   "completion_tokens": 364,
+   "total_tokens": 3527,
+   "prompt_tokens_details": {
+    "text_tokens": 1674,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1489,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 119700000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

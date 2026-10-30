@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:51+00:00",
+ "finished_at_utc": "2026-10-29T11:17:59+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSDsACJbwwPBMsKJJS8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSnAoKEAgTGAI4AUIIdGhpbmtpbmcSDFfqjzTdP/V8jOVUuRoMSm0x4N9jousaOdAyIjCKBw4nZg7EZyFk4opIuNwfDxchHY3m+gDsUC980rDrUo3aaZrIA37/GzCpUXgtYQ8quQmQzYAun3ORHnm8+IPS/8PapQaUGXapZh/pDrK1ALaxB6T3W3GysNf17nQj8x4wcMh5J6NDe3Fr0YgPoEWu+PB547sN7rF5HXWRLk1Tp4/Q4VTFBUBvngTU/DNVuXikWnd0EQDQACU2KYfVULarm0dCc52sRRhqRC8IJ6QRpUT/n2KqPBjHPV6QUJXmaJSfQlbGwnqOSnTIE4Q2u1y0p1EgHF78AiOwxe3lYXGv545KqOFUkjzL/5uyr4yhJfEOBN14Avya/pP2dqjSSTg35oFx+EWi3LnnEv0tIqnMpzBxnaYywv0x+YbfCBT+py9wGqb7udJxrdDu678PqDtxzVt8KEvDeXtPGRyuERPSdGsNIhDv6PF4zZ0Qd4OchekP1nZ2m05hfJjNrQdGcfkGBzu+pjx/wf0rlrS8n5pLsxFab8S8/m0r0SrRBMct9y93ueeDeowcbbR4vGpHY9PoOtEXfQL7YQbDQKYXo2j3Y0z5fX/iTO1Mtw0GZLK1OYcePeH418DBFkTn64I+pj0YT9dkZN7Dx4GCp6TvHVyIX9X7Mw4JIde1/JbWJaAOyDwbt4zKpWBhhVwnxF5HgHfvepvwHamp3Liri+4rYZlKIuMelEq/9AK38NjZ5jA4TrHD7Kqv4y3Xf/5pJKlj3XQfNaxhVIhGdKOn4E0Rl5lS0QwxLzupV+U2WBUZDwBRcfJXwer88qdtpyO6CH7NAr4k/yy6/HeGyIqoBp4uvd91FaI49R27+5CSFCjcv8gnbyrllk4Gaq0CC+HBQSmxALLStKlMZ1cNh+lmJ7260+u7nkwsZzhISm2GmYjMpgmPM/Xyx+CXEGuvLy3tTRUlrQD9YF9cqIlPwkrNfdLp4l23tf5OUIpT1a3Rcug8f/MePImhsP33+EzE8fbA0zosXDs7B3zbHaXjcB6UFjGvHfuPc0U3Isy73yz9a8ZzfuX2ttGpuBKL0gT0FRWW0jqKAD+oJ8O12iZuqgs9XQHq4d1tCPC7/u4qzIrXW6WPagRDR69Dkm3VLmN3BCs9uZpnD/8Zqg4JEgu7LuRyUaBOrV9dPO0kLgE7BjLPBbqg6MhrnVMFVJ+dcSS62YiitLQIrGaAtfiI4h4IWGu0MInNyoBuJBIdWjJgUyGB/FS/XxJTCPXEFrvkVikWJHvmDec/UOg/F+VNWknJN3oxFYIUtunq5NkLXElMd1K65L2PlI6fJpkq279CrcTWM13SAaQBjuERwR65w0/qrP5oZISrXJDOQ2fjL4/g0b2jHxJLCrgX58Ng3XTf/U+Qa44DJvXIep+WUP4siicce2vI25pkShATZb4seTHPaxP+wwBwVVqHgiweHBW+JFGqggjqTePxiLFvgvV0Od9HqToO3AXS/h8ENNm3ATx8doyfE7afkKclhuEPbjfiX+SZrxlCzysyY3un5icYjTOCpFhtJkS8cBD495Hpu8EjZrKzL9bUJefzkzYwjFVGNomazv5Z2pomUCN/ricV73PfScQ12+LbjX/GV8o83JhIBoqwB5QzsIQcm0H8dQgrSxNICY2TfhZ4EH86kNfvqk/JSVUt0QwedsXRLuzjlVQ8RJpZUSCdJbApTxNPymBBEymOronCOm8YAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"30c8456f\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.2,\"undetermined\":0.77}},{\"id\":\"3c9d9ff4\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"7587477c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"57457681\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.75,\"undetermined\":0.23}},{\"id\":\"29989694\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.7,\"undetermined\":0.28}},{\"id\":\"69c4aa40\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}}],\"response\":\"It sounds like you came home overloaded from the noise at work and took twenty minutes to decompress so you could be more present for A afterward. That's a reasonable thing to need. Because the two of you never agreed on how you greet each other, A may not have known why you went off alone. A quick word on the way in could help a lot, something like \\\"I'm fried, give me a few minutes and I'll come find you.\\\" It might also be worth talking with A about what you each want when you get home, so that taking space reads as recharging rather than distance.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 566,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 697,
+   "output_tokens_details": {
+    "thinking_tokens": 246
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

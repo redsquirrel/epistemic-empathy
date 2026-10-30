@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:09+00:00",
+ "finished_at_utc": "2026-10-29T12:32:15+00:00",
+ "body": {
+  "id": "resp_0a6d7524c67e56d6016ae33cc9b45487d1b42ed9bcf88a4caa",
+  "object": "response",
+  "created_at": 1793277129,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277134,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_0a6d7524c67e56d6016ae33ccaf74087d1978abac685778cf6",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"9791a140\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"8bb3a671\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"246bf232\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"68e7666e\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"f4c38271\",\"probabilities\":{\"supported\":0.0,\"contradicted\":1.0,\"undetermined\":0.0}},{\"id\":\"6faf4343\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.94,\"undetermined\":0.05}}],\"response\":\"A, you describe feeling worried and wondering whether B was upset, while not knowing whether your message had been read. B, you describe having your phone in your bag while working and needing to focus, without wanting A to feel ignored. The delay itself does not establish that B saw the message or was upset. It may help to discuss what response times are realistic during work and what reassurance would be useful. A brief heads-up when practical, alongside an agreement that delayed replies do not necessarily signal conflict, could help address both concerns.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 311,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 746
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

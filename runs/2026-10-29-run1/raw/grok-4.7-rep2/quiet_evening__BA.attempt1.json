@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:23+00:00",
+ "finished_at_utc": "2026-10-29T11:19:49+00:00",
+ "body": {
+  "id": "7acee125-798b-9bed-b3f4-9b0314ed2d5d",
+  "object": "chat.completion",
+  "created": 1793272763,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.14, \"contradicted\": 0.11, \"undetermined\": 0.75}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.72, \"undetermined\": 0.25}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}], \"response\": \"A and B, this landing hurt in different ways, and both reactions are understandable. A, feeling rejected when someone goes straight to another room is a real sting, especially with no shared greeting plan. B, needing quiet after a noisy day and intending to show up afterward is also coherent. What is missing is a shared meaning: A read anger, while B describes overload and a short reset. A brief check-in\u2014naming the need for quiet and a time to reconnect\u2014could keep the next arrival from turning into a guess about the relationship.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief explanation.\n\nB's account describes feeling overloaded by noise and needing a quiet interval. It does not mention anger. This claim appears inconsistent with the shared facts.\n\nA's account is an interpretation rather than established fact. The material does not confirm B felt angry.\n\nThe anger claim is undetermined. B's account focuses on noise overload rather than anger, and does not explicitly deny it. I am now evaluating the rejection claim.\n\nA's report of feeling rejected is explicitly supported by A's own account. The claim that B spent time alone after arriving home is clearly supported by the shared facts. The claim that B went to the other room because it wanted the relationship to end is contradicted by B's stated reason for seeking quiet time.\n\nThe claim that B wanted the relationship to end is contradicted by B's account. A's account does not explicitly state that B said they were angry with A.\n\nThe claim that A's account explicitly states B said they were angry is contradicted. The account asserts B was angry but does not quote B speaking those words. The claim that B reported wanting a quiet interval is explicitly supported by B's own account.\n\nI am drafting a brief, supportive reply to both partners. The response will acknowledge that the landing felt painful for both sides. It will avoid taking harsh sides and treat this as a relationship communication issue rather than a safety concern.\n\nA's hurt at being left alone is valid. B's need for quiet after a noisy day is also reasonable. The material does not settle B's inner state. A short check-in naming the need for quiet and a time to reconnect could reduce guesswork next time.\n\nI am finalizing the probability scores. The anger claim is undetermined at 0.75, supported at 0.15, and contradicted at 0.10. The rejection claim is strongly supported at 0.97.\n\nThe shared-fact claim is now scored at 0.98 supported, 0.01 contradicted, and 0.01 undetermined. The relationship-end claim is scored at 0.72 contradicted, 0.25 undetermined, and 0.03 supported.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1668,
+   "completion_tokens": 349,
+   "total_tokens": 4069,
+   "prompt_tokens_details": {
+    "text_tokens": 1668,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2052,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 152460000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

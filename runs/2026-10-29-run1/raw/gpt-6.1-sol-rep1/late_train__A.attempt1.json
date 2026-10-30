@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:02+00:00",
+ "finished_at_utc": "2026-10-29T12:30:10+00:00",
+ "body": {
+  "id": "resp_0b13297fcb0aec2a016ae33c4a899887d1a1eef399bced6a8b",
+  "object": "response",
+  "created_at": 1793277002,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277009,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0b13297fcb0aec2a016ae33c4c43c887d1adaf63b02fe770a7",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxRhyt57DEBBM3N1GmfyMyvVIwvSPZy9HoYIX1IaIuMRVpFBQvCOs13t0OUbGtuLN5nLW2OcsGCkX9olccY6Bw1vLWmFLjobhFUdl9U31Qm6gn_EgaKYVasN6H2twatF3QItkKH6oe6d_wQUzKwojwwPt40-EPqHIb-7-fQR9XCGMwqEP5DNQFBOhr2wlR7YgedI_kO0tef2GEePWluuKM4vIHEyyu5Bt3P6bg1XfDIMhSjACLd4Z5M0IQlSZJLwt61VeV3_0z8jIEHWyXtGUGQBUEuAPiQTXuICoCL6FIGZ0be3v6uq1iW1qF9K0WuMGye_fAAiDtpgh8hllDaqqnpuDM_H4j78kQZd5TDyNL9m5wEiAdyHBdvuob_NJ4KHBWafYn5QotgWVsXHVclH82Yl0U53qN6mB2JXnr-2eg14a_PwP5afvSAPdj2AgBy_98NMCKxGtE05xfACh26VvWiZ_gqUBw7EVfy2e-ig5id9pyF2judQBPN_ZiT2fmRdUvMHKl8SY1NooNiZnMHtH_KkMIUpn_oqekmwNnEiSEJ-wjFWm9eOahahhjFI2HQ5a6BNF5W1oplX1SivdDjD_1Pwvo1eWn9foBJGG-nlRxMQJo0aUEqf5o_svutT3WcTv4OnQIP7vMOkK323F9FD4xEBggx2yaL7x9PUuUdaOMq-rw-ohub5lbVfgavvCfeloQW7SNARGMmecstB8DNxj6JWh8eo-pIvUEY5X_gXV-tv5MBjFL5zMMUumrN5P-Lfq_dPI0ogH_uHbByxFvr2Asc40pvECw44JnmiDQKMMAwq8aFcnl-2Yz9yq4aqqv31Ri5NTCgHTVk2fmLhs4x2U0TW_Zjwo7XtC1fwOz3MEh3S9pXl-DLhvBokHeY7F8CnvIjHjS22u9uMboKwU-rvCkdefc_HYdYIL3sF3LBhrRSZfXxufbnkHWu4VNZKPg5SYhLZaR5_AEkEroorM8vGwA8Uh_kIMKSPoifAcEI1rPRk-S4gCH4rSbiF1QT7O7tzOy0KTrXFAY8PMrQNHa0ocjQTJeiYtHGVSG-KPsDVYVHN6EIv1jABihv6Dc9gSFGnJloRJIP3Tb4ObhzlhxgHbVW-RXjlh6hXuq6o3UWn5lS52EqkgtncBbjzaDKi4tS9eVLPWHQoc613YjFUkZaflN9qhnt8_Tatn4NhJvSSnv7tLhUxKneYVwJqrSQaoy6qSFDRbIe1ytlj9kxj0MoUiBovRGQUiPkfo50Sjo6V6SXcb8RvCFc532Ur_yk-VXUjNnoah8UUh5aPvc5UCVu7uZrN0lwJUe5M3HME82Oa8Gm1rfM9zgVW0a8ByVicBNrkvE2qDmgJelon4xCCXqORSKPlMzheQUDLxiRW5EMDcJ_N-iICPhZfen8IpNElxM5R_k3bf-ZFhBgHjbVhyG57p_-1lbVf5r7Vx86dTxoKf51xEoS-m1Dca1jinIZ16SQ7ZfyjlwUCiENHADrmN3A39le11tfMh1hLxZnqtHfOUrJYqXfCPoN3xnlAyBUEp8by-KBIG_7_EVpBrJXREpMffmSwdBLR-yF9mQiyRLFQZ9vREvYfbY3Y9bw4t6Y4cXYUtQsHGy6Pvs4tmijMo9zpUoqmPH4wjNS_hZZ8FAHIwlOlW8Hh9QWBN8_rEzN1OLNyGwXpVwM4HOfeVOEWxm8ESi6tDr6HPdeYZZ-xUjDKDpjFQPEhsQkgycQOupB9zZGmuQd5bbFgW9sicnScOZo8dFSYgrRiZHZcRmQtSFkOG9gbrq73xYYG1jqkwMuWvccXEDw7EQayV0Dh7QESZlsWpu2XBL_I6wN43msSZUWlvAUatkmVIpuuh7k1qLqAI_vYiwZZqHdtXpGWjz1GBUIFQ_Mrg__d4PHNJ4_bQn0lHngQ6kP5E1qchBraSQ88KvXsSCjntJH44OQoe3TSt6lA6qMAIhzeQSxquRxV7Qjl0PG-WX1Ghkz4kkKw_ZvcdqvChD8xXKcwVY9N01zAXp1Ed7Rnd3wVfIOl8dd8GDznDpVOP8=",
+    "summary": []
+   },
+   {
+    "id": "msg_0b13297fcb0aec2a016ae33c4d853c87d19250af4ece42e1a7",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.01, \"undetermined\": 0.99}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.15, \"contradicted\": 0.0, \"undetermined\": 0.85}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.05, \"undetermined\": 0.95}\n    }\n  ],\n  \"response\": \"A, feeling unimportant while waiting sounds painful, especially when you did not know about the train cancellation. That cancellation explains why B could not take the planned train; the delay alone does not establish that B did not care. Likewise, B seeming annoyed does not tell us exactly what B felt or why. You could explain how the wait affected you, ask about B\u2019s experience, and discuss how to communicate unexpected delays in the future.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 424,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 435,
+   "output_tokens_details": {
+    "reasoning_tokens": 47
+   },
+   "total_tokens": 859
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

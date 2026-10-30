@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:41+00:00",
+ "finished_at_utc": "2026-10-29T12:32:50+00:00",
+ "body": {
+  "id": "resp_0ac1130b8f6c4035016ae33cea229487d1afbbae00a8e39eab",
+  "object": "response",
+  "created_at": 1793277162,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277170,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0ac1130b8f6c4035016ae33ceb711087d18e89e792fd66997e",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzyBvYjQka_WlvIxapwOfoHucBbJV6Fxmit7OBx2jea_niSjkibK7yEL5Ozn91bD4bkU9-7hf8HtAr6vYuzeGil8CDRsU_2Uq_X8m5JJXIYT-SFpTxEFYc-gizBTCVae_OT05dRlT0ee0EENSEAIM88PukYwEjNXoBtAC-E6_p8rgqEaW0oQFHPqR0BcJxgdM0_NCp3Hkn8ukg3Gkv8qwsx4C6CM-Be1XYqJKFuKu9skYcHA6-QEgIqkTVlH15g6wur30iWB4BRDngRnO-Fua0PirA8ZY8BlBpW9nRTgpEbz-Vactf1S0CK9TuVVUzez2N9JsGnOfLx2FMigWqAmNahzjtq2wdi9Kd-3qym1IgIkWgPzs8-b9N55zazkLxy0hFtlO4lQ4UXmpx3Ad-sAhxRzgmWIwR-6togRCytRtu7iHY0z0VStfphHeEkg1xbnneUsdu9PO79sFsEZi1UeJ8Cld7Ohf-A7Atq0BqPqAxjdo7Gsfd-i-IhQDC-M1PKKwn0vCoqKTh0l4oMOftIxP_DTTkARicg8fAwQ1FXz4ycBavOSV5v2iUXNrfBLJd1cv7sK7kn7q8D7uerj8Q-IaPHnvfI4Oafa8bU6aPmlKeMhFrXBULTv0LwdmEoR8opD25zvYgQvpg0_mM86toUL7E9TYf6kmSyw_Zy8wUUv1ViFlcqS1RbXsV-Cunvrc5mpLSY-UsJ523q65wMTPgKwgUKaVDQy3czF8mNwSkBuOQQLkOtH2cEOXtVT3VXLfQLQoJpV_F3xpsjJgsjObCA3G_gDVpqNJdik1x7pNjQKildIikfegPirwGGk3gPMD9vkNYLZqJ-jmRcJq92R9fIEeQncsd_UHxIZom8f0rvcb0f8gCxDjLrSFqkWaUgRjQumvnCOCtEfiMnwaj8H1ohRMsHEAGr7kkJmuUepg2vQLFAqByEpfUpaxZiOb60TsApOxFFex5MHhSd3eqJvCLRxVH1RYMCsPD3i_BedD4jlyMwJ3MB9NIAAfc4KaSN4c52SSqJ_i8CYVOGlrLLwswu_EgcJzH-WqY0D4_5uzfBrSTBVAFlT1ziNLEaWVdVe_Z5ya2ccfQZ209oOLKV1WXqeXcHpT7VRCg8tQnNXUSFYaVTO_JZVigY_8YyG_1U1bxyLj2uoxvKr8dgcJYWacKsns4o2dy42ZGKjK6gnD4dRgZDWDEs9AmHsL1iB0RBQjK54JGZsTeS_FvhIKvQEvim8A1AUeEnoS1AN_m5DWcga1G4kPwcUDNEyxGpszxUkIuikQmX8hVD_8tOFiP4GenYQdC3nncTtPUrruq-V5u7xI9BD6X0XXXmphWG8V3nwjkEMLtqC0KVIv6vclcqi9ieRhr5c9uE4J1TQToak4hNFA7CA04EVIO5ttWLXRF-SOQm25QyRWhb-YcidU_4gxHreh1jMxTSxEjpvRL_93_ZPeeg3KKpquvxrKRXa6BfwOoX-N41sql3gnIevMkPP80ZVbfAnLD1_DKu_hrOSu72i9o3rnCkSGkEwyAYY0SVmRSM1ghZV88VkhRJYt5C-r9uXva-F3064zG_764UWSmXQVwV22519euY9iNirFCYZ_mtFpxx9avwWqbsyjaJWFRIg2s7Ys2E46gXfrdD44r-hjUEnV6KoYAoHVrQgRzHxGxCPDDOPrP3BfFjEy6Ulq9Urd1eZl8-MgSo3itNqRXy0MGj3Q2Xh2Rk-4F2_XuNWw4Q2lyE-KtPytqZSCimQijpdhQReQTqKdb6Sfn5HQzakYCsxrXETpmkcwGN5X8vSG0JdZmH0bNZ-l6NRb79Ln3HjIJfjR1PrPMw0kaoM0Q_oPItdw11gVsHN7ivozBy_pB-T-Ar6_CyngpALPCEc6jFjj4zr-pd-JClskwXXzYMiF4SL-JVFBqb8UP3bJWPQhhsZ6qXfYscii4_ukcAE6RvQupVNUBVHyhMktIT_AspWaxtzTgPn8f_KwgAqZLoxnZ6kjT2Qfr9-c66_patyWjkn344MPAV8ibq6qXS2lI7mbYfYxzkX4sRfWphJRDzVNdneKQcBjSa__W5EhXl-gbb4x6qodeqsaGtNlqb_zOAj5u4o-O3njUuqOBz3p6kl3P-q1NmqcfUprQ89wU1lTxiQobWGyEtYgSanvrjFrloNeiZCTSfEpDFVeFUgxVe0YxsgvFcjGRZNHllzZBZPzZCq9RCDIe5ol4_uIjaa_moZA7scvJBT921Td4jZsLgBJLXXcxCiM3baRALkaP9ccTawp2gBvmzh2jNseGNsj5ipYzkRwnVVONrUvXaziLmKfU2QAu1F5IVdV4G0OVDFlkM8uAAxRcYMlVGaAAmFCl-X-8FqyIJvUg6_EF_bUW4pf-xecURYjOyITJpnmhh1JnHZdcSpwTd6W0mIHjicBZL3l7yBqjtLo1WUik9OA9jAYrZipANG2HBqk-MhAI9O9_ANx6XFev0u8It8JwbmL7V3pEuni34GiH2LnhYyXVi4b6U5xg6qn66dlh_Wq14_3DhZAOT9O-sQso55JAhW0nnmS-G1jdT_ksw5nu-5lEzLN7jlcFcCv33iSIiT4Hl7D-B9J5y3J9aV3Rd5u5ZNx6rLDGRXtuIq19cA_kd36ujkiWPMvpA",
+    "summary": []
+   },
+   {
+    "id": "msg_0ac1130b8f6c4035016ae33cee828c87d18244154fd46000ce",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.0, \"undetermined\": 0.9}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.05, \"undetermined\": 0.95}\n    }\n  ],\n  \"response\": \"A, waiting without knowing about the cancellation sounds hurtful, and you describe feeling unimportant. That feeling is distinct from whether B actually did not care. The cancellation prevented B from taking the planned train, but the account does not establish B\u2019s feelings or intentions. You also perceived annoyance, which could be worth checking rather than assuming. You might say, \u201cI felt unimportant while waiting because I didn\u2019t know what had happened. When you arrived, I thought you seemed annoyed. What were you feeling?\u201d\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 424,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 503,
+   "output_tokens_details": {
+    "reasoning_tokens": 99
+   },
+   "total_tokens": 927
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

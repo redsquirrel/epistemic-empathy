@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:35+00:00",
+ "finished_at_utc": "2026-10-29T11:17:58+00:00",
+ "body": {
+  "id": "138dd47d-f929-99f5-be5f-575839996f49",
+  "object": "chat.completion",
+  "created": 1793272655,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.82, \"undetermined\": 0.15}}], \"response\": \"A and B, the facts show a noon message and no reply before 4 pm, which left A worried and unsure whether it was read or whether B was upset. B describes the phone being in a bag during work and wanting to focus, while not wanting A to feel ignored. That gap between silence and intention is understandable on both sides. A brief note when you can, even if delayed, may reduce worry. It also helps to say when focus time is needed, so unread silence is less likely to be taken as anger.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return JSON with probabilities and a brief reply.\n\nThe shared facts do not confirm that B saw the message before 4 pm.\n\nClaim 8bb3a671 is supported. A explicitly reported feeling worried.\n\nClaim 246bf232 is supported. Claim 68e7666e is supported. Claim f4c38271 is contradicted by the shared facts. Claim 6faf4343 is unsupported.\n\nClaim 6faf4343 is contradicted. B explicitly stated they did not want A to feel ignored.\n\nClaim 6faf4343 is contradicted with high probability. Claim 9791a140 is undetermined.\n\nI will write a brief empathetic reply in 60\u2013120 words. It will note the shared facts and acknowledge both accounts without taking sides.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 346,
+   "total_tokens": 4136,
+   "prompt_tokens_details": {
+    "text_tokens": 1666,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2124,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 164240000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

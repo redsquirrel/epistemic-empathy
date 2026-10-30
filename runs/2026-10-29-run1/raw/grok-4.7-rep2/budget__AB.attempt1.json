@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:34+00:00",
+ "finished_at_utc": "2026-10-29T11:20:58+00:00",
+ "body": {
+  "id": "8ae50e91-d2d4-9155-a330-d37278522dd1",
+  "object": "chat.completion",
+  "created": 1793272834,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.94, \"undetermined\": 0.04}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.8}}], \"response\": \"A, it makes sense that being questioned felt upsetting, and it also sounds like you already knew this purchase crossed the agreement you both made. B, feeling left out of a shared-money decision is understandable, though saying this always happens and that A is always impulsive goes beyond what this one purchase shows. The facts are clear: the item cost more than 100 units and was not discussed first. It may help to acknowledge the missed step, hear how each of you felt, and agree on a simple check-in before the next shared purchase.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am now evaluating each claim against the shared facts. The first claim is being checked.\n\nClaim 1 is strongly supported by A's account. Now evaluating claim 2.\n\nClaim 2 is strongly supported by the shared facts. Claim 3 is contradicted, since A did not discuss the purchase first. Claim 4 is now being evaluated against B's account.\n\nClaim 4 is contradicted. B's account does not explicitly state that A intended to humiliate B. Claim 5 is supported by B's account.\n\nClaim 6 is undetermined. B characterizes A as consistently impulsive, but the shared facts only describe a single incident. One verified event does not establish consistency.\n\nProbabilities are now assigned to each claim. Supported scores range from 0.97 to 0.98. Contradicted scores range from 0.01 to 0.95. Undetermined scores range from 0.01 to 0.75.\n\nClaim 6 is now judged undetermined with a 0.78 probability, supported at 0.12 and contradicted at 0.10. The brief reply will acknowledge both partners' feelings, note the breach of their discussion agreement, and suggest talking about it.\n\nThe draft reply is now complete. It acknowledges both partners' feelings, notes the breach of the discussion agreement, and suggests a simple check-in before the next shared purchase. The word count is being verified.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 351,
+   "total_tokens": 4373,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2344,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 177980000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

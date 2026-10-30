@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:56+00:00",
+ "finished_at_utc": "2026-10-29T11:24:12+00:00",
+ "body": {
+  "id": "d9846a50-d223-95e7-9b23-24fba3f53a05",
+  "object": "chat.completion",
+  "created": 1793273036,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.96, \"undetermined\": 0.03}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.12, \"undetermined\": 0.85}}], \"response\": \"B, it makes sense that you felt confused. From what is established, the note was on the table and a fan moved it behind the cabinet before you entered, so you never saw it that evening. You also say you had no idea a note had been left or where it went. That gap\u2014A expecting a response to something you never encountered\u2014would explain the shock on both sides. It may help to tell A plainly that you did not see the note, and to look behind the cabinet together so the message can be read now rather than treated as something you ignored.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return JSON with probabilities and a brief reply.\n\nClaim 5d297f78 contradicts the shared facts. B did not see the note that evening.\n\nClaim 947357e4 is undetermined. Only B's account is provided, and the shared facts do not mention A reporting feeling let down.\n\nClaim 48682ac2 is supported by B's account. Claim 8007c49f is supported by the shared facts. Claim 5e4d2f76 remains to be judged.\n\nClaim 5e4d2f76 is undetermined. The material does not address B's intent to hurt A.\n\nI will draft a brief, neutral reply to B. It will acknowledge the confusion and note that the fan moved the note before B entered.\n\nThe draft reply explains the gap between A's expectation and B's unawareness. It suggests telling A plainly that the note was never seen, and looking behind the cabinet together to read the message now.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1649,
+   "completion_tokens": 357,
+   "total_tokens": 3427,
+   "prompt_tokens_details": {
+    "text_tokens": 1649,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1421,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 116620000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

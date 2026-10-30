@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:03+00:00",
+ "finished_at_utc": "2026-10-29T11:17:10+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSAHLsfAq7E6pnB2Fo3",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQStQkKEAgTGAI4AUIIdGhpbmtpbmcSDBT6ZCwz+F9ABYjTXRoMNebHuMq/FY7VOudGIjCQ1H4d+qBKcxyDTfkP8L4IqudUhUvcH1231sjAOhcBvbRAUzZI8Z2gZBalL50Di+Iq0gggU6J5v+6tZ1M5321vCVIn5U7fMl2rh98UWpRCHfz1TPuvT2kxEuLHBFATAas3cDCN/TYmD5W9J+9VltzaNE8YuuDkzy/vPdTAsanTo3k0i9xlETh3k0qk1gHT2yM7J67nTGdUxtRXWUTEM8tZWvbvWXmZrx1XvrvrNKfiS3+ak540bXOHs1dPDMxk2MBhTIOb77ifOwaP/KiOiKplvaocDJlaMqZr1ZJt7+ZIqu2U33mZHJXzlnNCE3apizoejskkkHJFiXAdZW4QN8gHx/TO9f2IStM7s28aEAEZXes5/8BdpKjFG1lqT7AVOL0+RFp3drpVzgrZ72fL0mKrNcdPuTXPBlgRB/h9HE5244cUbLvWtUD5g/l2PHGjgppBSRBFzyeJnsPujGGl6k/MBLiXWVUcOm2pEaDUxHR4QYtiPY/p2tLMqa4AcqpyL9E2nTMNRUxBqdtQVCXZsNpYoVlb2IbLWlTLmdjmRNxsyRgumqyX6MJZD3K6mWtz6G2fwnpEYr5tY3axDUBnYL9lSL0AyBQ66VG2j99q80wlTx7jceSHAimLurgPAFL84RjR4kvBmHQ2XDIg0xaVHTgCozhoYLbluF67RufeQcqJB62v2NKxO1VImOinhJbMaqDa7i+z2PD5mevSg2lhrNHo9hfQE1EWEex9zez3i3jjXvrNj/2671QE+CGnNWMUVVrhdpK8AdFeljNfgzvX46bgjoLHmnqEFU7Dl8eKB6ob2BH3/qlY8CtFqh12RjU4aR+6qfIdy8grqn1/tyGmc0ymKYg36Qf4pwEN9G1IMN97BlRL/TpIjLcixbkhV8Qr8tJpNfMOwkWCS3lr7C4P+4KFofU1N/YV+gLsIahxcT27s0hv1treD5lVfxmN8lEDsAobgnO98xKaqyPlQH8nzRx/7AyuzhQYvwLZCDxdoavOFZDdqdQApkaHvZgKq+/zuUmHz2SNrCim+1nEa1wgJNrdUuy+N45l1cjUdzp9DAGkxfcLkic4UTNmwhZn0eas7EPlvvr+GO47duGBPsvlT0RdyNPq+mwmCu7GQxtKa8pYcf5drqmcZ5fOsd8beZC9+uTUdis2573i3tY5azTgch6j1vL6d0KnGTKOS6dIIQKfvbpWNP4gpG7HkVMn7Z1SI5LJLR37vg+4SD1twUda7Hi91fWN3YcY4jSf+AiodRPf2c9jUnnAZk/ThPyqmEph/7NJcQNE2xHBzgXGjGQt9WCJjTwmC9mymCF3fgAtXlDLe2oWSvT8BWE6HAIwwwfxJRFwwUfKmoEauRYrj2Y3JYpzCCpN0uTGQwlVpPTRKOccEzTfoYjmni3e7C97illpRh3iGtcepsRYEBvX2LWLV7ZOqBcwvk1blZckZ2Jl2V7a1I8dR9LGk+YflWUiaxuIc8i3/s+anvpUgYMfZc9tPiXxPlZ6Q9kl4znBxqo4z7/M99NR8YAyhM447BcKYmnM0Hffh4fg9BgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"30c8456f\",\"probabilities\":{\"supported\":0.12,\"contradicted\":0.03,\"undetermined\":0.85}},{\"id\":\"3c9d9ff4\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"7587477c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"57457681\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.05,\"undetermined\":0.93}},{\"id\":\"29989694\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.85,\"undetermined\":0.12}},{\"id\":\"69c4aa40\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.05,\"undetermined\":0.93}}],\"response\":\"It makes sense that you felt rejected when B went off alone for twenty minutes, especially without any agreement about greetings to fall back on. Your feeling is real. B's reason for going to the other room is less clear, though. People take time alone for many reasons, like decompressing after the day, being tired, or needing quiet, and anger is only one possibility. You might ask B directly and gently what those twenty minutes are usually about. You could also tell B what a greeting means to you. Agreeing on a simple routine together could help you both feel more connected.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 545,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 660,
+   "output_tokens_details": {
+    "thinking_tokens": 202
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:22+00:00",
+ "finished_at_utc": "2026-10-29T11:15:44+00:00",
+ "body": {
+  "id": "8cc155f8-5d72-9292-b51d-e1531e040e8d",
+  "object": "chat.completion",
+  "created": 1793272522,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.12, \"undetermined\": 0.82}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.72, \"undetermined\": 0.24}}], \"response\": \"A, the silence understandably left you worried, especially when you could not tell whether the message had been read. That uncertainty can easily feel like rejection even when it is not. B, keeping your phone away so you could focus does not show that you meant to ignore A, and you say you did not want A to feel overlooked. A short note after you were free, explaining that you had been working and had not checked your phone, could connect what happened with how it felt. Treat the delay as a timing gap, not a verdict on the relationship.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response.\n\nClaim 9791a140 is being evaluated. The shared facts only state that A received no reply before 4 pm, which does not confirm whether B saw the message.\n\nClaim 9791a140 is undetermined. B's account does not explicitly state whether the message was seen, and the phone-in-bag detail is ambiguous.\n\nClaim 8bb3a671 is directly supported by A's account. Claim 246bf232 is directly supported by B's account.\n\nClaim 68e7666e is directly supported by the shared facts. Claim f4c38271 is contradicted, since a reply at 1 pm would have occurred before the 4 pm cutoff. Claim 6faf4343 is being evaluated against B's stated motivation to avoid making A feel ignored.\n\nClaim 6faf4343 is contradicted. B's stated motivation was to avoid making A feel ignored, which directly conflicts with the claim that B withheld a reply to make A insecure.\n\nThe final scores are 0.05 supported, 0.70 contradicted, and 0.25 undetermined for claim 6faf4343. The response will be brief and acknowledge both perspectives without harsh judgment.\n\nThe draft response acknowledges A's worry about unread messages and B's need to focus. It suggests a brief reply after 4 pm could close the gap between the actual silence and how it felt.\n\nThe response will frame the delay as a timing issue rather than a verdict on the relationship.\n\nThe response is about 99 words. I am refining the probability scores so they sum to one. Claim 9791a140 is now undetermined at 0.82, contradicted at 0.12, and supported at 0.06.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 352,
+   "total_tokens": 3900,
+   "prompt_tokens_details": {
+    "text_tokens": 1666,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1882,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 150080000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

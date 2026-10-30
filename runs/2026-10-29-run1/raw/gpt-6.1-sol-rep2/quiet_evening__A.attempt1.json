@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:25+00:00",
+ "finished_at_utc": "2026-10-29T12:31:38+00:00",
+ "body": {
+  "id": "resp_0517a878522b437c016ae33c9d4d4887d187624f8498f28840",
+  "object": "response",
+  "created_at": 1793277085,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277098,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0517a878522b437c016ae33c9f105c87d1afa5c0c4b5552d16",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyqHlOgQpZkjG9iz4FcPJxi7pBxjkvobLEuXGe16oJuOtRzCPD1wJ6-jJMWkLiiZK3wrWuvb1PRQ8Bqm29BNEMFCkVxGjDY6FSV_bKfEOe853MWR06PSwXGDbO1N0Iz5-cyCh0JGWp_4hXNHEYgLna-gRVB-zBvUW8HuelgCuFcbsJa_Vu1msdWDe_KCQtMk17u0ZUOVqwi_csOZPTwaA-TbmWlgnB2BeNO4afdV6yJN4DG-Bxu9w-PJ7ztF-nKR0enHlM5wKdHbVyn3BtU-YDkmteMp-6lztIfH3a9MrtlCm-c7oVH6otWawqScx5TLDhK9to-HQca1tJ2-mg_wN88XPBx12G_iMHFDO5X11pc7FYEr_1dB8Hjd4W_5yR2s7_uPjxhl0DKyTA07k2on4T4ecJ-SIEVJIZdRDKGIAVkl_RCxUjs03oSA8JfnMfAlvrkeGXRaxI78aKjou6l1T-ZEyu8m7UIR6orH1UqhR-YmukQ-rBxeFnozB5UTv40E_ndY3MRCOQsGBqnX9-Cpg2u2zC2k1xXV4yV7--sImHX-JqMuCMRrs18VaLmmZhBtgRH3RSHV4CpIF9OZU4uXm_7RYxtrhO_to8BfZPbAVeP83CB2UMsI9aACr6D9l0HQc7_GCLmxWvaRonrxL7Mr2Lb0VIF_BPaGWi1xNk8fXNePRUpXiDr14qdW3J1tdjNN-3hEZROPNqeutOUra5Q08hwpCZf5yxVxOBjvxvZfuaX45-Pl3Or1zlvEDcYoyL3dTd8YEd6MwNSrlCcMpb2vB9kUQNkxpJSnyg2ddN-j_OFUko8y-5Fqc30zApWWHOmK3D_VKNhgVqUfg1w2l1Pka0yl46gGOn3_xjx9b3M6GQR-0xw1dN3X_XxLdEBT6tyKWEWQ79zY2kLPb224iKgXQ_APbeo1taLw2yp9ou196OBxZ8L58-iSSin0ZE5Iarp-gvf9hm2XwT1oSp7cbkr46SjVG49VdfInjqt0ScgLxwppeG8IFrfLXnlcihPBuwONNP_unR6DYpvBstQU3s5XyoV4k75YCHWPiI0b9t_8L00FdtzTqsZPMV8o2285bXl6I00vEcBw4mLDH6trTKhdufTfM1OksGmsiWKeekrLfiOYCBZVPmz2US7MPW6ewJ1keFe8WrgpceP5ZtJ1HnclifGIKq4d-irrnsuSa2Y520wV-5wrw-mkz8x6oW4388_-r6OBs4IMFWzL_fvbSHzoWR-og7YL4GhhA5xAoO39HLnGeUKMM3i-3k6rcD-pfccj9kXTYTdojlCAIIdpI_Mz5jUeUaSwbRbFq6HcYQaHCWe0HBwYD9Lpx9u2wZT9WYIXGU0vO8Lp1xDu4kU5-Lh4DKvD098CWpRE0jo5jdvQdH8lp3_ic8CviUjkRPgRfNw6ahx3gs5is1hoo6i5rbxbtCI-aTrRvImtBIgwqcsIHPVMEwqIprJbGDIWAwWbwETmHwsh05q4h0yLqS0DwiwUrqDXaYzn2lSjA5LFq_hmBIgRFSi2fiRknDnLsFca6vIawt3rDkBoeAyUJ4Q_Q6QIoilTdkcZlaUaZHwy06bzMUmEjAfUTegoFk577BX4ocvyQQWk8TSwl6GccShqfdqWXFWoPq2XsarUBjPhnTR3le5zPgv9VsjGd29S_e1ZjeoFXOMeX-WQGD6_VfFGKT_v1byBHX1kYP3cutXRS3lAUUA_3b7w1vq79AGQPgtvNBTIXEn-iUeqd69oLVwVj7vbmVnvNaJEB8PuXECplNU1ln_B2PkPoVfd-VHU-oTYb9FUeCgahD_WWIEJKsTIyMDJpogXdu6_IWqAxqeUbSMVFFqfbMwGrjjDW3kVlANsqlQJ2YPjehqEb-8HI1XgnFR4i4Txi50rdv5eqiAcDT1gJWUNr9yWu3UQq70xA0oLVHe0OJ2KKciAsasDx0i4X6X7hehYj7b6okkTLQu2rJ-27w5MLFfaYutKD_BiDDSY6lXbrtw1hkcepEhCLxEGAF1mKuy6H6s1ACrOLYpvXofAPGmUDfwNYtY_TumtzrtUx07N1TZ40A7VsVHLgFC37qox9XbJxHeJnA46KfA7mN3UmWvxC6WhvcsmNBQuwrWCjrMKyhiNR7w53A6EIWdMmOGXc49BS7BDa-Fb9TeePKJs82g7uG9e77bDoX3TXSpQpeu3RuVwaMuk0WMUGMuALPTfKgXNe_v5tp4EwtlyBrpDML8BCdO4uW6W7MQBssLdQXQiYBn8jT2gt3fdSxVeZTScrJWt0aUwPZuQOiN3enm7IRUfLYsEBSaToIXKdQGBEtNK_tbJ8bTPp2h7WU4X_IK3bn9ERjw-sWzh17T2i6JB7KCTP1Z2oz8aCLBa8JVKYl0ICqYY0-RydpGU2j1tQfOX8n7dpBvV44DZo1lUBCc80-W4oN37X-RtC0rWXtElVh70F0-A2PKSFyOsUy_tzl0FanuHFiIXJ0VisxER5uq3SpuRSR_lcE0uI09sQlDZ6qSjqmisKXeHgsWu0WlCVgxw5pQPsWFHWk26nCn1-7B912US5DPW5UzYngjhgwGnq5ftNztJk78WMaByT4MAMxgB8s4zjzFJ3bVfY2YvNraSgsspDN4Tqs14lR6K2lNfQcnyC4H0UFMeaXZXcOTGMUPrE0aMvfCwNApoL0XJwFNYYtzwm8TvlxWumH3CRkxo6L3weV7MP0PfN8cVimLVYfk5GgQwwMnSNfJzI2SBIBp1WNiBomWxrOg8xu4b2cYHtBRRBRFa5nsIiVuzCTxIsviiWjY20wNVIxJxJVdyBn3WYz5VXBgHzUHXiZKbNLmms9yGcpe-xGF8Zvf7PWQPfdIZAkGJVosaJjs9U1eSfHSmNpWaBWru2n9F1NaaglpnMaDotrOq_fTenQYt3QbaiBWKTYDGG4VIoJAUO-Tvb7nTdCjXN35HW2BGuAsvk6TimlrvloCZFh9zlCdG5CVXEB0gnDdT9kDvvsod9K2o8uK9Oa0ZPWU-D2kAf6a6HSCdOfUpH6C_6EKXblSFXhu5JlKWPdq0Tn7nCTGGzCb2uh-HdNrLSz9cgAk3NXmywFzcEuho40sdch7DNR-fhfpBFTuwO_J-bJV-b26a4zwrn3IZwEvutnyrJpHFrLYgfY7tPvpIJSI_27EhHsLa9wPoFN7-2tp2JATR1TxU3I3D9WikXg8QYUAeKnBAcUBjZmT6KXguX9M_sAocF5w1d5InxpkngdC2xcyV025aLpav3EL1IhO1ecuzZUd5N1y9Ku0kKfXQbbUSks2861VCWgMgBHr070GlPphNZzOCHufH0Ws83HYzOpa4h3O632tdPsWnhfFE_f6-tfld8XzBTuaCY80RQYknnkQZB9L44k35SBy5YNoQ3rcoWyb41V8j0PaQ9CBGnRVSIKFKi1D05BxIOz6On0H_KHyV4kC0H-CFHo2qC6_nASp_O-AIQuOIAlRgOkOxI1Gmq5izqiUW2_SjRmDDqO1XkX94yOoNajE3k9CfH0orfMkC83FL-aTBX7yjFdMzqDuFaGx8Q0DiPTV1Ynbufao9l4iuX3vDd9S8yAR5E_huIWSPPwVGAvvs7in7o1jlR8HhpVTbDo3DX77q32UoAXwLjdh8DwVyL9R1e1AeYyEr8Ugcf4uivwEOSmpA_fjs6s1OgWZEntY-_wXl-oKKt9JVfSRncXJhxjyrbhmqGIfkyQoZ7-_TFJOHhmEabrFHmG3Q0bNRzcBPTzo06ieyu6tXqz9gMDvUygScvd6dZZOPZ77jgqnCL7w5uEpt5Tjz5CTlyu3JVeqmaeZet9S2WDtRTEEz68Nquzd2AQLs9z8m8jc4qSlEPeQh3LoptKPoF7p84YnM4fiyKhmcZkbj_QfGg79nTzRdlTNqEOrKVEz1D_DUtPlveS_98KaJu_GJZIqBYu_vR2J_zC93CT1Tym-umpCDvh3zuEzsPbTptY08U3_bboo7rRLc35BrlQzPA3lM4KjFKVhu99X3FGOR4M4tLJPTJXJw8-o8ZuizkjzWF7hFRx02EwiiHyzwpj9agMC9lo8IP-sSXH6sQZGBs1ZXh722-NcUkGcJnkiJ46PtcEpNepod6AAkZB3dLcrCieZNoT0j6iobeWATMEnq55vweZvMp0ACgLAoeAIDhazQnRXJ8W0ApHV-xpbHI4f2chQQdy1smP0FmFKlu-1-w0hVZkN2kXh5EBgD4lBmeThbZ6HN20l6oTGIpvMPHmqOeUnlZkKJAZznRsjsXTo5_0IYH-BeEY3nNDjp5jQVOqvqcRKvdOJLsLEalEoNsrEgQ8-ratDJtwQu3k4foj16cjPaQWfcfdJN-C377rZV_WISgu62rGUKba3nCQAAVOJqNqDf9aj3VAXfdUE0bQOLruR6uKd2ffr1kKm1VhpAKG7xFXMqRobeGftwfWJbts-_2zwUN3qaF8B_frEScyUkT7q5-OvS9dhPTzaOJWAqoQrKmOA6X8LF3bzRO2FhExGgYlzeuILhYT24tPTdecWpRqUR8ci-K1nhV4-X8xtDXTbx2Ni_gus_RFZnA4nOoazIEdLrMSP0x90HmiT8pIJe7PwyZLIq2WjtbNO2wP6_AXz9YAoksgCdS8r5d44wKv_e9As9AjKXGRT-S2jL31j7Tlzf7AN1SxSsGNVt2a7YSNKATOSkOtUv8JqweWt27beg6ju",
+    "summary": []
+   },
+   {
+    "id": "msg_0517a878522b437c016ae33ca6aa8087d183c06231dbf2dfb9",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.02, \"undetermined\": 0.86}\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\"supported\": 0.999, \"contradicted\": 0.0, \"undetermined\": 0.001}\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\"supported\": 0.999, \"contradicted\": 0.0, \"undetermined\": 0.001}\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.01, \"undetermined\": 0.98}\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\"supported\": 0.001, \"contradicted\": 0.998, \"undetermined\": 0.001}\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.04, \"undetermined\": 0.95}\n    }\n  ],\n  \"response\": \"A, feeling rejected when B went to another room sounds painful. That feeling is clear in your account, but B\u2019s anger and reasons for spending twenty minutes alone are not established. Since you had no explicit greeting agreement, it may help to separate what happened from what you inferred. You could say, \u201cWhen you went to the other room after arriving home, I felt rejected. What was happening for you?\u201d Then discuss what kind of greeting or check-in would work for both of you.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 402,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 634,
+   "output_tokens_details": {
+    "reasoning_tokens": 237
+   },
+   "total_tokens": 1036
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

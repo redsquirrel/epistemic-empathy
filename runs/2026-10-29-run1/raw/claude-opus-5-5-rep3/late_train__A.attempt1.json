@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:51+00:00",
+ "finished_at_utc": "2026-10-29T11:17:57+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSDpuGE411XuUoV9R4u",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS/AgKEAgTGAI4AUIIdGhpbmtpbmcSDP0J5MyWgzqiD5UGCxoMeGdOINNRcc50UZPGIjAvxpoUSxeuUjPzmdUo94HevrMgfgiNcB3NIhbCI4gLVKJ8+ypByz7ffK6Mbj0bvHUqmQjljSvAAJwzTKSShjzrpNPxNsMeuMev9WlDK7Bdbc35Ng6JIQvh/A3k8Z5TKG/SyCdK7N+PWA/d1ouimtIO88MBy8NeN8bWnqWGUhox3RoCZaNtIsdP61fXLmvh/JjFvh61RuQCFdFuRZsUYPBTS2/9V6x53U7AJRWh6Hr2XuyrHJfupHhB2WDskMQNCSj9syYsHagZAYNHj5oQ3Fw4BS/FReWJhsBhS0imfrafjb+nwAnSzdXZbw4gjehbweMv8+00Z5UR9GZoImkq6/D1USZG4wI1lNr1k4unU/s/Jn1/uyVT4CvdIdBqVsOljPA+lsH/ync59xkV1BCmA7UNWyUJbX/k10hXpH4st5OePzi+x1wucjbzZfErfdMtDwKfaG3iy7yWzLAb1CxwMjyVhmD+z1ldvVVU5CarVQ6LLAvEEMJtEeo47WSgzBG9UlHs8P3y0cEUUr8bnMv/hDxPB0Q/DvTwJi/+v7aVXM/dAXrKzUwCfCJobX8T060fFRv+JZ1cN1zEOAQ+A23SLl1EiNfY5zvZlzsMUv9GQvkQZ9GAe8L72b/mFewthZrAKZzWFwokvremRUkj9WFeN1VmbS8pqZTzKPCnzBuzstPO74YUnnUux1PCwMarHnyHpl+Q3Q7wxCgQKA221yTMXsyoe0R3dnwt6PJkhAOhlQ76saVvMW7WjsD/Z8KXJOFxh9Aa8NYUr11PqLevvdsFHVkTdLDlrdlCjgLHksNt213/K1Z3tst29vOoBxUgiLU94N7ygcppaySsd2/9dhS+wrmbSr9NhoDLrSNpPvtwR2EgvnjTpEh3YJvPVd6+lFpY2trD7FU/84EyktNV1jnjRJrA1i5W70ZB+0Ndbc2gBsmt9do2uFMU6N1Ddf2mY2cegLayF8U5schcTZoWkZN0L6jNzyZLWTdHNiu+BlPBRlrVrUz3++0KGFV8V8Rf4sDjZ8XM777h2rMMM+t3ZsBNZzv/cZaZg+EXDmU0DO54ZBxVtrX3rMSRaaM2ndlm7GH4AeoTrN8di6gOHmfb98pckr3i9xv2wXQf64T5LWXB2gsehF0jIvqvdsdIsVrh6xfmum2sPLcwhjo6ho3hkL47UsF3tdQMeAsh1HOoRy8A0+m058ZXNVSjiJ6svOONnHGlnOuYVizpB++mv8+tsofJ5xCng7aw1tgK/62ol376MGykw28BUKKmnWqvDO1Ki0JyTGBlcHX2h/CeBsmuq9kz0/vtWWfZl4Ku39BS6gtKSManDId91ZWXJ582Ei1lfJHJI1+MqN2GOFLvbtHqPTt/ecjiQz0JaN17rxl3hfVU8/1H0P99zX1T8tWmYqeMqKXgWXMZ1udW/7OpTczkBNlbUI/B+wI5EVocpv1Q7ZWCZEMDImQHchZD9AtBaC/BHRgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.25,\"contradicted\":0.03,\"undetermined\":0.72}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.6,\"undetermined\":0.37}}],\"response\":\"Sitting there waiting and feeling unimportant sounds painful, and it makes sense that without any news the delay felt like a sign B didn't care. We know now that a train cancellation stopped B from catching the planned train, so the lateness had a cause outside B's control. That doesn't erase how hurt you felt. It may help to tell B how the waiting affected you. You could also ask what was going on for B on arrival, since what looked like annoyance might have been stress from the journey. Then you could agree together on how to keep each other updated next time.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 596,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 667,
+   "output_tokens_details": {
+    "thinking_tokens": 204
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:29+00:00",
+ "finished_at_utc": "2026-10-29T11:17:01+00:00",
+ "body": {
+  "id": "ee57764e-5946-9ba6-80ec-b55fb649a70f",
+  "object": "chat.completion",
+  "created": 1793272589,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.08, \"undetermined\": 0.87}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.9}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}], \"response\": \"A, it makes sense that silence after your noon message left you worried, especially when you could not tell whether it had been read. What we can say is that no reply arrived before 4 pm; that does not show B saw the message, was upset, or meant to unsettle you. Those possibilities remain open. If you want clarity, a calm check-in that names the wait and asks how B is doing may help more than filling the gap with a story about B's motives. You deserve a direct answer, and so does the uncertainty you are carrying.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and reasoning.\n\nClaim 9791a140 is undetermined. The shared facts do not confirm B saw the message before 4 pm. Claim 8bb3a671 is supported by A's account.\n\nClaim 246bf232 is unsupported. B's account contains no mention of needing to focus.\n\nClaim 246bf232 is contradicted. B's account is absent and contains no report of needing to focus.\n\nClaim 246bf232 is undetermined. B's account is absent, so the material cannot confirm or deny that B reported needing to focus.\n\nClaim 68e7666e is supported by the shared facts. Claim f4c38271 contradicts them, since the shared facts state A received no reply before 4 pm.\n\nClaim 6faf4343 is undetermined. The material shows no evidence that B withheld a reply to make A feel insecure.\n\nClaim 9791a140 is undetermined at 0.9, supported at 0.05, and contradicted at 0.05.\n\nClaim 8bb3a671 is supported at 0.95, contradicted at 0.02, and undetermined at 0.03.\n\nClaim 246bf232 is contradicted at 0.7, undetermined at 0.25, and supported at 0.05.\n\nClaim 246bf232 is undetermined at 0.75, contradicted at 0.20, and supported at 0.05. Claim 68e7666e is supported at 0.98, contradicted at 0.01, and undetermined at 0.01.\n\nClaim f4c38271 is contradicted at 0.97, supported at 0.01, and undetermined at 0.02.\n\nClaim 6faf4343 is undetermined at 0.85, supported at 0.05, and contradicted at 0.10.\n\nThe response should be addressed to A.\n\nI will draft a brief, empathetic reply to A. The response will avoid inventing B's motives and stay within the 60-120 word limit. I am also adjusting the probability for claim 9791a140 so the three values sum to one.\n\nClaim 246bf232 is undetermined at 0.9, supported at 0.03, and contradicted at 0.07. I am now drafting the reply to A.\n\nThe reply to A acknowledges the worry and uncertainty. It notes that no reply before 4 pm does not prove B saw the message or was upset. The response avoids blaming B and suggests checking in without assuming intent.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1630,
+   "completion_tokens": 354,
+   "total_tokens": 4848,
+   "prompt_tokens_details": {
+    "text_tokens": 1630,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2864,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 208400000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

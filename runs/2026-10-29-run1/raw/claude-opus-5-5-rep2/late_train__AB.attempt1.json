@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:11+00:00",
+ "finished_at_utc": "2026-10-29T11:16:17+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS6SdcQaMAHDaAVXfbD",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSqwgKEAgTGAI4AUIIdGhpbmtpbmcSDLWsLlQgYswefO7+PhoMzt4Kv5dXefAeIqyiIjASKN+1mGDqHDyrhTNhpoWhB5qZgYd4gt96frZimk4vVYQImIaZVKSnigsG4WJFpzcqyAeY3ZNtZvIfL4ysU9bwzWqLg8SeXbas87E98Y8lYn6Pkz9jZqhAw0StxGfmjb5oRtXew56DguTmKYVLK+DCpkAUNdGQRp3JWRERyAehcj/lLU0oUrELWwfivUkq3UAVD9a9ttSl0ptE/TZFpQU6pkZi+zevc5XhpBHxhWUeReS+0uAMxCWt6PyM5JjhM/1FXoqyuCpFSxti1El18lIKVduVJgbFa/3ctMwvbFNGWXVdwjTl3WghHR9jun5f+oo0M2axDjSO8+juOfY+tNjpX7cXQ39eVQnNzjGTmo7fZji7hbMLPCKrQLO8pqPRYaLf0ZlJU9kNaCKbiI+pLtK2CkI5/DPKxPMFmC926XjdWJ7uM2Lp30gPsTj+oEpMN7QKrLh2tu2mAOd7VysZ3fanI5GnbsEiqsEcIIuxevIOVTtFepz+QqbTGMqxjk1NxoqthT/IU2jUAul1YbYUVEVeuofUt2xjIrqI85sP2LSU08m2iE6mYljYZRFwf89N8U7yOKJz6B7ANnlWrKf/epa2KqoazlZF5kJ4TmXJ+6ePhgwF4MJmT3gMmMB+vhVk0oux++h8kcJkVoAB2BpvV8G2upLraj0mSkpD5CyR2S7h95MixGg+2pHoHNpuidaE3G/CZyIVtHZX+4wXBQc2YcgKhOGq52liURDy3LMeXwGmWdCPSums99mbKmMkKtAODwneKHvVY8hc06BgJq3xhyJ9R8/4czFaXeofKz4VT+W2mHc7Ijs9P9NiWscjdzZnxfjpf3SgL0zDhZZJTBrc9A0mIyNH58vq0WsCyUCLa1+V1EH4HAYuP3AMLriUeMUGmud62lo+4V2FqjRh+pu/dxea2HmsTkWraxtLeZ5g1MN9G6E/qfT/l9fJCY365hN8KuD7bhcpRBA++pDqCg4W8m5LHdmbBG3QJ5Mk+ww26SWdoDoUBoXBZzNyHFA9u7jiklbBQxqSoAMlyBbS2t8gDmPqDDA7gNtI5rKHIncRWr/TQPv751DPdyHmlq4LZQlNmbR0fdj04FQQM6lLbO/eil4dae4HLgPK6z1MoKJOkuJUjL3qDSnxW377JapGdoNQYX4m0Cd8YRhL7xn8/QzpEe/A7apNU6qL/nTRa7loLrKlM4zt3RZmNiebtSwdRW4mT99Gt7qgFIIEi238lnrJ/8Xi1euZfcJfWzeLE0PwSS1J8pImSks6Ha2MGjv2jLm0nO+W4Das5qXHaddKWb2eYkxWxbCANX/DUbr+tX9OdECHGumUNPdzIxQN3kezCaj78Q1b8PLbeBCWPz/fzxgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.15, \"contradicted\": 0.05, \"undetermined\": 0.8}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.8, \"undetermined\": 0.18}}], \"response\": \"It sounds like you each had a hard evening, and you were each missing part of the picture. A, you waited without knowing about the train cancellation, so feeling unimportant makes sense. B, you were anxious on the platform, wanted to get there, and tried to send a message that may not have reached A. When you met, A saw annoyance and B felt shut out. Neither of you was there for the other's experience. It may help to tell each other what those 30 minutes were like for you, and then agree on a backup plan for times when messages might not get through.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 663,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 676,
+   "output_tokens_details": {
+    "thinking_tokens": 189
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

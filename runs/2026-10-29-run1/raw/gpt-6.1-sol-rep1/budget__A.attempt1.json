@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:18+00:00",
+ "finished_at_utc": "2026-10-29T12:30:29+00:00",
+ "body": {
+  "id": "resp_03531b6aaec4e233016ae33c5ae2bc87d19f57542b89b9b2fe",
+  "object": "response",
+  "created_at": 1793277018,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277029,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_03531b6aaec4e233016ae33c5d11b887d1a8512d0704f5c04b",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxlQAWhyaURaJgzsXeGTiyDyGLZGS5pb_RBat3rYQztUHFTDx_oWHRAgHnO6178ciXR_jq8OPZKb14ASD4qQTLGpIy7GtODWigqgTY2e46sn1JfmzdyvvE1Addx15TqWpMuQF45FX-LBdqiuidb_SKvV9t1q-5CF1Yf4SLRiAaWGQkIX4Ltlyag93iRLg_C0wddw80B-2QZYgp0bAdefVKdVbQbQ7czon274f_Qc1BDRjPw2GJcG39atnPy6ui--izTqdNvV8CjRMin_o060DRzKHK2qIgZ0j7c-m_UkdYT_DjEer-YnZvH4q4Z_lGOf6JjnlzAb3Pv9g6Ye23MXEtgSy5L4YBO9aNkIdpR6WrfGDAP19jT_x6TUkgMhEaIt7WNSlSzMVEfvK5q8L8qg7fub2bwSdUOamrYptVC-Z3x1a9hw7MwEjRkKB08LBJBJsRE1jSSpTAxNObkkgTucnaN1A65QDihXQDVyi5KooDsl4vGiYagd_DcqqfUB-zeOCKU1yhSoC_fTwM-HSI3x4RsD2Vm_9VKjWtGLFJ6vWvhzH2JhGHqOQL2_-zMZhkxGlhnS4uIOElHUQZY6VNQAldrz99c1d5WPMw3KlDoordW27PjfENoKcoARJ_z4VTMs7ZoDMf-HSGMUrJe1rPw0ZqfsVBiN0Nc7YCz5IwQZkPCoI69Plu9vL-0cx7ZqK3gxlfuAjBx4htihVQiGyoZBOdqmOPFYfDkS44gpgmCwgk2pjT3rrzQaYNWrb1nLhoCiTQFADkPr6_Pb698K0zodis7gMDZ-CkJtxvF-y-qzK3j5KKH5tl4JjyLNuW4gUv0YRoCggUcr6Lcxi2bCWYp2TfCKx8FFHpoRffZPn7bbHU4cQuyj8s2Ijjv_Sd5si8SSV82nrFGRVuTWUHkZSOJVCltoaG7zp55T7BqenCG9zeyefYbc0P2gpBoSFf-Yy-1DUebqFTJ3RGyJmjgzPOOjasTZeKxc_giF23ifhwczRvbPhYAE0fhO8tYChAYYVM8CzDkh0IZfGuibyEKiXTR_dhLAWkmAg7xNakca30Oa0cXx3XZSYkJuXX2FG85jJTalI2sCfgfemf_kcBCo82Cb5V_zO0yapTBeOAlDjZk9w3Xivs0tckFKCl12366uEnHSzc0rQfDTTxnN8dhqqqcgdY190IqWFhSkggm0cm6L1CtP1dUNyXfjqFlSYnV7fPFTFwVbzmkN9qeCYd0Bc8a1Y_IlJuK5KrY4Rmw2Y_0QLoyhxi9L5-8A4qO1788fWD1Zi8x4N6rKFNlEV4gzD-m6vWss-OocdoKs11wQS8VcUnh08J5z2XFcaIi9Af0Wf7yTVVemfbg1-r-R92UvMWCPiecLX-fJ-gXgHnShtnlqMwe53uIUcwOZx9aitF8aVIDuigWfpZbBfXeEOmYPhLznAb2sCXO6abRtENasL9U-Rhzx7-_FckW6iDURk_ORC4ldM3np-fJIOPy7GjxIXJH8IUEsBty1XCr6CG-v-wlUKIQKJ7wlW0L6QjKBK-_kxu_ogYstFSP1AkoJy5b4xV9B8ntAtEbOzfw8bKtr5R8233Y6XCbXlFd0U0LP0DJ2d7RATJ4_9u594UvhpqPKkXDkClJJyTmYT70gGMo7k5G0vNDG_ZGlErzluTa--yEYW0QPrC8jHq1QpILNhz2p3eCrBXhvQWi8TdyQnfsdRi5TL3_3ManB4ygYitkYSqxVPY29Of4Wq7Y9UnuWpXVSEXpm26pDHri-hEnnq5c7g-RJn56d_dVNpoFsyXQwhk9LSggezw6KaffMayoXgYSc4Gmi_0OFibSJarEEkzlcZRN9pKaNS9APvsvC-aBqvL8SlIOzc9zBVNh0pojxxe2sKT6WeSwi8_shMA5U-HE-hNk1cOyEhp2zJKU2XtXosr_0MR9FpvJGfDujy32rhcscKSx5Z_p3EeKwcwtnLrdfO7U08PeSCBLTPHh_11Kb4Q4z0iiPTzQiiG08M0JybTloihXxwYDe_YMcHMMhwR_9fN4D0fQUXGCLdWRl4qv8InH8vGH_FZB-ejm9SfBueUXBH-084TwVX5QLXjoO15Yhag1rfSImgvQSlpc05KJn2CgE3o76kJG8QE21-3uIeX8aFiRnmd8zqtUgOSpd118vjd1URCcqPAR60SMuQycfDq70B3g36Tq3ueT-xYUuWzo7s0YKJlX7rORx2kGREwT-UK6oFq8PICCBVfIoutqcBUfgFtASwMcj4vHCD8Va4zQ51vB6h87tty1VffGYJb4EiaoFadFEYaewVFmxpGorU6T1CMIkzKMifGAwQO3ay0RKyyRp0kBLcNA6z2yViacxrdIyrQG4RY2pcMa2pDn2W-0kUt2LUat__rKx5OfnF4cqU_nMqB1Xlwk9-_csbagXSRLoydx1dc5FARYvZmGP6jcutgrXL0TzSxe7rUXR0JmVoRzANGRBDIqlN_QOuwbURL9H6YvnvQADVjkia7VGZSUdWfFKSCus3ni36Mn1iDjyF-pfSNUx2sKlTRwcRh_a-fEVOSBfXahaKgTH55yCy6xhPgSf11pIwp0QOyv11LWpUDKc5jQ-33UfJr2f65JYC450X-abfhMthHdUVSdjYTjAJO7l88UHe95faGbYqH6uZ20e0n782D1OmsDtHB9ZDMtkiYRvLIBlIveubx67A1InpleaiFtwEYcWivM2GzGACXcb6bO-wQKjpMIy6L4FJV7rw89ihkV-M4oHaSrwohrMZ4lQjklE2irkuOVTZN98uTEF09GXpP4E_vSGCABl-KQjPBzbN7NgOOddFBXkkefPz9jrVGmMCuUJgZY05zBlrEW2flgmrmbke4mDOadpMsy6YKSfXWzOQo0H6P763GZcaXuRAzVt5GPRM2G-5c5ZCL46bEFqDmqt6Cluu1npWLrIN0QJ1eYk7h-488KE5F_EF8YFVuMy8chjKslRl154dVNr-6quWTiW_Duf0LgldUmCXwU-kQ1rA6wgCEHYL7MkNneA-mmxy6OKJvrngmXriK7MB6naEEFlqa2teInRFb5b-UdzChb4KdnAy-vRSQD1QR-kEFdj3E8G3GSn3-5Avz-ZzQTbGpyZHx3WYGoNS7eqXh1LUoNmtAFtjhxNmSUEoeoBjX_5SDTDlUft6yi5nJCXEjW-pmexF6-CCmmmN__Zat-glUfsPZLWLja0A8eAenOOpRf",
+    "summary": []
+   },
+   {
+    "id": "msg_03531b6aaec4e233016ae33c61329487d184d8cefeb6612d1f",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"A, you report feeling upset when B questioned the purchase, and you believed the item would benefit you both. Those feelings and intentions can coexist with having broken your agreement to discuss purchases above 100 units. A useful next step would be to acknowledge that directly, explain your reasoning without treating it as an exemption, and ask how B viewed the situation. You could then discuss what to do about this purchase and how to follow your agreement going forward.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 425,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 518,
+   "output_tokens_details": {
+    "reasoning_tokens": 129
+   },
+   "total_tokens": 943
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

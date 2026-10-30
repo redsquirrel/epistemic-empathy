@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:08+00:00",
+ "finished_at_utc": "2026-10-29T12:32:15+00:00",
+ "body": {
+  "id": "resp_00ff16867a57d66d016ae33cc8659487d19a0e2fba5b102a0b",
+  "object": "response",
+  "created_at": 1793277128,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277135,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_00ff16867a57d66d016ae33cc9adc487d1b0fc4e56552afa58",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzP98QYiakFnBOXWi8QhNyiWLyOE0k8SNL3cEyF7DvujoEdofrrNOoRK1XaNcS4Zm6mdAod4kjaejw_8mbD9G602oCOw-yNcZ3fJwhZnULIXcrc3cPH1PzYZniWpW1mNt3i21dAWIrajVDBA4r7yhVZZ5hUmWkxYuGCRwmQKMRX05055RL8Xvd6GeDc0uppIJL21P7v_Rzw4Upg0I8KMpauK2GYqsknfmG5NQg7qye3nceM1WiANu39DcAYPjXG2if8a_gOXFon0dhLnErsfbGGF2KoPKkw2maelgWW2MTUoKKpcgBcUFhbPMCB6q2bxg2h8cdY9silJaxUPadAn7D2e7lOCYuFsIGsMKtDuvWBsZMTGHDp3lefo1cebEmIybbDYOHviwjPFhOZ-tjuo3e7Fn8eCcFac4FwY0OnOP4SWSsYy4jSNfRVNmTkxjdLT6i-3igmhmKigLRbC9XDXhqxvRyx3zuY28kN-uS-orLzuRzGAd6M7bUPOATdnym46ie2xvZKd9tvUqaSAUXBeXAlboSpt97873CSBQIsBSmdW9P0FcqqTQRBte--EQa6q-sWH9EmfZtS0R7J8VCD3nJebwSFCFpvy7ki0M8o80YWT8nwlBMghyJykddVJGqyP1vXTILSOmm0t2zHvStOKSyTNZ77d9afAuxFRw73jtP17aTPofRvwdo1-HqZrGpgS0JBTQZ9qRUzK-eC9xPD8_ArEPQ0eqEGg2pcSiwwNzGZ0-XD7TwhCbKaygttkKlByge-Fxb7tRxmi39y3OmerY9eWoGHPHWrOOHJhaSSq_vJl-fevfCV3d3bFYro2rCdSWbDD9PFmPk74p52X9GhKS5K9Ccgeq13-Q8H5SWWs3lW_mnCguqnxULwzqFqmM5wn-l1amP4qb67yi7G8cOg8LuJcZmnw7CuxG-e5r8TUCD1-9z3fBMPLr4WuHZAhNaNnpOLByV5f3NjuNYfztZfh78-ihMUGw0XtfwwLUV5Cg485F1j3MgXLOZejgNgOpfcJ3I3HdA9gWci5rxfCbHGqA-__g0t6uu2Wl_eQfMWjA0k7Z6VLWLr1mpWpapjH-nh08F76ULVhIy2Z8cO4V02SZenPJ05lxMGK_Ix3UzvDEaRuiz8Xgs3Xq5BPQEI0ovV3ayaVMQn7yP69VR9iSjF7c3u6TlfXKS_RJHvkikVy0m_rLq7AXjdlZDu3maSf0NgqBnQjKqxfo1waD1qw1Vz1x58oLTjlFrdKWM5ouBNc2U8ATDTHcdc1p3Tvpgkdgt7lMwtaie82SurACqsFpcViqMBGruFIDAt-uezIERCLjMqJDkujWMgXXPes3MGAYMkBFJHHYMqIrjUJbw6gfQA3dln6_vktKY1c6_t8LBc1fMVVlRUPVvRu67pEVpnGMYQ1zjIWYZoPOuny0q5QNHkmk8lCDrQcIWbzrpRmcSRryrEQP2MNm80n6ecQHVtu9k42vpGsqoO53v83CqoPnHUx1j1ICNyYNtNBy8cQsSiYcu5qZuUTYe5ObyCGjvReu7PeVALXBKwPVTOrp9gjki3up0kMfQf9wF4SrsBcu4JLIPaiHMHpnYn28_SNBQ9-Omj0ZlZW8WxbI9wzUDFHMBMSPXYKmQHW6p2afYrf2iRFQEOY93cGsCqHNndJmZ7_lxTNMlQlqBQZWf6UtKGvsP7mBvkzERHDwTmPTcOaOq-wFE-EpSpj0M4YEyLnwtFJB15VDSf7gkgAI1TbysEQ1Uv962JgjCUud7qizmNl7E2Jf0nraYz4zSCfOCtO6PzFmG6Lo9cTFp7ub9WKxQfSmk-cWaPJGNzBSOV7jOU94Rje-xesn7PF266SbRRPF_FwY5I9DTsFrPz3wc_V4nQk5yjHc8cBp9XftNRO1Gm56TPlbuTRlqA6VdUOWtOk5jBGIgDuDoAth2KWgcyMCakFQ06Zwj5451tdU_NTehtLsVWSHRl7maNY3a2DfjnOVuj4n1drUmz7iitgY-JKgzUspifC5f8Mb493diDsqB5Hy3OV68-bd2zKfkrEpEdlQSiFYuaijBsHKR01ABlUT7lYP5zhkeJzkelPm6j-KPupsSzm2rHEclk5TqBkSf-3cKv3-BxWLoYJ8HXOlZplAWycegg3LHMwyF1QekdNEfOO4eKTa3YQzHBU5Q9H_Lng1Pj-dCHiQEvGTbt0g7j8NlSVoDPPAJszoxMoDeyA2x3O4SxVgs3qhGf2G-GwpxYRqRoN2luWrjbS10-_mLvnvMuQIyKOOZAZbeLnsXEVxUnlA3ADltqptyuLhhb_i-w8JYmQyCLCujwVFbwNFHJPYwHmWAeoj7zL-oVQli16SQyZTJiBbV61dRkbAZSGPpWlyFz0YZ4-gE1-l-XIBeKlnh7QGkwlgt7feuw8SOlmwd53464EJL10BeT8EgqC65Q5SlIXoXvrGZ-VUkDoHCe81C3gCAqCAMVZVV_nBprG3W6PfB9Ao0pKnFmvPJsd2lntah7BH7oezlpU2BbqK8D8Tqii5ZK1YePoKow9ShrVgzUfY5GndnLySZel9-mQbU3umCMvMRxEbE_XEyHNephDb8JMTA4KdKb-ijJ6tV_UHCPxyV8pS32A_KrEudjrvfjV3LUjBwykua7DzHClQRlSqCyH0hMvbHW22kFTxz3SeyBdWX-IeodVw3d3gwu5P2ea8oCPd7aY8vgoxZjhk9-UKN8kh0SSOsk3K5kpGkRI23DSfN8QFURQ5s=",
+    "summary": []
+   },
+   {
+    "id": "msg_00ff16867a57d66d016ae33ccb8ed887d187241861844412fa",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"5a3a2c4b\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"3a7c047d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"67c569bb\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"5b773f3f\",\n      \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.0, \"undetermined\": 0.95}\n    },\n    {\n      \"id\": \"48367f02\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"3d022458\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"A, feeling disappointed makes sense when you expected time together. However, you and B had not agreed to spend Saturday afternoon together, and you both made separate plans. The information here does not establish that B intended to avoid you. You could say, \u201cI realized I had assumed Saturday was our time, and I felt disappointed. Can we agree on when we\u2019ll spend time together?\u201d Asking about B\u2019s perspective may help separate an unspoken expectation from an intentional rejection.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 406,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 489,
+   "output_tokens_details": {
+    "reasoning_tokens": 91
+   },
+   "total_tokens": 895
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

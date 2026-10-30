@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:01+00:00",
+ "finished_at_utc": "2026-10-29T11:20:19+00:00",
+ "body": {
+  "id": "56266330-9dae-9097-82f4-a141e91646e3",
+  "object": "chat.completion",
+  "created": 1793272801,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.72, \"undetermined\": 0.23}}], \"response\": \"I can see why the silence felt unsettling, A. Not knowing whether a message was read can leave a lot of room for worry, and that reaction makes sense. B, it also sounds as though you were trying to stay focused and did not mean for A to feel ignored. A delayed reply is not the same as a deliberate attempt to cause insecurity, and nothing here shows that intent. When you can, a short check-in about timing and expectations may help both of you feel steadier.\"}",
+     "reasoning_content": "I will judge the claims against the fictional situation and return only JSON.\n\nClaim 9791a140 cannot be judged from the shared facts alone, since they do not state whether B saw the message before 4 pm.\n\nClaim 8bb3a671 is strongly supported by A's account. Claim 246bf232 is also strongly supported by B's account.\n\nClaim 68e7666e is strongly supported by the shared facts. Claim f4c38271 is contradicted, since the shared facts explicitly state A received no reply before 4 pm. Claim 6faf4343 is not fully settled; B's account does not provide clear evidence of intent to make A feel insecure.\n\nB's account explicitly contradicts the motive in claim 6faf4343. B stated they did not want A to feel ignored, which conflicts with withholding a reply to make A insecure. The shared facts do not establish that intent.\n\nClaim 6faf4343 is contradicted. B explicitly stated they did not want A to feel ignored, which directly conflicts with the claimed motive. The fact that no reply was received before 4 pm does not prove deliberate withholding; B's phone being in their bag suggests they may not have seen the message.\n\nI will now draft a brief compassionate reply to the accounts shown, keeping it within 60-120 words.\n\nI am drafting a brief reply addressed to both A and B. It will acknowledge the silence felt by A.\n\nThe draft reply acknowledges A's worry as natural. It notes B was trying to stay focused and did not mean to ignore A. A delayed reply is not the same as deliberately causing insecurity. The reply suggests a short check-in about timing and expectations may help both partners feel steadier.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 339,
+   "total_tokens": 3690,
+   "prompt_tokens_details": {
+    "text_tokens": 1666,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1685,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 129800000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

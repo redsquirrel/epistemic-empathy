@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:38+00:00",
+ "finished_at_utc": "2026-10-29T11:16:44+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS8SsKAQySJbhw7ao7Y",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSjQkKEAgTGAI4AUIIdGhpbmtpbmcSDM8BCcEQ6XZ4H9euqBoM8bRvCha4DkMBwV6dIjBYh5XKjUyaXyqFFgRsmoJI9x9DcrIshhfR7C28D2ciKE+tmt2jDjUTNu7+Qr4pWQQqqghWqwlw9+2S6rtKOT1rxg882CatklRBMfHwyrYp3DIwq8jz8AWu8e219ycRFMLPN8tShkEilFzeo3mUACzzuP26JHb+9/66VGBPLuhQgi/I8firhpVLB9oghocwBV9eavURc7LX4E0qv6VXWs0+tlczrVJDTu2EBshPpvzE9SGn9a+hTXtW1KmR0Hm5e07Zee6osi97VLirvIiaADTZmxIpIjvdYdbn13jlptOJ1gkIlBTbHkbPcfvH2epCoTD1yfkCCd1wVXAPidrNkqOf+I/OwDrf8TZekduo8To1hVFYfsTyGhDoqTDBNk+QNgqRpzPtRmYc3mfG+CSknILgueFSGKHfzW30TWAg3vNDd3UndaLIzgC1QtDezybIg27me76KaL4pAvlKMrktKa6uQWM5EpUB0LLX+VoGqE9C5Wx7r/pM6CiUOQ5xqgyw3Wo0dwT/bnV4RourvwPqODxn8bM6EEwrutPIq0KQftQFhgKa36P9hrHWIb118+AXZE3cNfi29w1+ifO2JLSqre9Du6LxmFTcnP9aMR8QQ9sXXg5QS0LWyL8sZRtnUfHWmphS/OAUqroixgH6WB5L+8HPyLESR5M2lRelwrVkMZk8tm9UiSp8EfHgl34xixoSqxC2V2FSOD+aHJyNkf1rMeRkOb4JGEaOBn10Zhy5vpeN0ssNO2BjUi2HvssePCtjzGcn3tSt7+XRj62VN+09y4RysGJXpYg9T5PtaIUkRd4mbD8nv+4V0h9yE/KwhdSeewdgdNOR18YhlrNpmQ5g6VhZdbSc6xhbIdtEdyCuyTGZGOhAVKhatVDD7uhQa5HwC+18EBWVmvQ//cdPGjth93NUBedAwx3xvae94L6vcNlkdM8FkTNSihjbf/+CM+dpbOTtTQ0EaBVAiLs4Kp/vbdptMaxGzjbsObvkXLr/V3wy/icaap3btdunVIzeJ1iws64vQpWzrB3ptET72R23kG1SYz8WTa0tTz+tpEjHJm/p/MM1yAn/duxq3rIBy8Y4YYHPmXrJvkQjiBxn/VVNjfp7Nb0JtF5r3Zzh6gPMx4DlXpSPWJNMlE9BfHl10st7NDx1TVQ8L+1bJLuDaN74fdl/cLCd5Ehd/9LNXM4wOrSIAuKvlWM2GYfGFYeDxaG45pJvXjziMamJUcN5RM1Sdp6GP+WzO+3bFrG4OfjrhcdRCp5MC0KZBX/BmAiwGa+DT8O/aGJg8lpQ8rOC4bShxVGSLUvIuYWYRvLKs7qi98UY6Tw4uIQEnoVSfJWDkAhaliXOsCYwJa/KRXiv/VmgMJ6CMII14LZ/kp5uuMXZt/WcnqKnPWhNs19yA/lsE0g7rZH6GQk3qSKM/2T7syp6GlYknTZCMKhOWNmoOw1Yzr63It/NqVEQk1fQYYAtLaq49K729CKQBaxsOsAGD0RQGAE="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"b9e87742\",\"probabilities\":{\"supported\":0.88,\"contradicted\":0.02,\"undetermined\":0.1}},{\"id\":\"7215791e\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"635f0b8c\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"674cce8a\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"a88ffb19\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.2,\"undetermined\":0.77}},{\"id\":\"9811759d\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.95,\"undetermined\":0.03}}],\"response\":\"It sounds like a small thing that turned into a bigger hurt on both sides. B, you say you forgot after an important call, and that matters. Still, the dishes were your agreed task, and A ended up facing them in the morning. A short acknowledgment might go further than asking A to understand. A, feeling taken for granted makes sense, but you haven't yet heard what happened. Asking B directly could change how it looks to you. You might both agree on a simple backup plan for when something urgent comes up, such as a quick text saying you'll do them in the morning.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 605,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 656,
+   "output_tokens_details": {
+    "thinking_tokens": 193
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

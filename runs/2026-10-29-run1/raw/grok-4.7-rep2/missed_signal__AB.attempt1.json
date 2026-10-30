@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:06+00:00",
+ "finished_at_utc": "2026-10-29T11:21:21+00:00",
+ "body": {
+  "id": "2a886758-5bb5-98bd-bc1a-9dc9ac6177d8",
+  "object": "chat.completion",
+  "created": 1793272866,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.16, \"undetermined\": 0.80}}], \"response\": \"This looks like a painful mix-up, not a deliberate snub. The note was left on the table, but the fan moved it behind the cabinet before B entered, so B did not see it that evening. A's letdown makes sense if A believed the note had been read and ignored. B's confusion also fits: B had no idea a note existed until A mentioned it after getting upset. Neither reaction has to mean avoidance or a wish to hurt. If you want to reconnect, say what the note was meant to convey and give each other a chance to respond now that you both know what happened.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and brief reasoning.\n\nI am analyzing each claim against the shared facts. The first claim states B deliberately avoided answering a note B had seen that evening.\n\nClaim 1 is contradicted by the shared facts. Claim 2 is supported by A's account. Now evaluating claim 3.\n\nClaim 3 is contradicted by the shared facts. Claim 4 is supported by B's account. Claim 5 is supported by the shared facts. Now evaluating claim 6.\n\nClaim 6 is undetermined. The material provides no evidence that B wanted to hurt A that evening.\n\nClaim 6 is now scored as undetermined. The response will be brief and empathetic, framing the incident as a benign mix-up rather than a deliberate snub.\n\nThe draft response frames the incident as a benign mix-up rather than a deliberate snub. It explains that the fan moved the note behind the cabinet before B entered, so neither partner had any reason to suspect the other of avoidance or ill will. The suggestion is to reconnect by sharing what the note was meant to convey and giving each other a chance to respond now.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1677,
+   "completion_tokens": 364,
+   "total_tokens": 3449,
+   "prompt_tokens_details": {
+    "text_tokens": 1677,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1408,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 122580000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

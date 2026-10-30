@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:01+00:00",
+ "finished_at_utc": "2026-10-29T11:17:30+00:00",
+ "body": {
+  "id": "721b5633-b1b9-9b76-afce-285b5de3dae6",
+  "object": "chat.completion",
+  "created": 1793272621,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"a236e680\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"6fcf6aee\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"1a75ee30\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a7fa5717\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.06, \"undetermined\": 0.82}}, {\"id\": \"d7ed9f33\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"924299ca\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.85, \"undetermined\": 0.12}}], \"response\": \"You both seem to have left dinner with hurt that the other person did not fully see. B, your account is of anxiety, a real wish to arrive, and uncertainty about whether a message got through. A, you describe waiting without news, feeling unimportant, and reading B's late arrival and manner as a lack of care. The shared facts place the missed train outside either of your intentions, which does not erase how the wait felt. It may help to tell each other what you experienced and what you needed\u2014an update, reassurance, or a calmer greeting\u2014without treating the other's feeling as proof of motive.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief explanation.\n\nI am weighing each claim against the shared facts and both partners' accounts.\n\nClaim 1 is supported by B's account. Claim 2 matches the shared fact. Claim 3 is supported by the timing.\n\nClaim 4 is undetermined. A's account only reports that B seemed annoyed, not that B actually was.\n\nClaim 5 is supported by A's account. Claim 6 is contradicted by the shared facts and B's account, which show no intent to punish.\n\nI will also draft a brief empathetic reply to both partners. The response should acknowledge the shared difficulty without taking sides.\n\nThe reply will suggest separating each partner's feelings from the other's intent. It will ask both to state plainly what they needed in the moment: notice, an explanation, and a chance to reconnect\u2014before deciding what the delay meant about the relationship.\n\nI finalized the probability scores so they sum to exactly 1.0 for each claim. I am now drafting the reply, beginning with a line about both partners feeling hurt that the other did not fully see.\n\nThe reply is now fully drafted. It contrasts B's anxiety and uncertainty with A's feeling of being ignored, notes that the shared facts place the delay outside both partners' control, and asks each to describe their own experience and need without treating the other's emotion as proof of intent.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 365,
+   "total_tokens": 4660,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2597,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 190560000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

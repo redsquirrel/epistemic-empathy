@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:45+00:00",
+ "finished_at_utc": "2026-10-29T12:32:53+00:00",
+ "body": {
+  "id": "resp_085a4a586f7b381e016ae33cedf2c487d1b613d23dc7ace851",
+  "object": "response",
+  "created_at": 1793277165,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277173,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_085a4a586f7b381e016ae33ceec9bc87d1a058380344430b75",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zz10ysCD0JcyEHK3PLrGnpb3izDFDYsKREbepNHyOvhJFVbykCDHVt0S0Yt4Z0MUn4WlIwdH_L0BJaPkNuxQ6Y1kpUXJL7op2FdkQwgpNg-_7YjVmQj7ZLCxMqdAcp76Tj5HVeJUICp_vpwXebGJlWDSs-ca75Rvxk3NVNNHtUHrO8JPzmHfpWTdV8kpFSS2bzLFn-Ze7lWEMTVIirneCbg1YUPF75pzlbvOIHs_QuSbcLVe8jXGFOENk6gEcrFiKcl6R9yKyqMGBnRGw2MG5dgIH1uxnt0evlNZb84xk0x8N_-IIp2Ps0U609wscxRT-qo0fD65m34IT93GM8Wm1NACMQEYch8PzgCI1SRSGmGou5oySNVEiQusY8zw-5OrbdA5s6LzkwO0PLRf13VXOfU_YpMtT0IlwPvdAaudKxFOfD7eyLPBWu7OtPyaakwWO9Mqb058r4AAxmMJNZ2xJY0zGxUHM0z65I4vFVUY5V5w2M2bvma0ZLW6IdJKmxvUsv6ll4GD3dWhtczNg_CtncKGcTFc3Bkx4EEdrcOAypuER_XD7cFOD6nQtDgaqZOFaDGLS7qFaWM8ttc3weFr5l6OCwD8SFbEhhbTElMmiennZ3KKLWa1lSy_38_0E9-9B5t68qdmzn7JM6nD-tCjomlUuvS19mXZN3VVPtksrrYb5htctRbfawyLSL3Wov_wXqE6HN5BB25hc-gkY2FiWQy9ottS9uY4-zdNk4Fplo3eYw86RZZcbqCTTDm9xMhk435qc_E4OAWFhb2jdfe0N0g_Fevqd8I3Rx0Fr7wqk5JBiz8v77iEdkidlyudFTLeni-1P4a7yquax0TwmSJl8i5lN6NqVSDfBxAyfpxYwK4lP2dj4maABe6AdlPIE-zRvxx_5p5Q23I0tomhrlXQ_O9Cett55Vd0bzAiRA5IzsiQ0cdqjvDH0_BkQPOacn9pwrnYAWYwkWg9XfKQgeZ6uTrgZ4Oe_W3PolJnMN1v-TgH0Sg3CbJ-ySgbDCEMfv9o_3-lt4g534JcdgECfCoWQbq6XuAIv7Iko3bFDK1N2gYoLffCoGylnHeG_xQ0MiSAWsXPIt-cUeOeCcG6TwUGXXLdmMLhK_3qPDLJPGrycVV6fcc2yKANEc-Cu6EC_7rcS2s5wefMSmcngS7NQ0GZDJClIhP8k5g2GVdEqf8dShb9o3GRIxsh1O5wxbRPa46Wo2gyFPGHfo0d18B7QtpbttrDMFxhjZqAIt6Crh0tOQ69aDN80_revyMj9BgfPkQNpzd2-nNEL_vl0h2AjeTNJXae2MPzoyRu5YVHgbovrhTsDZI8vFUWkx-TaOr4e_72g8PM4T3eivGpjary-GkkqRA0ZqzIviBySmUNJ4r4KHFw4nFbBxqH448JFE00AnrM-KDP_10AVST-Arxw-chzgiSWhZhG8_8e-GCEILQudnCNx3pF1yW1IFg24EFnijivSg_Ii9XcbUbh63A6SpgY1UsSjAQEYxn93AulfIoROYFs4p-rUeqXz0ll8OuFMB8choHX0bIObvYRZGdvah9EpeQJFW9U6jO__cDVSOksq917Yd3URl3py2c4eBu6faOhsWtTFc0UUHZpzQSMSvOW_vvN8UzIqgP5julJZG_McgyCSlyYPIEwVNZX3iqeF4XToquzXy6XiqTW88-2dWRr0VRlh6cceU4xnwITtYTQ5KxgiN2odALycldMBI3ZDuZpXj6vt0SsZSNfKX4wOckmaLpGlwHSypzbvlzTP-QedWnkqJKz_7kqwJZGxCV8z6kmYsi8xHNQ2KdAidbzurMZA4coMNbOJr5yp-PLoK6K71Iw4ZUrbETOlcQZm7qte_zLTZ-hsY78oL6sc7UDq4_UtPFR8u6lpSay4q6hrAjeOXmzrKKfF2XIUh1SR8T79SqjLFGtMy5eqGWz85fx41GRuZis1Fcs1difFVcOPmhCnOtPFYrOSwhxcy_TqgaJgvRn8-b_cGQuywKbmpZK3UaiYYBzK5do8agJBkWsZI_xuP-b0xnwMCsE1lwdiOeOPBvTEhw7GBmzYYC0-RS-w2JMM49YQ95aoPezJyra9NNpMZcoRSe0Ql7fIw3C-7QMYyq0vnA3ycGrkwV5P8U8M4jyuhCH0Fqf1oAdMnbV_CV0pOFZVtRKGGOf2Ip7mXEWeK8Sc_LkQCOhuR1eXVd8i15PAxPv5KfmHpHwB-8aVYiRpVhiUvevr_ZJYZ9xE9h70huwHh48UbQLF3E8J2dG8KSElnoedceqN63uB4bm04XD6II-NIZkLZ-GXtYdX9UseBiCngMzi-pG4NMpZFRuveKH5ogmvLLk_BDoym0SRgxwRJN6MfO3g4xMGj8gz7TGVrTg9XHro94yRI263OeK1n6m5T2X2TIpwN9XTwdM6ilL58E47IOagYZ9xNp5lCHBJwMX8aFrDEawyXWhhWBsPE6i2WWH1hb8zfbI7MgBXlMaO_Bz23k4Kkdr7H6dGs9P3SZQ_h06-y3WvtvomQavR_KsF2AWSLewpWtkMYMV2BvjuseXIY=",
+    "summary": []
+   },
+   {
+    "id": "msg_085a4a586f7b381e016ae33cf140a487d180819f1e0cb53b09",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.98, \"undetermined\": 0.02}\n    }\n  ],\n  \"response\": \"B, you describe needing to concentrate on work while also not wanting A to feel ignored. Those concerns can coexist. The information here does not establish whether you saw the message before 4 pm or how A felt about the delay. It may help to discuss what each of you expects around messaging during work hours. Agreeing on realistic response windows, and a way to flag genuinely urgent messages, could reduce uncertainty without requiring you to stay constantly available.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 405,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 474,
+   "output_tokens_details": {
+    "reasoning_tokens": 87
+   },
+   "total_tokens": 879
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

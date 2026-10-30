@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:18+00:00",
+ "finished_at_utc": "2026-10-29T11:16:23+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS715VKe4PtbvNCRYuG",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS3AYKEAgTGAI4AUIIdGhpbmtpbmcSDNZ63xBLWqpXT5kotRoMiBL66jaWPBCDS574IjAD8g9mNE7vGUfSL6YOir+hgOqfU2AQQElvCGErevTMLxM1rQF7QPRZfCbDU9Gdj3Aq+QWOD4tCtcO6jEwOd+r5GCkE68x/HKHMGw5MtgdKn8R8OuNR6yplF5UG35fPkmAsaewS9n0hbXY/IMypjQCKr1HUAoHbtO9dKHNM31JkEgJhWBJHYB4qRxzw+ybZNqfy8m6bb++XAha5qee8I3POf+VYjs77B58LEBUZHaV2g+xkLHW+CjM3AqCMgTxg+taN9/YG5EFi/VbADavsC3joeZXH/zEwDNUrumELYeh4Nn38UkpPDDJTMAZXr6BFNvUIxpUS2LT33jqqsIoVMAhNImWmtkp9ukg+vDCHM9NSh7CK37dhBgmAdf54QqUrcMaoXTYQ08eLbCZ4CLTMoYTFEReT0pKFN0WbtwCz9GhJLCkkz9Sll9ihCYFk3foXG+ii3ggwgvVFDf1UzLKx/IEfhQ+QZU2m9O7qNBN53dxK8SAZtcPQrEVmxT1HRjoeF3A4rojjWlCQQk0JYKl54LKNIbsw13ka8MDfnB11jrxEkxXlqDlY534tHOb0uFs/E7dbfF0DpPtHj5SueRLhA0ghwcFy9XNxpFjxe0ICngUHm1uL751MpLhVotdFpJoOJ4/Owgt3akb44zN4xL0J5HwOeqe8hxBKM+Fy+LLg8ljAt8SXU6u4H7YljH/Cj1+XvVKSJ5XVv3MrjRnbbvXpCh6UuX7OpIULf35nNRb/Iyld6a+qkEKXzMkoNhZR+EBWplr7ey0swrj2zlvm4aSUj845w8X/6j6GUMGju02BK4iu5m6eHId7lKNY4nt9xFFA3TB+9gTfBVn3ofenorXPL61SPIour1JqIb6x9qkmPWxMH0OZsupoGDyVFnwQeeY+iK0w+7SgSJ6RUGiDTjDGbh3akAUwhQTBNPAIdNfPDfq5FLPBvOGx4fKrRRhEp3X0ERDDYSvnPLeulodl/OC364OJ0J2M39KKmhfOGdmTBz6R3xX02b1IN5OWp0bJkv2tdMklRQgqlR8TCPgQfKfDM6D116UW+GP0KRLWt9Ej/+4T0Y9V778CQzDY6JZs/hgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"9791a140\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.03,\"undetermined\":0.94}},{\"id\":\"8bb3a671\",\"probabilities\":{\"supported\":0.96,\"contradicted\":0.01,\"undetermined\":0.03}},{\"id\":\"246bf232\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"68e7666e\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"f4c38271\",\"probabilities\":{\"supported\":0.01,\"contradicted\":0.96,\"undetermined\":0.03}},{\"id\":\"6faf4343\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.04,\"undetermined\":0.94}}],\"response\":\"Feeling worried during four hours of silence makes sense, especially when you can't tell whether your message was even read. Still, nothing here shows why B didn't reply, or whether B saw the message at all. B could have been busy, away from the phone, or something else entirely. Before you settle on an explanation, try a calm check-in. You might say, 'I noticed I hadn't heard back and got a little worried. Is everything okay?' That way you share how you felt without guessing at B's reasons. It also gives B a chance to explain.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 534,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 561,
+   "output_tokens_details": {
+    "thinking_tokens": 107
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

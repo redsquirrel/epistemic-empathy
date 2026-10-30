@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:35+00:00",
+ "finished_at_utc": "2026-10-29T11:16:59+00:00",
+ "body": {
+  "id": "cf0470d0-8974-9671-b2af-0bb40195dfc2",
+  "object": "chat.completion",
+  "created": 1793272595,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.16, \"undetermined\": 0.80}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.18, \"undetermined\": 0.76}}], \"response\": \"A, it makes sense that being questioned felt upsetting, especially if you believed the item would help both of you. At the same time, the shared facts show the purchase was above the agreed threshold and was not discussed first, which is exactly what the agreement was meant to cover. Owning that breach, even while explaining why you thought the item was useful, would likely matter more to B than defending the purchase itself. A direct apology, a clear account of the cost, and a plan for how you'll handle the next purchase over 100 units could repair trust without dismissing your own frustration.\"}",
+     "reasoning_content": "I will judge the claims against the provided material and return JSON with probabilities and a brief response.\n\nClaim d2d34941 is supported by A's account. The remaining claims are still being evaluated.\n\nClaim c4674476 is strongly supported by the shared facts. Claim 9ecb7755 is contradicted by the same facts.\n\nClaim 4b62ccc6 is contradicted. No account from B was provided, so the claim that B's supplied account explicitly states A intended to humiliate B cannot be supported.\n\nClaim fd583e6f is undetermined. No account from B was provided, so the material does not settle whether B felt excluded.\n\nClaim 5520962c is undetermined. One purchase does not establish consistent impulsiveness.\n\nA brief neutral reply to A will follow.\n\nThe draft response acknowledges A's upset while noting the purchase breached the agreed discussion threshold. It suggests owning that breach is more important than defending the purchase itself.\n\nThe draft response now adds a direct apology, a clear account of the cost, and a plan for future purchases over 100 units. This would repair trust without dismissing A's frustration.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1654,
+   "completion_tokens": 359,
+   "total_tokens": 4288,
+   "prompt_tokens_details": {
+    "text_tokens": 1654,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2275,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 173840000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

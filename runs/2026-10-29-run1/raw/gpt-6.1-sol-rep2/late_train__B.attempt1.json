@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:44+00:00",
+ "finished_at_utc": "2026-10-29T12:31:53+00:00",
+ "body": {
+  "id": "resp_0dabf4c8d9785e14016ae33cb0ec6887d18b0af96a545ab8b0",
+  "object": "response",
+  "created_at": 1793277104,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277113,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0dabf4c8d9785e14016ae33cb2609087d1911506987aaf9f4a",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zy5DPUV5f0jI9WoKKq1YhSBuqrukQ1oIfdwv8AO2FOzbEbLDoNKh11B0N1gGEob17zqRY2LqfNxtTQn-_61VaDagrubVxeIWnnYS5YYqIZZqwqUTk4mYbe3rcoHxLVbY-DiLRETxyi3pLAvJwP6Ardyal1lTCbYBk9-kff8wJw9NVotejrnKm4m6JjK8CXJJPCrmcIKgeC_DHW7GJAK-2rXJsTXzo-SofVxg57bx61gWUaA24Ovz4qjLQ43AJAMuwa5NJDwy2wTSftEbwfH3XubUKefyQ2M-BbRJvtzMAUkIJOyW0iBmMuA_PeQFuq6x4OioRy4zN872CB9wsr8ojNwUaC1IGpy5PQHRWXc7Lyeow7m6HECvT4_wBq3m4afxMFTcEz00GvgdOWzLK0W0A6lnu4M4yLBXtWrW377TSb1349ephl_hbIwhqdV3T-N1dW9WdPsQD7-MHXRQDDRtJc5DJkM_QvmrY9GhBkDgty4JQFMAQb09l45i17gt72P35Cy45qO6KXibwqaydWAPAglQtDJ6Z1mE01UDMvqhAQhBwEbsUH3A5j1ra5hhldCQGBxc1dETBOUgTDo_yupioJlnFgvQLGp8-3cMQVxD3BM5nw6q7qXsYngdUr47kXsxgpUKV7oJAusFWWNJtsy_oAgEfiigCKyQbinDtA837KKxebcEyih7KsPCv-5rOgmVfjvHwMeskEU6oK7khn3NW61PtzIWpkbhFeGG7GpFV1QG8BoBGg8D9axbOmZRW58cXY9kiFLf3Q1SjLN83R4XXQt__2N6WxiGU4JjUJnOYPzyAI0UrT_IBTSz5gZgXP8r6Ek8_8OLEhbR9sAePUUaw48DslwslrZD433hcMEKpHKU5QvTB6hsj8mz7hxPHXqN6En7f5_Qj7qwErvB4I_E3OgOdPC3JE0ndhFQD4OHqy44MR_BWsZ_97I2BE_zV3n6_gcOdeDfK1Ik_I96BwXe6gn1SW0CIyR9JLQf5IokrboVM-xDkDJcThQxJYnQoU0V5m5V6oaKWmhgy-26P16IhznQM_KfTWcK5UdP0FNd0B80imJ_Chbiq4m1NSLNaqDZc-xXNKV5cGlcmqRavL7L1CtNfXUPwfV0Fv71-s7tYauLCWUoPQdmHbwmYDf1mQ93SdQRJ7DDt1MLsPiiP8zXBjVIhEsWRieyRfGaQ03glOL7N7-5VePHOKbz9Lb4z8f_nFKdpWrFCFgCAxZggxGWr6Y7b-5ZcfMkiJaiNOkDs_Tk-xsahGMzkWSVmbhs_-SaPbs-kVEcb8MimqNofupmZgjQC3tbxQJnkuQQYtu0Dg-n84bG4tTxqfU1O79q3z1f55CuXgm_cBke1X0-ubRdqjH3sovcDNYvEVm4csqxTAH-V4Wl8qZQ9HTafQiD6QK1r4m78o6sqY2lpraT9MkCmFQV0MhFRNJmnVTCMjH4vd4lai4o1VHqprZJvx9SgRTjPMyTziLtC81WOr7zjdfnDJI1_qo5iyFs9o1hLlTHL0bpWH7XU7cePKoGRsL4yYsDPzgTIQ0PN2-c1i1Lqm46meH1XDvC9_gEsr8AOY586W1gznS6esiLb2uVSSs-V4xFGnpGkZobon41zaoJG25UrMRyvtvh0FKSgZD3g4nmkON-rBoJMrl1B54vgJtmoXTfwykpfhiziRnxDCUrH7MWy21f7l0wr8qEUIsElYj9THigHefSjw9Jq8tTcW8dglZVO659XYnaWFvZXI6mdHHfSbCKp_oyVGRX9ghkK1ij-5eDhmCgKf2KtosvSiEJf0-JbHpkxyv4f_Fv2rhSP6heJ0bG7Vvx3ZW9jE4NASBEc9U4RHVjBjc2FBjP62Rb3c1lw37_d_xzHGugSGmA_LB9N84hKBGMUMy_hSRYvbyY8so6myCZmkaErAM8kGTeyaOJN3AsA2EpvpSyEi2nQnhoCD29Yss_skezV64kkGkjfLT4iB5ZJ7eD91av5W7FGSFAejrN5wL8GPyvchpXI_oBxkjTE5qlDMgHe0OKu9N-lAUD3LyDqIdy4-hTgAyecD_mQN3nH6cPB1b8opwbAW3ipgL90opnwwmO2ayN8uj0CdfGGsWYp0tEUPHocTZl9Ecbqm1Te_pgcz5ZsV9DRBE2XsJaBcKYePzJPY9_cCU42bf61dnm3eVXrR3A7EWYKIqxKdRSD5r2L8GZVtBDrNIpuKc48O90K1b8UQ7OSlgIf2LIQhV32MeN_8cTbB36dO4iaTfDYrZLFmyIVV0f2rFjXPj9nlgkibvOU86fymX8Zmx3pC0U2de81ENIxHT7CGH2LuKsitcXvLeActH_UqvBI9hYIV6uzT61ycdxJE_sQQY5fdP8G1Ryt1tet2XH85okQZf1fTFmnHwicDZ6ZQL-9YsjgC-P2iIzmBW4aZkEBlt88q7OZiUVMSn9tr-t53Tkt5ZN49EQM_THqp7kdKYGpj34ny2dAXcrTXVfFF1D1p82Nqzv8h5YvRJt9J5nk8-jPRDeUO5YFa9JBQiTEQKtqXA-UcxAa10lHLsgVCLX7GpZHjTycOWaAq7pqtDHYFGEsah3kxNt8nFuotLWSPvm5rp4SgWcbBQilbGCIS4J99B4CCYoKkRmltjeFXUHft6P1aI",
+    "summary": []
+   },
+   {
+    "id": "msg_0dabf4c8d9785e14016ae33cb57df487d1ae7397a885ef2a20",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}}],\"response\":\"You describe feeling anxious while trying to reach dinner after your planned train was cancelled. You also tried to send a message, though you don\u2019t know whether A received it. Finding A unwilling to talk may have made an already stressful evening harder. When you\u2019re both ready, you could explain what happened, acknowledge the half-hour wait, and ask whether your message arrived. A\u2019s feelings and reasons for not talking aren\u2019t established here, so leave room to hear their perspective.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 425,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 401,
+   "output_tokens_details": {
+    "reasoning_tokens": 97
+   },
+   "total_tokens": 826
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

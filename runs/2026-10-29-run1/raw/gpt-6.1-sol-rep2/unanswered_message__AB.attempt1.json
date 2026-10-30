@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:28+00:00",
+ "finished_at_utc": "2026-10-29T12:31:33+00:00",
+ "body": {
+  "id": "resp_04cb5bfd12df2a9b016ae33ca092bc87d19b0e63f6da658a80",
+  "object": "response",
+  "created_at": 1793277088,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277093,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_04cb5bfd12df2a9b016ae33ca1cb1c87d19ed17fc7c18210ce",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\n        \"supported\": 0.02,\n        \"contradicted\": 0.03,\n        \"undetermined\": 0.95\n      }\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.94,\n        \"undetermined\": 0.05\n      }\n    }\n  ],\n  \"response\": \"A, you describe feeling worried during the silence and wondering whether B was upset, while not knowing whether the message had been read. B, you describe keeping your phone in your bag while working, needing to focus, and not wanting A to feel ignored. These accounts do not establish whether B saw the message before 4 pm, and the delay alone does not show anger or an intention to cause insecurity. It may help to discuss expectations for replies during work and agree on a simple way to signal when either of you is unavailable.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 438,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 873
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

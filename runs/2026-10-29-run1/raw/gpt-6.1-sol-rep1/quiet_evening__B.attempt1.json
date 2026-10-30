@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:44+00:00",
+ "finished_at_utc": "2026-10-29T12:30:54+00:00",
+ "body": {
+  "id": "resp_04d34ef923713ac3016ae33c74fb9c87d1bc1105dff1a88f53",
+  "object": "response",
+  "created_at": 1793277045,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277054,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_04d34ef923713ac3016ae33c75e23887d191213b14eae53eb1",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zx-kT-E8CDgdfl7AXGECtzlRTMxkitJqv6jcXPY_nBULfHLPs2IDBaF_oeDksfS6K_d3XCs2RLmFGIA4nc0zeX9ySaN2b9JuTrCXzUkhJH7ukMSnTENyO8MkPLMgTG30JBYHNdC6kSvy3zrCJutKcGspVg44QXgN1r7lyy78ug_q4yL_yzGNPOAK14w_5eVzssQUngzkxi-L-VDSyvG0FxjhJoAG1mLn1Uj-uxe5jbosAe335rgJ2O5CVVLMMkFocVTgJM_xoFxMK5yMi8g-kbm9btoCb2WluL7phMyncM_ajCowA9VHOetsaie7e7Myjnpw9IzNVVf1CuiJRQe6ShI8TOBULa72LYZZnK2ZfPLdnCwWqYQVwfE3mcdCwMkQqacE7ttjAXFyGWskaTiZwjDAfJuxIMJRwYLANEjeypI_cB0j286GhUS0JfcHeGhkXHwKtl53Do3xVctsok0u4MvoY1AhGk7HgZKazABQXE7l_VvND8appGVXdxotUHmCVt1hbo3RXcaDG4imMirkeqkM1jNoDfxx9q327uX7YeTy2XviPprB5F5GG3eNOZluvg1CiLwTi7wGA1E0gtfFF6NbP1gkfyrkOPdHOgCK4EtERFu7pcOy9eMButgh3WgjDT5vNEC1vcU56jDfRPJ9hyz6OFTSsiMn5kKKuab48_dI-enqWKv_j6Jgqj9RPfvMbCQpjF0GdyFpBBFG2XN7Ax9x1fcykz7_8p0VBGxgtbGSTwRIXEgI_l2E8dXWcuoEgVykh-hOHr-egn_RLT6aDzBgkK4THRZr021_Mj5qpeK8W67kMreMRaet6pioQTAz7EzVEgA6dlyJUXP7nV-CujJ7VxD10iEX37laALb7MgVevijdbClKTCNJxu__QrxvWtqHoLSrZyGk3Y8C4RWnjuC-IU5BuH8gsF9Fb0zE8wUxMaJ6W1-BoU8MyGcntgPTdpzX-ZxZ-nf0xHpTLxee_GRkhLOI8ctksKs1MjTZfgVo1Gq56-4U8qLZe-3X7lkYGoeHHbKxofsq-pt0TlV54wY9JGZSR6ZSHNkz-iRlOjR34iCVp9w7kgssZROyiArVYtxh84LkVnI9tRYgoz51uqAJRlr6FPXsiz6Sj2rbT9GCpCWRY8E_lIIA9IHvabQ3SDzT1EbX6CuJprAgaK5Xg7tSLKFTB7-nmxAvDHskzfDLU8T7ZSZ0_AduU6DDE35brMoQtq0k6zbhAxSGoHSjVBJpNCe1oZ5BoO0G60POZo84Rb_JVPWWYBg0iOC7AULJIZeqqckM2eLBal1wrverVBK_Xi66oYh7Kh3Z5rKpigeQW-Pzs8VnXFkdBvWJsK3HdDR3IsRvACXIPwwvflpOnAlYQmuHK8NJr0Yqws1pjBXsKP4rLiBLs19Rsubl-yhpZJAYRb4W3Sgl9fxrQ09pTfjZTcmN68JDCsABHYKUVpQ6PSuiRSllmtvq1AK6sJ54rIqPsP8Q-lb0d8p3AM58PWaXTUhtv5BNbKMhuGs494of4T8UdaX_85-RR16ERu-mBVhzmp-6a4BjZiIZZTmoqdqg_FYaGdnXcwuUcXCdhxYRygWN1eqSUwWVT8-9MzFiBLSmeJYHVIRWNMIsRNF0GwxtOpzcbf4AX06UPBx4Ko-2F73arWTAXGc6uyelH6x7Eh1m-KMv-SMDJu2TyxzIRujoixVfI8h8kof3zihvu-AqBMjSlXJMCnnrYLjiDwJNALLFjJt5QaHsNgpKkQWSSbtpeqwfXLVpvovBBEjFzO-z2BRaulaBi4IadQgmDI6vm144srjEUrs8Vquqh-P7MCnW5QJO38agvljwZi3U6oAIyi5I3D8ElR1dyWpnEn1n18DsMl4XgHjskbRSeMQq3uyyYyLG6e5ZfgY61SdNCwWL34JqvdZiq6QWa98iyfooNXhZR4TIiCauEnpKsbtRJkd-YKgwIDg5A_CA7Okp68Df2tyFJTKERJ6N06XYkSvA1JeECVZAo1I6elodolF3ZRmQICQNyYBdQ4owq1qzWKPz6d5Vr800_yVhHP2bFsj3T_rLh4JOJN2o3VKdYm7i7IixPoCkV8ZN5oQx4gOYZ6aOef1t6pdMRQlgaf6U65fEcpeQ4_R7JhEFwxN75n-euRsR_QEmAyVBOfI5lhjRDUaqo0cTHN1RLmVUjH9yayEh1OMamgYNfFIRifEhCpGRTD2fmzNcu9fZrYA_GzIyJaymZi1uAfQiy25hu3tK6NF-_nw8D0Q4ahpWt3YMresQZ5a3aomgAdV1jKWMAKBoFQAeg-_ZGqy03n01-JcaoRLf9yq_midXLOvAlPrbX7ZdnS7cNFPNZEYgPILvsN6oXd5RV51ohuVuPVo5NGYE-PCweQlAZoCJ6lCgaTcL4emIdECgLAoW_qQVVGIIaUXIGbXNrjURPunkFeeTuNCyA15xajWCItNbMMRGc02sm9QD6Hw6knoo3tr2VzUbT64ZapNabx97U7cNKQSfTjOCWvWaEcPYch3dx8WtMZvjZeVpXn12SQQhcemV599YRT4YDmj9xPv4zoqLwIE1W9A8xjTrx8ScSK7JfJtoTeLucKIP3Bs6Vj8c0B2U-ob_B-LdOwX1uyz8h__OnuGQZ0mzE644H2h4k9vLU8AfPydnQQgWV5sRG725N9Gx2CXCphmiGR9w7zu5R3biYJ9NcfxM9iK9oIXfMtKlzoSoqhXbjKD8ouEMntIz-8sJtNK0Knfaf9-x_SwXAA1iUEVI5xFRc0xzWzY-2BwlU_gAKmROgMPA--8MSfE62SxEEe6QXSC9vE9mDifyLjHGaS6SIyb8zYXpRznx7gd7LXQrSZiSrjmqbWk9j1yW5nhWZBL0-ggsna2SdaSrj_CBaCMs6oAkoUFUpIP6gZx6Tl4jI924qOV_uYkgqXpDizI5Kdlo3JhDwNlLrbVBBvJQRcbO94lTC-hUSu55nJw7MrdUnIKYxeuxeACecHH0jM2oHrnXSnZ5byxnTpBL3cfe78Nw1Wy6Wm3jZL8xUu2_lVgIjOynfVSzjuW52dsLpfzb3r5beTEgIQjcU-OuMLNaZ_ZCB32cp9m3XqWHG8bZIpsjnpDXhqs--2aLPutBR_eey12PNCj2uqg51FafJbbPmCRWPec9JwkhOf05mFeI31d2yUzyZZP6eofb2nHR2yQE3tn5tjjVS85TMu8cNWz0JtNNrYDLmY5dMtOLAXLX4Ax4szneev8nbwtBSyKIgQSUE8QYMLdCwfA84zgPdKol-gJ7k9-0BMagCZKBToObOvN2Af5y1mCEvDsaniCWC73yNjUBhHZCML7TQw=",
+    "summary": []
+   },
+   {
+    "id": "msg_04d34ef923713ac3016ae33c7a83dc87d1b9b5e54d39ee63bf",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\n        \"supported\": 0.02,\n        \"contradicted\": 0.03,\n        \"undetermined\": 0.95\n      }\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.04,\n        \"undetermined\": 0.95\n      }\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.88,\n        \"undetermined\": 0.11\n      }\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.98,\n        \"undetermined\": 0.02\n      }\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    }\n  ],\n  \"response\": \"B, you describe feeling overloaded by workplace noise and taking quiet time so you could reconnect afterward. That account does not establish anger or a wish to end the relationship, and A\u2019s perspective is not provided. Since you had no explicit greeting agreement, it may help to discuss what each of you expects when arriving home. A brief heads-up\u2014\u201cI need twenty minutes of quiet, then I\u2019d like to connect\u201d\u2014could make your intention clearer.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 562,
+   "output_tokens_details": {
+    "reasoning_tokens": 138
+   },
+   "total_tokens": 976
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

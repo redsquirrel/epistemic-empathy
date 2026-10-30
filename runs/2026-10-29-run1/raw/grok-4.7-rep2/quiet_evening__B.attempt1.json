@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:29+00:00",
+ "finished_at_utc": "2026-10-29T11:19:01+00:00",
+ "body": {
+  "id": "c79c0697-6cf8-99e8-9190-5951f42fadf8",
+  "object": "chat.completion",
+  "created": 1793272709,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.1, \"undetermined\": 0.85}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.11, \"undetermined\": 0.85}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.88, \"undetermined\": 0.1}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}], \"response\": \"It sounds like you came home already stretched thin by noise and needed a short quiet stretch before you could be present. Taking time alone is understandable when you are overloaded, and wanting that pause so you could meet your partner's needs afterward suggests you were trying to show up, not end things. Since you never set an explicit greeting expectation, it may help to say plainly that the time alone was about recovering from work, not anger or rejection. A brief check-in could keep the silence from being read as something it was not.\"}",
+     "reasoning_content": "I will judge the claims against the provided material and return only JSON.\n\nClaim 30c8456f is undetermined. B reported feeling overloaded by noise, not angry.\n\nClaim 3c9d9ff4 is undetermined. A's account is absent, so there is no evidence that A reported feeling rejected.\n\nClaim 7587477c is supported. The shared facts confirm B spent time alone after arriving home.\n\nClaim 57457681 is contradicted. B's account explains the room was for a quiet interval due to work noise, not to end the relationship.\n\nClaim 29989694 is undetermined. A's supplied account is absent from the material.\n\nClaim 29989694 is contradicted. The material contains no A's account, so the claim that A explicitly stated B was angry with A is false.\n\nClaim 69c4aa40 is supported. B explicitly reported wanting a quiet interval.\n\nI am assigning probability scores to each claim. Claim 30c8456f is undetermined with supported at 0.02, contradicted at 0.08, and undetermined at 0.90. Claim 3c9d9ff4 may be contradicted rather than undetermined, since A's account is absent from the material.\n\nClaim 3c9d9ff4 is undetermined. A's account is absent, so the material does not settle whether A reported feeling rejected. The probabilities are supported 0.03, contradicted 0.12, and undetermined 0.85.\n\nClaim 7587477c is strongly supported. The shared facts confirm B spent time alone after arriving home. The probabilities are supported 0.97, contradicted 0.01, and undetermined 0.02.\n\nClaim 57457681 is strongly contradicted. B's stated reason for the room was a quiet interval to handle A's needs, not to end the relationship. The probabilities are supported 0.02, contradicted 0.93, and undetermined 0.05.\n\nClaim 29989694 is contradicted with supported at 0.02, contradicted at 0.90, and undetermined at 0.08.\n\nClaim 69c4aa40 is strongly supported. The probabilities are supported 0.98, contradicted 0.01, and undetermined 0.01.\n\nA brief empathetic reply to B is being drafted. It acknowledges their need for a quiet interval after work noise overload.\n\nThe draft reply is complete. It frames the twenty-minute alone time as recovery from work overload rather than anger or withdrawal, and suggests a plain check-in to prevent silence from being misread.\n\nReconsidering claim 29989694. The material lacks A's account entirely, so the claim that it explicitly states B was angry is not contradicted by the text; it simply cannot be verified. \"Undetermined\" may be more precise than \"contradicted.\"\n\nReconsidering claim 29989694. The exercise only supplies B's account, so A's supplied account does not exist and cannot contain the statement. This makes the claim contradicted rather than undetermined.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1644,
+   "completion_tokens": 345,
+   "total_tokens": 4473,
+   "prompt_tokens_details": {
+    "text_tokens": 1644,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2484,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 179580000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

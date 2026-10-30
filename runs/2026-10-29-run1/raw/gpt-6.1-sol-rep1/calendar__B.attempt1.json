@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:29+00:00",
+ "finished_at_utc": "2026-10-29T12:30:38+00:00",
+ "body": {
+  "id": "resp_0bb52c067be2355a016ae33c65571087d1acb29aeebd8d363c",
+  "object": "response",
+  "created_at": 1793277029,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277038,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0bb52c067be2355a016ae33c66d7cc87d1a5bc5da163469a3b",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxu7-P1NqgDEjb1QZx7XnSPX-kDgNybbV6lHPkJNKnMWnQj3FlOMtT6GVdTjGrvRccuzJqxEZKewRIDMZqYtfafQ34-wYI34N3YcdHwRaOfXrhaSjYHmcbeIZNjHVZxTgJqqr-RPA3lcywKCDjeduke-kVz7OBlA9u-lkv-Q0RLYyyV9uPkc7ShhFa4J3w-2DJJPSS7gJLG3Noy-8IgX8IkCvseCzms4uc2R4mpoLHAVrYNL_r8mPLHlHMgewdt6a8waQj1W_gU6zBG4E50W96_IPvgU2jQvCg-HnmXSELtj094Cz7F4PPUtOUAx0CxUh3oDwWkpDzo09aDJrIM70ivvIbL250sFyGJzJXIVuQIrmSftH5OWDstZ2GXQJo7MQ450aL5FTVkVBmbMKP6zd6COEyJ-5-iK7HFTJwGvn4jJo1mxO5JPVlIXapeRkVtHzuG3Y6yYNu7pn2W7baZDq7LZsnS29DmNhjhE9XN3Knq2LKBZxZTgt4-PYiXSP1df3sP8cvX05GDE5NoNycl31YeSVFk-1qfhb4wmZaiPUwtWHpg9UaFfGEdWdqr3yv5JePQ-9GWHn6Q2_qFwPokEDbKymlzDsCGHiKER2ymcAKl7PHgn-FzXv6KD7V_ZYVmtkwc2356Xqurlkm6ziW3RI7A7r9yXEr-7chJQrrv26NWA6BiUv_yh5H2bJrbfXUeSyBEjWVEvwHdfH3-iNcJh8YXYU0ini1YKq6DO_OvE3R8d8IXuNxA-WMnQKB3BhssnZo8t_-eYvGJJdAGANwpOCEeTOwOuMsuLMAC80YfKWYmfzlJDu-MhYxdBvxCQam1xn0oudmHUxZWpzTuWRJiUCAk6LPIw45I99A5G4tSZakXFFYs49q60zdX_1-h5rbXlBggkk0IOFQwOMVZcNiyJNHPFXXZvo00qePSqkqH9R3p4qgOfRpbfqD8fIQdsQLtVk6ZMJrmXOIhSPxEE1_nYCesvAo3TWO91jOawazdmlG4qKzZJcmAXQoTKd-9G4MzDrIsJv-KRocK9n8I7NDEf0G612HTiNl_5ahKQZYh2QmG0Ex5skTGke0n8RQbBAOT9vHQWq_e-L8LnU8F6RmfsqmKnTwnmLz8-CUfD24K0WNB14NQFf69H4tQ_iuARtQY89h3JQbWo2HlzWAgdfYtw0cgSEsumir2PnWPDMUy3kwnFCQ5eZ-1PORbFDHNWyx4uFEI1EIedSlQO363U9siNNpTGdibQO3BB-BBjhQ667T2GcsG-64wSzScZgTMn4f4H_wVAhkP1MmV8x-AaF__aCylclsuqZnkv_y27NZKWqm7eXXo5nuelUsxXLIzfqkv5CZbh51M0r6nxIsLCyipxEDcLM_FJiB_CuF7NlZSTrj4YTTQ-Ik5MSxqbSyytguE9i_LExlmm2llKulw8BtC6YPFlhUwKgcCF2VFD8M-CN2UXcD-nmpW_YYZvEGqBgF4x5CdKLwY0-yS8VViWLUQfjUD7DEn4eAL5gmgTvGi7zkzHHCPuJd3OwRPXatDb56OovCb3kBE7eFNJz5J_j9Ps2e-sFIz3VX5TTXx5zIcDOM3awDeJVdVEz4g4MCkuDvl-yNCi0TWUtd0QajxsLYeXmM_z9dllJaumFTLsfSrTqfGGKz62y1c0GnYb0jNnZqs_8We2aprq0-_RJ-jxVNuYE20ExAuftHGssTZNGuRZaBkyCsXBhgvK_ToOLuLRGG9FFL5vZlwMBUjkSUsKTWEk4ZKI-_v7S3OnqHCBNTBKtoPcoulXzRr5x2fZLMTml-u-el6Ds8CUlrnZwmWy1JS8F6cL7OgclXMbFE4vkmYOlxDOxeYG6qidKPeapcKmViCpwSjrKMU5GJrt5jNVCiCJcg3PAO4Zly_JjngT9kDIHNHEQ6MQo002MVJsH_HMO0fuBtGSYjODv9bep6GPeBCgoO_OSxICE6kHx9tCoLzzmr7ZW2f3LJZFsdijGRC6sX8Qop4aONOR7tDbbP8FR-4KDINF-asZjjPqENpHow-MBOWjloE1AZk79AAc8dnOZ4IEOGmE_K-y2v1QACeQwH8FGHTFKRRLMwAvhQ32CQvJPcP-8PHBKsVwp21j6VpW9KUvHOHm_K5WwEvMGNHAobRqOFGPuyZoaLCFo5VEYjaal0sihdmtR86MHUL3sYL1jrBVD0-EHmyl660k233YW85fKiNHOylwtnNQQns1swH6FdrYBTRVxLMNy8B3RwB_8wvUwdlMnucK1Ka5W5MBsn9XsVQPg7snvnIeOw0xmOhCotsEz54uwjkUd87Fhj0vC5yNZXRGEdFJ7fWx38XkTWrxz_9_nXsCLhPuUS3v_IAEGpkFouksNcy1n6OlmDfrD1zbd4WAqNCuRhDHVNJWfV-5kIe3tlw2sZQzVAiHJNDc5FwDTvQHnveZIN76QZH4qGqGFvLh6HNkRrrTvQpQNSzsCNjyv18DNHtj1fhacb-B_B9QiB9LGE9xcMaDST-mByhbkN83s8-tFTSYW_dnQTmyMPwx4sIrMOVZO5as9xefaIKssrhKMn9JcZzJ7zL-kVGtft1kGvp9kxSPjrShNNRTfT8WrA_-PnE_n8q8N0FRbLlSxxi_j2CyZK8MstL8F7XReZ86O0UroS0OyRrl-n2aG-9Kgu1pr8UL8IYJvSfHZjPGttQmg8EHVxidora0THtyw9hNoa2yeAshDZ_GPZb9gv1dwKD8qTb3yMko3bVIqi4WGYI7fHF32V4qlDS5-vE6hTiZ1drfKnpp1ZmLEAF-eiR08v_cPicI9HZ_Cpe7fXKtrnZvXdYCfxHJKUMa3MGU1vNdXIrFzLRtl611Qlvc2u3VScPZe1RLd8febGPSz3a93j7IMRtyV5r8Efyb35Jt4QcFun8CJo0EYWLORGoJtE-DMjbeyaOsdTmt2gp6Y_SAOmKWOuKrH0r8L8JoeclClXLbqzPDbjCKBry3X5Ff6grwxkK584J2N85DoMRrh5OkC7puM07nGVYKcmsiJ_7hCGc6kX8h5ybWfhu9hQ-fXD7Ve5DCnt4_omz00UTmQ-eC3mzwEvR0OJtQGE6iUU_HaHAFSlf79_6SCXtI-2S6BjpoJLLIIOXqOva0JCp5XwS393Vny-nk6XuuUe28mNDpe0g8aITqVm82UGFxUqwW_Adwl28Z9o44WdzZBDEVYnlct9ytsNjDrs7hsauI3OJz5upQ4Ni-loC5AFPooE8AVnpk9MQfhY3YMQE7soVfS-UmG3JBbGU4l0gPX5M-xaqW3aDxAFBJQGH9zGrYt-BQqqOO56sWiAovMSig_nOplH5OxiyOQ3KksEUXRc9y9C14XLS",
+    "summary": []
+   },
+   {
+    "id": "msg_0bb52c067be2355a016ae33c6b273487d1a6d4857c72e1cee0",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.99,\"undetermined\":0.01}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.0,\"undetermined\":0.98}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.02,\"undetermined\":0.98}}],\"response\":\"B, you describe feeling surprised, and the shared facts confirm that you both made separate plans without agreeing to spend Saturday afternoon together. That does not establish what A expected or why the disagreement arose. Calling A \u201calways so sensitive\u201d risks turning a specific disagreement into a judgment about their character. You could explain your understanding of the plans, ask what A had expected, and discuss how to confirm shared time more explicitly in the future.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 402,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 441,
+   "output_tokens_details": {
+    "reasoning_tokens": 142
+   },
+   "total_tokens": 843
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

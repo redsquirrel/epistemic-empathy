@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:22+00:00",
+ "finished_at_utc": "2026-10-29T12:30:31+00:00",
+ "body": {
+  "id": "resp_0bf68298702f2017016ae33c5ec25c87d1b1c941311dbdb92c",
+  "object": "response",
+  "created_at": 1793277022,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277030,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0bf68298702f2017016ae33c5ff4d887d1ac7359540a945de7",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxm2pKLkaTDdwNisvbHKTLPMU22drywLUveG7mhYFbpOLkFmhpHvaqbGD7jzbSB1iO1A8FWxkCQc9j5OA7lmp2DaLu4B0EXyr7GdodyObSsfbH7J0CAcgYxmOEuhISZbn_oZcugSU3F2nYm1IoEOMyCFPKaVo_gs3h5YZhhjk-Nujb2iN5YDm8fcbeZ7Yg_139hlhq-yh9rO3zqfAW6PDAFE1CiWP_BBYjjiWXafEf0v-rzlgb4BfJ7cYOEQaVsrhB4FmQcGElk7Hk5E3v6MELDWtJnYSwuh8U2WHS55gRd0Bn-mcpJMBuqKCM2T-7OD1BOe-LlZkRU3nSHOX1rO-JgVRxrqiPC8ys_Ah_BLYin__mPCY5-iFmp-H0jaeoXhUz5NBvCs2kqdn_fzaC9K9YK8A3SIZjmN6zzJlP9dD67oBHI0seU7S1r9abtWTHstytt6EVRjpm6iU2tsJyHWJQhLXTJfCrlORJ-pnrHOAH8EGE2e7dd3beGOzOOzrX-qP4wvHSGdzvYQsnBEJvMqKBFFl5z1RX8NcBSmtE4UC1NOvCjG806SeTGpiVQ8bQ-5mf__K5oEqsAPOgMdZcT1HB-XoK0z9GBosDNmcI3cVu4ltNZOySmh7OTA8gA392yJ3KV5cGY5ohwfwiRkp_Q5y1IjgsCWKK_WGcT02jb_gdfZLNHWuat4aGVUNZHDn0udIa7giZBmTw8vuZYn891EX717fClkSDSrJ6Xl2IYjwvtJ9wNpzyPfSMHborekF30oIa6UtQDYYhMaE6Up2U3IGoKT_I8Vr_R8UqNyaOlaCa7wVec4blr6-IT06bBPV1306JtKqUug_RSj1f-KzheovR72_QYZSQbvn6yKx5enbhrPVq0faXrW1Q_963X2AHPvXUtgyd9oVNfGgZdysfw6olIkhBV3HehVuE9R0-4_JvXbx0sJlK_UQ_2OrSGFMzKLoaQC4B8LSFftqm4VLlX3LL3g3iVbwxaQUnW1BVfyUyIr0K39g_QbgALjANaU6dshUSDWV75JSmKtlN7sXiiIGqjBlDCeC7ZGQBaMgAI2sxFW_cGApagCZO30JQDgjnSy-R3HTWSlCuUPmXBHC5jPVPdhUvZThvY__pQH5FVvIhcKsN3XI3H_6SFDow3RkzpSdlniPacqn4KC8PuEsN2U0nFuhlxfsOZrd4O26t-Yg8zAPhlbS7ZIMFs0AV-7k3dowSfrWJEMC1zjvAcwqVCohdLqc0dgQ_uu6or04OQBZpqZ3n3ncdtafR6FoJOzq7v3IbiAs6hgM2lMNhJecS5EwUMEckOFnre9cd1I8mss-12SFvpKZklWLj5F61wAroidbZm1OHbokOOkI9fmKIWNZOQpbXCKMpmtgc4fDWHQ-4Ski5YVS2aZPvjNOTULFDplxgAvOGcJH5M2coTW_lHX9_33PxNFCSTdiBs6qZantSoX6e4ztbSXERAQBAHLcCzJyg0oG5uO8rVQeASNNE_pKgoQLSdz-9Ruwp7_e9AU5-oaNYxh6rtX2UinUaVndQ9xrDdnjxBfwT4raoaXQsAuLo_-VENzvmhRTWr6_Z41jvnngN0F5zBz1RjqTLJVfym8RJRNCvesBNVugoLXRkm069rldEGXxtVxmhMZr2Diu5bebq_OqNpflwTZCSg5WewRQooFZSMg5hDUMFL3GsyjKk3t2vi6kXJz-4LD4ifsuyT_yMSEyqui_t_zuPIJy_ZsIsOSqjgwg4rt2ND1lv-GGGCeumykCm1klE1_nIlmDAdfJ8Ltq5eFsa601hjTSG4i6wHoLsQYLvP9oZljSnTxEzrx3kw6n9JnTxkARMqDCgJ6u-QvtbajPOLNIJ0QDmiUthVSY70It5Am1rLBkCCHw_7M-hZ2t7lMQ_XbTjpqw-OiuzLLJfhcVgYEsDz8EJ6ZTynFwPb9fgeWtDMLpqCZtii609UkQ3jHoednozXz4Hadv2jKAGGggc8-0prQFNxgxRKgMFQobRyJL4Rq9sd8QOa0ZxCMc6prpk_xae2dXUEhCHhGC1W8BC219doApIWN8l0nDqELERg68jXaGpRtYeI3tlLsMdIT7nH47EgNS4vNj9Xwev6VAQxjIpjbaOvn3LJ8GZ3uKVDDBxByBL4Ub2YQJE3SQEmYeuhj361OJ7QKL841NLtfXxW_ZE4VL_fsi50fWoHNLAnoe7nwynlz6bEiwtmslNd5S8RwGhYnoQ48tHuQnWbA-ekDhbxiNd1eLxLNfpSwGWPVduqIn_rY5pjUw==",
+    "summary": []
+   },
+   {
+    "id": "msg_0bf68298702f2017016ae33c62504887d19a51177d49623d5e",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"a236e680\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"6fcf6aee\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"1a75ee30\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a7fa5717\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"d7ed9f33\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"924299ca\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"B, the cancellation disrupted your plans, and you describe feeling anxious while trying to get to dinner. You also tried to send a message, though whether A received it remains unclear. It may help to explain what happened, acknowledge that you arrived thirty minutes late, and ask whether your message arrived. You can also describe how A\u2019s not speaking affected you and invite A to share their perspective, without assuming what they felt or why they stayed silent.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 425,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 460,
+   "output_tokens_details": {
+    "reasoning_tokens": 70
+   },
+   "total_tokens": 885
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

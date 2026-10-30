@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:02+00:00",
+ "finished_at_utc": "2026-10-29T12:32:10+00:00",
+ "body": {
+  "id": "resp_059a30cf39f77528016ae33cc2848c87d19a5f255ecbd12ad8",
+  "object": "response",
+  "created_at": 1793277122,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277130,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_059a30cf39f77528016ae33cc36aa487d181c614892be0440c",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzKqI8IxPKyoiOCuT5iileLlSwCWJjIXEp4KzCmAPwFSVRkRSuk7K9UVhplHF0QPBXAGJ3bHYI6aOG4SvmMDFQ33VztBNC6y-1j71qFXwvKbDnGxyHXgaIM2GeMQ0kbwFZF9DBJOZyr93NyvNxwo_8QR1WnKet3oOFwpcylyYHuQgNS8x81x-1T9_3_BJeRBfbQuJN1vR_KRiNGUNDIh0-TNQnzCpYJ6tlBzVXwh-K4M3O5hE5jU5LV5umooPUbNp0RfRazkQudwEh-4IBRqfj31P9VQNHUbbyfle-rCHdfhn4SQVcOvCwIMAuO2Jip8_IrZTAr2RJ0_m_GdHM-ESj_0F2eDcHYe07vqZ_i7Qano757-zoFU8vn3PyPuIKuPwn298WO5Aoh3Fyo5XFGkkK5EJfNHhq3-F_RepPdgJ5XyxZMOzrpSRceVpBEyvvag1d30hztVmMsJdvPG_608evnu94tGY36XOdohvXWLPRkdHxWh8G0wFQh7icF5an8p8kfEwSzvqjjtw2KwJdjYBodrVj8DHmiT340LiNXZRHrdU7qk14IWcCNrvobmyYOa_67H1iqKCM8WmPbvmG4ALv6brjtqy-SIV9rZEJ2OqhGknRRVCxYCIfMLkDEEZ7XDhSNViPVvuT5ZToOpEdb7iBNvPmZDIAw55uVIx1F8qnAW-ltpsJbJHxH3bR1tve8p46DgUw-3ZvFlaVVWsOy978O6rCHy-t9k70lyrky5loEHMv6tD3AJKw-7-l-zE-Ud1y5ufBeuL2r3mVPxfC5IqUIYhaW72cjNY4b9mOXxATYKXuVzFzqnBcV4fx41m_VhHO3zu9dnFAArLB8MJwjHAnioVvxRDMOXuDZ3kK7qiZHcRZ3swQctSA7v-uvOMd7yqGBZxiC9vCg5qAqpB21_E0o0S2T7RCjZMTim8Tfwibjo1m5rm2bc-BJBZz2jO-Ha6SUwgHHdkw0YNI2XXcSF0uoWi_DbYhAj0w-1dUVjgRqp7r7jHGBtSA5BCewtnP60gUW8zCMMDY8eToYEroFc787-BR3U0Sqx268rRC5o-4BKgicufX-M_JOPF3AQw7ZovS479lt05jl9AZ1wJCvzCSuUqicyCIzWaR0dDSF1YbgeODVvE92FJgHMEPfX17x5LmdA6lpguTmJDASYWb0yyZ4WU_mG1Mf6mcDsFSsjPAJ1J3swQC1QfOiLIcA0W36_Wclzw1He4m4E_dFFbeWgvUSo3MVv6nQpaK0j93UEJNCT1uue9F3akibZ5TNCv0nzZCbv7RNwLQ5EUoANiDHkXQcsQ9bJ5ZYZgUyDPNHW-VQtfeGMj3hJctihkMLez6FO-GqQCxm6FVbBzBlzJcJBX-3Hhi7xAGDZkB-iwlmz-wKNU4Q0W2xfjXln763JsZSen7PRNCjfeGjwnQS9EHnO4rH4oJ4sUfgqzRHRF1FiSI0ZsWhRmh7gkgF3vJuVeVgKaumrTxYvW3Dvu7A7staz7vfLIFuS6hou0DwB8WIOnN9ze6Fj2aN7X7UTS7PIAs3kZxQuYh7TUE73fX-Wcof8tNmaCcXNaqNsKcB1OAONqWGJdhNVDJg3Diq3vLaaZ46rrTFQeHj7wVkjhrsdy3N-CUWYmKOxzEF-LO52kysicouWYXQQDxsj3ELTlZu51Wp5tiKuFs519Mm_ruCElahpiazEEfgPUWop_ihLkHB8WFeihyeCktKJtFjkIZoMMXT39jqCwAofDxBVfXIkXzAEBIstISHRUS1_LT1_vHn9eypjgdecRVJiwc8UHjXhYu3_177c58wET9uMLiJU06dSc6uoaGrtjLTChApToIMMXomKWJQ-rNb6xMu5-lq9_90T-9ZTOHi5UqJ6rvHIevRbKVNYm0prLrEvKwEY8SY1UzeOQOP-UEbr_0nTgro5rMRaqBuuOjc_4P6B67j2qT4cIm9AR2IG1-eLrTfsPvgv_15k_IyVp8IGmxqztzpMoOCl80x49U8M4EEDAXpc641HSD_Ro8B531SZIL-7UFaGpFKRlSjewPPUlXx5V_D_UAr55CKnYY86v7pMqjAtkv0Z2PNGaqHzfcxN_zJRcmKqMyV3QbF3HxaZcNjpq0t7kMBxwVss16eJWAIL2Mmn_lMo96vF7zAe3yVJP6p1ilAnnKT9jt_NNfGCK4DoIBFIJfUu734Br1qhFvntZ-KBSA0pJg_5lmb-qzM3GGGRCRzOyDPt1U7f28To_Pe2MGHK7aGshnWAXa4_C-5nWec4XCd6Zvlqlao8fn8qUGwoI_Gq39BFMoydtp9wUEUc50KS9UTEAfiR-ooteahJCcoLsOCxSc2uq_3c44vv_jGm05YCFMQgWDbpGySSrBdnwwtZW2VdlkJWDxbwiQvCi3ODU7315eaCb9_ULfKfHb8tQq4EZ4MSYC09_9NaFSRd4ne-sGcljAQ7fT1fWBbQ5VexLWfsXkLKEOejZpGyABiaffrRUdUICULrfthR2L1ffeQ2vfHM56LZIouQTCXhif35Lr1sRd23s2nOQVRVr3ZRTOcxRqJNKG0jNDqCqxv1sIIjFfn32bcOW33yifWy8Mr2lCnU0LlxhpSTQt0L5e2j84VT-ndKbZvFri3hYfq_udVWw5-2tCO8WWPEZ7Uw0lDw4rTRDzDxl-78kyCPvZM5Ng874Ljl-CxUDZWiWMres3kbOMRTxu3gRKrzXayqKV_I0uQPbCt07F80n8YNz9cZi5pOxi_tVE=",
+    "summary": []
+   },
+   {
+    "id": "msg_059a30cf39f77528016ae33cc6193c87d1b569b0168fc8f77d",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\n        \"supported\": 0.05,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.95\n      }\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.99,\n        \"undetermined\": 0.01\n      }\n    }\n  ],\n  \"response\": \"A, feeling rejected when B went to another room sounds painful. Your feeling is clear, but B\u2019s anger and reasons for spending twenty minutes alone are not established by what\u2019s shown. Since you had no explicit greeting agreement, it may help to separate what happened from what you inferred. You could say, \u201cWhen you went to the other room, I felt rejected. What was happening for you?\u201d Then discuss a greeting or check-in that works for both of you.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 402,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 526,
+   "output_tokens_details": {
+    "reasoning_tokens": 97
+   },
+   "total_tokens": 928
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:23:22+00:00",
+ "finished_at_utc": "2026-10-29T11:23:37+00:00",
+ "body": {
+  "id": "f84ee55f-e5e8-916e-bb1a-316c1bcc6b5b",
+  "object": "chat.completion",
+  "created": 1793273003,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"5d297f78\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"947357e4\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"bec86d48\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"48682ac2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"8007c49f\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"5e4d2f76\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.08, \"undetermined\": 0.88}}], \"response\": \"A and B, this looks like a painful misunderstanding rather than a deliberate slight. The note was left on the table, but a fan moved it behind the cabinet before B entered, so B never saw it that evening and had no chance to answer. A, feeling let down is understandable if you believed B had read it and was avoiding you, but that belief does not match what happened. B, confusion makes sense after being confronted about a note you did not know existed. It may help to discuss the message itself now that you both know it was missed, not ignored.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and accounts, then write a brief JSON reply.\n\nClaim 5d297f78 is false. The shared facts confirm B did not see the note that evening.\n\nClaim 947357e4 is supported by A's account. Claim 48682ac2 is supported by B's account. Claim 8007c49f is supported by the shared facts.\n\nClaim 5e4d2f76 is undetermined. The material does not support or contradict it.\n\nThe reply will be empathetic and clarifying. It explains that the fan moved the note behind the cabinet before B entered, so B never saw it. A's feeling of being let down came from a mistaken belief that B had seen it and avoided the issue. The tone avoids taking sides harshly.\n\nThe reply will suggest discussing the note's contents now that both parties know it was missed, not ignored. I am counting words to ensure the draft stays within the 60-120 word limit.\n\nThe reply is 103 words. I am now assigning probabilities to each claim.\n\nProbabilities are finalized. Claim 5d297f78 is contradicted at 0.95. Claims 947357e4 and 48682ac2 are supported at 0.97 each. Claim bec86d48 is contradicted at 0.96. Claim 5e4d2f76 is undetermined.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1677,
+   "completion_tokens": 356,
+   "total_tokens": 3256,
+   "prompt_tokens_details": {
+    "text_tokens": 1677,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1223,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 103320000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

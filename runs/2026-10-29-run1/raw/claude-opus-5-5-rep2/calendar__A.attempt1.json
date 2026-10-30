@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:53+00:00",
+ "finished_at_utc": "2026-10-29T11:17:00+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS9aMY8N2HUzGBL3ELB",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSlAgKEAgTGAI4AUIIdGhpbmtpbmcSDFvc9ycwLhwhpWQYfRoMpL9n1Av1olQDDiELIjB4b+mXCycsHKn+/jHiz7tGS/X+swAHMYRI6zfAwX3g6qgkMPn4I71BgoeRfdWEQfkqsQd9Ib6xJ3s0BRmJdlXiJq8l2LBMfrbFMN1K5eb/mDXmvIUfFOXonuFttROp+naj5SSvM7jc69q6i22rj1+UHv1MEaoNTBGnYCGuU+rswK9/+uMWZK2GQXZM1Ul1hZhA/Td1Al+BNk85yEPiH9PYAJJgZCoT6N7qFqZqmWpBTpztARn1bvhxJXiNJYb0QL5kZiy/S/yQUpf8OKjsKD/ph23wYFJgFlBygC38ANXFR34FbbAiGtp4xCWGban7gK8XPDMyuKb2yiwR0BiHf+FbMNYptsb7m5BR1nkLpQ/bLAwlnR7cjiUtEoYbAkF07eoUxZp3bhC3DaeTbAU/rX9lYEwEOE/t9E/+XlJnvT1Lhf6EyNjqdmitfwQg50SWLP524fWSbEUpERQ3d59G1AcU3bkBR8kIkR+iY0jjFMTnlNimM3F4b2seUCGE9Gl+Zz8RYFREogxxLrAc0DgSEznxWCBPw5bgwEc5FQk+qNZfvTBIc55/+HBaQCyTnU5npf9WaLwbyFC3/CcbBwzWXqzvXY4NIulna8giq+N+jY/EGS7CAvQ/+KSVx8FiI2CJaaRFLk9Swp/rHpu2XEIvtXwT9eN7uJO4csoUkukp5eMGxYU4MHeDzPWCmkSlZTnY2FRUIdfb8YdB4jMrOJC5YfgSKLwrGOrj5nzN8Twla6xl24D1xxrRPNgMWq6QVoZEejcCfde3Z7Q9Evn/rpsYMYPr4CXwBypth8YRGEq7o4xE4Xh/X3LSrP9Bjzp/IGTrVUQb3ydad0VgyW9G6baBMPz8DOHPqO7R3gRzblrpKmSxT2wyLf69EepmMyOY4+hQ8CVK1QDTdiP8p/yxRjD1AynGDYyi/iJc26iQImmikpwPP/kxLEJohCee9at16bhScnXwkw534L8YEp6zrf8c6kSjC63GiERqTKP/CycbCEYCqpW7Zel54u4Y3c8pjgEgAfb4MonOKiOjS/37ZL42nePMlE/CMHZv+wCfgVAAwmC0bddhu3TX6wqjqusC0B54dgPIbcFXeiRwGt79nAgwQr+DCtVhp/JHzwUgOTG+JSZYFLIm9YOXYiBepbZ0b1xHi0li6vcf7wsZBkHUMomv3RAsPctEoe5Nr7tIaJjiIBpG31xbRfESLjnxjv8i0XZmp53a7KoiGnGMuORD1Fe4NkNFGQMUQ6Y5h5XC6teS9hSFZ6IH1Syt0ZdR+jmDfKNGD4LN5yQ2r7HVnmE/5DtYUpf+ivgfZtxjIff96cP79cddFOD+2bEYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.9,\"undetermined\":0.08}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.03,\"undetermined\":0.95}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.1,\"undetermined\":0.85}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.04,\"undetermined\":0.93}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.97,\"contradicted\":0.01,\"undetermined\":0.02}}],\"response\":\"It makes sense that you felt disappointed. You had pictured Saturday as your time together, and it turned out differently. Still, the two of you hadn't actually agreed to spend that afternoon together, and you each made your own plans. Nothing here shows why B made theirs, so the idea that B was avoiding you is a guess, not something you know. It may help to tell B that you'd been hoping for that time together and ask how they saw the day. Making shared time something you plan together could head off this kind of mismatch next time.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 570,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 615,
+   "output_tokens_details": {
+    "thinking_tokens": 162
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

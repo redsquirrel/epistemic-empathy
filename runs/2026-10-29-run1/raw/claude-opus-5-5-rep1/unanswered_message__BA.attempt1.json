@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:46+00:00",
+ "finished_at_utc": "2026-10-29T11:15:53+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS4eHHrzxGZxZT4J9oM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQSrggKEAgTGAI4AUIIdGhpbmtpbmcSDEO1BPziWNBFrvPVRhoMlfLytcOg99akkf3VIjCKWyT+pABp+WKnZWbqW10yB0Un1MSsawjTBXDI8MVXUcdzfZDw6x23Ot5UDyI752cqywdM8IG+3WePcdWuAj/NgBPY1JeVnVj/e4rgkBK2uSzhnhQPyyqvy5ftd6QdTcS4yVuH3tzsWtGYz1bv3f+aXCcAMvoOJtVOLuPGQvUrHSnAP76MIL2AF80tad/ToQmd9xua8s2F7iQonzNDaJ8aMmQWRkQx/x56yXjRJp1STWS3GUV2KduF60J3zC5gg4cQt9kG4xvCxVeE1lVgr3/qCT9edhSgDHlUmQQysf5iZzk7GulIzDynpo2ShbhkTWmzKUDLwG1nke4+Uy94ZWpvHs9FhtcuHzgICrxWtrj3p4O8it0nwmZYRNM55KG3xRGNLgzxd1m+ondHjs4o0zgMV9QFB2XJHILxZKfvN+eMLSBB841T1n6M+47l4+ZSoCkhfZtkFeu/+S0aHTUQa5tbsHUu1bUaoTX8EL+PryxtNjxQ23PaqQalvj13OpPRlX1crKDiCazrM3Jc4jAxP0c2jt3aOtRBf7lL7dbzJvLdZ6zA00wXprVfawCE7eXBS3ze8GnHacFLGPb1F3qPzGfoUEAjfcgdtbgmOlw6JAs/6zCvqPQGmqN0UulAJE3rjpRpCMLqWXCfc8T03suojH3fXjIbQIib1qXiHWVh8LkHcfmT9TQNQyWwi7nntRwRnZAULHBVA5FIMwVgTvuOijyGE9j9rvUkNCTltIP4Nrnk6DPWz6/jRKnmunXO+yjYIxDzVTyZJDjaQHhWvaRiWUOci3xXz9G8/aF6WpcCL2rRPywtCEzj+UfGRnhkX4qg6dPw11fw3iBsSy7FtiAHv6LjPRjU8iihpcA+ZeR0pKnAFUiUlym14tcDIDFZjsmPQaupjzN2yL87B5WuwfsG5DtnWWxxlNCVYkV73J9zcOoS9MAcobT8kev/I8cuJotp0zU4IhqVuc+mvi2Urg/smuMz0uxpYKdYsWBkQNk6rG+O8z0qsMNqglDO4OqCVwdqJrOf3RE/dBDvpYmcP9A709htVBXE+Eqap9G38fzyrMJtVq54weTcZtcFCGwGKpx0AvvQjhEWwrjmLYosZORgv/6FkmTr2t8Z6/leeYJxY8PdewRRF/MMHyLlbaIkDA6Ug3pVitkH3aaqaxAujLaAcDaiV+0Jh6tEd2zC2pG0vsNcET16En8iz+pVa08peyC1AIvE2sED4ygENxHp0ln5GaBFFKNaNlp7SOa5gC/AQZQS890KXoZhJsI7I+XtOdHkKoHypjtxTxTcDdTMZs32iUkwl+RcPANZJG3TuD2P3/55N9t1UZeETz/tYC+CBh7QtdJvbUSOrWSU6rEgULqcsBgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.15, \"undetermined\": 0.8}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.3, \"undetermined\": 0.67}}], \"response\": \"From both accounts, it sounds like two reasonable needs ran into each other. B needed uninterrupted time to work, with the phone tucked away. A was left with four hours of silence and no way to know whether the message had even been seen. That gap easily turns into worry about whether something is wrong. Neither account suggests bad intent. A small agreement might help. B could send a quick \\\"heads down until 4\\\" note before focusing, or a brief reply once free. A could check in about expectations instead of guessing. Talking through what each of you needs during work hours could keep this from happening again.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 580,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 676,
+   "output_tokens_details": {
+    "thinking_tokens": 179
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

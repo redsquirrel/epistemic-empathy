@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:05+00:00",
+ "finished_at_utc": "2026-10-29T11:18:28+00:00",
+ "body": {
+  "id": "3cf667a2-ef13-97b3-b78f-a9595a4f4de5",
+  "object": "chat.completion",
+  "created": 1793272686,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.80}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.84, \"undetermined\": 0.13}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.93, \"undetermined\": 0.04}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"A and B, the shared facts show B spent twenty minutes alone after coming home, and you had no explicit greeting agreement. B describes feeling overloaded by work noise and wanting a quiet interval before engaging with A's needs. A describes feeling rejected and reads B's withdrawal as anger. Those are different experiences of the same moment, and neither account establishes that B was angry or wanted the relationship to end. It may help to separate impact from intent: A can name the rejection without treating it as proof of B's motive, and B can acknowledge the effect of the delay even if the purpose was recovery. A short check-in after such pauses could reduce this gap.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response.\n\nI am evaluating each claim against the shared facts. I began with claim 30c8456f, which states B felt angry.\n\nClaim 30c8456f is undetermined. B's account does not mention anger, and A's report is unverified. I am now evaluating claim 3c9d9ff4.\n\nClaim 3c9d9ff4 is supported. A explicitly reports feeling rejected.\n\nClaim 7587477c is supported. The shared facts confirm B spent time alone after arriving home.\n\nClaim 57457681 is contradicted. B's account states the reason was a quiet interval to handle A's needs, not ending the relationship.\n\nClaim 29989694 is contradicted. A's account does not explicitly state that B said they were angry; it only asserts that B was angry.\n\nClaim 69c4aa40 is now being evaluated.\n\nClaim 69c4aa40 is supported. B explicitly reports wanting a quiet interval.\n\nFor claim 30c8456f, I am assigning probabilities: supported 0.05, contradicted 0.15, undetermined 0.80.\n\nI revised the probabilities for claim 30c8456f to supported 0.05, contradicted 0.10, and undetermined 0.85.\n\nClaim 3c9d9ff4 is now scored as supported 0.95, contradicted 0.02, and undetermined 0.03.\n\nClaim 7587477c is now scored as supported 0.98, contradicted 0.01, and undetermined 0.01.\n\nClaim 57457681 is now scored as supported 0.02, contradicted 0.85, and undetermined 0.13.\n\nClaim 29989694 is now scored as supported 0.02, contradicted 0.93, and undetermined 0.05.\n\nClaim 69c4aa40 is now scored as supported 0.97, contradicted 0.01, and undetermined 0.02.\n\nI am drafting a brief, balanced reply to both A and B. The draft will note the shared facts: B spent time alone after arriving home, and you had no explicit greeting agreement. It will present B's account of feeling overloaded by work noise and needing a quiet interval before engaging with A's needs. It will also present A's account of feeling rejected and reading B's withdrawal as anger.\n\nThe reply will separate impact from intent. A can name the rejection without treating it as proof of B's motive, and B can acknowledge the effect of the delay even if the purpose was recovery. A short check-in after such pauses could reduce this gap.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1668,
+   "completion_tokens": 371,
+   "total_tokens": 4258,
+   "prompt_tokens_details": {
+    "text_tokens": 1668,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1408
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2219,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 167640000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

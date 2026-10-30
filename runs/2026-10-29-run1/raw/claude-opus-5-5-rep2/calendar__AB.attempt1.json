@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:43+00:00",
+ "finished_at_utc": "2026-10-29T11:16:50+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS8qVbaZXr2r95GrNZx",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS3wgKEAgTGAI4AUIIdGhpbmtpbmcSDFl6XqKPkYa2nmM6EhoMvILSrcpR3Rpqy1cGIjDMuHXaKzUtxCMByEjSFMz06YLpMotUWruBAXUKxiBSgiL6YeI96qOWUeBKxQLnfPgq/AeY09/vBvcxcLCJGH9vyFbi4YDTrGwtoIkwyrY+C36dZGQdvVwXjc3+0rmMdv2i/GqeKrFaLCgCbZLh5uqMJARAXavlJGJE2pKYMHYw9i57cZTvCyawXfC5THlcOeVZGo1XQfthoPJO+E5QEh5aRv0V1gtfX5VWzxw00EOSD7WdkKPXWXxtFg9HvVu6MHEaT6zCuml/eCQ0A0VxYmYvnBW1kPpLRrvWQkZEH/nGZwAgNGW6eDozJ3s77Mz8Xw5mEEk6BRpKXeffGArqyDbq8k6u0reZLeTvKp3oJ/XHg6EdhSlDbwloY4sxQZnwEp6GLy22kL6G/JnavwBOSRz4PGYkzjKUhBtOcOkWzo5tiemRgmkNIITWY5+ORAjMkDuDt+50QDiF4+apzIx9Nk8TDT3JMhALYIEqq6TyoQ2xo3nV0N0j89IpTcTCYD5IIrdWWXGVjst2vIz/6nyffVNnwuY53kw2i7QkaJzRYJVGpEJuQKq/Du2k8urvke7wEiPFowg0CfAOudb0/ifd3ngaC+e8LEo20N2pjrYJNQ5FRt5k+0FJdNwt0RjOLEJsd9TQqe4QjmUV7psGTmIvkrmjBjzODHsnetMbBdjqINO7iIKDuNO7aYxIZQ9+nfT0kY1G8GKk/js5yHs4LFuHWlrtnq0CYgSnaVeqWOpcgPliJO6P/rK9gX18kJFIXsE4R+69q0swWdmn+zlGDdX6XOIyeOPzyvhoKbSPG+WjDW45GsVyutwuzB7uJF1q6Tp6u8LcvF1WLR/CIs745/+Pw5LcKafdQY669p45EyuhzYCAlId8RcfKrus4FsdT77i//EhRYKrmN4v1EaRLgxNOUiuk+ak7dkR+Ebb7+wYXz3df48PWmCClbbtDDZ3APSx2B0Pa09x8W7dh903QAtc8nmi2USv+B4/JA94Pfx8b34Ie2OUVWylHLgPzft5s9QJIXFpGp0K4rv3W3lfvrx+lsiXRNyWj569uARWytulCgZeGkgxkcmEtqodeoNo5EO+vpPiOOtGGteoL3y0sBtqQUmkhJjFIfpl3OieQwQablU7eubkCnOvuN2jHBMC1xKWckjSJmJFADjDv6eHdY0KUBLkzEkf1tkYGM4kXXEk9G7d/uJY4JTAH6wVO6Fp0jfoqpJ+XmiB7vHPULIyRV8RIBLQoKrKu/2jgUiwKv7xuiQ04w0jV9pOEz1X1XiXk/eOypgKPk/I9C+QsxlejRM95SUFiDZg1S8XXq5B0JKou496giJYr8SCYaZNNOvurdC7KutD+fNUOLJ2PbAH2lnSdYYm5tvvzqoFT+I9LQAbwwG7FrgB8tTcEq84RsvIgNwiqE+L1sPlhn885JLl1KK8mVfcYAQ=="
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"5a3a2c4b\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"3a7c047d\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.85, \"undetermined\": 0.12}}, {\"id\": \"67c569bb\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"5b773f3f\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.15, \"undetermined\": 0.8}}, {\"id\": \"48367f02\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.05, \"undetermined\": 0.9}}, {\"id\": \"3d022458\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}], \"response\": \"It sounds like you each brought a different expectation to Saturday without saying so. A, you assumed the afternoon was shared and felt disappointed. B, you thought you were both making separate plans and were surprised by the disagreement. Nothing here shows that B planned things to avoid A, or that A is 'always' sensitive. Those are interpretations that may make the conversation harder. A useful next step might be to talk openly about how you each want to handle weekends and to agree on shared time ahead of time, so neither of you has to guess.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 609,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 673,
+   "output_tokens_details": {
+    "thinking_tokens": 185
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

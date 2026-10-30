@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:14:29+00:00",
+ "finished_at_utc": "2026-10-29T11:14:53+00:00",
+ "body": {
+  "id": "24ecd231-03a1-9c33-a596-da15ca6548f8",
+  "object": "chat.completion",
+  "created": 1793272470,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}], \"response\": \"A, your account says you felt afraid, wanted space, and did not agree to stay. Those statements match the shared facts that you asked to leave and could not. B, your account says you felt panicked and wanted to finish talking, and that you stood in the doorway because you believed a resolution was needed. Wanting to talk does not make blocking the only exit acceptable. A could not leave for five minutes after saying they wanted to go. Feelings on both sides can be real at the same time as that fact. If either of you feels unsafe, step away and seek outside support rather than forcing the conversation to continue.\"}",
+     "reasoning_content": "I will judge the six claims about this fictional argument and return a JSON response with probabilities and a brief reply.\n\nI am now analyzing each claim against the shared facts and both partners' accounts.\n\nClaim 7ae796d2 is fully supported by A's account. Claim 7f0e7be8 is undetermined because the material contains no evidence of deliberate provocation.\n\nClaim 202c9e15 is supported by the shared facts. B blocked the only doorway, preventing A from leaving.\n\nClaim 61c0e2e1 is contradicted by the shared facts. Claim 0cb7c2a8 is supported by B's account. I am now evaluating claim 47634250.\n\nClaim 47634250 is undetermined. The shared facts do not establish whether the argument truly needed resolution; this is B's subjective belief rather than an objective fact.\n\nI am now drafting a brief reply to both A and B.\n\nThe reply will be factual and supportive. It will treat the blocked exit as a serious issue without being inflammatory.\n\nThe reply acknowledges both partners' emotions. It notes that blocking the only exit is unsafe regardless of intent. It suggests letting the person who wants space leave, and resuming the conversation later when both are calmer.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 373,
+   "total_tokens": 4176,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2102,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 165240000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

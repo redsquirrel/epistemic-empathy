@@ -1,0 +1,100 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:29:53+00:00",
+ "finished_at_utc": "2026-10-29T12:29:59+00:00",
+ "body": {
+  "id": "resp_058cfaad7a041b76016ae33c42241c87d1b620dcd280e3d5fb",
+  "object": "response",
+  "created_at": 1793276994,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793276999,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "msg_058cfaad7a041b76016ae33c43785087d192010469a1c074c1",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\"claims\":[{\"id\":\"5d297f78\",\"probabilities\":{\"supported\":0.0,\"contradicted\":1.0,\"undetermined\":0.0}},{\"id\":\"947357e4\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"bec86d48\",\"probabilities\":{\"supported\":0.0,\"contradicted\":1.0,\"undetermined\":0.0}},{\"id\":\"48682ac2\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}},{\"id\":\"8007c49f\",\"probabilities\":{\"supported\":1.0,\"contradicted\":0.0,\"undetermined\":0.0}},{\"id\":\"5e4d2f76\",\"probabilities\":{\"supported\":0.0,\"contradicted\":0.0,\"undetermined\":1.0}}],\"response\":\"A, you felt let down when your note received no response, and you interpreted that silence as avoidance. However, the shared facts establish that the fan blew the note behind the cabinet before B entered, and B never saw it that evening. Your disappointment is real, but the conclusion that B knowingly ignored the note is contradicted by what happened. You could explain what you hoped to communicate, acknowledge the mistaken assumption, and ask to talk directly. Nothing shown establishes B\u2019s feelings or whether B wanted to hurt you.\"}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 416,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 311,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 727
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:15:45+00:00",
+ "finished_at_utc": "2026-10-29T11:16:09+00:00",
+ "body": {
+  "id": "9c23e35b-f3cc-9586-aaba-d1dd349282da",
+  "object": "chat.completion",
+  "created": 1793272545,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.07, \"undetermined\": 0.85}}], \"response\": \"It is understandable that this purchase created tension. A, you knew purchases over 100 units were meant to be discussed first, and the shared facts show that discussion did not happen, even if the item seemed useful to both of you. Feeling upset when questioned is real, but it does not undo the skipped agreement. B, feeling excluded fits what happened, though saying this always occurs goes beyond what one purchase can establish. You might focus on this specific decision: what the item was for, how to handle future spending above the limit, and what each of you needs in order to feel included.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am now evaluating each claim against the shared facts. Claim d2d34941 is being checked first.\n\nClaim d2d34941 is strongly supported by A's account. Claim c4674476 is also well supported by the shared facts. Now evaluating claim 9ecb7755.\n\nClaim 9ecb7755 is contradicted by the shared facts and A's own admission. Claim 4b62ccc6 is unsupported because B's account never explicitly states that A intended to humiliate B.\n\nClaim fd583e6f is strongly supported by B's account. Claim 5520962c is unsupported because it reflects B's subjective characterization rather than a shared fact.\n\nI will assign undetermined a probability of 0.85, supported 0.10, and contradicted 0.05 for claim 5520962c. I also need to write a brief reply to the accounts shown.\n\nThe reply will address both A and B. It will acknowledge the disagreement without treating it as a safety issue, and note that A recognized the agreement yet still went ahead.\n\nThe reply will suggest a direct conversation to address the breach and establish future decision-making. It will note that one event cannot confirm a pattern of impulsivity.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1678,
+   "completion_tokens": 359,
+   "total_tokens": 4201,
+   "prompt_tokens_details": {
+    "text_tokens": 1678,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2164,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 167660000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

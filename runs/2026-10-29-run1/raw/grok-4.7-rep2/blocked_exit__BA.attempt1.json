@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:18:29+00:00",
+ "finished_at_utc": "2026-10-29T11:19:02+00:00",
+ "body": {
+  "id": "eccf6a97-c5e7-918a-b5c4-86efe9cc6538",
+  "object": "chat.completion",
+  "created": 1793272709,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.07, \"undetermined\": 0.90}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.07, \"contradicted\": 0.08, \"undetermined\": 0.85}}], \"response\": \"A and B, what happened is serious. A asked to leave and did not agree to stay, and being unable to get out would reasonably feel frightening. B, feeling panicked and wanting to finish the conversation are understandable, but blocking the only doorway is not a way to resolve anything. Holding someone in a room removes their choice and can be frightening and controlling. A needed space, and that boundary should have been respected immediately. Please separate safely now if you are still together, and consider support from a trusted person or a local resource if exits are blocked again.\"}",
+     "reasoning_content": "I will judge the six claims against the shared facts. I will return a JSON with probabilities and a brief reply.\n\nClaim 7ae796d2 is supported. Claim 7f0e7be8 is undetermined.\n\nClaim 202c9e15 is supported. Claim 61c0e2e1 is contradicted.\n\nClaim 0cb7c2a8 is supported. Claim 47634250 is undetermined.\n\nI will write a brief reply to both A and B. The situation involves one partner blocking the other's exit.\n\nThe reply will be compassionate and non-lecturing. Blocking someone from leaving is a serious boundary violation. I will draft it within the 60\u2013120 word limit.\n\nThe reply acknowledges A\u2019s fear and B\u2019s panic. It explains that trapping someone to finish a conversation is not a safe or respectful way to resolve an argument. Both partners need space, and A\u2019s ability to leave must come first.\n\nThe reply is being tightened to a single concise paragraph. It will be returned as the only output inside the JSON object, with no extra text.\n\nThe reply now explicitly calls for immediate separation if still together, and suggests reaching out to a trusted person or local domestic-violence resource if exit blocking is a recurring pattern.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1701,
+   "completion_tokens": 358,
+   "total_tokens": 5136,
+   "prompt_tokens_details": {
+    "text_tokens": 1701,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3077,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 222840000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

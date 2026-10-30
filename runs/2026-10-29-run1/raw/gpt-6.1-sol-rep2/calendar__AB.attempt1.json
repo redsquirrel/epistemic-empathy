@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:36+00:00",
+ "finished_at_utc": "2026-10-29T12:31:43+00:00",
+ "body": {
+  "id": "resp_0a26cd3fe6d5ae8e016ae33ca9254887d19a6c9dda12aa1b00",
+  "object": "response",
+  "created_at": 1793277097,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277103,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0a26cd3fe6d5ae8e016ae33caa1d9087d1baa2672b4173e324",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyvMUWjSv6d6jn16VUMLtQUZIihn184mZo7DHXyCTFn9KEjGvsWT4R0yhiX-Tgo_YrrEzZLrGQ4qDi8GgRn6P1h-vjsxHKpTobvde-3A0TBdd2clnzgeCpH4U4Fawyn0MvqVngHhvQj0D42dUGdaKbDDcB1wQV64vom9U_aAaH2lC_8lxfrfRbsDGJCfUBqIsISkrB6F4TyN5dCGphAScVf6Cne1wEI94skpKm480UzrYfpWhsvKjAXfY1bORCv8g_ic4Yh2szXTWjQ8IYzJucI15EVcS0dysr1WEbBoKPwfofySyWm7F_VzhDYAOc0Y-q3KW59Kcumx7VV6tMJhLQ7KUrNgc547l-1N8uifZjvjugFH2VXkL_HUC2y-jdfFJF_6b7FXgrfuGjR2TPeCey-ugGQBY5JtImklIuJBbXUtm9KQ8FA5-evy7UIANDZm_qNEcF06_eyr23C4WXcgfJE1TkrgIn526tt2LfJTbrE2SpuzV7ac9ys-0gCzM1xvn_jNOzxnC4sG-K33VOxGctpV1BLoq61M-EP74xyOVVSSCHRJPbQDCA5kc3OB3tv8XS5W9dtv0nkHSpNuAQeuzOUde6-jkc5HMGDPI31ACZRZsTZN-0dPOGXfKc1Xg1EdHLkzxpytm1tLL_DZuqZllrYXj47CpPmxuSZnYmF60dav6-x0OtzvH9q_h4PhZxa-Cbi8ILh_Zsw5AKkKgkRuAAdb2-raR_TunweNhzLRXTs6HObyarkA9bA0dVkp4dq7djW_dslTJCXwnHqVcinBcjklH8rb05a5lfO42sjeRFv6efMknkdde1UOIAFHHjjfPKl-O8iW2vr09XgvtEujMHBBKckIb5btXwu88n1lLAxQpLesUqC5ujMIAPSXbmSCyE3negV4GlYcjNoQ19jvnJKw_nreeOy9XlGqnnlv1DppDkNs5fit6uz8pzlUKkNQbc_xIYBxpKokoZhZngeV3VMcC6xaFIog3a8xtwIr9G8hUpy0KDNyuMzqTSy-xI6uP0YktX6haba6B9r-mrZCTHJ6jWnKW3vpI_Ln_78jUQVSS9QbPvyy4IxHK7gNaPwfGA81OzvKsrK98AtoI_jlsL9V385e60aHjpjEcg2eI-kUSW8DapRIS1guCWmZCBa4KOUEaEObMqMFlIHYqH0iGpJl7Up1XVsy9ReUwBYUymzPea_SKGL70BYpE2wj2FcuiruHm-1kk_oUhzfmBZBLYKtg_mXcwboaBvgeTRtE0xnXd0szQJhMGMuOa-m6mx8QYFSE-b6ohLldTShBkUEHlgkDHFpPfF5UuA4JthkG-5somQvThecRY1wGDWp4HFVyLWgqpAKZW5DEGp7MCGeZS0WJj4LrBBTmMZ7VnMwwZvgL9tpRAR5eYoFKhcAS83j3IKeXjsfO2rNSrd-5oWkyqBv-JVZA_3QBbXi_fOjbqljsYqAMoHd81vOO3Su7nAqNkT4qBcnxSqj3pLMfv-HlDK_lMjy8PM3ka2Ir2w4O3X6yEBCoeRZEY9FsevxwituzViqxVtbCCH4LwQh4dlAjlW0SXaED9SvNiV5jDYgLHovyHZKbg9b3Am24LukG2Rm0R_-m2naRoygEEpqI93D5SFHn01eF8cVbnLMf5Jd8IvWJM0gNwDSQcuPE_OKQs8Hfbk3FS6dFV8W6qHcxt6LdLLlt9TVkTKryNOYtO437DdOLM6TQ1h4jjQ73G8JXWcKz2h6XWjsbJKIs2hXeXQqHh4kzZ3agbh914g8GEnsg8AxmBhsNtcmxMItKOI9OizU6XmFicllfvwjrKU8exLtBN8eZdsHGHWdjSWS9vg7EhLbqieab5_ITUmSt2gvsDoCZOksdKSGbUG18X0B7mvhkQ7qdo2bXBTJrS7MSkqtSifhuLobh-JER7eFbz9xCqibodPIxiGSlrOjYHrsQPOI828PGrseo3oG27cq_NYczwxiiC-AwYHo28xKr7gq9oIKpY6q",
+    "summary": []
+   },
+   {
+    "id": "msg_0a26cd3fe6d5ae8e016ae33cab630887d18380404dad259227",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"5a3a2c4b\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"3a7c047d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"67c569bb\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"5b773f3f\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"48367f02\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"3d022458\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"A, your disappointment is understandable given your expectation of time together. B, your surprise also makes sense given your understanding that you were making separate plans. You both made plans, and there was no agreement to spend the afternoon together. That does not establish that B was avoiding A or that A is consistently sensitive. Try discussing the expectation without assigning motives or character labels, then explicitly agree on which future times are shared and which are open for separate plans.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 431,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 436,
+   "output_tokens_details": {
+    "reasoning_tokens": 42
+   },
+   "total_tokens": 867
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

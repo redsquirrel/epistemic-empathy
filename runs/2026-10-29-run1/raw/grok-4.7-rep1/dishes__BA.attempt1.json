@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:09+00:00",
+ "finished_at_utc": "2026-10-29T11:16:35+00:00",
+ "body": {
+  "id": "5f3e854c-4b07-9ecc-9e37-5a187a88311c",
+  "object": "chat.completion",
+  "created": 1793272569,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.92, \"contradicted\": 0.02, \"undetermined\": 0.06}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.06, \"contradicted\": 0.62, \"undetermined\": 0.32}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}], \"response\": \"Both of you seem to be reacting to more than dirty dishes. B, your account says you felt annoyed, agreed to wash them, and then forgot after a long, important call. That explains the miss, but it does not remove the agreement A was counting on. A, you felt taken for granted when you saw the sink in the morning and assumed B expected you to finish the job, yet you did not ask what happened. A brief conversation can separate the forgotten task from the meaning each of you gave it. Start with the agreement, the call, and the assumption, then decide together how to handle a similar evening next time.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response.\n\nI am analyzing each claim against the shared facts. The first claim is \"B felt annoyed.\"\n\nThe claim is supported. B's account directly states they felt annoyed.\n\nThe remaining claims are supported. B reports forgetting the dishes after a long call. A reports feeling taken for granted. The shared facts confirm B had agreed to wash them that evening.\n\nThe claim about B leaving dishes to demonstrate A is less important is contradicted. B explicitly reports forgetting them after a long call, which conflicts with intentional demonstration.\n\nThe claim that all dishes were washed that evening is contradicted by the shared fact that they remained in the sink overnight.\n\nI am drafting a brief empathetic reply to both partners. The dishes became a symbol of feeling unseen. B's long call and annoyance explain the missed wash, but they do not erase the prior agreement.\n\nA short check-in could separate the missed wash from the meaning each partner attached to it. Naming the agreement, the call, and the assumption directly may keep this from becoming a larger story about priority.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1673,
+   "completion_tokens": 369,
+   "total_tokens": 4441,
+   "prompt_tokens_details": {
+    "text_tokens": 1673,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2399,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 182260000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

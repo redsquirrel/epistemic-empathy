@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:58+00:00",
+ "finished_at_utc": "2026-10-29T12:31:07+00:00",
+ "body": {
+  "id": "resp_035ec0cea020e6f0016ae33c82dcf087d1b0d471ddd5d0d496",
+  "object": "response",
+  "created_at": 1793277058,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277067,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_035ec0cea020e6f0016ae33c847abc87d1969e13d6c3271a09",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyLVmphHWrNZLwAzi2JRGK1RIQxcPTXUvgiUXnlIPZlYtjkPorMKZBHfjS9WFSXIacrpwDC_u6YKY0SUOizW6kZM0iVIo37nxsBw3eHbVSE_TsC2sbHBazukx3Ffo_vvALaYFbfZ0tESKqwn0_FmAXLeZeQVbbRkRqM2LVd6n8XrgJTenijcpotJ2xXjr-YFnKV50_jEJyjLy9-mJ4ivWrYQKT-vOPfSvxmjp3UamoYZ_TTngkyZzd9KBXQhkMZUpNORJ1RvU_IXB6Cpi4Dw_b4rxd2-6hGgYYDMbMDt-jmSfOxzfb8duvlleNy9UwvirPIMyVJrKgoIK1qazyKuQ01YQcsT0rPxvQtQNvW4KFmmZj24KXIeicNE7SFM5jM-5Xc8JriuYz8WS5pmyG8ONbDt993F6-P7o7nX0CjnV-GkAEMbkimS_48jZsJg1R7VDy-OGzTsOGF1C2Pt2BxmuBnflRQjDwFykGNPomC6tVpI8x-b1IOmw-jCh7espSFoYhXY-SecE3XFm1rQCqe7uicX47IiNvfOXTinZGGf45GPeTUX0302SICgKpxrn3aqACe45d94gZLdud4baBnCySg39nCeBo7UHR46SPhgYXLUcH7ehZPGzjUrb-Jc9Wun7uU4GKZ168R1GvH1rLbzez8ox_70LLQo44raPGm12Q9ZkPMJ_wGylz7NTMPSb1Z4TKnzyxQPkOYcsnZVgKU4z7PRNrmcIWiByhJ-T8HoHxpibJxBYqH4xhlsmJdEV2eJD_sAwD7wydg73lRSvX_yvZFHk8cQIcuhrao6PPRBH7YgORVMry8sB-xLSdFR2_eNyltvxXK0CwgUZ6C9Oum7IDSCXVNi6G_DiNNU8IFDHBHlwd8_7OhJLSHJYq7UH6JPh0kS6vOV9hnnBUInZFTtTH6zcbhoN3Sx5PUsYd_Fiaa3vENpnd1i1AaXN1oxdP7V0HyoTMMkUd1yOPQESTZzNWeZAAnIioBD_fgiXIPNFpH47JbqWFo96p1sLJulRJSec93ApJAwV2H-CjvUijNqDMhDEWtpmhfub3o6X4x3Bmy0zDbBo3Pdc2aFx6VxLqy8k_8j3rvyTHGZjvJrF1Yn6JJauXom9--mDQMxuxes6vwIKJYOUOsoY89xn8g9Pzh9tWpkcGWMJY_FQXiRHaELJonh4tnY9pTbw1WhG4wxNU1W8ozZn0PE77Jg5t8s_1AHfmmggPCxzdWTT4dkmYOqjOLyXA2FaqXgVRZMuQqA8thJgkM_Bek5-coJtvFuRDbJME0jWY69EIjsvtnamEWMQW0eZI-KbY5kN1aMbiSsqtcgauuMDgPSTf6o2nZrpM4wmsPOuO4L0kwCqXgIgowvXzvczwFUF6mIecOtfqdjXNVneGVvrS6VqHFOgSY8cNzOBoD3mOPznc0NO1YdQ1OdaGEar0R46Zwxu2lc4NF5JIVFY-RiIAfyLrSKhcy1NLM38QuNASJIG6swok-RWv_mUcb10VS53MVQ9BWqyyGni_Em6CUQroToCDquvhvCTQolNOb-DAE_ePoi4NXdlo_taKjkxBteCmQppinuA4SQ0eBCgQWryY-M9WQDzZOeufrL4qVHqO47QTja1E1qXppTizIyaTomllqZp19YFTJVuFcDNE2GvMd93lLJ-3f0JmKApIsPYuVCbWV4d14qrXsmUx5547ngdjtdQ4zxUxeDCUo6pqJROpkHHfRFobUETHFhlNyxbvF7XuDHuemFq5jCHb8QOyAvRBMyEzDteIDzBFQg1W8ITr5vXY8gO6nx5llj1fawF1CZtiXUUh2czpS01a_EugJE3ioYVuln0a3AN1Jf5Vfn-cqRBRG0tyljTBGvp9AwZKuDf7ZqGY9E_XhAYzFXM44xhZP4rYutr9cl2jlpRBww30dTAkk-5kZ0Rl_VtbK9gnljxlk7hF-ovUbmjj7bnIjwMP6lyDDWh1YOe7GHKDQiW3dFrALs0fA1R-l-5l-KC21xuo93ZerX4xHVySaYQH63vMQdFvWMz0oDHLhBCsUwxNOFDf51-hxJlNX4crw8rc9ho2ROqPGbXsCUwndRrQBoXtGa0RzPCeokECGCfoXEnaHgQtPB948unRGcz7xuI2-uVLNo4Wytb7equr_Yt1wzmSWzscwAURY2LuIGXE9Ba2ttGJ_OLMM2FmeJ0J6t3YJPu_FsbwE11l96KAQ7G31mUoKptJa0NT_U4pvP3-fuDKSgZ5BDaA_BOz6KHqjgVj9G5araEMTXeuRjMDqZl7aFMBo6Ydw66SSFjG65Pp2EE3YPNJDmfuFDb9WKXKXTS8F5hsn_TanIXd8JLEjSp6cmtdfuDm3I1-kJMoeJ2o-v7wMVTtqqAFoSAvN3w1IO2PTF7_lQ7a2ITTSQvZGBujOS_cf_UkpLM6gk0vfAAFBqnZxA4SpZNJWNMX3s4QCoav-KQ_r-FwjgrNMQA6kzc4bQBRlQ0pplaLJ4eBzhOwS4ZTi2YUmO5U0IZs0wu0nWvgqWymXXDih-5eB2e7tqE0zy3EuDMb0FOd6qDXK2nKu4G9JKLGLw6nnA6f1UCe5cZ8y-8H2iWmCfhf46_QUX856e6wWVZ1ejQgYbimT8mVkSdSD_zJb2oFd87wBQ01O_Kd0ho5X2DtdjnZMknYPqmrJxaCL64uk6niTDDoZYO6hpn3exNmViAtj6NChn_2t0y-LiW7xNLoVPfeJIRHh6tnF4cVgn6pMjF7fJyW-Sd-2LI_Nm0b4VgQHwhuaWluedqlNWxyhuW2owzGqNq8dxKbQ-AnIV1TfyVgR3WCkXo0xwD78wMbz1qh4Ji8y3z0Q",
+    "summary": []
+   },
+   {
+    "id": "msg_035ec0cea020e6f0016ae33c87886487d1ae747111c01f59ee",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\n        \"supported\": 0.02,\n        \"contradicted\": 0.03,\n        \"undetermined\": 0.95\n      }\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.02,\n        \"undetermined\": 0.97\n      }\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.94,\n        \"undetermined\": 0.05\n      }\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.99,\n        \"undetermined\": 0.01\n      }\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    }\n  ],\n  \"response\": \"B, you describe needing quiet after feeling overloaded by noise at work, with the intention of being more available to A afterward. That does not establish that you were angry, and we have no account of how A experienced the interval. Since you had no explicit greeting agreement, it may help to explain your need and ask about A\u2019s preferences. A brief heads-up and an agreed time to reconnect could make future arrivals clearer for both of you.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 525,
+   "output_tokens_details": {
+    "reasoning_tokens": 102
+   },
+   "total_tokens": 939
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

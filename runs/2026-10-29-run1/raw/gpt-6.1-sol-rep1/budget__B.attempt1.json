@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:38+00:00",
+ "finished_at_utc": "2026-10-29T12:30:46+00:00",
+ "body": {
+  "id": "resp_0bf11d8b978347ed016ae33c6e6fb887d1ac259d3290c5a9e1",
+  "object": "response",
+  "created_at": 1793277038,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277046,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_0bf11d8b978347ed016ae33c6f69cc87d19ec20f4f4cf06262",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zx2ORjWM8Jvo5eMtDw82aJu--lzWNt7I7aN8USSHs0GjnA4AfO9EM1u26PHH9V1_Q2nFREIgXstzu8q9sjSHKQfCPDrOyRkgcUhWYvzWxklhodP0X3ujYBejTeud6NjUsmXEnuc6cICuTKe4WGVzeRp4Vv5JWJiuuqhm3j5l8Ag-dlXUbcEkAQxi6g61YZO-F_K_p-fcuj2DVpftXTej3teVQOrBo7-yWJSNGUKAGHR0jBI8OBmOXNz7EdfdizseX6ypWNsU87rZ0s7nhnyY5_TDokh0tat7yxNi2kvV6GCLrhiQu2ULly5a7cJ5UorNTus3IXF4_NHwl9yDcVJ9ZaoK-06tC9usbXCgegsg-LNo-0EJ8bSARuAK4sgVvao1qEH7UbXSCpm44iJ7ELcKHra6AlD-DkEo08raqbhq6VRSlt3yXRNRvih1iqO3ix_RmAS3xVLv-IPt620Ap_Tok4p7AE4fUK07wF1C-46eK0l2igRZLj9EwRDPkj3b54Zvg2Jb2MemCF-O5C-6NobHO9ZP7PiswLbVuF7ePXraGWT0gKbsOnToaiZEPzCa2hzjXnmsnORP2DbZjhf7vgfR-QDAtA1IAma3WtiCjyYYEUcDL_LwGB8ejx3lqmIGUKe2NsOs6H6Xso3W29V2-8bdEyLlXFJ3of3y5sJDomZMLvkBBiH0f3bgkpfPnd88_mqat2aG9dVY5ccU-hGvjgsqqQ7opBlkJ_TNDapWTg_VK2PSERNpVpbu8ffkXi6s6CAWiGEesqI2Yjhw_17xfj56Kk4KjC3LRG-kfQSlEd5nxgbeyFq90qfd5I7FF8do3FyHJJ1xOnIy1fDARFjnPd5e-2F6aBSqZwxfyxBqfOhgEEvG7xhqUP-ioUS1mQsqFkmLqcA-wcBxdoObFF_Rl5xMIcv4KYPcGh7Y5jJ-vwUSIy57FQQz3uQ7gm3c6M8JdUpgxZudRKnVHijgnwrW7Q3qKmMJuIZIK4O1sbZ9f0a6nH_comt-aBRVNm_e4UM1W5QGiDp5CLYMYqbi6NnIQaGwWWkxRANvlu18PvsBE27IMwRyzCrsEpYVPp4Ve02zTqZS_DE_6YVdotFmevYhdMU6fn7Af0ljodBYs9B-qDRIzJCvOfZV5ZcN72KZ3MqCcnzyXrk6DaPT3hTcTVLyznWB7iVSpTXn9oEXXthT6ecwpsU3QgGvvJt8pUhV5UWu40zympMI--zvAs0r-txlYpjdjQ8XExzMtx4101JBaAZa9u4sjzzHLWWI7M-ANQdbxm7BgSqBryL-Y0GQDf6614nZYNqbMRRHySi_9hvwEJzrLwP87py4i4UC-u9cF_RHeSmS0j-Gvvs7RGkslctQnFvHwQzKKemetMdYbO-t7FZM_pIhbLWZKW2ckQMCrXELhq1ToOfJ1D1acJDr0p-aYGT18OfBrir5qEVwhpzuOU6Z4l_bWbVVZR2a1ITe3geLLUmYHUH5QW3o0yo5S8-ryTIz4eypS1LTt9rk4fXFIq6c89yDb9vM2BmRL1Coe67Smh0n0h5PK9uomjLcCJR_M9P7oUah7IaMqJvGCvgnyBN0i4Rhrhy-ksiDx5ciaoT0zM-VzdsKy4mqi8Zdd4AVSG5wE5Kh9yIQahXm66P57eYuVnS4oDRKEwybMnTcPLz6ToypLbiDXfvyw3KvwyksafudaRy4NeuhK2hd0EYXBiSCjKwhgXwRBcxDad_LngdsLxUlAGr35B7rWVEwE5x1NhhRoYr84BwBiIOQ3xn9q0jY6esSsd7c_E0BxnuLqFP8xkabLQtRgT0BuAA1InTY5CaZjkCCp7QppSMnaggPZpR2gpvSMz-yJuKuBB_SjslZUdd-XXarGebbF_pfKMNvcNKh73SgwtoM29jJjwsTN9WREZi3LQU3kM2-8JkGqWOS_Ku7BGJK_z4f89KpQmxXmOH3E8aYjXMOPHW11J8KJJqSoJ0PlTjSMZSztRA3cmKvDXR6BaNtrcY7AIQrpebOZok1MG4-VAuu4-3ZBIq0YHcsSsW7nm04EPWjwpro8TwYVZyjiqsOvWXooqz5T5zUs3_Ih_fp5LYt88B5OCdnPOipEiRG3LCwVO71jZIfAxT5R13_wZbqaLuOCHpxF17BhT4kX7XxaJnkElsamI91yNirqSoxTw19hnfcU_HTlUi5vXHdWoQtHQNHgS4mFkNG8WFfIXoScSg6oPDv5jToj46ny_jCYzWqyP61U5J00mZ8itxi60ZO3DRey0aaw4HwrZWUk3Q6q5-wrIkZgNU7wFTrFAu_tZaQpI5p4rXto-If0Nk_ck6-A5668zppWx6B_AsI9-vSA==",
+    "summary": []
+   },
+   {
+    "id": "msg_0bf11d8b978347ed016ae33c71346487d1874c5687c128368b",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"d2d34941\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.02,\n        \"undetermined\": 0.98\n      }\n    },\n    {\n      \"id\": \"c4674476\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"9ecb7755\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"4b62ccc6\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"fd583e6f\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"5520962c\",\n      \"probabilities\": {\n        \"supported\": 0.02,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.98\n      }\n    }\n  ],\n  \"response\": \"B, feeling excluded is understandable when a shared spending agreement was not followed. A\u2019s 120-unit purchase crossed your agreed threshold without a prior discussion. That establishes a specific breach, but the information here does not establish that A is always impulsive or that this always happens. You could focus the conversation on the concrete event: \u201cWe agreed to discuss purchases above 100 first. When that didn\u2019t happen, I felt excluded. How can we make sure we both follow this agreement?\u201d\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 498,
+   "output_tokens_details": {
+    "reasoning_tokens": 64
+   },
+   "total_tokens": 912
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

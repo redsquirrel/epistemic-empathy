@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:34+00:00",
+ "finished_at_utc": "2026-10-29T12:32:41+00:00",
+ "body": {
+  "id": "resp_09b9cd360d083945016ae33ce2933487d1ab732a766c043854",
+  "object": "response",
+  "created_at": 1793277154,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277161,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_09b9cd360d083945016ae33ce4299087d19c3d76d73b06deb0",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzpJ2Wkj5v22h4geT8-RVYQLxBHIFQo_IQDZipndl4nwp6Q2rX-ZMUoF84NilD1WNO2RCmQ6niyPdrLWzdI9ciw13ubib5aLJuA8tDwp2QD0DC3zXPe3TvCQdSh5yq8r5dLZzNlf-0t5g063xdvSqkh6liH1gqNohVGy7PXAfeLllizZun4txUbrraIxD9TX9sAi01rruiQ6Nml_4cPaM2rFjoPcDeOIZObccxKqig4_WuylGFtG9CiDW8hiUG6neKZFfYJyBmHNLhotww-kcOYWBYS6f52Cah17--j1Rrnmf0TDwx2u5z3Xu4rGC5P_4qA65naBNKa-4qeVP8qIxH4H2DBid82Sp2xBOHWY1-ctmv1APyUmQyEKcnOm7iqSzg_oMKiwOPPLY2b8nFvPUz9a5KUqftCtoDaLRpHctnEFVxyLRGHD2lpNHVwfPm0pdE4xqdxva7VIyIfZvLWpz48vud4FOPp4kec2PPWqQhZV3mbJMG5qhppiMeJU8Fn3O1F-4l7dlddrAGKMj7PohLCLqgff8tLZmompjj6wdHxYHJVN9X7ljARYluxHgKYStfzaxCbuDfsrjCB_9dUM-BvtnGzaZScBf67Pn0fnGrB2m11oKtkCHB2Knt1ZfhVov8O5M2026ev81lpCXjS7zeiiQ0XpcoXuGa5zVFp8rMb1YDQ8T669VeDPzVr-cAJTXcMd-7Ua8AYIL1Ix7NhAnkwlgwaNdzSGfiD2KqjqSh6eY5Iz6Uwk9kOS7kmb3x5QU2W06UbtlfVw2mACaEM3d_vZzMtWhRbXLftSecCFe1k-ClFLLUzD0-Xd7yOBFFJcKB4sAJrhwcpCq84RQq9ZfC5AHCB1Hp2stuXDfdqOqm77WvMMn_4fCWbKeGBanoHmmtCbsC_DIGvGagVpGaw6QjvOBR6QjMsd4mFr-I8oBfETu8FmewyLsTqz5-og3ceC14z-8KdNvWROsxM_-MvsjS12fHwCcTsXdHJy5O6Wz4Zmph9HweTGEf3AUxJZ9NYQHwwVwY3pQxqLYFTqwyjE1HXfoebmBdSXxZGc9HLVSF97Sq6XSsC8XaeaU2rJoreIa-pdao4j-rctkTTjCfBU7k2VVRf_6SzK50F_lBL-kgnSRz-LBW6kele2ufvDG6ol8DFnetxts6zaaJCUYvD3qgADpjTVQ_1vsmflHPzbBjmyP-2HRO4XUAWK7TmfS4JIKQ8QJ7oLFXk3tYY50zmzznI7bvNzDf5BgWZ5ccRbKebqUYkjb41A5xFZThQFibH_D3QpQ-IGSe-Ja5e3b5VvUc8VWhEFF-tJNssZM2-i8ZT2aSlxlAi2AGnVC9vKFA3Lprb8_tZB4tfn-w15YwdGBRWtloHwFM1VoV9__Sqf9WqvkuZZ_yvFDuPrAKUlJjvCT0kmBN5kNNJPJt9lbbKHvrxistuCDfgRwGBSnd7doB57uoRXtigfxC_EGHjLemJXi776tUYDZPVKxzQ9rCZcsEnJnezt-I0crZbE-QMZcpPnvK9x8hPBdW5BsrZeUnrnA670dCQXA5oJUoaEemDgUMRKMCo5hRQSOgCa800odMugPPQRz-jzKZQ5PU8YvkasMXk2obEsMBbyMsA2fPPFVW7EfECn6SLwl8lKdLZvgC19fXmy-YvdgvkoJhAwRSOXAqTmo1BHBqmpiut7b04J2PsXXu6nBY3KoDeIs9cUg3N9j01722h-nMnp3sasg7Rq9enfODKpPjwoFWO9_WGrKRZzbXmkH1rob9EXR5eUwIgTWkmiE2QexgvgiTg52yxhgYhLvcFEQGnawpU8WYqztsHYd59IdajFl93GVMmGqFguD8Lp2WlunVTTcKC1lNIRzXX-mGRdqjbvcW-X9T8lwD9nPCeBSn8BA6jBFO_IyoKGaY3HbMygbztqc368hkrUgTSgH57DIfxh9Bgk12nHpklKd5g_ecX4iRa1HRbmNHALTPBV_BpWsvcNUzQYkasTT1obcIs5i8JsUH9I8yGEfS2sQ==",
+    "summary": []
+   },
+   {
+    "id": "msg_09b9cd360d083945016ae33ce550c487d18508463ef09504b7",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"5a3a2c4b\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"3a7c047d\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"67c569bb\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"5b773f3f\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"48367f02\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 1.0\n      }\n    },\n    {\n      \"id\": \"3d022458\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    }\n  ],\n  \"response\": \"A, your disappointment is understandable given your expectation of time together. B, your surprise also makes sense given your understanding that you were making separate plans. You had not agreed to spend Saturday afternoon together, and the accounts do not establish that B intended to avoid A or that A is consistently sensitive. Try discussing the specific mismatch without assigning motives or using broad labels. For future weekends, explicitly confirm which time is shared and which is open for separate plans.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 431,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 478,
+   "output_tokens_details": {
+    "reasoning_tokens": 48
+   },
+   "total_tokens": 909
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

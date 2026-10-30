@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:30+00:00",
+ "finished_at_utc": "2026-10-29T11:17:58+00:00",
+ "body": {
+  "id": "2c7e294e-6f5a-9f52-97b3-76fec8a68201",
+  "object": "chat.completion",
+  "created": 1793272650,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.1, \"contradicted\": 0.05, \"undetermined\": 0.85}}], \"response\": \"B, it makes sense that you felt left out. The shared facts show A spent 120 units of household money without the discussion you both had agreed to for purchases over 100, so that part of your concern is grounded. Feeling excluded is a fair reaction to being left out of a decision you expected to share. At the same time, saying this always happens and that A is always impulsive goes beyond what this one episode can establish. It may help to name the specific purchase, the agreement, and what you need next time, and to hear A's account before treating a pattern as settled.\"}",
+     "reasoning_content": "I will judge each claim against the provided facts and supply a probability with a brief reply.\n\nClaim d2d34941 is undetermined. No account from A is provided.\n\nClaim c4674476 is fully supported. A bought an item for 120 units without discussing it first, breaching the agreement to discuss purchases above 100.\n\nClaim 9ecb7755 is contradicted. A did not discuss the purchase with B first.\n\nClaim 4b62ccc6 is contradicted. B's account does not explicitly state that A intended to humiliate B.\n\nClaim fd583e6f is fully supported. B explicitly reports feeling excluded.\n\nClaim 5520962c is undetermined. The material only shows one instance of A's behavior, not a consistent pattern.\n\nI will provide a brief reply to B, keeping it helpful rather than inflammatory.\n\nThe draft reply acknowledges B's feeling of exclusion and notes the shared facts confirm the breach. It avoids the unsupported \"always\" generalization and suggests talking through the issue.\n\nThe reply will ask B to name the specific purchase and agreement, and to hear A's account before treating a pattern as settled.\n\nClaim 5520962c is revised to supported: 0.2, contradicted: 0.05, undetermined: 0.75. B's account explicitly states A is always impulsive, which supports the claim even though shared facts only document one instance.\n\nClaim 5520962c is revised to undetermined. B's \"always\" generalization is unsupported by the shared facts, so the claim is not settled. The probabilities are supported: 0.12, contradicted: 0.08, undetermined: 0.80.\n\nThe undetermined label is being raised to 0.90 for claim 5520962c. Claim d2d34941 is now judged strictly undetermined at 0.0, 0.0, 1.0. The final output will be formatted as JSON.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1642,
+   "completion_tokens": 359,
+   "total_tokens": 4515,
+   "prompt_tokens_details": {
+    "text_tokens": 1642,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2514,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 187940000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

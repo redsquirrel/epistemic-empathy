@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:00+00:00",
+ "finished_at_utc": "2026-10-29T11:19:23+00:00",
+ "body": {
+  "id": "6d945786-b89f-978b-b660-0a70a6aed1d6",
+  "object": "chat.completion",
+  "created": 1793272740,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"b9e87742\", \"probabilities\": {\"supported\": 0.93, \"contradicted\": 0.02, \"undetermined\": 0.05}}, {\"id\": \"7215791e\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.01, \"undetermined\": 0.03}}, {\"id\": \"635f0b8c\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.03, \"undetermined\": 0.94}}, {\"id\": \"674cce8a\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"a88ffb19\", \"probabilities\": {\"supported\": 0.05, \"contradicted\": 0.62, \"undetermined\": 0.33}}, {\"id\": \"9811759d\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.95, \"undetermined\": 0.03}}], \"response\": \"It makes sense that a long, important call could push the dishes out of mind, and your annoyance is understandable when plans slip. At the same time, you had agreed to wash them that evening, and they were still in the sink overnight, so A may have felt the agreement was not kept even if forgetting was not intentional. Saying the call mattered does not automatically tell A how you weighed the promise. It could help to acknowledge the miss directly, explain the call without asking A to simply understand, and agree on a clear time to finish the dishes or share the task next time.\"}",
+     "reasoning_content": "I will evaluate the claims against the shared facts and B's account. Then I will return a JSON with probabilities and a brief response.\n\nThe first claim is strongly supported. B explicitly states feeling annoyed about the dishes.\n\nThe second claim is strongly supported. B explicitly reports forgetting the dishes after a long call. I am now evaluating the third claim.\n\nThe third claim is undetermined. A's account is absent, so the material cannot settle it.\n\nThe fourth claim is strongly supported. Both the shared facts and B's own statement confirm the agreement.\n\nI am now evaluating the fifth claim.\n\nThe fifth claim is contradicted. B's account gives a different reason for leaving the dishes: forgetting after a long call, not intentionally demonstrating that A is less important.\n\nThe fifth claim is contradicted at 0.72. The sixth claim is strongly contradicted at 0.96 because the shared facts state the dishes remained overnight. I will now draft a brief reply to B.\n\nThe reply will acknowledge B's frustration and the call as a valid reason for forgetting. It will note the agreement and the dishes remaining overnight, then suggest communication without assuming A's perspective.\n\nThe reply will note that the dishes remained overnight despite the agreement, which may have made A feel the promise was broken. It will suggest acknowledging the miss directly, explaining the call without asking A to simply understand, and agreeing on a clear time or shared task next time.\n\nI am reconsidering the fifth claim. B's denial of demonstrative intent does not fully settle the inner purpose. I will weight it as contradicted but with a higher undetermined share.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1639,
+   "completion_tokens": 358,
+   "total_tokens": 4010,
+   "prompt_tokens_details": {
+    "text_tokens": 1639,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2013,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 157760000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

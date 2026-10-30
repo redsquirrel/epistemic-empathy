@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:31:05+00:00",
+ "finished_at_utc": "2026-10-29T12:31:13+00:00",
+ "body": {
+  "id": "resp_04c8ca38b8f24ac0016ae33c898f6887d1b0aec5d650cca73e",
+  "object": "response",
+  "created_at": 1793277065,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277073,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_04c8ca38b8f24ac0016ae33c8aa78087d191722ddd56006e15",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zyRagrAXYfOj3lSln6l2ASftu8fq60DxjORgHZ01lzY3ccUE7_KR8FKINBxhPa7v4wsc-yiFoaFi-qNtDach2_lzcAC1mP22zT8lTZWbcRl5h2yWuR7EVe18t8gEsuMPNKLBOPA7pd6DaEdzvDN0IAdT_Urn5UHHh4tK1xHstqCDU8LQ5MqBbb00tjgQWqimDJ-X1thRixOarl67hlBP4ErBgcP7pK-n3ZBplIHY3EX-zgLnTq0aDdMkmyniQ-wnTmuEQF4oZXg_WZaMe93zGMzUUxMib6K7gpTECkxXkXDZsR8srnrgzjL59bdequErO1qrin5T-m3fEwJQ5iQtdICo43ljc1FVvUxoGQVdrUO5a-an11fmmHVq_m9H9Fk_3nJfav24XJY3xcnqQCmCS8dJKjE6kTaSLM5Q4nzNhXGBH6wO7FQpYkoaagZWMa9jvQVieY35g6BVSyH_ZmEmow-_aRUiQ4Ys67dhtSawnBp4crcLEgVOh2i0l3CL0srPSkTOuo9gZ43p7PItoMUu_TIvo-de0PjnqbcfjOePe1U1aYat16GHOZiazhWegpYFJFXdyj40Xbijlpof4CBWn-wv35UY1eY4jsfaFZmnkpUiEKFCTS_oLIyjg7OFzhJDMy5eoelmsWPNC_yJQhH1BFTGDeXTaQwXddj3ceITY62jcpSrBvyd3WBSQxAI1WHSNmIMySnqX75Ub9CGljmLhi53TyiyP7OYUeS8SHj0_muxtucjNivmul3-D3kZJqAFaO0DRtpSMr3syN-NLAIT80QQ4xYv14fafh1qAQjkIKQic_hY1RHZRr69Z6hj8QjAcMaQ4Lgdf1slkcXM6Tb-9wkq-JqEYb-ZC27HRVWcI_Fy8jsFnVQ5u0p1OXjdh9mkIT5Yt6jptVyGXIndwRJKJ_0XgLHz7fnR4L7cVSoP5NiR3XeGvt9MGtmo9yDFNYjnXQO3XpQIYhS9kBgmqg2Agk8cY4deUrmh_Ws_NFhe2LJjt3gvd_f1EXGLghmWHwzBbvjWjG2FpuWrTLUQsY0ZUvm8HD0EkrqSXIOQkVB_3DZZgrAttb3p9E_vTd3jF8XaEzcRQiCxhzfbcSBh8fFID3vFWPgGdP0UY1TvU1Q_HjsybXIQouhAKU6AY__fNxlyupTUlKlE6dfQmgY1-63YZMCkvl92oSZiIFPR9VdE34b6HXnaTbYaxQja8sYjg90f6qF5HYzrqNhwQ-veWU7iHw-wBrYWkh9I0_g6VZwI9dXeYhf6kc_mnEsMukZ6pGil9oWxogp29hBHFCMGvn_bECENM7OhPWEaZOJt7KnJft0BIQTJkIEEDZSa9m4QG8ZefqLla2C5DVV_3rO2gU6s8-H2d_PQVBz6vIl9EL538NiEOo4RRtVB7vt-RqM72y_5KqJwo_7Cje-4iGMvO11HGuMxWSW822r55MJylk4vFAC6LVlRnO6_I5IxmZFHkHwz2ixxkAy_cg2bHma0iIpMLrk1mQw6bp4JaxfPoIzr1dhwYLKtaf2YVVVqnoQKgVtF5nIT3HSJW9ic3jvM9UKe19RrCzSH4PI6S_yYoXzStR0D-2ugCfWApQpxJygs330yRnRbWfq8aeCeqGSN8QpIf_FEUsCJ8vuu4XeFB5I8sfdOuQPOqQ-AyluhlT7LPQScjQP2mspmuiXbPc49n4t1ENAzl0UzfRqQjj95D1pmKewDsVvEOsxyLkBOoJneJ-gKc9TCZeKYv5y1DkoQZaqJyH5_kLubO7l5_wZdu8Gsj37BtYEuJcDwuAVSpDrpEzAFPYss_W_2chVjW7MPtT0UiQdpjqWdXlS1SapnFHuwf5iBgmuLGSs9PMCygBDsCRVKCnCWn3HycDGU8sSM3YqC4n1KeRqslFP-LAvowqckPpPGQuc4PCwpKRUlr4pKIPopsPF8Lz4bWr0NV9K6hZR2a-YqVBPuesQvC9WGkWNJrwPLrzav5zCDVE6fnQ4bAY6br9B6YNiRdqRWSklTnHyoAbvh4XHUBr9ztmP2hoUMLjza3tGU5WxJDakQ77SiBEIb901zZZ1cj_GHkD0hmbbno8u_oE0aSdrttHU1v89Bmx-z7D8mcyKZ4tzDTxz9B63IyMF20GtPYoXb7O-JY6hTInV6-n3v3kS4TQDb-63syloXT90KzH8iq4Dyekv9JLbj7bIB2B2ofPf9F5sogXUDS7qU54aMaEIf-XP1i8piKsue1__s-1m5nR8RKONAkpeiLJoiad8aJWo-mmkXxzmoKtqLKq1RV8mgK0o7VTy9pJIUq5D5KxOd3bSyOJiVoQDtzNpOqhlGX2uqberbeU4aojXoDf2n3SuCIfUkEaB1reOxpvbExQxD9VNQv8dCyQq1JCx",
+    "summary": []
+   },
+   {
+    "id": "msg_04c8ca38b8f24ac0016ae33c8cbf9887d1b0af07a0a76d867c",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"b9e87742\",\n      \"probabilities\": {\"supported\": 0.99, \"contradicted\": 0.0, \"undetermined\": 0.01}\n    },\n    {\n      \"id\": \"7215791e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"635f0b8c\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"674cce8a\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a88ffb19\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.09, \"undetermined\": 0.9}\n    },\n    {\n      \"id\": \"9811759d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"B, you describe feeling annoyed and forgetting the dishes after a call you considered very important. That explains your account of what happened, but it does not change the agreement you made. A\u2019s feelings and perspective are not shown, so it would help to ask rather than assume A should understand. You could say, \u201cI forgot the dishes after my call, and I\u2019m sorry I didn\u2019t follow through. I\u2019ll wash them now.\u201d A reminder or an agreed backup plan could help next time.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 409,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 476,
+   "output_tokens_details": {
+    "reasoning_tokens": 76
+   },
+   "total_tokens": 885
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

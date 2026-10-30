@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:19:01+00:00",
+ "finished_at_utc": "2026-10-29T11:19:29+00:00",
+ "body": {
+  "id": "dc653e34-e4eb-9c9b-99a9-0e5b78b8e53a",
+  "object": "chat.completion",
+  "created": 1793272741,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\":[{\"id\":\"a236e680\",\"probabilities\":{\"supported\":0.99,\"contradicted\":0.0,\"undetermined\":0.01}},{\"id\":\"6fcf6aee\",\"probabilities\":{\"supported\":0.99,\"contradicted\":0.0,\"undetermined\":0.01}},{\"id\":\"1a75ee30\",\"probabilities\":{\"supported\":0.99,\"contradicted\":0.0,\"undetermined\":0.01}},{\"id\":\"a7fa5717\",\"probabilities\":{\"supported\":0.15,\"contradicted\":0.05,\"undetermined\":0.8}},{\"id\":\"d7ed9f33\",\"probabilities\":{\"supported\":0.99,\"contradicted\":0.0,\"undetermined\":0.01}},{\"id\":\"924299ca\",\"probabilities\":{\"supported\":0.02,\"contradicted\":0.88,\"undetermined\":0.1}}],\"response\":\"It sounds like a difficult evening for both of you. A, waiting without any word left you feeling unimportant, and reading the delay as not being cared about is an understandable reaction when you had not heard about the cancellation. B, you were anxious on the platform, you wanted to make dinner, and you are unsure whether your message arrived. The shared facts show the lateness came from a cancelled train, not from an intention to punish anyone. When you talk, try to name what each of you felt and what you still need, without treating a feeling as proof of the other person's motive.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief explanation.\n\nI am now analyzing each claim against the shared facts and both accounts.\n\nClaim 1 (B's anxiety) is strongly supported by B's account. Claim 2 (train cancellation) is a shared fact. I am now evaluating claim 3.\n\nClaim 3 is supported by the shared facts. Claim 4 is undetermined, since B's account does not confirm that B was actually annoyed.\n\nClaim 5 is strongly supported by A's direct report. Claim 6 is contradicted, as the shared facts show B was anxious and trying to reach dinner, with no evidence of intent to punish.\n\nI am now drafting a brief empathetic reply to both A and B, keeping it within 60\u2013120 words.\n\nThe draft reply to both partners emphasizes that the delay came from the cancelled train, not from a wish to hurt each other. It suggests separating felt emotions from actual events and plainly stating what was needed during the half-hour wait.\n\nI am finalizing the JSON output. I will return only the claims with exact probability sums and the brief reply.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1698,
+   "completion_tokens": 324,
+   "total_tokens": 4706,
+   "prompt_tokens_details": {
+    "text_tokens": 1698,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2684,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 197160000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

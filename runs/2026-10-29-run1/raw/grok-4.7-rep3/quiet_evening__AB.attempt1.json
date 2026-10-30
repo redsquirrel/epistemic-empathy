@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:24:49+00:00",
+ "finished_at_utc": "2026-10-29T11:25:18+00:00",
+ "body": {
+  "id": "3ada8a02-bdfd-9427-9f18-58255e811f46",
+  "object": "chat.completion",
+  "created": 1793273089,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.18, \"undetermined\": 0.70}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.72, \"undetermined\": 0.25}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.04, \"contradicted\": 0.90, \"undetermined\": 0.06}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}], \"response\": \"A and B, you are describing the same twenty minutes from very different places. A, feeling rejected when B left the room is a real reaction, and it is understandable to read that silence as anger when there was no greeting agreement. B, wanting a quiet interval after a noisy day, so you could meet A's needs afterward, is a different explanation than anger or wanting to leave. Neither account proves the other's motive. A brief, specific check-in about what each of you needed in that moment would separate overload from rejection before an old story fills the gap.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts. The first claim about B feeling angry is only A's interpretation, not a shared fact.\n\nB's account does not mention anger. The shared facts also omit it. This claim is undetermined because A's report alone does not confirm B's actual feeling.\n\nA's account is a claim rather than a shared fact, so it cannot confirm B's internal state. The next claim to evaluate is A reporting feeling rejected.\n\nA's report of feeling rejected is clearly supported by A's own account. The claim that B spent time alone is also supported by the shared facts. The claim that B went to the other room because they wanted the relationship to end is contradicted by B's account, which states the goal was a quiet interval.\n\nB's stated reason for going to the other room contradicts the claim that B wanted the relationship to end. The shared facts do not settle this specific causal motive.\n\nThe claim that A explicitly reports B saying they were angry is contradicted. A asserts B was angry but does not quote B as having said it.\n\nThe claim that B reported wanting a quiet interval is supported by B's own account. I am now drafting a brief, neutral reply to both A and B.\n\nThe draft reply to both parties reads: A's feeling of rejection is valid given the lack of a shared greeting habit. B's need for quiet after a noisy day is also reasonable, and their desire to be more present afterward shows care. Neither account settles whether anger was actually present; A felt withdrawal as anger while B described overload. The reply suggests a brief check-in where each names their own experience\u2014B stating the need for quiet minutes and A naming the sting\u2014to prevent old assumptions from filling the gap.\n\nThe reply is roughly ninety-four words. I am finalizing the probability scores for each claim. The first claim about B feeling angry is undetermined at sixty percent, supported at fifteen percent, and contradicted at twenty-five percent.\n\nThe probability scores are finalized. Claim one is undetermined at seventy percent, supported at twelve percent, and contradicted at eighteen percent. Claim two is supported at ninety-five percent and contradicted at two percent. Claim three is supported at ninety-seven percent and contradicted at one percent. Claim four is contradicted by B's account.\n\nThe probability scores for the remaining claims are finalized. Claim four is contradicted at seventy-two percent and undetermined at twenty-five percent. Claim five is contradicted at ninety percent.\n\nClaim six is supported at ninety-six percent. All probability sums check out. The final JSON will contain only the required fields.\n\nThe reply is being tightened to the sixty-to-one-hundred-twenty-word limit. It will use plain punctuation and avoid overclaiming. The draft frames the same twenty minutes as coming from very different places, with A's rejection and B's need for quiet after a noisy day as separate explanations rather than proof of each other's motive.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1668,
+   "completion_tokens": 352,
+   "total_tokens": 4281,
+   "prompt_tokens_details": {
+    "text_tokens": 1668,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1664
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2261,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 165180000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

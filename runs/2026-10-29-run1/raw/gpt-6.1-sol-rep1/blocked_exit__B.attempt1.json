@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:18+00:00",
+ "finished_at_utc": "2026-10-29T12:30:27+00:00",
+ "body": {
+  "id": "resp_04b2c2d3372e2ab6016ae33c5a6f8087d1b826f491ad016405",
+  "object": "response",
+  "created_at": 1793277018,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277027,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_04b2c2d3372e2ab6016ae33c5c13e887d19e6c99c8410b98e8",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zxjZSC9PsPsBn564mE2vqbejJRrcWC9Lw0eoQTCDG2OSyvB6w9VzaPulji2PbnApUX3-mkA7o6z4fR0ji2gANw2j0JGncPCq0UDzGiHdrY_g2Mpdmwcty-mpCezbjVcUSz91hjiTL6xXA8WJv9r391zt1ycrn5c6ack-JM5gnpYBwIvQvnmp__DzCOcELk0k1dU4E6CjY6g4_-ty4z5SWjTSH6OLuCpxg-1nzJsVzTOA2WNonMiy99PIpkkGhiLFvHIdQcWhLJGYhJNGtfPFe1SbGn55R3hnmIc53NyZRc-1UP-RUpNHpSn8uLgHDfCtrlfdIS3fxGNhTpCHWiWIOqXfANUpyRlRxf_lYHCEFON2Q5xlBsH-ZjYCgPuAHOJRA3NWuv1zBj--2tGplsqzjbTvzWfRFHYtrNuzAhNrppvtlx9Yw12Ug7X2Dd1IyRuFLV8J_A7S-hW9WPYIpqqblYdLC20xt7N9lfPuY3VbGr7g9Rv78gb4ABA8S2he68FFtQCQkZqzsTrQvYKnFE0BVScfdQM9sz2oOxVA8jOwrg5BLWKMugibIfyPJ9svLLuLDn6QvSLzFV1VW8pH4SD_W7Mzz9gkkuOwPHn2m7MONm97D0gJvhso2P939YSkdQtb6hj7Hx1xY2D3iKyzmzJDgNooRmREob6IX9xSI0hUddRnuUQgTsyBWdDJ0fwkAr7OZYhi2A4HdYL_sQik7MQZv6x6CyPF3jwer0DJbOTDVFCZuug_751gZpX8HzhgPNl596pXlPJySN5K_3zhxlkOuIpTA_5_8kAFySgeVUOOWkeVtOUV2IUQYxRjcLTMo8pczKvMFvJYHLGaIP98IzYcRIKjqlGTGigeFiOIv0-aeEKM1igLQWRMcFC9pA-D2puXRCCyC8nOD2R27v1dbF0LBgfE-MMiNsRCTeswEZUtxntJnyFCHj6Bf2vB7qW1tj77GX3aErtm2MQkEUPLO_JRIxoj_vfAvKWWehsG1MCsKQ9EHMjMcguOBj3jI7fTiqmTa_NYFucjJNCNPfg9tA4_Nj4hwRz3_WCLRX6X9hw3H3244BqonaI6BVnIMxgRgW5fyDRQzG3HYQnNqe5DTErPk6dvAKLLlPBOn5TEoRLjqQTfZEBJPJ9lEcuA4a-fOmm4Jk8mBXV89XZng-Sp9xQChrTwZvGurTWFCmmy03D5r1eFR9mZ3tIfRHoXk_6xAkB0LfrRQ3TkN7jlmba8KBA7bWG2OHxHLa8mPS1PQJJjkni4h_udVcGbt9Qg6aemcbZYJuDDA4COcFLLCBUE2sAZ0uuB-pFmZQPLB-5gRptnNjyrQldkwjVQ1uBRVCr0_hhBNckPD0qKkhnhqEdI7dsGc1HV_t1Eila1mjMvUZw11YGFg8lQqI8MmN7rHdgDb-jiFgGeLEY8Wk6vtKe2gnvKpSAvPTuKJzD3E6vk-aZscmliPPshSC2YBYIeJQRxrWvN9fin6H6eMNI6mgYejVYRVuKQa39a67PS8WPOOp5wnhp1GLREgBwmogEOirsq1QMV7RiewwLsDkiH8IjgTFxxIdaqI2qb6XULFXtOGXY2qm1v_wVZRDFhPtK6wIrHU8hx6-bOVLmVBkt82HVL-u4AF5P5bfOkx87MzUBmpEqLlfKMW3JVzF7ijehZnqyA2DhZ4MmGxts7j9nUaXx-SzfiHcue3fjXOO894Z3pXDpRdJBUBOF0a0LH3xMxWTRjfDsvsyyGNH-SAKOQ_u9Hb08-Tn9b7JpbISHDDEc22ax9pwVcymL0P8k4BvU3ab7bR5BumJegZmy2qtchwbrCKU0TNN5yKWnU5ESzDiq_auo5a4rocJO10hz-ak-WrIOKaOKgBz93lU2MLc3YnPp1DyYigi7OAcNYtoQR2jAn04Z9i6c3VYd5EQHFTtgR6jKYQBJxcj23rw9G39MVS9hjC6mw8P_7Vxqa1wdC0WMAS39VLX6ZKDB6SGr7CPOGAG5lX07IlLbY7phGJ-xMKnk2-zCS4wQ6yISHgVT-vZv_upNjPNCC5wp7jZPKFHHkDw4K_Q8JsNIKVRxdLtlPu04mn0ju2xrgeIZBCyESgwU2yCwylPpN733O63U3Yx2GZwhxp13b82FdSFpo2ZsbNgJVK0wL5R-CJXgolxNADrEIcQ72YcbjZa4mjLtraM1hamsk9U5AaVqvJ69F-Z99-KlcCPtm6_CprwAfMwVaekPL-qIktkvbo0y58GezGRIS6WdZZa0O-MAGHuxQsOlmCPhO1YCIqzNAk0wEamEdl638m7qbjcMnZxn17LVjBh0W5Rl__BQC7bWNEEddwHGA6q3P3ltVXodG2W_0uGINd7V7MuEfjQ4hLKHBTo9fAp63TI0ERo_wpam",
+    "summary": []
+   },
+   {
+    "id": "msg_04b2c2d3372e2ab6016ae33c5e8fc887d19b53a8154428777c",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"7ae796d2\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"7f0e7be8\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"202c9e15\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"61c0e2e1\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"0cb7c2a8\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"47634250\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    }\n  ],\n  \"response\": \"B, feeling panicked about an unfinished argument can be distressing, but it does not justify preventing A from leaving. You blocked the only doorway after A asked you to move, taking away their ability to step out for five minutes. The immediate priority is to keep the exit clear and respect requests for space. You can ask to arrange a time to resume the conversation, without making leaving conditional on agreement. Acknowledge what you did and plan how to manage your panic without restricting A\u2019s movement.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 447,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 477,
+   "output_tokens_details": {
+    "reasoning_tokens": 71
+   },
+   "total_tokens": 924
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

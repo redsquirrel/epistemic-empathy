@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:30:46+00:00",
+ "finished_at_utc": "2026-10-29T12:30:54+00:00",
+ "body": {
+  "id": "resp_04d0016111ca3097016ae33c76a43887d18c30702b041be4d9",
+  "object": "response",
+  "created_at": 1793277046,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277054,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_04d0016111ca3097016ae33c77bd7c87d184fc6a0691099d1c",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zx-Z5rW3zUwlqauLMMNkZSP02GnKHNaHkVKTIZ7yYX8qw_JHPxcPCi0yZmD3zD0QZe7nZ9r_hqCQSyH9ujKFC_JHnRc-SmIojXTD0ATIqQtk61-OI96v7XNl0-8gAVbapViSNgtfQVcFkPTMo0p0pKlFkV6Wj3khLJCPKH3YEbjKr2Ftw5_oHLHGUG5U1HDZJwKJJc1g0a4aA274av8I3oU-yfjn7YQpv7iyb2FFyHDJO51DHf2etI8aQn7mBfw0X4zXgdBt-Au1WmfdL1v_DmfbCojANbL8_gCstf8zx_xXISbwpY7n_2zY93fxBWouVnzyeKi0oyE6rFdUl39_jU5Inv3xakbtoPMYxSnmI6JbEy3dzA1ihAkpM-trFGFYNr_rgfvkJigqdp1azwdbsvB7ludL4-WJu_gPhdBtkI2QLe0ggKV6Ci94I-2vx7PILCDkGCsimfOtjZkIFrT4z24g4cEDShWo4AXk0ZdugdkvqNfvyb0Nmm1xNh6Ynv2keFCyVqztdgSTgK7758cSKpcl64M3QTjZ6-PHBNVz9w2A29jRA8wyhwpgCyOqSGsb2PdnsxL6J6uJ6Kxe4FwqQiG4JFZyjcXh7cK1Q2IM7XFtxlV8VXU2lxE1xT2kJfLrb1mKDNT9KIqdgXN9AF6kourynxzDL9AyOCuLmumq7j93TfwXdTcCRWGMuuxjmLe-u8XZe7K0acLHbM6cHHGOiGAnOIQpOWxI7TkNdijAFRwkDhaUu-OKIJtoOZX0tl2f0CleLrBSdPeeWO8XkxFHGqz_Rpvr1VjJNFOlt_LIWVbA4vQ3iNAk4pkdjyxACXMLDC4cgVuOhSvOXPLazsf25OUloWKN5MQKgqJMp3PuWDei9brJngRLMA4Z2Y3Y1cks5dWmzi0k0lhUdNoxyO2HqN9q_-cIpE7g_FoOuE0ndEzOikGE8DkDffaT-Svn_97ydiQkHnvz-zMe-t3-bclggqe8bITG6KFzDoo7pwFbkrRC9QFaaHLNCYrMOsNrqVoOUGcwZb4iRODN4PdN7IyOFICRGYm8LrwvYiYQMEho9RwJx0aSUX3W2IstPYrrH8YCzmysXL89EY322-qmfXZlblNpE1AI4nlFTwFbfLhvidSk7BgDYBc8UmXn-vC0ghBIP1Tpu82vnhvumFus7BIxpUp5LL6r3noGHQrBBQQG3bTVx7ivUx13jH-RdRU82N5M20gg1vsEIek7dDSG8_FiKwKiVOau9s9P-d_uE1E77oj8AVQRrWzLq7Ff-Zopi0hyIY1DNvwhGEPJMoQq1Y11n6alHMigrN8v1RFiuxG6x370Bt6umzjow1HT4wEWcsOuw7HCLpVKIOyZalS2oi0Te0BzvSc7W0RlyjdAao8LghLikVzS0C0wab0pNK3ZumKM_OIZszYcGaj3zA7LliA5aYtl8iwFUhMJ7If0kMFEydlYwFDoUhriNkrVsxY73KKIgwh8xfoVk6pXd7gv4YojEK1_B2uqJdmocyjGTxbXQ02F69s1HCDPlIeGiNmoK-asX7lCmzIAqTKOIkhgWHu1aMSrqx9CPxxBaUHXvoxU-jF5IcqGtsBIHq4BVh2zm956AAq1o6o94HPEMJociPmz3ly5K8YNF4K14LfuOsjq6PVJbmqv23kKaPW_7MyPvMPhJsisL-Dc8AcGPL9rjKiWAxrPmxpWPv6bVEgV8ij1fO3wF6ypKvGz2429ZsBfW9a7MSBBA8YhvRtZQViHhowHIdWpIxNKauCAkxhZKgv1hfcdyK8aTjcCtBCUz4YwqR4Jl-l3CUux8XOR9U9yrvzjdsrt02Y-yzR_BUopOGpguN9Ez7lgwcR0AqknnrPIjdetCb6mX8MLC6T8mt4E6Qj14R9YMzSDEXfW6gJam8XiF5g3YTfSTyUOBb3_YswudhduJVinp8GwiZ6CkNan0L4SS-RM91ZDJn6NQFHqkKJJVm-EH9hqHCcVMPcKgSUugVK3G3y7op-Gy7Btb5n3KJRMTfhx94tU3U97fDmKDmsjf4ydXXa4PjpJGIvL3826Ihp0YgqGTyCSTqg8wLUK1o8JkkYQKDoxMJD6hcDPjo_XuANIArOTFd-yeYqtOQv-ZK2zBW06Z4AQ76fmGyA1hRJ6wTNEGFv2ECLntYhB4xaMvQbmMo15OWWlP0k2VlTK6U3q6IQ7JTDAxBAeXdAK1qsBvKdLxqrpL4GFV5kzxYYKguBEdhXXVfBOd6A6wknc1S8HFTFdkb2o9g069Ep5njeybCmUYJ-CANutO4izvyNgki0DtPzJtJIWW-NrOqGeZI9bLOX0MXeCZKJs6J8yARHbnUUUHQ5HTz2W9X_aNI59riiQO_7MUVy6Wr1Kz-9kI3gnR83nkaQL2lFxw-Ng7aPhUYGuB0TCTJaWCYasJP8qNs5aSXKHXkwr3N-keqYCR-Ig2yQ0kcDonungBANQvppM5Wyft8fwowuojxFP_xSjUgxH3_cKLC9Qwu2uArFFeRREf9P23Ciqib6Mv9Jpd2P50wmWdnmRZ1A5Bn-7fS8T7sn99U=",
+    "summary": []
+   },
+   {
+    "id": "msg_04d0016111ca3097016ae33c7a793087d19a4c2693f09160c6",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"b9e87742\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"7215791e\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"635f0b8c\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"674cce8a\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"a88ffb19\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.0, \"undetermined\": 1.0}\n    },\n    {\n      \"id\": \"9811759d\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 1.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"A, feeling taken for granted is understandable when an agreed task remains undone, but the dishes alone do not establish that B expected you to wash them. B, you report forgetting after an important call; that explains your account of what happened without removing your responsibility for the agreement. You could acknowledge the missed task and arrange to finish it. A could ask what happened rather than assume intent. Together, discuss how to communicate when something interrupts an agreed responsibility.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 443,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 475,
+   "output_tokens_details": {
+    "reasoning_tokens": 84
+   },
+   "total_tokens": 918
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

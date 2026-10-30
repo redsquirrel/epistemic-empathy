@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:23+00:00",
+ "finished_at_utc": "2026-10-29T11:16:47+00:00",
+ "body": {
+  "id": "d683bb56-90e6-934a-a6f4-4447d2a852cb",
+  "object": "chat.completion",
+  "created": 1793272583,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"30c8456f\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.80}}, {\"id\": \"3c9d9ff4\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"7587477c\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"57457681\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.82, \"undetermined\": 0.16}}, {\"id\": \"29989694\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.92, \"undetermined\": 0.05}}, {\"id\": \"69c4aa40\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}], \"response\": \"A, your feeling of rejection is understandable when someone you live with goes straight to another room, and nothing in what you shared shows an agreed greeting. B's account, though, describes work noise, overload, and a wish for a short quiet interval so they could meet your needs afterward. That account does not say anger, and it does not say B wanted the relationship to end. B, twenty minutes alone can still read as distance even with a caring intention. Naming what each of you needed, and agreeing on a brief hello before any quiet time, would give both of you something clearer than assumption.\"}",
+     "reasoning_content": "I will judge the claims about the couple's interaction and return a JSON response with probabilities and a brief reply.\n\nI am analyzing each claim against the shared facts. The first claim, that B felt angry, appears to come from A's account rather than B's own report.\n\nB's own account does not mention anger. It describes feeling overloaded by work noise and needing a quiet interval. The shared facts also do not confirm anger. This claim is undetermined.\n\nI assigned probabilities to the first claim: supported 0.1, contradicted 0.15, undetermined 0.75.\n\nA's report of feeling rejected is clearly supported by A's own account.\n\nThe shared facts confirm that B spent time alone in another room after arriving home.\n\nI am now evaluating whether B went to that room because they wanted the relationship to end.\n\nB's account contradicts the claim that they wanted the relationship to end. B stated they needed a quiet interval to handle A's needs, which implies continuing the relationship rather than ending it. The shared facts also do not support this claim.\n\nThe fifth claim is now being evaluated.\n\nClaim 29989694 is contradicted. A's account asserts B was angry but does not state that B explicitly said so.\n\nClaim 69c4aa40 is supported. B's account explicitly mentions wanting a quiet interval.\n\nI am now drafting the brief reply to A and B. It will acknowledge both perspectives without taking sides.\n\nThe reply is drafted. It acknowledges A's feeling of rejection while noting B's intent was recovery, not anger or ending the relationship. It suggests a direct check-in about needs and a future greeting agreement. The word count is about ninety-five. I am now finalizing the JSON response and ensuring the probability values sum to exactly one.\n\nClaim 1 is revised to supported 0.12, contradicted 0.08, undetermined 0.80. Claim 4 is revised to supported 0.02, contradicted 0.82, undetermined 0.16.\n\nClaim 29989694 is finalized as contradicted with supported 0.03, contradicted 0.92, and undetermined 0.05.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1668,
+   "completion_tokens": 360,
+   "total_tokens": 4065,
+   "prompt_tokens_details": {
+    "text_tokens": 1668,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2037,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 159900000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

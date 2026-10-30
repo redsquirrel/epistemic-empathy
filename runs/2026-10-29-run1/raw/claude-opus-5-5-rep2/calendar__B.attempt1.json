@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:16:39+00:00",
+ "finished_at_utc": "2026-10-29T11:16:47+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWS8ZA5FtnvtTWy7EFhM",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS2goKEAgTGAI4AUIIdGhpbmtpbmcSDOkYypqEGRG21Hx1+hoM1LEkyPryFY8MkTGSIjAgd7G1eaPPymc18nnqQqjO1Scr27PGp4NWDtrKiQVfdXOgtBDfq4wHrAWH4f5NC5Iq9wmIFWUEZZOPMELKXpW/ho4fmjGJ3LtycmL/Uk5UU2Esjiqp4RAhdC5r6jX63Bp3MJ+c43Y7uBzXROn3RroQ+VxUCbyUbMHkRwx55j2Qh/mATmi36NR9n1vL1QsuFOpXZXKmRx37hVXyAzHebNhyhZqkubZFL0shD82jB8UwCyToDCGhTP8/k2TcvCnnTtWGlPPoPi3vkHR4YqQC7vW7kJx8md8I2eflg08xH5mLOJAOrRBecbhBefMiouKIHKyc8RsCUZ0ah/oC0Lzva6I7YCXOyZeEJq6GYw3t92e4LnjDpb19Wcq7NQq+LPGKI9zcpU//IDie3Q9DcQo3EExUxFNX72jAy5EBg02qB+E6gxDdCM3YVRL+jPOsqpB6dI5gXwgYJYtMVbFrz76ErHo0kJ6SzTMN8pVIa95F3liQ/CjkZ/bwf3WgiTsg83mVu2sNqwxjgPkzFbL7zVtv1KcsrKs2BAi5c/GkbrL+GuaOku5Rp9Ky6aFWDVCV6rwAszGgCS39RCksWU3ci0qK15vU3GcVdPq4mmFGgeZKQzEevNtSm8jvSZpp5RyOBHrk+ogh9xJvtohoxykYrAcDJIMgfl4+NI9c/cOtcWEeBggE2a4a41S8NrF7ajo9KTAAvXmH8Z5TnlCqTooWO4PRxJ0hHZjGnNqTaSxhSZwdlLw5TJi8AXVzgWa8QbmNqF37HSbUItfwDG8bkRJGYZc2WhuIo+TTB58dARJbulI4uHYgdMAvKIk5eGYJTAO5ZCFzitemQWIQLVXAtr00pPyIHuiwSjW4NerNwT39mmMMGzfhhYWhunlWjroJSilqnhw9Yv1rz8DiQ6P4ehgjPhsU/gtFrtSKBnHnpMNX0Fn28Ij9wZs8Sxux9gsFvOUHCNF2rxRgltWKXFpF4UMvHuFuQjXhaHJO6Prtu7ZwZyXj0HfqDnFw64Ewksd4S4u1ehH9dTySpMl+abJMpumqpJMJn2Wlw5skDkhNKjZZSvfg0NZMGVj+SuH6UmIs4coejqrKiK3ylPC0+svED8gvpiMMttGdCUuunNA1YUUyI2xRQgB55qb2i+ssv9XeMpdaKTFdFPuEf+5YECX87nwW8kClj27ktw2zC+a/wyq6HT/kfQAJI13NBO7J2+Ko6DkKnXA5u/15IxDg5JdfyJKZylOUQ28zjj1Plbr8yuaAom01Iya7Cueyb32xE4GybXrarF3nRa1aRX8m2k8xiX3POIGnLnXy9TdKadJPx37noao+cDwhBIAGZhMAzxXKYAEjxmQ9gyETfxxubbHSixO01LvWVFvEqjn/RJoGayO+ELsKErVPCQic4AiYcBADAcOmCyIMRr6XNGBWr5zqWvv1dvsNimLrBqj11DDFIMxpuh+4Q0B+LnEX7/CWCeH3JHPUpkpLMhGX918t044j92CfFLprNjjWWmhjDzGqTXZ5AGH4GPhQSftWBuXIIKo6ut7/J0jql1V4zalXTS8Y/b41ZHKaovC8b7fxJXROElrScXOeD+LlkkNEpLAzuQlHwY1zmAv4kiq0yJoVoWDpuC+q9HDKCF7Mq+h0XPV+3J0aUG/yR6oI5+HGNRStGQzyPFLIw06jMjGH9l+aGHf6kDpPQGlX+//r8FV04N+y37Ohc+csfcTITOV6xQN1eL5vlP/1Faq5fXGbNjffXAsccPs/4Pf4aHLYgJktge42fY9IeBgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\":[{\"id\":\"5a3a2c4b\",\"probabilities\":{\"supported\":0.95,\"contradicted\":0.02,\"undetermined\":0.03}},{\"id\":\"3a7c047d\",\"probabilities\":{\"supported\":0.03,\"contradicted\":0.6,\"undetermined\":0.37}},{\"id\":\"67c569bb\",\"probabilities\":{\"supported\":0.95,\"contradicted\":0.02,\"undetermined\":0.03}},{\"id\":\"5b773f3f\",\"probabilities\":{\"supported\":0.04,\"contradicted\":0.1,\"undetermined\":0.86}},{\"id\":\"48367f02\",\"probabilities\":{\"supported\":0.08,\"contradicted\":0.04,\"undetermined\":0.88}},{\"id\":\"3d022458\",\"probabilities\":{\"supported\":0.05,\"contradicted\":0.12,\"undetermined\":0.83}}],\"response\":\"It makes sense that the disagreement surprised you. You both made separate plans, and you hadn't agreed to spend Saturday afternoon together, so your understanding had a real basis. We don't have A's side, though, so it's unclear what A expected or why it bothered them. Calling A 'always so sensitive' might make it harder for A to explain. You could try asking something like, 'What were you hoping Saturday would look like?' Then the two of you could agree on how you'll check plans with each other next time.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 565,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 708,
+   "output_tokens_details": {
+    "thinking_tokens": 258
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

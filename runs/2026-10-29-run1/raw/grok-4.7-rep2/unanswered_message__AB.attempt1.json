@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:20:10+00:00",
+ "finished_at_utc": "2026-10-29T11:20:34+00:00",
+ "body": {
+  "id": "1c8ddaad-3a89-9113-b629-fa4f303cd7a5",
+  "object": "chat.completion",
+  "created": 1793272810,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"9791a140\", \"probabilities\": {\"supported\": 0.08, \"contradicted\": 0.12, \"undetermined\": 0.8}}, {\"id\": \"8bb3a671\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"246bf232\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"68e7666e\", \"probabilities\": {\"supported\": 0.98, \"contradicted\": 0.01, \"undetermined\": 0.01}}, {\"id\": \"f4c38271\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.98, \"undetermined\": 0.01}}, {\"id\": \"6faf4343\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.78, \"undetermined\": 0.2}}], \"response\": \"A, it makes sense that silence after your noon message left you worried, especially when you could not tell whether it had been read. B, your account that your phone was in your bag and you needed to focus, while not wanting A to feel ignored, explains the gap without showing an intent to cause insecurity. The facts only establish that no reply arrived before 4 pm. A direct check-in about timing and how each of you reads silence could prevent this from turning into an assumption about the other\u2019s feelings.\"}",
+     "reasoning_content": "I will judge the claims against the shared facts and return a JSON response with probabilities and a brief reply.\n\nClaim 9791a140 is being evaluated. The shared facts only state that A received no reply before 4 pm, so B may have seen the message earlier.\n\nClaim 9791a140 is undetermined. B's account does not explicitly confirm whether the message was seen.\n\nClaim 8bb3a671 is directly supported by A's report of feeling worried.\n\nClaim 246bf232 is now being evaluated.\n\nClaim 246bf232 is directly supported by B's report of needing to focus. Claim 68e7666e is directly supported by the shared facts. Claim f4c38271 is contradicted because the shared facts state A received no reply before 4 pm. Claim 6faf4343 is unsupported; B's account shows no intent to withhold a reply for that purpose.\n\nClaim 6faf4343 is being reconsidered. B's account explicitly states they did not want A to feel ignored, which directly contradicts the claim that B withheld a reply to make A feel insecure. The material shows an intent opposite to the one claimed.\n\nClaim 6faf4343 is contradicted. B's account explicitly states they did not want A to feel ignored, and attributes the lack of reply to practical reasons rather than a deliberate attempt to make A insecure.\n\nI am assigning probability values to each label. Supported claims will receive high scores, while undetermined and contradicted cases will receive lower ones. The exact calibration for claim 9791a140 is being weighed.\n\nClaim 9791a140 is now scored as undetermined at 80 percent. The remaining supported claims are assigned 98 percent confidence.\n\nClaim f4c38271 is scored as contradicted at 98 percent. Claim 6faf4343 is now scored as contradicted at 75 percent, with the remaining probability split between supported and undetermined.\n\nClaim 6faf4343 is scored as contradicted at 75 percent. The reply will be brief and address A and B directly.\n\nThe reply will be neutral and supportive. It acknowledges A's worry about the unanswered message. It notes B's practical explanation for the silence. It states that the facts only confirm no reply arrived before 4 pm.\n\nThe reply will suggest a direct check-in about timing and how each partner reads silence. This would prevent assumptions about the other's feelings.\n\nThe reply is 91 words, fitting the 60\u2013120 limit. All six claim probabilities are finalized so they sum to exactly one.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 342,
+   "total_tokens": 4131,
+   "prompt_tokens_details": {
+    "text_tokens": 1666,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2123,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 163940000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

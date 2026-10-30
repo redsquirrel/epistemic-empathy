@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:44+00:00",
+ "finished_at_utc": "2026-10-29T12:32:55+00:00",
+ "body": {
+  "id": "resp_081fb0eaa6adbdab016ae33cec853087d1a752356ed39233c6",
+  "object": "response",
+  "created_at": 1793277164,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277175,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_081fb0eaa6adbdab016ae33ced9b7887d1a6699db430906f1c",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zz38sZGGRipq-LOYNKeNOvbi1XcrP472JUVehm9T8EjOpLn5V4WF9L8jQhXqp44uYoXcC9uP5rRg9HwI71eOAkShzeBbveyUQU-OtP-Vfx1mV9R4dUA-AgbNRNU0FvtD8z8tDK8Cd9mo7xZNflz2WrwmEpC5BPtnj9rmBgCLCgAhn_Ij0TRqT00orgkG_bfss9irUyHvUxBAaoyxlnWKQYcR27viG7r5JeSq4YtvK7GrXw7QRbbvBQKyW0hS71C4qFeqJaIkwdup4paUKYJVTVq5h6cbIRHmWp0MT-faT9koqitsk1XiP6EpgnFe-YjkrZyfHIG7vAvhQzpg-ZDKycdECoNULKUdaGOXzcIP1nmIo6Ugpq_yUzK3uU7DUNsjaTqafaLdUtvr2_qQxX0TKpR7Qua73H8iAWE4wk11r-vzAiDCgrGt_4iMBcgmsm1Nt8PxUHrurmzB7KCPkOCMRP9HzYfnuYfX9h1h6TB4nSs_tc_iKJXEqRALRgcce-wAdV5qckzWlnxk7gIQn7UFoIKf3bjs5rFQN8L2aBirXmzkgNIziH_jpq-TBNvIqK-2bjYAKuD_-1K_ocfA29DgEyd3XK5uumv1QOF_L57IHj2c9_Y_fkLggn7FRzrh4C2cO17ZRX0BEeF2Zg52WPFWEt1chUCXlo5Mak6HtN0jQCdffMbd6jj8YzRJQwqUzlDTNFIppEOASEnwjOM_-WqMDWCHwjmR94qzjkMmu6D-4sL37MbEgk4HC69SjgUVqQd1CL8dn2er6jWPGgfVSgTT4cS7447j1CCmM3W4H0T9tjKhLC24df00vlLNBTiSsjRwQj9bQmFuQdjGY68G5rADrN82GdAl31D2EjSAOBxYON5CraYDU9UhKzX3DmbwJtfFzsgN0_2w7FBJ6CB7wDXZk6YA8np_VHF2jy53VFukF1FjSWrWP3XiiWkXdORDZ8Sqer2ff2dZzc4KYiHVAYhb8YpCQ2k01kEGo-FcsweCAUG23Lazj65WfwaNy4WGq7U5ORBwJq8FGPJiIUNaM3li8gfY2MYlmdf6v67ZQYhwIuFcrUm3_zqfhVecy6qISQlNiWekN3x6pfvqjDoEj_vZOvCd48DnkDFxNtBid0HCRo9TUfcte6Tj9vQW1xoBxk-ou89e3lYpvvpTyvhNoSvuHXGV-2ZClv-poiVJzCIhWwc4EiUt_jHHjeokoyR7h5YAl1cXgzfE-soq1ugvvzVpmBxtimPFqkZu3MiSyYf2wjig7t157u6BG9NlgMwwdgX2nqkBdeIwnK4xn1YP6dIzsDNe0Zmtb8SMzsvvfsXGLkdBzfUQi5yLdPSaUvWI0MTh7HoRivmB2cgEhsk37ffgxqlZliz4i53wFT4vwMCBWPGyH1afTbwjBAMHlQtYTX0Ch638F6Sm3rwKcm22mCEP95QDwHgxqjfaNtRB_JhpdyTsqW7MhmuRpz4WAYnsiCpNnNBny1Bx5dy0VxdQlk7JyiVm9Hm_qOzlKgObh0LEBMjCLLEz-5C1QeMoYhrLsuda95131t0Pt_qgKd9IadOZtQ3z6tb9KebzDLMH_Njmm1N_xn9CPkghAvX73ObVuySw0bP_8qsaVG34nuc3Qo7856aREWlfSbGQcq2oIuDfiehdtlrb5_URRH54LnUxr39bVXSv10arEjc82i2zEQwpZgDaEpw6jnaOur7tNjWAYAd9qyJ44SHloVGGn7SvMtuvDyO5kOtWFv6jreEkZB5fCP7EI13PEN2DBRbTr4BoZVoXhRrOqg3ECBCNLn91-cZgQttOMMqRggF4pzArrZ1uniZwYiGk_IjOrS6V_al6o24U3knHLpkip2G-SkStzVydK2Mie6gbbeezOVrKWW75pVqXHR4q5qjTnhbv7HYI_nZ2CkklrcYcP4TNorZDn0jad9XpEoxyqYLKymrPfIq0DhRGnQAjyE7KdcLYfFfm6Y5Dnlh0kEaMgqomdGaMomOmCiQ_FEfpWnDSEJyo33KuGCNQ9A0v3XWMJPi00-BozZMiU837e7jCFaulsZdTdwHGKb1CkdR3fK2CzMz7ZTKNN_S10qkbgLgmkhwl4bNvfNRs-CGvDhnavUqLeX3iZ7Kb8Rx48ugoIQjMGYQFLUpujoQWivpjgzsKN617O6I8PLotVJtyuEVMENtQugzr9Jwr66VmwAQawxmEXaE_2KVSrybHx9nQ-dhFfzqu41te2Dm0-6TRIuvLaxT_Twe9tk2m_y1VmWsTNrAQYwWDBe468o4q7KqumZfsKxpkdRDLoL_7l8WHhiKyIxklE2obM6xcqsTg4MIgIfn8cgnzLzyVNPuOiXW_njWlznI9or_30nvgELluOLUgROiVNGABLxweg2gYxxJqAfNb3B2Rvv6yDg1CzviAj3l4zkfy_8vKbJelN8fb6-1GBYM1CEDnd2O8Q2W2mAqkOXiDWc1Fj56-a8sOM7j-k2FKV_p0Gd6iMXLTOKW459ryR1UsD6Voglu_FWmxACbHPZ1ziEvtPIEIrfXJTvtp-LUBkuuw_LFCcS0JWN3TCfEzOdWbfMIt8IToLr8K38_up_lKyFByLrTmserCb3XcgXXPI9zwafh8KldoE_d3bTgWXMnlEtf53A1dcUmJvxbx9ceCyVZ-X0QujoE_ZcSAy-suycfD-I4svmG3Nxxhp3JJ-CZBuAIUyZqDOupLtHOsGu4tNboi2koS14jA4rgHNcGp1BAtaPjNgUAYHy7RLbuWDo84m9aVwgflzVNYhN2fJZGUpZKpU0lp9_278RNznbgw--zPvv2TeMVDE7QB7sYDHjQesnN4GYQYNiF3l23lFpsG2Qw-pyqaLfUGbnGhZZgfDuVaxcgnJzCKMCFV3bqID0aTN6p6CA8zqfzBVlyiQFojOdFNE5qPwoWuNBTFmAGugKAwMmt-agMbAMTJHKcnXoLo3VdOHljsRNb9TrU97WQ3nrYcMmGtkX1zcTbE6Ve81EQXDE6dlf0XdTVlPYk_7Ufv8L21RdSFQRTv98iQr5ErF1PSaHguI8XaISXjhxGVV_0iWB7iCmfg30faS9xwmuL3vxijEcuyHxXk3cJBMKKLLitqIrJX_vFZYYDFKFet8M2uOhn7M3VszryPPn9c4s_uEE4wsZbhQcF9TgIY73V1d3-qZVtzvodrkaTBXtiT64ERdu_iGVRYUkcKUGTpQmX0vvgXFn6Ufvln59xh7j01rTyfi_srupmN7sJi0V8dbi5eNsXDu9PuGMmNJaUEz8kQIlmjAe0PxmGjn1BNJHCVaKpYx3OrAxtkdbxl-IOXew5OylaVOkHy5_o1Rfo-FG6aOued_v60ukARVng_-TivbqcCfrJVWRgdlV4O7i0wlFN9WjlYwbJo1OUb0mcgAAI07izjAClsuUmcwGE29SzhrN6dOAp7HoH48nDvY42GgnbJ_PiXZFId9X7WR5U6d5yHedoqrdvR7WbDE4sMVwB_EDyKW9QNVpqXYEKchFZEXS4hphqu-m8Ofm4xTvz9-9gx6nbyXe6E8d9xR0dJbLRTWQmSSASccIRC5hYt9mF0TRW0U2odXoYWIc-_ef22VfNDJw9gurH25dAv2DgEOEmsTAgJFdXLgDs_iiNd-UuCEX-pEHPxmeJZoPMYHAGslK_eEbuKCeKjot9dVnsWcScs9iccrWeTmOjFIZLiQyxvFwHxeEUrd1Qh6i14TjytmL_9TAmtIl66wCSXkCiPsxPdtIdwLZyJ7qRM-QraOSVvluv7pAT_NuoIk6g-KBHsAwau-30GvNdJuBvXgJ2Csju7AklezhQglaiAWfjE7SL5QOacfOhkEqL2zhZBBv3Ohjk7l5D2MRyjfXSXVzaCZbQIigQC2doI2cOsRl-Jc4gR4_KvGghU0QQS4IcWS2R4NwNM1m3YXnD8nUbgPVxu-Avp5XOoOZQN7eHQnB8CJt70GAqC6lfu9qpxZt16Dx4O8YL0es1dLA4mO2i8u1geBkWAPtYUQZNYkuloCi3dtvkybzvkxTDQDg947JMytTCoASNjllvkQY81UvlxRQc7y0r0HyuSNyh7Q3ObNLzJVVNl-HGT9QAEoa6Dxtr29jXv-OvNDkjSYHz7U1NMhmgZ3reoFGnPrNYRKfbbHBtzOGYtFWN15yaU7w-SLEYFAIV8lCF2U7yM2Xhy6AeosqKZXXojX4LxxM_Q401752TaZGIZ8hgh8Ac_4QaVsAM-LJWEu81Z3WLToLT99Da",
+    "summary": []
+   },
+   {
+    "id": "msg_081fb0eaa6adbdab016ae33cf2e0c087d184bbdfc16accc089",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"30c8456f\",\n      \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}\n    },\n    {\n      \"id\": \"3c9d9ff4\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.04, \"undetermined\": 0.95}\n    },\n    {\n      \"id\": \"7587477c\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    },\n    {\n      \"id\": \"57457681\",\n      \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.94, \"undetermined\": 0.05}\n    },\n    {\n      \"id\": \"29989694\",\n      \"probabilities\": {\"supported\": 0.0, \"contradicted\": 0.99, \"undetermined\": 0.01}\n    },\n    {\n      \"id\": \"69c4aa40\",\n      \"probabilities\": {\"supported\": 1.0, \"contradicted\": 0.0, \"undetermined\": 0.0}\n    }\n  ],\n  \"response\": \"B, you describe needing quiet after feeling overloaded by noise at work, with the intention of being more available afterward. That does not establish anger, and we have no account of how A experienced the interval. Since you had no explicit greeting agreement, it may help to discuss one together. A brief message such as, \u201cI need twenty minutes of quiet, then I\u2019d like to reconnect,\u201d could make your intentions clearer while leaving room for A\u2019s preferences.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 414,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 603,
+   "output_tokens_details": {
+    "reasoning_tokens": 213
+   },
+   "total_tokens": 1017
+  },
+  "user": null,
+  "metadata": {}
+ }
+}

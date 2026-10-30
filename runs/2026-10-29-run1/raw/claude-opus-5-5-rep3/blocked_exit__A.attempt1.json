@@ -1,0 +1,43 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:17:33+00:00",
+ "finished_at_utc": "2026-10-29T11:17:42+00:00",
+ "body": {
+  "model": "claude-opus-5-5",
+  "id": "msg_011CgWSCX9tVKCFJv4c13MQg",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+   {
+    "type": "thinking",
+    "thinking": "",
+    "signature": "CAQS+QgKEAgTGAI4AUIIdGhpbmtpbmcSDIXAYD39oaPf7dGZNBoMWCFDy3WkHAYQN4VMIjDGkA8OmWCNDZpJzVtevCPNfG7A5PTKxb33Lrj6Vq3rkw7eUDl+2vk4EI6m/+5G8SMqlgi4mo+cQFMTAcLJirAKWtHi1EBo16cZu4VQwJLScreo14XEKQp1nsrZFwQqqp1VpAoR34fBSr+aU5E59zGrDIeb7wW8OzH2d3qw5qcWR/Rdf+Vf5uPfXZoC+UeTMrHJm9/EF/FuG5w+hJm2i8+g427bi32dho22T+N3oKGytz0vRFv0KbAtIWASmsJxZQuj9al/MjHo0wKyuGNexx7DqBdaaSxniWpR6xQEG+9MTw+ZR829V9am2GEy0nIrKrpMr2Hj/VZdMcggkygbafsSAtFIa71FxxNf9zQ6FGaNL8w46yTbWYinUBXZg7T8SeWl6HV4Qe97J/ZhnN9vJqrvD2txVXl3evjJAPxGvKG99kZlGSj2clQDgYBuRHiQ8bNfDTiLnatiHNjSyxZ6Ky9fZRPEyUfybNXdoC/CTQZzRnOG8MehO2Ma5RLEWPwTXj+mej+vxsJuezoBd+rgZrKqSBQfFZA4HAu9KryGkAFU8EJDdUUIRU5tOssoHcBRrHA6hlMLPGWgNiEy7bHL16YOO7mToDDlYRgV74/sap79HDvMwyVSDv1meNnYW6pd/qzv5+OTWfzFOkHuE9qp5Wip6+vCZVb/QJ03EbY0gSOhZP/w8q1+KIOvyxJFGfVmsZ+Amefmcy98L4UrZ9aqhkUCg1mjzkKC7roTse8v5f9twQokwUf0NEmIbirUgfDag7Yr8OonSRFZ3JOAdfbut39pG9+K3wfnHKcqA0FVhit8kMu955FjPZv46XhH1DunG1F0XqpmZxzRwCeYYwhuRv+CyzaGgyXbPH20FLccyHWDMTa1Es1FgaRZ7sdKUjwd/rJkB6WsI0h/n9YSRh88wFOf1dPL7OX6DH122DgdRP+96eU/4DFE5WV/UyLatUdW/V1QHsURF8DQLXEPHocXfF3ld3LpZf8NUC3tJTAjqTFJ/pkNo4wgE4xj2PpUWKqQlc6x0HxmhXm/Dae7T19WhTLBJSCDM5i9hloIzTzPAMhhEk8KtBVMTGJok/ATP6PVhQpxGKaGrlgCQ6XC/7/vMH28HateX90vNgmy+Lqfv+J/q08JN2b9gulZSh4DW4KIlx316aMfj4K+ZfnO1lZFeKjQyGVQcoaD52hJqQPpughqn4o+3RC9A/kc2QyXoj1pkwCBPM8meg63ZqMYhcytgLBBu6AwNDw4HqVyuBKrZhoTc6xTZulemBY4KjBaCic9FS0HgNtrFvto8TcMcDJWnAZoGhUt0cYp+iMEI0hJcnc1eXW6GJnihu8+3KB2QgyfSM3Z3/H2sFETV6kJpTYaEJv5ZYWNNlsfGUdog9Uxi7OLT7/+oPr/2AatXNspc80zhGxS3edFjATWilFACZyayFKLYh/7u9rexi3+26cUtllxbQUwSSWu+rncdxgB"
+   },
+   {
+    "type": "text",
+    "text": "{\"claims\": [{\"id\": \"7ae796d2\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"7f0e7be8\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.08, \"undetermined\": 0.9}}, {\"id\": \"202c9e15\", \"probabilities\": {\"supported\": 0.97, \"contradicted\": 0.01, \"undetermined\": 0.02}}, {\"id\": \"61c0e2e1\", \"probabilities\": {\"supported\": 0.01, \"contradicted\": 0.97, \"undetermined\": 0.02}}, {\"id\": \"0cb7c2a8\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"47634250\", \"probabilities\": {\"supported\": 0.03, \"contradicted\": 0.05, \"undetermined\": 0.92}}], \"response\": \"It makes sense that you felt afraid. You clearly said you wanted to leave, and B stood in the only doorway for five minutes so you couldn't. Whatever the argument was about, blocking someone's exit is not a fair way to keep talking. It takes away your choice and can be frightening. Wanting space during conflict is reasonable. If this has happened before, or if you ever feel unsafe, consider talking with someone you trust or a domestic abuse support line. They can help you think through your options and plan for your safety. You deserve to be able to step away when you need to.\"}"
+   }
+  ],
+  "container": null,
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+   "input_tokens": 583,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "cache_creation": {
+    "ephemeral_5m_input_tokens": 0,
+    "ephemeral_1h_input_tokens": 0
+   },
+   "output_tokens": 715,
+   "output_tokens_details": {
+    "thinking_tokens": 212
+   },
+   "service_tier": "standard",
+   "inference_geo": "global",
+   "speed": "standard"
+  },
+  "diagnostics": null
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T11:21:41+00:00",
+ "finished_at_utc": "2026-10-29T11:21:56+00:00",
+ "body": {
+  "id": "a2d26a2d-51ae-9b3d-85bd-99085a2ab009",
+  "object": "chat.completion",
+  "created": 1793272901,
+  "model": "grok-4.7",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"claims\": [{\"id\": \"d2d34941\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.03, \"undetermined\": 0.95}}, {\"id\": \"c4674476\", \"probabilities\": {\"supported\": 0.95, \"contradicted\": 0.02, \"undetermined\": 0.03}}, {\"id\": \"9ecb7755\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.96, \"undetermined\": 0.02}}, {\"id\": \"4b62ccc6\", \"probabilities\": {\"supported\": 0.02, \"contradicted\": 0.93, \"undetermined\": 0.05}}, {\"id\": \"fd583e6f\", \"probabilities\": {\"supported\": 0.96, \"contradicted\": 0.02, \"undetermined\": 0.02}}, {\"id\": \"5520962c\", \"probabilities\": {\"supported\": 0.12, \"contradicted\": 0.08, \"undetermined\": 0.80}}], \"response\": \"B, the shared facts show A spent 120 units without the discussion you both agreed to for purchases over 100. Feeling left out of that decision is understandable. What the material does not show is A's own account, or proof that this is always how A acts or that exclusion was intentional. It may help to separate this specific breach from the broader pattern you are describing, and to ask A directly what happened before treating one purchase as the whole story.\"}",
+     "reasoning_content": "I will judge the claims against the provided material and return JSON with probabilities and a brief reply.\n\nOnly B's account is provided, so claim d2d34941 is undetermined. The breach of the discussion agreement is supported by the shared facts.\n\nClaim 9ecb7755 is contradicted by the shared facts. Claim 4b62ccc6 is also contradicted, as B's account does not explicitly state that A intended to humiliate B. The status of claim fd583e6f is still being evaluated.\n\nClaim fd583e6f is supported by B's account. Claim 5520962c is not established by the shared facts alone, as it relies on B's personal characterization rather than a verified pattern.\n\nClaim 5520962c is undetermined. B's subjective characterization does not establish a factual pattern.\n\nProbabilities are being assigned to each claim. Claim 4b62ccc6 is contradicted with 0.92 confidence because B's account does not explicitly state that A intended to humiliate B.\n\nClaim fd583e6f is supported with 0.96 confidence. Claim 5520962c is undetermined at 0.75 confidence, as the shared facts only show one instance. A brief, balanced reply to B will follow.\n\nThe reply will acknowledge the breach and validate B's feeling of exclusion. It will gently note that \"always\" and \"as usual\" are unestablished generalizations from a single incident, and invite a clearer conversation. The draft is being written now.",
+     "refusal": null
+    },
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1642,
+   "completion_tokens": 331,
+   "total_tokens": 3211,
+   "prompt_tokens_details": {
+    "text_tokens": 1642,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "cached_tokens": 1152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1238,
+    "audio_tokens": 0,
+    "accepted_prediction_tokens": 0,
+    "rejected_prediction_tokens": 0
+   },
+   "num_sources_used": 0,
+   "cost_in_usd_ticks": 109700000
+  },
+  "system_fingerprint": "fp_c60958d81f66f847",
+  "service_tier": "default"
+ }
+}

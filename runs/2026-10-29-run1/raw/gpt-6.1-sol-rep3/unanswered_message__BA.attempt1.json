@@ -1,0 +1,107 @@
+{
+ "status": 200,
+ "started_at_utc": "2026-10-29T12:32:30+00:00",
+ "finished_at_utc": "2026-10-29T12:32:37+00:00",
+ "body": {
+  "id": "resp_028d8f3a84c55dba016ae33cde608c87d1963e209900ab0150",
+  "object": "response",
+  "created_at": 1793277150,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+   "payer": "developer"
+  },
+  "completed_at": 1793277156,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+   {
+    "id": "rs_028d8f3a84c55dba016ae33cdf74b487d1bcc9a3a5c054c50d",
+    "type": "reasoning",
+    "content": [],
+    "encrypted_content": "gAAAAABq4zzl7MEKp_7-pvqi1lW6ewS2wb0cgGsg_LnWVI4PEKtFMBtXAyKwhYm6P1ZMdFhySffHUN4zEfxG1LUaTX2SpDzHs2KSP-giEiUfHoJzFbdfyn2aOo2ZE2WqsvasN3ROd3R81LWGRCVt9oD9vUvZCVLKKuvQZZ9wb0X4ORLMS6XDwvx_z5XBvlAZxZhaddl4S5HzNotpkH2YAF7lhbinRb-M5n_Fzteu93yBEpxauy7T9mdUO3OQXotRuU8FOneqbpoNFYJDnNjGw3LO1F77UKrqDoY_GU-nca0PaivPQp_R4Gtl5Pp1t5HA7H6QhyTtyQ1HJGuxZZ_Z-D4Qq3l0XjiWgHsTY9G5C_6IOPxUH5kMsCAjkCAJp50F9Rnqfqko7QcsEYsYJGbjUmsbRxagsj64f8wCwYeFSdTcBlGbcDSozckg5IlkfJU6yRPhBK_t_ZFRFIlIKyqRFhQcpVgND-nRN11wgiNPPU_VHLJnKqCRMRtA1EfHsSdf5PzmUFgwg998x9UHuDPBjyLcGhl_KHVKVImLoUTfBtr4OyY1sD4PAzk-e732ShGPVhwwcpZp15_x_hK5iY5we2TPSNGGQX64JREj7xmm068lV11Tss561bIX3dDfcDAqvLdv6KqknvkqpzF1AWAEodXVeJu7pOt--jGT6Sv0fhYDWDUQYvU-TelNYGmGOggMVDd8VuFykvNboGwJB8WypIEKpoOGz7g6Wk5kwhGitVGkmwusFAT-IUogcBWiOdxnRvLDDUtcA5OwDE5QdIEWvSySwf8CYPj19meCC-_k8EN_OdQSfmX_Cb-sPHh35TLGQjEUSqzSB-lc7_J9oaQxM5LGFOcGRxc2ECu1_D37uMBoGRr-2pAzYU2izQb-k4EsbPjQ8_-Lw7HH2Qf8uZnkEI6h8YVlIYllMbUxlBicx5usdnzdzrPUZyc0EufOesVZwmkW0QIRgQYDUbd4_4Ay41REEF2fruh__17TZ4icikHvIypFhlRO_gdymdwU2Cq9MsglAKOs3LAVDdZDOaYeU7FzVRdYPpCInicjSdkUN-W8YT0JLFnlzwCQbDM8hXbBiAXn3bpHMyd4lOMob5_Mp_wO9n6mBA6SSUcUN3YRJlozv9cK-y4tIT3qW4ets8u-GMUgR8j5KD5_0K1QnSPi6vxl8cUJ-D42nuzdYfSuhLC-xGIRR5lbgl5HwSoMGdr7Q1BNa0ry8bGHcefp18Ht9ynUNm8XWerWYNUf5bgdGi-XMClOrPijSemEMJVoTJLOUYugNabluZ3ic7kSAdRwNj_HoVYbe4yUkfwnS6XUyQZNpjyJM2y3nN4v2QBku5uGkXB9TeO2MOET2OrdAx1Mkh-146lxIkFv-_7RQjhgwGpUXVFMsa8njXu2LRccjh5ly9Wl4oXTpWE9v9oA-HE9Gu8ZOhHDsb3lLZg7onZc6shTXLK_frZ3LQUMGSNzSHZFExvf31-gWPEglfKMRM9I0R5fZHiZVWKpBwo9iOaXDPyItoHI5UmlJvaSdA2gXe9U4KOFcO2n8Pk96IdE1L0dlUMIgYlZTAkb_lbtvzg8N5rKE7uSedDbi-fKe37NqN0P6O9djKPrhid7jTcqVcWBEumUe8dAkV4mIfLPI8vUIxoNb87PX4iNfO9GPmx2sYPXo47Vhq_zmTnrvhDSZFSRTS0t154xPVENlx-lnz-PBxoGDJLhz1bcLialYtLN8uTTXcIsPfDbMHxJyiRdnE5rtj5Ds5qH2Y785N--uk71O6ZgqWp0m-WATmuCe81429zSDZRLrIB3-NzHMBAfzy1bAhsbxItDtjTastKGJL0gIufeeH9m5lOZhVSvcdJxNTU8larxZYt8z8gUz-MUe39y_mXJCCorzu69VawRP1EWB1N5mfQIyGjW5R5dZkObNAWJzQqy1_aaZHF8TK9SPZMtIJOqb0Lv1JzONVGcd_86M33dlvuFsWPaXxLFKoAAVfsnaJg9eQXFHGZ_BPs5DCeoOUt4I5Q3RoNsdw==",
+    "summary": []
+   },
+   {
+    "id": "msg_028d8f3a84c55dba016ae33ce0b06c87d1afc3f60d0b978705",
+    "type": "message",
+    "status": "completed",
+    "content": [
+     {
+      "type": "output_text",
+      "annotations": [],
+      "logprobs": [],
+      "text": "{\n  \"claims\": [\n    {\n      \"id\": \"9791a140\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.01,\n        \"undetermined\": 0.98\n      }\n    },\n    {\n      \"id\": \"8bb3a671\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"246bf232\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"68e7666e\",\n      \"probabilities\": {\n        \"supported\": 1.0,\n        \"contradicted\": 0.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"f4c38271\",\n      \"probabilities\": {\n        \"supported\": 0.0,\n        \"contradicted\": 1.0,\n        \"undetermined\": 0.0\n      }\n    },\n    {\n      \"id\": \"6faf4343\",\n      \"probabilities\": {\n        \"supported\": 0.01,\n        \"contradicted\": 0.94,\n        \"undetermined\": 0.05\n      }\n    }\n  ],\n  \"response\": \"A, you describe feeling worried and wondering whether B was upset, while not knowing whether the message had been read. B, you describe needing to focus at work and not wanting A to feel ignored. Those experiences can coexist: the lack of a reply affected A without establishing that B intended that effect. It may help to discuss realistic expectations for replies during work and agree on how to flag something urgent, without assuming that silence means anger.\"\n}"
+     }
+    ],
+    "phase": "final_answer",
+    "role": "assistant"
+   }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+   "context": "all_turns",
+   "effort": "medium",
+   "mode": "standard",
+   "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+   "format": {
+    "type": "text"
+   },
+   "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+   "image_gen": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+     "image_tokens": 0,
+     "text_tokens": 0
+    },
+    "total_tokens": 0
+   },
+   "web_search": {
+    "num_requests": 0
+   }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+   "input_tokens": 435,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 465,
+   "output_tokens_details": {
+    "reasoning_tokens": 44
+   },
+   "total_tokens": 900
+  },
+  "user": null,
+  "metadata": {}
+ }
+}
